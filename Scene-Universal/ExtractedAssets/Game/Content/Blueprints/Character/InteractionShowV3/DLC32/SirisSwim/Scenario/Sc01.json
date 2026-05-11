@@ -1,0 +1,2265 @@
+[
+  {
+    "Type": "ActorOperateAct",
+    "Name": "ActorOperateAct_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ActorOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.75"
+    },
+    "Properties": {
+      "ProfileModifier": {
+        "BodyProfile": {
+          "StartPhysicsControlProfile": "Sim_Breast",
+          "EndPhysicsControlProfile": "Sim_Breast"
+        }
+      },
+      "bPhysicsBlendOut": true
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.82"
+    },
+    "Properties": {
+      "ActorName": "Siris",
+      "FunctionName": "UpdateMaterial"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.82"
+    },
+    "Properties": {
+      "ActorName": "Siris",
+      "FunctionName": "EndUpdateMaterial"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_2",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.82"
+    },
+    "Properties": {
+      "ActorName": "Siris",
+      "FunctionName": "SetSC01WaterStainTexture"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_3",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.82"
+    },
+    "Properties": {
+      "ActorName": "Siris",
+      "FunctionName": "SetSC02WaterStainTexture"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode'Sc01:ScenarioStateNode_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.83"
+    },
+    "Properties": {
+      "ActorName": "Lather03",
+      "FunctionName": "SC01_Leg_Exit"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode'Sc01:ScenarioStateNode_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.83"
+    },
+    "Properties": {
+      "ActorName": "Lather03",
+      "FunctionName": "SC01_Leg_Begin"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.68"
+    },
+    "Properties": {
+      "ActorName": "Lather03",
+      "FunctionName": "SC01_Leg_End"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.68"
+    },
+    "Properties": {
+      "ActorName": "Lather03",
+      "FunctionName": "SC01_Leg_Exit"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.69"
+    },
+    "Properties": {
+      "ActorName": "Lather03",
+      "FunctionName": "SC01_Leg_End"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.69"
+    },
+    "Properties": {
+      "ActorName": "Lather03",
+      "FunctionName": "SC01_Leg_Exit"
+    }
+  },
+  {
+    "Type": "Event_SirisSc01C_Begin_C",
+    "Name": "Event_SirisSc01C_Begin_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode'Sc01:ScenarioStateNode_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.83"
+    }
+  },
+  {
+    "Type": "Event_SirisSc01C_End_C",
+    "Name": "Event_SirisSc01C_End_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode'Sc01:ScenarioStateNode_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.83"
+    }
+  },
+  {
+    "Type": "Event_SirisSc01C_OpreateBegin_C",
+    "Name": "Event_SirisSc01C_OpreateBegin_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.68"
+    }
+  },
+  {
+    "Type": "Event_SirisSc01C_OpreateBegin_C",
+    "Name": "Event_SirisSc01C_OpreateBegin_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.69"
+    }
+  },
+  {
+    "Type": "Event_SirisSc01C_OpreateEnd_C",
+    "Name": "Event_SirisSc01C_OpreateEnd_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.68"
+    }
+  },
+  {
+    "Type": "Event_SirisSc01C_OpreateEnd_C",
+    "Name": "Event_SirisSc01C_OpreateEnd_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.69"
+    }
+  },
+  {
+    "Type": "Event_SirisSwim_DryOrWetBody_Event_C",
+    "Name": "Event_SirisSwim_DryOrWetBody_Event_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.82"
+    },
+    "Properties": {
+      "GirlName": "Siris",
+      "IsWet": true
+    }
+  },
+  {
+    "Type": "Event_SirisSwim_TubWater_Event_C",
+    "Name": "Event_SirisSwim_TubWater_Event_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.82"
+    },
+    "Properties": {
+      "Activation?": true
+    }
+  },
+  {
+    "Type": "EyesFollowOperateAct",
+    "Name": "EyesFollowOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EyesFollowOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.67"
+    },
+    "Properties": {
+      "HeadRotationScale": {
+        "X": 0.08,
+        "Y": 0.08
+      },
+      "ActorOperateActName": "Sc01_Eyes_C__girl013b_02_EyesFollow01"
+    }
+  },
+  {
+    "Type": "EyesFollowOperateAct",
+    "Name": "EyesFollowOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EyesFollowOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.73"
+    },
+    "Properties": {
+      "HeadRotationScale": {
+        "X": 0.07,
+        "Y": 0.07
+      },
+      "ActorOperateActName": "Sc01_Eyes_A__girl013b_02_EyesFollow01"
+    }
+  },
+  {
+    "Type": "EyesFollowOperateAct",
+    "Name": "EyesFollowOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EyesFollowOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.74"
+    },
+    "Properties": {
+      "ActorOperateActName": "Sc01_Eyes_D__girl013b_02_EyesFollow01"
+    }
+  },
+  {
+    "Type": "EyesFollowOperateAct",
+    "Name": "EyesFollowOperateAct_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EyesFollowOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.76"
+    },
+    "Properties": {
+      "HeadRotationScale": {
+        "X": 0.07,
+        "Y": 0.07
+      },
+      "ActorOperateActName": "Sc01_Eyes_B__girl013b_02_EyesFollow01"
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode'Sc01:ScenarioStateNode_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.83"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3AutoTriggerInput'Sc01:ScenarioStateNode_1.InteractionOperateV3_1.InteractionV3AutoTriggerInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.33"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.67"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_2",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode'Sc01:ScenarioStateNode_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.83"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3CapsuleCollisionInput'Sc01:ScenarioStateNode_1.InteractionOperateV3_2.InteractionV3CapsuleCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.36"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.68"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_3",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode'Sc01:ScenarioStateNode_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.83"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3CapsuleCollisionInput'Sc01:ScenarioStateNode_1.InteractionOperateV3_3.InteractionV3CapsuleCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.37"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.69"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.84"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_0.InteractionV3SphereCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.46"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.70"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.84"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_1.InteractionV3SphereCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.47"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.71"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_2",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.84"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_2.InteractionV3SphereCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.48"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.72"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_3",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.84"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3AutoTriggerInput'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_3.InteractionV3AutoTriggerInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.34"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.73"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.85"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.InteractionV3SphereCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.49"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.74"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.86"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3CapsuleCollisionInput'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0.InteractionV3CapsuleCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.38"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.75"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.86"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3AutoTriggerInput'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.InteractionV3AutoTriggerInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.35"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.76"
+      }
+    }
+  },
+  {
+    "Type": "InteractionV3AutoTriggerInput",
+    "Name": "InteractionV3AutoTriggerInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3AutoTriggerInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_1.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.23"
+    },
+    "Properties": {
+      "TipWidget": "None",
+      "OperateName": "Eyes"
+    }
+  },
+  {
+    "Type": "InteractionV3AutoTriggerInput",
+    "Name": "InteractionV3AutoTriggerInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3AutoTriggerInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_3'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.29"
+    },
+    "Properties": {
+      "AllAgeLevel": 15,
+      "OperateName": "Eyes"
+    }
+  },
+  {
+    "Type": "InteractionV3AutoTriggerInput",
+    "Name": "InteractionV3AutoTriggerInput_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3AutoTriggerInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.32"
+    },
+    "Properties": {
+      "OperateName": "Eyes"
+    }
+  },
+  {
+    "Type": "InteractionV3CapsuleCollisionInput",
+    "Name": "InteractionV3CapsuleCollisionInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3CapsuleCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_1.InteractionOperateV3_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.24"
+    },
+    "Properties": {
+      "bAlignToPhysicsBody": true,
+      "Length": 0.8,
+      "CharacterName": "Siris",
+      "BoneName": "Bip001-L-Calf",
+      "TipWidget": "None",
+      "OperateName": "Bubble"
+    }
+  },
+  {
+    "Type": "InteractionV3CapsuleCollisionInput",
+    "Name": "InteractionV3CapsuleCollisionInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3CapsuleCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_1.InteractionOperateV3_3'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.25"
+    },
+    "Properties": {
+      "bAlignToPhysicsBody": true,
+      "Length": 0.8,
+      "CharacterName": "Siris",
+      "BoneName": "Bip001-R-Calf",
+      "OperateName": "Bubble"
+    }
+  },
+  {
+    "Type": "InteractionV3CapsuleCollisionInput",
+    "Name": "InteractionV3CapsuleCollisionInput_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3CapsuleCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.31"
+    },
+    "Properties": {
+      "bAlignToPhysicsBody": true,
+      "Length": 1.0,
+      "CharacterName": "Toy01",
+      "BoneName": "Bone_ship_01"
+    }
+  },
+  {
+    "Type": "InteractionV3DragControl",
+    "Name": "InteractionV3DragControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3DragControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.68"
+    },
+    "Properties": {
+      "DragControl": {
+        "ScreenPercentToWorld": {
+          "X": 20.0,
+          "Y": 15.0
+        },
+        "WorldSpaceLimit": {
+          "X": -8.0,
+          "Y": 0.2,
+          "Z": -6.0,
+          "W": 4.0
+        },
+        "DragRecoverCurve": {
+          "ObjectName": "CurveFloat'CV_IKRecover'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/ScenarioOperate/Curve/CV_IKRecover"
+        },
+        "DragRecoverTime": 0.6
+      },
+      "OffsetAdditiveRot_Pitch": 90.0,
+      "bEnableDragInterpolation": true,
+      "Velocity": 2.0
+    }
+  },
+  {
+    "Type": "InteractionV3DragControl",
+    "Name": "InteractionV3DragControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3DragControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.69"
+    },
+    "Properties": {
+      "DragControl": {
+        "ScreenPercentToWorld": {
+          "X": 20.0,
+          "Y": 15.0
+        },
+        "WorldSpaceLimit": {
+          "X": -8.0,
+          "Y": 0.2,
+          "Z": -8.0,
+          "W": 4.0
+        },
+        "DragRecoverCurve": {
+          "ObjectName": "CurveFloat'CV_IKRecover'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/ScenarioOperate/Curve/CV_IKRecover"
+        },
+        "DragRecoverTime": 0.6
+      },
+      "OffsetAdditiveRot_Pitch": 90.0,
+      "bEnableDragInterpolation": true,
+      "Velocity": 2.0
+    }
+  },
+  {
+    "Type": "InteractionV3DragControl",
+    "Name": "InteractionV3DragControl_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3DragControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.75"
+    },
+    "Properties": {
+      "DragControl": {
+        "ScreenPercentToWorld": {
+          "X": 150.0,
+          "Y": 150.0
+        },
+        "DragDampingCurve": {
+          "ObjectName": "CurveFloat'CV_IKDamp'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl008b/Operate/Curve/CV_IKDamp"
+        },
+        "DragRecoverCurve": {
+          "ObjectName": "CurveFloat'CV_IKRecover'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl011a/Operate/Curve/CV_IKRecover"
+        }
+      },
+      "OffsetAdditiveRot_Pitch": 90.0
+    }
+  },
+  {
+    "Type": "InteractionV3EyesFollowControl",
+    "Name": "InteractionV3EyesFollowControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3EyesFollowControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.67"
+    },
+    "Properties": {
+      "DragControl": {
+        "ScreenPercentToWorld": {
+          "X": 450.0,
+          "Y": 400.0
+        },
+        "WorldSpaceLimit": {
+          "X": -1000.0,
+          "Y": 1000.0,
+          "Z": -1000.0,
+          "W": 1000.0
+        }
+      },
+      "CharacterNames": [
+        "Siris"
+      ]
+    }
+  },
+  {
+    "Type": "InteractionV3EyesFollowControl",
+    "Name": "InteractionV3EyesFollowControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3EyesFollowControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.73"
+    },
+    "Properties": {
+      "DragControl": {
+        "ScreenPercentToWorld": {
+          "X": 400.0,
+          "Y": 400.0
+        },
+        "WorldSpaceLimit": {
+          "X": -100.0,
+          "Y": 100.0,
+          "Z": -60.0,
+          "W": 100.0
+        }
+      },
+      "CharacterNames": [
+        "Siris"
+      ]
+    }
+  },
+  {
+    "Type": "InteractionV3EyesFollowControl",
+    "Name": "InteractionV3EyesFollowControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3EyesFollowControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.74"
+    },
+    "Properties": {
+      "CharacterNames": [
+        "Siris"
+      ]
+    }
+  },
+  {
+    "Type": "InteractionV3EyesFollowControl",
+    "Name": "InteractionV3EyesFollowControl_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3EyesFollowControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.76"
+    },
+    "Properties": {
+      "DragControl": {
+        "ScreenPercentToWorld": {
+          "X": 320.0,
+          "Y": 320.0
+        },
+        "WorldSpaceLimit": {
+          "X": -1000.0,
+          "Y": 1000.0,
+          "Z": -1000.0,
+          "W": 1000.0
+        }
+      },
+      "CharacterNames": [
+        "Siris"
+      ]
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.26"
+    },
+    "Properties": {
+      "CharacterName": "Siris",
+      "BoneName": "Bone_hair_01",
+      "AllAgeLevel": 15,
+      "OperateName": "Duck"
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.27"
+    },
+    "Properties": {
+      "CharacterName": "Siris",
+      "BoneName": "Bip001-Spine1",
+      "AllAgeLevel": 15,
+      "OperateName": "Wave"
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.28"
+    },
+    "Properties": {
+      "CharacterName": "Siris",
+      "BoneName": "Bone_R_Hand",
+      "AllAgeLevel": 15,
+      "OperateName": "Hand"
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.30"
+    },
+    "Properties": {
+      "CharacterName": "Siris",
+      "OperateName": "Eyes"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.67"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Eyes_C_"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.68"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Bubble_C_A",
+      "EndState": "A"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.69"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Bubble_C_A",
+      "EndState": "A"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.70"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Duck_A_B",
+      "EndState": "B"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.71"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Wave_A_C",
+      "EndState": "C"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.72"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Hand_A_D",
+      "EndState": "D"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.73"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Eyes_A_"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.74"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Eyes_D_"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.76"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Eyes_B_"
+    }
+  },
+  {
+    "Type": "PhysicalOffsetOperateAct",
+    "Name": "PhysicalOffsetOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicalOffsetOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.68"
+    },
+    "Properties": {
+      "bDragFixedBone": true,
+      "DefaultDragBoneName": "Bip001-L-Calf",
+      "DefaultDragLocationBoneName": "Bip001-L-Calf",
+      "ActorOperateActName": "Sc01_Bubble_C_A_girl013b_02_ActBase01",
+      "FacialAnim": {
+        "AssetPathName": "/Game/Characters/CommonFace/girl013_com01/AnimPart00/manifestation/SirisSwim/girl013b_02_com01_face_ma_OperateAnim_02.girl013b_02_com01_face_ma_OperateAnim_02",
+        "SubPathString": ""
+      },
+      "ProfileModifier": {
+        "BodyProfile": {
+          "StartPhysicsControlProfile": "BubbleLeg",
+          "EndPhysicsControlProfile": "BubbleLeg_Release"
+        }
+      },
+      "bPhysicsBlendOut": true
+    }
+  },
+  {
+    "Type": "PhysicalOffsetOperateAct",
+    "Name": "PhysicalOffsetOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicalOffsetOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.69"
+    },
+    "Properties": {
+      "bDragFixedBone": true,
+      "DefaultDragBoneName": "Bip001-R-Calf",
+      "DefaultDragLocationBoneName": "Bip001-R-Calf",
+      "ActorOperateActName": "Sc01_Bubble_C_A_girl013b_02_ActBase01",
+      "FacialAnim": {
+        "AssetPathName": "/Game/Characters/CommonFace/girl013_com01/AnimPart00/manifestation/SirisSwim/girl013b_02_com01_face_ma_OperateAnim_02.girl013b_02_com01_face_ma_OperateAnim_02",
+        "SubPathString": ""
+      },
+      "ProfileModifier": {
+        "BodyProfile": {
+          "StartPhysicsControlProfile": "BubbleLeg",
+          "EndPhysicsControlProfile": "BubbleLeg_Release"
+        }
+      },
+      "bPhysicsBlendOut": true
+    }
+  },
+  {
+    "Type": "PhysicalOffsetOperateAct",
+    "Name": "PhysicalOffsetOperateAct_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicalOffsetOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.75"
+    },
+    "Properties": {
+      "bDragFixedBone": true,
+      "DefaultDragBoneName": "Bone_ship_01",
+      "DefaultDragLocationBoneName": "Bone_ship_01",
+      "FacialAnim": {
+        "AssetPathName": "/Game/Characters/CommonFace/girl013_com01/AnimPart00/manifestation/SirisSwim/girl013b_02_com01_face_ma_OperateAnim_01.girl013b_02_com01_face_ma_OperateAnim_01",
+        "SubPathString": ""
+      },
+      "ProfileModifier": {
+        "BodyProfile": {
+          "StartPhysicsControlProfile": "Drag",
+          "EndPhysicsControlProfile": "Release"
+        }
+      },
+      "bPhysicsBlendOut": true
+    }
+  },
+  {
+    "Type": "PhysicsAssetModifierEvent",
+    "Name": "PhysicsAssetModifierEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicsAssetModifierEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode'Sc01:ScenarioStateNode_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.83"
+    },
+    "Properties": {
+      "PhysicsAssetModifiers": [
+        {
+          "ActorName": "Siris",
+          "BodyModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Physics/SC01_C/PA_Girl013b_02_SC01_C.PA_Girl013b_02_SC01_C",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Physics/SC01_C/PCA_Girl013b_02_SC01.PCA_Girl013b_02_SC01",
+              "SubPathString": ""
+            }
+          },
+          "BodyAnimNodeModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Physics/SC01_C/PA_Girl013b_02_SC01_C.PA_Girl013b_02_SC01_C",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Physics/SC01_C/PCA_Girl013b_02_SC01.PCA_Girl013b_02_SC01",
+              "SubPathString": ""
+            }
+          },
+          "FaceModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PhysicsAssetModifierEvent",
+    "Name": "PhysicsAssetModifierEvent_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicsAssetModifierEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode'Sc01:ScenarioStateNode_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.83"
+    },
+    "Properties": {
+      "PhysicsAssetModifiers": [
+        {
+          "ActorName": "Siris",
+          "BodyModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Physics/SC01_C/PA_Girl013b_02_SC01_C.PA_Girl013b_02_SC01_C",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          "BodyAnimNodeModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Physics/SC01_C/PA_Girl013b_02_SC01_C.PA_Girl013b_02_SC01_C",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          "FaceModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PhysicsAssetModifierEvent",
+    "Name": "PhysicsAssetModifierEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicsAssetModifierEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.84"
+    },
+    "Properties": {
+      "PhysicsAssetModifiers": [
+        {
+          "ActorName": "Siris",
+          "BodyModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Physics/Common/PA_Girl013b_02_SC03_Common.PA_Girl013b_02_SC03_Common",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Physics/Common/PCA_Girl013b_02_Common.PCA_Girl013b_02_Common",
+              "SubPathString": ""
+            }
+          },
+          "BodyAnimNodeModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          "FaceModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PhysicsAssetModifierEvent",
+    "Name": "PhysicsAssetModifierEvent_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicsAssetModifierEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.86"
+    },
+    "Properties": {
+      "PhysicsAssetModifiers": [
+        {
+          "ActorName": "Siris",
+          "BodyModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Physics/SC01_B/PA_Girl013b_02_SC03_SC01_B.PA_Girl013b_02_SC03_SC01_B",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Physics/SC01_B/PCA_Girl013b_02_SC01_B.PCA_Girl013b_02_SC01_B",
+              "SubPathString": ""
+            }
+          },
+          "BodyAnimNodeModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          "FaceModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "ActorName": "Toy01",
+          "BodyModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/prop01_01/Physics/SC01_B/PA_Prop01_01_SC01_B.PA_Prop01_01_SC01_B",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/prop01_01/Physics/SC01_B/PCA_Prop01_01_SC01_B.PCA_Prop01_01_SC01_B",
+              "SubPathString": ""
+            }
+          },
+          "BodyAnimNodeModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          "FaceModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PhysicsControlProfileEvent",
+    "Name": "PhysicsControlProfileEvent_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicsControlProfileEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode'Sc01:ScenarioStateNode_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.83"
+    },
+    "Properties": {
+      "ActorNames": [
+        {
+          "Key": "Siris",
+          "Value": {
+            "BodyProfile": {
+              "StartPhysicsControlProfile": "Static",
+              "EndPhysicsControlProfile": "None",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            },
+            "BodyAnimNodeProfile": {
+              "StartPhysicsControlProfile": "Static",
+              "EndPhysicsControlProfile": "None",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            },
+            "FaceProfile": {
+              "StartPhysicsControlProfile": "None",
+              "EndPhysicsControlProfile": "None",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_1.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.23"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3EyesFollowControl'Sc01:ScenarioStateNode_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0.InteractionV3EyesFollowControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.42"
+      },
+      "OperatingHeadRotScale": {
+        "X": 1.0,
+        "Y": 0.5
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Siris",
+          "ActorOperateAct": {
+            "ObjectName": "EyesFollowOperateAct'Sc01:ScenarioStateNode_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0.EyesFollowOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.19"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "ScenarioOperateForbidTrigger'Sc01:ScenarioStateNode_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0.ScenarioOperateForbidTrigger_1'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.77"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.50"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_1.InteractionOperateV3_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.24"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3DragControl'Sc01:ScenarioStateNode_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0.InteractionV3DragControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.39"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Siris",
+          "ActorOperateAct": {
+            "ObjectName": "PhysicalOffsetOperateAct'Sc01:ScenarioStateNode_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0.PhysicalOffsetOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.59"
+          }
+        }
+      ],
+      "StartEvents": [
+        {
+          "ObjectName": "Event_SirisSc01C_OpreateBegin_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0.Event_SirisSc01C_OpreateBegin_C_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.13"
+        }
+      ],
+      "EndEvents": [
+        {
+          "ObjectName": "Event_SirisSc01C_OpreateEnd_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0.Event_SirisSc01C_OpreateEnd_C_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.15"
+        },
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:ScenarioStateNode_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0.CallActorFunctionEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.7"
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "Trigger_Siris_SC01_C_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0.Trigger_Siris_SC01_C_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.88"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.51"
+        },
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:ScenarioStateNode_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0.CallActorFunctionEvent_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.8"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_1.InteractionOperateV3_3'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.25"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3DragControl'Sc01:ScenarioStateNode_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0.InteractionV3DragControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.40"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Siris",
+          "ActorOperateAct": {
+            "ObjectName": "PhysicalOffsetOperateAct'Sc01:ScenarioStateNode_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0.PhysicalOffsetOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.60"
+          }
+        }
+      ],
+      "StartEvents": [
+        {
+          "ObjectName": "Event_SirisSc01C_OpreateBegin_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0.Event_SirisSc01C_OpreateBegin_C_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.14"
+        }
+      ],
+      "EndEvents": [
+        {
+          "ObjectName": "Event_SirisSc01C_OpreateEnd_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0.Event_SirisSc01C_OpreateEnd_C_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.16"
+        },
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:ScenarioStateNode_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0.CallActorFunctionEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.9"
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "Trigger_Siris_SC01_C_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0.Trigger_Siris_SC01_C_C_1'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.89"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.52"
+        },
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:ScenarioStateNode_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0.CallActorFunctionEvent_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.10"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.26"
+    },
+    "Properties": {
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.53"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.27"
+    },
+    "Properties": {
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.54"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.28"
+    },
+    "Properties": {
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.55"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_3'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.29"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3EyesFollowControl'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0.InteractionV3EyesFollowControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.43"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Siris",
+          "ActorOperateAct": {
+            "ObjectName": "EyesFollowOperateAct'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0.EyesFollowOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.20"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "ScenarioOperateForbidTrigger'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0.ScenarioOperateForbidTrigger_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.78"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.56"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.30"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3EyesFollowControl'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0.InteractionV3EyesFollowControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.44"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Siris",
+          "ActorOperateAct": {
+            "ObjectName": "EyesFollowOperateAct'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0.EyesFollowOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.21"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "ScenarioOperateForbidTrigger'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0.ScenarioOperateForbidTrigger_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.79"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.57"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.31"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3DragControl'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0.ScenarioOperateCommon_C_0.InteractionV3DragControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.41"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Toy01",
+          "ActorOperateAct": {
+            "ObjectName": "PhysicalOffsetOperateAct'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0.ScenarioOperateCommon_C_0.PhysicalOffsetOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.61"
+          }
+        },
+        {
+          "CharacterName": "Siris",
+          "ActorOperateAct": {
+            "ObjectName": "ActorOperateAct'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0.ScenarioOperateCommon_C_0.ActorOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.0"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "ScenarioOperateForbidTrigger'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0.ScenarioOperateCommon_C_0.ScenarioOperateForbidTrigger_1'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.80"
+      },
+      "CompleteEvents": []
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.32"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3EyesFollowControl'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0.InteractionV3EyesFollowControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.45"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Siris",
+          "ActorOperateAct": {
+            "ObjectName": "EyesFollowOperateAct'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0.EyesFollowOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.22"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "ScenarioOperateForbidTrigger'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0.ScenarioOperateForbidTrigger_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.81"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.58"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateForbidTrigger",
+    "Name": "ScenarioOperateForbidTrigger_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioOperateForbidTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.67"
+    }
+  },
+  {
+    "Type": "ScenarioOperateForbidTrigger",
+    "Name": "ScenarioOperateForbidTrigger_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioOperateForbidTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.73"
+    }
+  },
+  {
+    "Type": "ScenarioOperateForbidTrigger",
+    "Name": "ScenarioOperateForbidTrigger_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioOperateForbidTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.74"
+    }
+  },
+  {
+    "Type": "ScenarioOperateForbidTrigger",
+    "Name": "ScenarioOperateForbidTrigger_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioOperateForbidTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.75"
+    }
+  },
+  {
+    "Type": "ScenarioOperateForbidTrigger",
+    "Name": "ScenarioOperateForbidTrigger_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioOperateForbidTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.76"
+    }
+  },
+  {
+    "Type": "ScenarioStateMachine",
+    "Name": "Sc01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateMachine'",
+    "Properties": {
+      "States": [
+        {
+          "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.84"
+        },
+        {
+          "ObjectName": "ScenarioStateNode'Sc01:ScenarioStateNode_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.83"
+        },
+        {
+          "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.85"
+        },
+        {
+          "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_2'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.86"
+        }
+      ],
+      "ScenarioName": "Sc01",
+      "ActorInfos": [
+        {
+          "ActorName": "Siris",
+          "PositionActorName": "ActorPos_Sc01_girl013b_02"
+        },
+        {
+          "ActorName": "player012",
+          "PositionActorName": "ActorPos_Sc01_Prop07"
+        },
+        {
+          "ActorName": "Lather01",
+          "PositionActorName": "ActorPos_Sc01_Prop09"
+        },
+        {
+          "ActorName": "Lather03",
+          "PositionActorName": "ActorPos_Sc01_Prop11"
+        },
+        {
+          "ActorName": "Toy",
+          "PositionActorName": "ActorPos_Sc01_prop01"
+        },
+        {
+          "ActorName": "Toy01",
+          "PositionActorName": "ActorPos_Sc01_prop01_01"
+        },
+        {
+          "ActorName": "Bra",
+          "PositionActorName": "ActorPos_Sc01_prop13"
+        },
+        {
+          "ActorName": "Bubble",
+          "PositionActorName": "ActorPos_Sc01_prop12"
+        }
+      ],
+      "StartEvents": [
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:CallActorFunctionEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.1"
+        },
+        {
+          "ObjectName": "Event_SirisSwim_DryOrWetBody_Event_C'Sc01:Event_SirisSwim_DryOrWetBody_Event_C_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.17"
+        },
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:CallActorFunctionEvent_2'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.3"
+        },
+        {
+          "ObjectName": "Event_SirisSwim_TubWater_Event_C'Sc01:Event_SirisSwim_TubWater_Event_C_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.18"
+        }
+      ],
+      "EndEvents": [
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:CallActorFunctionEvent_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.2"
+        },
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:CallActorFunctionEvent_3'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.4"
+        }
+      ],
+      "Processor": {
+        "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/SBP_SirisSwim_Sc01.SBP_SirisSwim_Sc01_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "ScenarioStateNode",
+    "Name": "ScenarioStateNode_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateNode'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.82"
+    },
+    "Properties": {
+      "StandbyActorInfos": [
+        {
+          "ActorName": "Siris",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Characters/Girl/girl013b_02/Anim/manifestation/SirisSwim/girl013b_02_ma_Sc01_C_Standby_01.girl013b_02_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "/Game/Characters/CommonFace/girl013_com01/AnimPart00/manifestation/SirisSwim/girl013b_02_com01_face_ma_Sc01_C_Standby_01.girl013b_02_com01_face_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "player012",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/SirisSwim_prop07/Anim/SirisSwim_Prop07_ma_Sc01_C_Standby_01.SirisSwim_Prop07_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "Lather01",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "Lather03",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/SirisSwim_Prop11/Anim/SirisSwim_Prop11_ma_Sc01_C_Standby_01.SirisSwim_Prop11_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "Toy",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/SirisSwim_Prop01/Anim/SirisSwim_Prop01_ma_Sc01_C_Standby_01.SirisSwim_Prop01_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "Toy01",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/SirisSwim_Prop01_01/Anim/SirisSwim_Prop01_01_ma_Sc01_C_Standby_01.SirisSwim_Prop01_01_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Operates": [
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_1.InteractionOperateV3_3'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.25"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_1.InteractionOperateV3_2'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.24"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_1.InteractionOperateV3_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.23"
+        }
+      ],
+      "StateName": "C",
+      "EnterEvents": [
+        {
+          "ObjectName": "PhysicsAssetModifierEvent'Sc01:ScenarioStateNode_1.PhysicsAssetModifierEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.62"
+        },
+        {
+          "ObjectName": "Event_SirisSc01C_Begin_C'Sc01:ScenarioStateNode_1.Event_SirisSc01C_Begin_C_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.11"
+        },
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:ScenarioStateNode_1.CallActorFunctionEvent_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.6"
+        }
+      ],
+      "ExitEvents": [
+        {
+          "ObjectName": "PhysicsControlProfileEvent'Sc01:ScenarioStateNode_1.PhysicsControlProfileEvent_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.66"
+        },
+        {
+          "ObjectName": "PhysicsAssetModifierEvent'Sc01:ScenarioStateNode_1.PhysicsAssetModifierEvent_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.63"
+        },
+        {
+          "ObjectName": "Event_SirisSc01C_End_C'Sc01:ScenarioStateNode_1.Event_SirisSc01C_End_C_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.12"
+        },
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:ScenarioStateNode_1.CallActorFunctionEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioStateNode_Entry",
+    "Name": "ScenarioStateNode_Entry_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateNode_Entry'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.82"
+    },
+    "Properties": {
+      "CycleActorInfos": [
+        {
+          "ActorName": "Siris",
+          "ShowElementName": "Sc01_A_Cycle"
+        },
+        {
+          "ActorName": "Lather01",
+          "ShowElementName": "Sc01_A_Cycle"
+        },
+        {
+          "ActorName": "Lather02",
+          "ShowElementName": "Sc01_A_Cycle"
+        },
+        {
+          "ActorName": "Lather03",
+          "ShowElementName": "Sc01_A_Cycle"
+        },
+        {
+          "ActorName": "Toy",
+          "ShowElementName": "Sc01_A_Cycle"
+        },
+        {
+          "ActorName": "Toy01",
+          "ShowElementName": "Sc01_A_Cycle"
+        }
+      ],
+      "StandbyActorInfos": [
+        {
+          "ActorName": "Siris",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Characters/Girl/girl013b_02/Anim/manifestation/SirisSwim/girl013b_02_ma_Sc01_A_Standby_01.girl013b_02_ma_Sc01_A_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "/Game/Characters/CommonFace/girl013_com01/AnimPart00/manifestation/SirisSwim/girl013b_02_com01_face_ma_Sc01_A_Standby_01.girl013b_02_com01_face_ma_Sc01_A_Standby_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "Toy",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/SirisSwim_Prop01/Anim/SirisSwim_Prop01_ma_Sc01_A_Standby_01.SirisSwim_Prop01_ma_Sc01_A_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "Toy01",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/SirisSwim_Prop01_01/Anim/SirisSwim_Prop01_01_ma_Sc01_A_Standby_01.SirisSwim_Prop01_01_ma_Sc01_A_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "CameraSequenceAsset": {
+        "AssetPathName": "/Game/Cinematics/Manifestation/SirisSwim/SirisSwim_ma_Sc01_A_Standby_Master.SirisSwim_ma_Sc01_A_Standby_Master",
+        "SubPathString": ""
+      },
+      "Operates": [
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.26"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.27"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_2'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.28"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_1.InteractionOperateV3_3'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.29"
+        }
+      ],
+      "StateHolyLight": [
+        {
+          "CharacterName": "Siris",
+          "HolyLightData": [
+            {
+              "SocketName": "Bip001-Spine1",
+              "Intensity": 5,
+              "UIName": "uw_girlroom_peace_light",
+              "SizeRatio": {
+                "ObjectName": "CurveFloat'DBCurve_girl013b_02_Ma_Standby_Stand01'",
+                "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Curve/DBCurve_girl013b_02_Ma_Standby_Stand01"
+              }
+            },
+            {
+              "SocketName": "Bone_R_Thigh",
+              "Intensity": 5,
+              "UIName": "uw_girlroom_peace_light",
+              "SizeRatio": {
+                "ObjectName": "CurveFloat'DBCurve_girl013b_02_Ma_Standby_Bigsize'",
+                "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Curve/DBCurve_girl013b_02_Ma_Standby_Bigsize"
+              }
+            }
+          ]
+        }
+      ],
+      "StateName": "A",
+      "EnterEvents": [
+        {
+          "ObjectName": "SetCharacterShoeEvent'Sc01:ScenarioStateNode_Entry_1.SetCharacterShoeEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.87"
+        },
+        {
+          "ObjectName": "PhysicsAssetModifierEvent'Sc01:ScenarioStateNode_Entry_1.PhysicsAssetModifierEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.64"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioStateNode_LittleGame",
+    "Name": "ScenarioStateNode_LittleGame_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateNode_LittleGame'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.82"
+    },
+    "Properties": {
+      "LittleGameTemplate": {
+        "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/GBP_SirisSwim_Sc01_D.GBP_SirisSwim_Sc01_D_C",
+        "SubPathString": ""
+      },
+      "StandbyActorInfos": [
+        {
+          "ActorName": "Siris",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Characters/Girl/girl013b_02/Anim/manifestation/SirisSwim/girl013b_02_ma_Sc01_D_Standby_01.girl013b_02_ma_Sc01_D_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "/Game/Characters/CommonFace/girl013_com01/AnimPart00/manifestation/SirisSwim/girl013b_02_com01_face_ma_Sc01_D_Standby_01.girl013b_02_com01_face_ma_Sc01_D_Standby_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "player012",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/SirisSwim_prop07/Anim/SirisSwim_Prop07_ma_Sc01_D_Standby_01.SirisSwim_Prop07_ma_Sc01_D_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "Lather01",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "Lather03",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/SirisSwim_Prop11/Anim/SirisSwim_Prop11_ma_Sc01_D_Standby_01.SirisSwim_Prop11_ma_Sc01_D_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "Toy",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/SirisSwim_Prop01/Anim/SirisSwim_Prop01_ma_Sc01_D_Standby_01.SirisSwim_Prop01_ma_Sc01_D_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "Toy01",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/SirisSwim_Prop01_01/Anim/SirisSwim_Prop01_01_ma_Sc01_D_Standby_01.SirisSwim_Prop01_01_ma_Sc01_D_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Operates": [
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.30"
+        }
+      ],
+      "StateName": "D"
+    }
+  },
+  {
+    "Type": "ScenarioStateNode_LittleGame",
+    "Name": "ScenarioStateNode_LittleGame_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateNode_LittleGame'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.82"
+    },
+    "Properties": {
+      "LittleGameTemplate": {
+        "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/GBP_SirisSwim_Sc01_B.GBP_SirisSwim_Sc01_B_C",
+        "SubPathString": ""
+      },
+      "StandbyActorInfos": [
+        {
+          "ActorName": "Siris",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Characters/Girl/girl013b_02/Anim/manifestation/SirisSwim/girl013b_02_ma_Sc01_B_Standby_01.girl013b_02_ma_Sc01_B_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "/Game/Characters/CommonFace/girl013_com01/AnimPart00/manifestation/SirisSwim/girl013b_02_com01_face_ma_Sc01_B_Standby_01.girl013b_02_com01_face_ma_Sc01_B_Standby_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "player012",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/SirisSwim_prop07/Anim/SirisSwim_Prop07_ma_Sc01_B_Standby_01.SirisSwim_Prop07_ma_Sc01_B_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "Lather01",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "Lather02",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "Toy",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/SirisSwim_Prop01/Anim/SirisSwim_Prop01_ma_Sc01_B_Standby_01.SirisSwim_Prop01_ma_Sc01_B_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "Toy01",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/SirisSwim_Prop01_01/Anim/SirisSwim_Prop01_01_ma_Sc01_B_Standby_01.SirisSwim_Prop01_01_ma_Sc01_B_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Operates": [
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.31"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.32"
+        }
+      ],
+      "StateName": "B",
+      "InitializeEvents": [
+        {
+          "ObjectName": "PhysicsAssetModifierEvent'Sc01:ScenarioStateNode_LittleGame_2.PhysicsAssetModifierEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.65"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SetCharacterShoeEvent",
+    "Name": "SetCharacterShoeEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SetCharacterShoeEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.84"
+    },
+    "Properties": {
+      "ActorName": "Siris",
+      "ShoeTypes": 3
+    }
+  },
+  {
+    "Type": "Trigger_Siris_SC01_C_C",
+    "Name": "Trigger_Siris_SC01_C_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.68"
+    }
+  },
+  {
+    "Type": "Trigger_Siris_SC01_C_C",
+    "Name": "Trigger_Siris_SC01_C_C_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_1.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Scenario/Sc01.69"
+    }
+  }
+]

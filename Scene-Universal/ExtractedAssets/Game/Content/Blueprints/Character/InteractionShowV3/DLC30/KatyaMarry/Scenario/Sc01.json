@@ -1,0 +1,1050 @@
+[
+  {
+    "Type": "BlendSpaceOperateAct",
+    "Name": "BlendSpaceOperateAct_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlendSpaceOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.29"
+    },
+    "Properties": {
+      "BlendSpace": {
+        "AssetPathName": "/Game/Props/Manifestation/KatyaMarry_prop19/Anim/BS_KatyaMarry_prop18_ma_Sc01_Hand_A_01.BS_KatyaMarry_prop18_ma_Sc01_Hand_A_01",
+        "SubPathString": ""
+      },
+      "ProfileModifier": {
+        "BodyProfile": {
+          "StartPhysicsControlProfile": "TouchHand",
+          "StartConstraintProfile": "PlayerFinger"
+        }
+      },
+      "bPhysicsBlendOut": true
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.35"
+    },
+    "Properties": {
+      "ActorName": "playernohead",
+      "FunctionName": "CE_ForceRestoreHand"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode'Sc01:ScenarioStateNode_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.36"
+    },
+    "Properties": {
+      "ActorName": "playernohead",
+      "FunctionName": "InitHandSc"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode'Sc01:ScenarioStateNode_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.36"
+    },
+    "Properties": {
+      "ActorName": "playernohead",
+      "FunctionName": "UpdateHandSc"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode'Sc01:ScenarioStateNode_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.36"
+    },
+    "Properties": {
+      "ActorName": "playernohead",
+      "FunctionName": "EndHandSc"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.29"
+    },
+    "Properties": {
+      "ActorName": "playernohead",
+      "FunctionName": "EndHandSc"
+    }
+  },
+  {
+    "Type": "EyesFollowOperateAct",
+    "Name": "EyesFollowOperateAct_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EyesFollowOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.33"
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode'Sc01:ScenarioStateNode_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.36"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_0.InteractionOperateV3_0.InteractionV3SphereCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.17"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.29"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.37"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0.InteractionV3SphereCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.18"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.30"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.37"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1.InteractionV3SphereCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.19"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.31"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_2",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.37"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2.InteractionV3SphereCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.20"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.32"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_3",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.37"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3AutoTriggerInput'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.InteractionV3AutoTriggerInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.12"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.33"
+      }
+    }
+  },
+  {
+    "Type": "InteractionV3AutoTriggerInput",
+    "Name": "InteractionV3AutoTriggerInput_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3AutoTriggerInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.11"
+    }
+  },
+  {
+    "Type": "InteractionV3DragControl",
+    "Name": "InteractionV3DragControl_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3DragControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.29"
+    },
+    "Properties": {
+      "DragControl": {
+        "ScreenPercentToWorld": {
+          "X": 650.0,
+          "Y": 300.0
+        },
+        "DragRecoverTime": 2.0,
+        "bIsUseLimitSpeed": true,
+        "SpdLimit": 250.0
+      },
+      "bDisableAutoBlendOut": true
+    }
+  },
+  {
+    "Type": "InteractionV3DragTrigger",
+    "Name": "InteractionV3DragTrigger_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3DragTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.29"
+    },
+    "Properties": {
+      "DragLimit": {
+        "X": -65.0,
+        "Y": 50.0
+      },
+      "XCompareType": "EInteractionDragValueCompareType::NotCompare"
+    }
+  },
+  {
+    "Type": "InteractionV3Event_Achievement",
+    "Name": "InteractionV3Event_Achievement_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3Event_Achievement'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.37"
+    },
+    "Properties": {
+      "AchievementId": 0
+    }
+  },
+  {
+    "Type": "InteractionV3EyesFollowControl",
+    "Name": "InteractionV3EyesFollowControl_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3EyesFollowControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.33"
+    },
+    "Properties": {
+      "DragControl": {
+        "ScreenPercentToWorld": {
+          "X": 200.0,
+          "Y": 150.0
+        }
+      },
+      "CharacterNames": [
+        "Katya"
+      ]
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_0.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.7"
+    },
+    "Properties": {
+      "Radius": 10.0,
+      "CharacterName": "playernohead",
+      "BoneName": "Bip001-R-Finger2",
+      "SpatialOffset": {
+        "X": 8.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "OperateName": "PlayerHand"
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.8"
+    },
+    "Properties": {
+      "CharacterName": "Katya",
+      "BoneName": "Bip001-L-Hand",
+      "OperateName": "LHand"
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.9"
+    },
+    "Properties": {
+      "CharacterName": "Katya",
+      "BoneName": "Bip001-Spine2",
+      "OperateName": "Hand"
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.10"
+    },
+    "Properties": {
+      "CharacterName": "Katya",
+      "BoneName": "Bip001-L-UpperArm",
+      "OperateName": "Kiss"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.29"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Hand_C_A",
+      "EndState": "A"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.30"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_LHand_A_B",
+      "EndState": "B"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.31"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Hand_A_C",
+      "EndState": "C"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.32"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Kiss_A_D",
+      "EndState": "D"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.33"
+    }
+  },
+  {
+    "Type": "PhysicsAssetModifierEvent",
+    "Name": "PhysicsAssetModifierEvent_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicsAssetModifierEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode'Sc01:ScenarioStateNode_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.36"
+    },
+    "Properties": {
+      "PhysicsAssetModifiers": [
+        {
+          "ActorName": "Katya",
+          "BodyModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/girl015b_02/Physics/Sc01_C/PA_girl015b_02_Body_Sc01_C.PA_girl015b_02_Body_Sc01_C",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          "BodyAnimNodeModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          "FaceModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "ActorName": "playernohead",
+          "BodyModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/prop19/Physics/Sc01_C/PA_prop19_Sc01_C.PA_prop19_Sc01_C",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/prop19/Physics/Sc01_C/PCA_prop19_Sc01_C.PCA_prop19_Sc01_C",
+              "SubPathString": ""
+            }
+          },
+          "BodyAnimNodeModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          "FaceModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PhysicsControlProfileEvent",
+    "Name": "PhysicsControlProfileEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicsControlProfileEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode'Sc01:ScenarioStateNode_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.36"
+    },
+    "Properties": {
+      "ActorNames": [
+        {
+          "Key": "Katya",
+          "Value": {
+            "BodyProfile": {
+              "StartPhysicsControlProfile": "None",
+              "EndPhysicsControlProfile": "None",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            },
+            "BodyAnimNodeProfile": {
+              "StartPhysicsControlProfile": "None",
+              "EndPhysicsControlProfile": "None",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            },
+            "FaceProfile": {
+              "StartPhysicsControlProfile": "None",
+              "EndPhysicsControlProfile": "None",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PhysicsControlProfileEvent",
+    "Name": "PhysicsControlProfileEvent_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicsControlProfileEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode'Sc01:ScenarioStateNode_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.36"
+    },
+    "Properties": {
+      "ActorNames": [
+        {
+          "Key": "Katya",
+          "Value": {
+            "BodyProfile": {
+              "StartPhysicsControlProfile": "None",
+              "EndPhysicsControlProfile": "None",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            },
+            "BodyAnimNodeProfile": {
+              "StartPhysicsControlProfile": "None",
+              "EndPhysicsControlProfile": "None",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            },
+            "FaceProfile": {
+              "StartPhysicsControlProfile": "None",
+              "EndPhysicsControlProfile": "None",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_0.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.7"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3DragControl'Sc01:ScenarioStateNode_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.InteractionV3DragControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.13"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "playernohead",
+          "ActorOperateAct": {
+            "ObjectName": "BlendSpaceOperateAct'Sc01:ScenarioStateNode_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.BlendSpaceOperateAct_1'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.0"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "InteractionV3DragTrigger'Sc01:ScenarioStateNode_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.InteractionV3DragTrigger_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.14"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.21"
+        },
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:ScenarioStateNode_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.CallActorFunctionEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.8"
+    },
+    "Properties": {
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.22"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.9"
+    },
+    "Properties": {
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.23"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.10"
+    },
+    "Properties": {
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.24"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.11"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3EyesFollowControl'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0.InteractionV3EyesFollowControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.16"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Katya",
+          "ActorOperateAct": {
+            "ObjectName": "EyesFollowOperateAct'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0.EyesFollowOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.6"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "ScenarioOperateForbidTrigger'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0.ScenarioOperateForbidTrigger_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.34"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.25"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateForbidTrigger",
+    "Name": "ScenarioOperateForbidTrigger_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioOperateForbidTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.33"
+    }
+  },
+  {
+    "Type": "ScenarioStateMachine",
+    "Name": "Sc01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateMachine'",
+    "Properties": {
+      "States": [
+        {
+          "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.37"
+        },
+        {
+          "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.38"
+        },
+        {
+          "ObjectName": "ScenarioStateNode'Sc01:ScenarioStateNode_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.36"
+        },
+        {
+          "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.39"
+        }
+      ],
+      "ScenarioName": "Sc01",
+      "ActorInfos": [
+        {
+          "ActorName": "Katya",
+          "PositionActorName": "ActorPos_Sc01_girl015b_02"
+        },
+        {
+          "ActorName": "playernohead",
+          "PositionActorName": "ActorPos_Sc01_prop19"
+        },
+        {
+          "ActorName": "camera",
+          "PositionActorName": "ActorPos_Sc01_prop01"
+        },
+        {
+          "ActorName": "ross",
+          "PositionActorName": "ActorPos_Sc01_prop10"
+        },
+        {
+          "ActorName": "flower",
+          "PositionActorName": "ActorPos_Sc01_prop11"
+        }
+      ],
+      "EndEvents": [
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:CallActorFunctionEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.1"
+        }
+      ],
+      "Processor": {
+        "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/SBP_KatyaMarry_Sc01.SBP_KatyaMarry_Sc01_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "ScenarioStateNode",
+    "Name": "ScenarioStateNode_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateNode'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.35"
+    },
+    "Properties": {
+      "StandbyActorInfos": [
+        {
+          "ActorName": "Katya",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Characters/Girl/girl015b_02/Anim/manifestation/KatyaMarry/girl015b_02_ma_Sc01_C_Standby_01.girl015b_02_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "/Game/Characters/CommonFace/girl015b_02_com01/AnimPart00/manifestation/KatyaMarry/girl015b_02_com01_face_ma_Sc01_C_Standby_01.girl015b_02_com01_face_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "playernohead",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/KatyaMarry_prop19/Anim/KatyaMarry_prop19_ma_Sc01_C_Standby_01.KatyaMarry_prop19_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "ross",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/KatyaMarry_prop03/Anim/KatyaMarry_prop03_ma_Sc01_C_Standby_01.KatyaMarry_prop03_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Operates": [
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_0.InteractionOperateV3_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.7"
+        }
+      ],
+      "StateName": "C",
+      "EnterEvents": [
+        {
+          "ObjectName": "PhysicsAssetModifierEvent'Sc01:ScenarioStateNode_0.PhysicsAssetModifierEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.26"
+        },
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:ScenarioStateNode_0.CallActorFunctionEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.2"
+        },
+        {
+          "ObjectName": "PhysicsControlProfileEvent'Sc01:ScenarioStateNode_0.PhysicsControlProfileEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.27"
+        }
+      ],
+      "UpdateEvents": [
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:ScenarioStateNode_0.CallActorFunctionEvent_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.3"
+        }
+      ],
+      "ExitEvents": [
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:ScenarioStateNode_0.CallActorFunctionEvent_2'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.4"
+        },
+        {
+          "ObjectName": "PhysicsControlProfileEvent'Sc01:ScenarioStateNode_0.PhysicsControlProfileEvent_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.28"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioStateNode_Entry",
+    "Name": "ScenarioStateNode_Entry_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateNode_Entry'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.35"
+    },
+    "Properties": {
+      "CycleActorInfos": [
+        {
+          "ActorName": "Katya",
+          "ShowElementName": "Sc01_A_Cycle"
+        }
+      ],
+      "StandbyActorInfos": [
+        {
+          "ActorName": "Katya",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Characters/Girl/girl015b_02/Anim/manifestation/KatyaMarry/girl015b_02_ma_Sc01_A_Standby_01.girl015b_02_ma_Sc01_A_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "/Game/Characters/CommonFace/girl015b_02_com01/AnimPart00/manifestation/KatyaMarry/girl015b_02_com01_face_ma_Sc01_A_Standby_01.girl015b_02_com01_face_ma_Sc01_A_Standby_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "camera",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/KatyaMarry_prop01/Anim/KatyaMarry_prop01_ma_Sc01_A_Standby_01.KatyaMarry_prop01_ma_Sc01_A_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "CameraSequenceAsset": {
+        "AssetPathName": "/Game/Cinematics/Manifestation/KatyaMarry/KatyaMarry_ma_Sc01_A_Standby_Master.KatyaMarry_ma_Sc01_A_Standby_Master",
+        "SubPathString": ""
+      },
+      "Operates": [
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.8"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.9"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.10"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.11"
+        }
+      ],
+      "StateHolyLight": [
+        {
+          "CharacterName": "Katya",
+          "HolyLightData": [
+            {
+              "SocketName": "Bip001-Spine1",
+              "Intensity": 5,
+              "UIName": "uw_girlroom_peace_light",
+              "SizeRatio": {
+                "ObjectName": "CurveFloat'DBCurve_girl015b_02_Ma_Standby_Stand01'",
+                "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/girl015b_02/Physics/Common/DBCurve_girl015b_02_Ma_Standby_Stand01"
+              }
+            },
+            {
+              "SocketName": "shake_LB_Thigh",
+              "Intensity": 5,
+              "UIName": "uw_girlroom_peace_light",
+              "SizeRatio": {
+                "ObjectName": "CurveFloat'DBCurve_girl015b_02_Ma_Standby_Stand01'",
+                "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/girl015b_02/Physics/Common/DBCurve_girl015b_02_Ma_Standby_Stand01"
+              }
+            }
+          ]
+        }
+      ],
+      "StateName": "A",
+      "EnterEvents": [
+        {
+          "ObjectName": "InteractionV3Event_Achievement'Sc01:ScenarioStateNode_Entry_0.InteractionV3Event_Achievement_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.15"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioStateNode_LittleGame",
+    "Name": "ScenarioStateNode_LittleGame_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateNode_LittleGame'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.35"
+    },
+    "Properties": {
+      "LittleGameTemplate": {
+        "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/GBP_KatyaMarry_Sc01_B.GBP_KatyaMarry_Sc01_B_C",
+        "SubPathString": ""
+      },
+      "StandbyActorInfos": [
+        {
+          "ActorName": "Katya",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Characters/Girl/girl015b_02/Anim/manifestation/KatyaMarry/girl015b_02_ma_Sc01_B_Standby_01.girl015b_02_ma_Sc01_B_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "/Game/Characters/CommonFace/girl015b_02_com01/AnimPart00/manifestation/KatyaMarry/girl015b_02_com01_face_ma_Sc01_B_Standby_01.girl015b_02_com01_face_ma_Sc01_B_Standby_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "playernohead",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/KatyaMarry_prop19/Anim/KatyaMarry_prop19_ma_Sc01_B_Standby_01.KatyaMarry_prop19_ma_Sc01_B_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "camera",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/KatyaMarry_prop01/Anim/KatyaMarry_prop01_ma_Sc01_B_Standby_01.KatyaMarry_prop01_ma_Sc01_B_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "flower",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/KatyaMarry_prop11/Anim/KatyaMarry_prop11_ma_Sc01_B_Standby_01.KatyaMarry_prop11_ma_Sc01_B_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "StateName": "B"
+    }
+  },
+  {
+    "Type": "ScenarioStateNode_LittleGame",
+    "Name": "ScenarioStateNode_LittleGame_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateNode_LittleGame'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/Scenario/Sc01.35"
+    },
+    "Properties": {
+      "LittleGameTemplate": {
+        "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC30/KatyaMarry/GBP_KatyaMarry_Sc01_D.GBP_KatyaMarry_Sc01_D_C",
+        "SubPathString": ""
+      },
+      "StandbyActorInfos": [
+        {
+          "ActorName": "Katya",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Characters/Girl/girl015b_02/Anim/manifestation/KatyaMarry/girl015b_02_ma_Sc01_D_Standby_01.girl015b_02_ma_Sc01_D_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "/Game/Characters/CommonFace/girl015b_02_com01/AnimPart00/manifestation/KatyaMarry/girl015b_02_com01_face_ma_Sc01_D_Standby_01.girl015b_02_com01_face_ma_Sc01_D_Standby_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "playernohead",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/KatyaMarry_prop19/Anim/KatyaMarry_prop19_ma_Sc01_D_Standby_01.KatyaMarry_prop19_ma_Sc01_D_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "StateName": "D"
+    }
+  }
+]

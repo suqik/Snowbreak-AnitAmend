@@ -1,0 +1,75 @@
+xxx_440329416	A	A	A	A	A	A	A	A	A	A	A
+Key	zh_CN	zh_TW	ja_JP	ko_KR	en_US	fr_FR	es_ES	de_DE	th_TH	id_ID	disable
+1	那次难忘的约会之后，我和奈莉德之间多出了一种奇妙的默契。	那次難忘的約會之後，我和奈莉德之間多出了一種奇妙的默契。	あの忘れがたいデートのあと、私とネリーダの間に暗黙の了解ができたようだ。	잊을 수 없는 그날의 데이트 후, 나와 네리다 사이에는 묘한 케미가 생겼다.	After that unforgettable date, a subtle new understanding developed between Nerida and me.						0
+2	也许是约会的余韵。谁也没有主动去找谁，偶然在基地遇见也是相视一笑。	也許是約會的餘韻。誰也沒有主動去找誰，偶然在基地遇到也是相視一笑。	デートの余韻とでも言うべきかもしれない。相手に話しかけることもなく、寮でばったり会っても笑い合うだけに留まっている。	데이트의 여운 때문일까. 아무도 서로를 먼저 찾아가지 않았고, 우연히 숙소에서 만나도 서로에게 눈웃음을 지을 뿐이었다.	Perhaps it was the lingering afterglow, neither of us rushed to reach out, and whenever we ran into each other at the Base, we'd simply exchange smiles.						0
+3	谁也没有开口。每次见面，就能想到那个长长的吻，那种触感仿佛还停留在唇边。	誰也沒有開口。每次見面，就能想到那個長長的吻，那種觸感彷彿還停留在唇邊。	ふたりとも、なにひとつ喋らなかった。会うたびに、あの長いキスの感触がまだ唇に残っているような気がする。	아무도 먼저 입을 열지 않았다. 마주칠 때마다 그날의 길었던 키스가 떠올랐고, 그때의 촉감이 아직도 입술에 남아 있는 듯했다.	Neither made the first move. Each time we met, I'd recall that lingering kiss, the sensation seemingly preserved on my lips.						0
+4	大概不会有人在接吻时开口，自然也不会主动打破这种久久都未消散的气氛。	大概不會有人在接吻時開口，當然也不會主動打破這種久久都未消散的氣氛。	キスをするときに話す人がいないように、今も残っているその曖昧な空気を自ら台無しにする人もいないだろう。	키스할 때 말을 꺼내는 사람은 없듯이, 오랫동안 이어진 이 분위기를 먼저 깨는 일도 당연히 없을 것이다.	No one typically speaks during a kiss, and naturally, we didn't wish to disrupt the delicate atmosphere that persisted afterward.						0
+5	于我而言，这样的奈莉德别有一番风情。至于我们的关系又如何变化，我暂时没有去想。	對我而言，這樣的奈莉德別有一番風情。至於我們的關係又如何變化，我暫時沒有去想。	私にとって、そんなネリーダも素敵だと思った。私たちの関係がどう変化していくのかは、まだ考えていない。	이런 네리다는 내게 더욱 특별해 보였다. 다만 우리의 관계가 앞으로 어떻게 변할지에 대해서는 굳이 생각하지 않았다.	To me, there was a distinctive charm to this side of Nerida. As for where our relationship might progress next, I hadn't really thought about it.						0
+7	而当这种气氛还在持续的时候，奈莉德似乎要主动出击了——	而當這種氣氛還在持續的時候，奈莉德似乎要主動出擊了——	そんな空気が続くなか、ネリーダはうずうずしだしたようだ。	그런데 이런 분위기가 여전히 지속되고 있을 때, 네리다가 먼저 나서려는 것 같았다.	And just as that atmosphere continued to linger, it appeared Nerida was finally making a move—						0
+8	我像往常一样结束了工作，回到房间里准备休息。	我像往常一樣結束了工作，回到房間準備休息。	いつものように仕事を終え、私は部屋に戻って休もうとした。	내가 평소처럼 일을 마치고 방으로 돌아가 쉬려던 때였다.	I finished work as usual and returned to my room to rest.						0
+10	忙吗？	忙嗎？	ちょっといいか？	바빠?	Are you busy?						0
+11	门没关，奈莉德倚在门框上，弯着嘴角。	門沒關，奈莉德靠在門框上，彎著嘴角。	ネリーダは閉めていないドアに寄りかかって、かすかに笑っていた。	문은 닫혀 있지 않았고, 네리다는 씩 웃으며 문틀에 기대어 있었다.	The door wasn't closed. Nerida leaned against the doorframe, a smile playing on her lips.						0
+12	不忙的话，一起去散散步？	不忙的話，一起去散散步？	手が空いてるなら、散歩につきあってくれないか？	안 바쁘면 같이 산책할래?	If not, do you want to go for a walk?						0
+13	她嘴角上扬的弧度好像藏着什么“阴谋诡计”——那就更有去看看的必要了。	她嘴角上揚的弧度好像藏著什麼「陰謀詭計」——那就更有去看看的必要了。	その微笑みはなにか企んでいるように見えた。だからこそ、確かめなくては。	그녀의 올라간 입꼬리에 무언가 '음흉한 계략'이 숨겨져 있는 듯했다. 그렇다면 더더욱 따라가 봐야 하겠지.	The curve of her lips seemed to conceal some "scheme," all the more reason for me to go find out.						0
+14	好啊。	好啊。	わかった。	좋지.	Sure.						0
+15	天已经黑了。街道冷清，霓虹灯和月光映着倒影。	天已經黑了。街道冷清，霓虹燈和月光映著倒影。	空は暗くなっている。道には人けがなく、ネオンと月の光が輝き合っている。	날은 이미 저물어 있었다. 도로는 썰렁했고 네온사인과 달빛이 그림자를 드리웠다.	Night had already descended. The streets were quiet, with neon lights and moonlight reflecting off the ground.						0
+16	我们肩并肩走着。手背有意无意地碰到，又自然而然地扣在一起。	我們肩並肩走著。手背有意無意地碰到，又自然而然地扣在一起。	私はネリーダと肩を並べて歩いていた。手の甲が無意識に触れ合うと、いつの間にか手を繋いだ。	우리는 나란히 걸었다. 무심코 서로의 손등이 스쳤고, 자연스럽게 손을 맞잡았다.	We walked side by side. The backs of our hands brushed, intentionally or not, and then our fingers intertwined naturally.						0
+17	走到那天睡着的公园，走过那家餐厅。晚风吹着头发，远处的招牌模糊，顺着街道铺向远方。	走到那天睡著的公園，走過那家餐廳。晚風吹著頭髮，遠處的招牌模糊，順著街道鋪向遠方。	少し歩くと、あの日昼寝をした公園と昼食を取った店の前を通り越した。夜風に吹かれたまま、遠くにある看板のほうへ、道沿いに歩いていく。	그날 잠들었던 공원까지 걷고, 그 식당도 지나쳤다. 밤바람에 머리카락이 휘날렸다. 먼 곳의 간판이 어렴풋이 보였고 도로를 따라 저 멀리까지 펼쳐져 있었다.	We passed the park where we'd fallen asleep the other day, and the restaurant we'd visited. The night breeze swept through our hair as distant signboards traced down the road.						0
+18	就这么沉默地走着。我感觉到她在酝酿着什么，要说些什么。	就這樣沉默地走著。我感覺到她在醞釀著什麼，要說些什麼。	そう静かに歩いていると、彼女がなにかを言おうと考えていることに気が付いた。	그렇게 말없이 계속 걸었다. 그녀는 무언가 할 말이 있는 듯 고민하는 눈치였다.	We strolled in silence. I could sense she was getting ready to say something.						0
+19	但猜不到，也不想打断她的思考。	但猜不到，也不想打斷她的思考。	なんの話かは当てようがない。それに、彼女の思考を途切れさせる気も私にはなかった。	하지만 무슨 말을 할지 짐작이 가지도 않았고, 그녀의 생각을 끊고 싶지도 않았다.	But I couldn't guess what, and I didn't want to interrupt her thoughts.						0
+20	就这么漫无目的地牵着手走着，直到灯也都熄灭了，只剩下凉凉夜色。	就這樣漫無目的地牽著手走著，直到燈也都熄滅了，只剩下涼涼夜色。	そう無闇に歩いていると、いつの間にか照明もなくなり、涼しい闇夜だけが私たちを包んだ。	그렇게 아무런 목적 없이 손을 잡으며 걷다 보니 어느새 불도 꺼지고, 서늘한 밤이 되었다.	So we wandered aimlessly, hand in hand, until even the streetlights dimmed and only the cool night enveloped us.						0
+21	基地大厅还亮着灯——不知道什么时候走到了这里。	基地大廳的燈還亮著——不知道什麼時候走到了這裡。	寮のロビーは明かりがついているようだ。気が付けば、ここまで歩いてきていた。	로비는 아직 불이 켜져 있었다. 어느새 여기까지 와버렸다.	The lights in the Base hall still glowed — somehow, we'd found our way back.						0
+22	走过走廊，走到她的房间里。	走過走廊，走到她的房間裡。	廊下を通って、彼女の部屋に入る。	복도를 지나 그녀의 방에 도착했다.	We walked down the corridor, into her room.						0
+23	没有开灯，水族箱的灯成了唯一的光源。	沒有開燈，水族箱的燈成了唯一的光源。	そこは明かりもついていない。水槽の照明が唯一の光源だ。	불은 켜지 않았고, 어항의 조명이 유일한 불빛이었다.	She didn't turn on the lights. The aquarium provided the only source of light.						0
+24	她转过身，直视着我的眼睛。	她轉過身，直視我的眼睛。	ネリーダは振り向いて、私の目を覗き込んだ。	그녀는 몸을 돌려 내 눈을 똑바로 바라봤다.	She turned around to look straight into my eyes.						0
+25	我想了一路。	我想了一路。	ずっと考えていた。	오면서 계속 생각했어.	I've been thinking the entire way.						0
+26	怎么开场。怎么收尾。怎么组织语言，怎么递进。	怎麼開場，怎麼收尾，怎麼組織語言，怎麼遞進。	どう話しはじめるか、どう締めるか、どう表現するか、どう話題を展開すべきかを。	어떤 말로 시작할까, 어떤 말로 끝낼까, 어떻게 말할까, 어떻게 이어 나갈까.	How to begin, how to end, the right words, how to build toward it.						0
+27	她顿了顿。我没有说话，等着她继续往下说。	她頓了頓。我沒有說話，等她繼續往下說。	ここで、彼女の言葉が途切れた。私はなにも言わず、じっと待つことにした。	그녀가 망설였다. 나는 잠자코 그녀가 계속 말하기를 기다렸다.	She paused. I remained silent, simply waiting for her to continue.						0
+28	比调查报告难写多了。我好像确实不太擅长这个。	比調查報告難寫多了。我好像確實不太擅長這個。	調査報告書よりも難しいことだった。確かにこういうのは苦手なのかもしれない。	조사 보고서 작성보다 더 어렵더라. 난 이런 건 정말 못하나 봐.	It's harder than writing an investigation report. I suppose I really am not good at this.						0
+29	但是，该说的话还是要说的。	但是，該說的話還是要說的。	でも、言うべきことをしっかり伝えようと思う。	그래도 할 말은 해야지.	Still, there are things that need to be said.						0
+30	她认真地看着我，深吸了一口气。	她認真地看著我，深吸了一口氣。	そう話しながら、彼女は私を見つめて、深呼吸をした。	그녀는 진지하게 나를 바라보며 깊게 숨을 들이마셨다.	She regarded me seriously and drew a deep breath.						0
+31	我爱你，playername。	我愛你，playername。	愛している、playername。	사랑해, playername.	I love you, playername.						0
+32	嗯。	嗯。	そう。	응.	Yeah.						0
+33	我想说的就是这个，我爱你。	我想說的就是這個，我愛你。	これが言いたかった。	이게 내가 하고 싶었던 말이야. 사랑해.	That's what I needed to say. I love you.						0
+34	无论如何都想告诉你。	無論如何都想告訴你。	なんとしても言いたかった。	어찌 됐든 꼭 말해주고 싶었어.	No matter what, I wanted you to know.						0
+35	不知道为什么，张口说这句话这么难。	不知道為什麼，張口說這句話這麼難。	ここまで口に出せない言葉だとは知らなかった。	왠지 모르게 이 말을 하기가 그렇게 어렵더라.	I don't know why, but saying this out loud was so hard.						0
+36	但是我还是要说——	但是我還是要說——	それでもおまえに伝えたいんだ。	그래도 해야겠어…	But I had to say it—						0
+37	我爱你。	我愛你。	愛している。	사랑해.	I love you.						0
+38	没有人比你更懂我。甚至比我自己更懂我。	沒有人比你更懂我。甚至比我自己更懂我。	おまえは、他の誰かよりも、私自身よりも、私のことを理解している。	너만큼 나를 잘 아는 사람은 없어. 심지어 나 자신보다도 더 잘 알 거야.	No one understands me more than you do. You know me even better than I know myself.						0
+39	和你在一起的每一分每一秒都恰到好处。	和你在一起的每一分每一秒都恰到好處。	おまえと共に過ごす一分一秒が心地よい。	너랑 함께하는 1분 1초가 다 완벽해.	Every moment I spend with you feels just right.						0
+40	我一开始不理解。不明白这种感觉如何名状。	我一開始不理解。不明白這種感覺如何形容。	正直、最初は理解できなかった。どう言語化したらいいかわからなかった。	처음에는 이해가 안 됐어. 이런 감정을 뭐라고 해야 할지도 모르겠더라.	At first, I didn't understand. I couldn't put a name to this feeling.						0
+41	可能这就是幸福吧。	可能這就是幸福吧。	たぶん、これが幸せなのだろう。	이런 게 아마 행복이겠지.	But perhaps this is what happiness feels like.						0
+42	谢谢你。	謝謝你。	ありがとう。	고마워.	Thank you.						0
+43	和你在一起，我很幸福。	和你在一起，我很幸福。	おまえと一緒にいられて、幸せだ。	너랑 함께라서 행복해.	Being with you makes me so happy.						0
+44	之所以要说这些——你可能有点莫名其妙——别急着摇头。	之所以要說這些……你可能有點莫名其妙……別急著搖頭。	おまえからすると不思議に思うかもしれないが、こんなことを言うのは……すぐに否定しないでくれ。	이런 말을 하는 이유는… 넌 이상하다고 생각하겠지만… 벌써 부정하진 마.	The reason I'm telling you all this — you might find it strange — wait, don't deny it just yet.						0
+45	因为我感到遗憾。	因為我感到遺憾。	…悔しいと思ったからだ。	아쉬워서 그래.	It's because I feel a sense of regret.						0
+46	我以前从不觉得需要什么仪式感。	我以前從來不覺得需要什麼儀式感。	昔の私は、特別感なんて必要ないと思っていた。	난 지금까지 무언가를 챙겨야 한다고 생각한 적이 없었어.	I never used to think I'd be one for ceremony.						0
+47	不需要过生日。不需要过节日。不需要谁来陪我。	不需要過生日。不需要過節日。不需要誰來陪我。	誕生日も、祝日も、誰かにそばにいてもらうのも、別にいらない。	생일을 축하한다거나 명절을 보낼 필요도 없고, 누가 나와 함께해줄 필요도 없었지.	I never needed to celebrate birthdays or holidays. I never needed anyone by my side.						0
+48	可现在……我变了。	但現在……我變了。	でも、今の私は……変わったんだ。	하지만 지금은… 달라졌어.	But now... I've changed.						0
+49	渴望和你在一起。度过更多时间，经历更多事情。	渴望和你在一起。度過更多時間，經歷更多事情。	おまえと一緒にいたい。もっと過ごしたい。もっとたくさん経験したい。	너랑 같이 있고 싶어. 더 많은 시간을 보내고, 더 많은 일을 함께하고 싶어.	I want to be with you, to spend more time together, to experience more of life with you.						0
+50	想要记住每一刻。哪怕是有点不知所谓的告白和有点简单笨拙的初吻。	想要記住每一刻。哪怕是有點不知所以的告白和有點簡單笨拙的初吻。	わけのわからない告白も、拙いファーストキスも、どんなことも心に刻んでおきたい。	모든 순간을 기억하고 싶어. 말도 안 되는 고백이나 서툰 첫 키스까지도.	I want to remember every single moment, even my awkward confessions of love and that simple, clumsy first kiss we shared.						0
+51	哪怕是遗憾。我也想要记住。	哪怕是遺憾。我也想要記住。	悔しいけど、覚えておきたい。	아쉬움까지도. 난 모두 기억하고 싶어.	Even the regrets — I want to remember them too.						0
+52	——我会陪在你身边的。	——我會陪在你身邊的。	――ああ、君のそばにいるから。	… 네 곁에 있을게.	—I'll always be by your side.						0
+53	不管发生什么。不管有多大的困难，我都会陪着你的。	不管發生什麼事。不管有多大的困難，我都會陪著你的。	なにがあっても、どんな困難が待ち受けていてもだ。	무슨 일이 있어도, 어떤 어려움이 있어도 난 항상 네 곁에 있어 줄게.	No matter what happens. No matter how difficult things become, I'll be there for you.						0
+54	这是我的回应，奈莉德。也是我的诺言。	這是我的回應，奈莉德。也是我的諾言。	これが私の答えと約束だ、ネリーダ。	이게 내 대답이야, 네리다. 약속이기도 하고.	That's my answer, Nerida, and my promise.						0
+55	她走近了，靠了上来。我抱住她，往后退了退，刚好关上了门。	她走近了，靠了上來。我抱住她，往後退了退，剛好關上了門。	彼女は私に近づいてきて、体を寄せてきた。彼女を抱きしめて、一歩後ずさると、ちょうど扉が閉じた。	그녀가 가까이 다가왔다. 내가 그녀를 안으며 뒤로 물러나자, 때마침 문이 닫혔다.	She moved closer and leaned into me. I wrapped my arms around her as I stepped back against the door, making it click shut behind us.						0
+56	她把头埋在我的怀里，深深吸了一口气。	她把頭埋在我的懷裡，深深吸了一口氣。	ネリーダは顔を私の胸に埋めて、深呼吸した。	그녀는 내 품속에 고개를 묻고 깊게 숨을 들이마셨다.	She buried her face in my chest, taking in a deep breath.						0
+57	……	……	……	…	...						0
+58	她的声音太轻，以至于在这样安静的房间里都听不见。	她的聲音太輕，連在這樣安靜的房間裡都聽不見。	彼女があげたあまりにも小さな声は、こんなに静かな部屋にいても聞き取れなかった。	그녀의 목소리는 너무 작아서 이렇게 조용한 방 안에서도 들리지 않았다.	Her voice was so soft that even in the quiet room, I couldn't hear it clearly.						0
+59	我没听清。	我沒聽清楚。	今、なんて？	잘 안 들려.	I didn't quite catch that.						0
+60	她抬起头，却没有回答我，而是扯开了我的衣服。	她抬起頭，卻沒有回答我，而是扯開了我的衣服。	ネリーダは顔をあげた。でも、彼女はなにも答えず、ただ私の服を引っ張った。	그녀는 고개를 들었지만 대답하지 않았고, 내 옷만 잡아당겼다.	She raised her head but didn't answer. Instead, she suddenly ripped open my jacket.						0
+61	我刚想抱她，她却顺势抓住我的袖子往外一扯，把外套脱了下来。	我剛想抱她，她卻順勢抓住我的袖子往外一扯，把外套脫了下來。	彼女に腕を回そうとすると、隙を狙われて、上着を腕から脱がされてしまった。	그녀를 품에 안으려는데, 그녀가 내 소매를 잡고 당기더니 외투를 벗겨버렸다.	As I reached to hold her, she grabbed the sleeve and pulled my jacket off.						0
+62	紧接着，她一手解着我的衬衣扣子，一手把我的肩膀按在了门上。	緊接著，她一手解著我的襯衫釦子，一手把我的肩膀按在門上。	そして彼女は私のシャツのボタンを外しながら、片手で私の肩をドアに押し付けた。	뒤이어 한 손으로는 내 셔츠 단추를 풀고 다른 한 손으로는 내 어깨를 문에 눌렀다.	With one hand unfastening the buttons on my shirt, her other hand pushed my shoulder against the door.						0
+63	像凶恶的老虎扑着猎物，狠狠撕咬着。她如此吻着，如此狂野地进攻着。	像兇惡的老虎撲著獵物，狠狠地撕咬。她如此吻著，如此狂野地進攻。	まるでトラが獲物に噛みつくように、ネリーダは私に口づけをしながら、乱暴に攻め込んできた。	마치 사냥감에 달려들어 사정없이 물어뜯는 흉악한 호랑이처럼, 그녀는 그렇게 입을 맞추며 거칠게 공격해 왔다.	Like a fierce tiger pouncing on its prey, she kissed me wildly and aggressively.						0
+64	我刚刚说……	我剛剛說……	「おまえをくれ」と……	방금 뭐라고 했냐면…	I was saying...						0
+65	给我。	給我。	言ったんだ。	나한테 달라고.	I want you.						0
+66	在除掉了我的所有防御之后，她整个人挂在了我身上。我只能抱紧她，以免她滑下去。	在除掉了我的所有防禦之後，她整個人掛在了我身上。我只能抱緊她，以免她滑下來。	私の身ぐるみをすべて剥がすと、ネリーダは私の体にしがみ付いた。彼女が落ちるのが怖くなって、私は彼女をぎゅっと抱きしめた。	그녀는 나의 모든 방어막을 제거하더니 내 몸에 매달렸다. 나는 그녀가 떨어지지 않도록 꽉 붙잡을 수밖에 없었다.	After stripping away my last defenses, she clung to me, forcing me to hold her tightly so she wouldn't slip.						0
+67	好。	好。	わかった。	좋아.	Okay.						0
+68	是有意为之的落后。她的进攻惹人怜惜，所以放任她的所有举动。	是有意為之的落後。她的進攻惹人憐惜，所以放任她的所有舉動。	実は、わざと様子見をしていた。彼女の挙動があまりにも初々しかったから、私は好きにさせようと決めた。	나는 일부러 그녀에게 져주었다. 거침없는 그녀를 보니 마음이 아팠고, 그래서 그녀의 모든 행동을 내버려두었다.	This was a deliberate show of weakness. Her attack was so endearing that I let her take control.						0
+69	但攻防的形势是天然的。或者也没有输赢，只有纯粹的战斗。	但攻防的形勢是天然的。或者也沒有輸贏，只有純粹的戰鬥。	しかし、攻める側と防御する側は最初から決まっている。というか、勝ち負けはここでは意味がない。ただ戦うことに意味があるのだ。	하지만 공격과 방어의 결과는 당연했다. 어쩌면 승패 없이 그저 순수한 전투만 있을지도 모른다.	But this push and pull felt natural. Perhaps there's no winner here — just a pure, simple connection.						0
+70	事已至此。除了战斗，再没有别的方式来宣泄情绪了。	事已至此。除了戰鬥，再也沒有別的方式來宣洩情緒了。	もうここまで来たんだ。戦うこと以外、この気持ちを落ち着かせる方法はない。	이쯤 되니 전투 외에는 감정을 쏟아낼 다른 방법이 없었다.	At this point, there was no other way to express our emotions except through this passionate exchange.						0
+71	夜色渐淡，晨光初启。	夜色漸淡，晨光初啟。	夜が明けて、空は薄明かりに染まった。	어둠이 점차 옅어지고 아침 햇살이 밝아왔다.	Night faded as morning light began to creep in.						0
+72	战斗终于结束了。她已经沉沉睡去，脸上还带着胜利的光彩。	戰鬥終於結束了。她已經沉沉睡去，臉上還帶著勝利的光彩。	戦闘終了だ。彼女はすでに勝利した笑みを浮かべて眠っていた。	전투는 마침내 끝이 났다. 그녀는 이미 깊이 잠들었고, 얼굴에는 승리의 빛이 감돌았다.	Our intimate battle finally ended. She had fallen into a deep sleep, with a triumphant glow on her face.						0
+73	阳光透过窗户，打在她的侧脸上。	陽光透過窗戶，打在她的側臉上。	光が窓から差し込んで、彼女の横顔を照らす。	햇빛이 창문을 통해 들어와 그녀의 옆얼굴을 비추었다.	Sunlight streamed through the window, illuminating her profile.						0
+74	她终于走到了阳光下。	她終於走到了陽光下。	ネリーダはやっと太陽の下に来たんだ。	마침내 그녀가 햇빛 아래에 있게 되었다.	She had finally stepped into the sunlight.						0
+75	一样很美。	一樣很美。	そんな彼女も、やっぱり綺麗だった。	여전히 아름다웠다.	Still beautiful as ever.						0

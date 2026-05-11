@@ -1,0 +1,392 @@
+[
+  {
+    "Type": "SkeletalMesh",
+    "Name": "girl021_04_body01_skm",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMesh'",
+    "Properties": {
+      "Skeleton": {
+        "ObjectName": "Skeleton'girl021_body01_skm_Skeleton'",
+        "ObjectPath": "/Game/Characters/Girl/girl021/girl021_body01_skm_Skeleton"
+      },
+      "LODInfo": [
+        {
+          "ScreenSize": {
+            "bCooked": true,
+            "Default": 1.0,
+            "PerPlatform": null,
+            "Value": 1.0
+          },
+          "LODHysteresis": 0.0,
+          "LODMaterialMap": [],
+          "BuildSettings": {
+            "bRecomputeNormals": false,
+            "bRecomputeTangents": true,
+            "bUseMikkTSpace": true,
+            "bComputeWeightedNormals": true,
+            "bRemoveDegenerates": true,
+            "bUseHighPrecisionTangentBasis": false,
+            "bUseFullPrecisionUVs": false,
+            "bBuildAdjacencyBuffer": true,
+            "ThresholdPosition": 2E-05,
+            "ThresholdTangentNormal": 2E-05,
+            "ThresholdUV": 0.000977,
+            "MorphThresholdPosition": 0.015
+          },
+          "ReductionSettings": {
+            "TerminationCriterion": "SMTC_NumOfTriangles",
+            "NumOfTrianglesPercentage": 1.0,
+            "NumOfVertPercentage": 0.5,
+            "MaxNumOfTriangles": 4,
+            "MaxNumOfVerts": 6,
+            "MaxDeviationPercentage": 0.5,
+            "ReductionMethod": "SMOT_NumOfTriangles",
+            "SilhouetteImportance": "SMOI_Normal",
+            "TextureImportance": "SMOI_Normal",
+            "ShadingImportance": "SMOI_Normal",
+            "SkinningImportance": "SMOI_Normal",
+            "bRemapMorphTargets": false,
+            "bRecalcNormals": true,
+            "WeldingThreshold": 0.1,
+            "NormalsThreshold": 60.0,
+            "MaxBonesPerVertex": 4,
+            "bEnforceBoneBoundaries": false,
+            "VolumeImportance": 1.0,
+            "bLockEdges": false,
+            "bLockColorBounaries": false,
+            "BaseLOD": 0
+          },
+          "BonesToRemove": [],
+          "BonesToPrioritize": [],
+          "WeightOfPrioritization": 1.0,
+          "BakePose": null,
+          "BakePoseOverride": null,
+          "SourceImportFilename": "",
+          "SkinCacheUsage": "ESkinCacheUsage::Auto",
+          "bHasBeenSimplified": false,
+          "bHasPerLODVertexColors": false,
+          "bAllowCPUAccess": false,
+          "bSupportUniformlyDistributedSampling": false
+        },
+        {
+          "ScreenSize": {
+            "bCooked": true,
+            "Default": 0.4,
+            "PerPlatform": null,
+            "Value": 0.4
+          },
+          "LODHysteresis": 0.0,
+          "LODMaterialMap": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "BuildSettings": {
+            "bRecomputeNormals": false,
+            "bRecomputeTangents": true,
+            "bUseMikkTSpace": true,
+            "bComputeWeightedNormals": true,
+            "bRemoveDegenerates": true,
+            "bUseHighPrecisionTangentBasis": false,
+            "bUseFullPrecisionUVs": false,
+            "bBuildAdjacencyBuffer": true,
+            "ThresholdPosition": 2E-05,
+            "ThresholdTangentNormal": 2E-05,
+            "ThresholdUV": 0.000977,
+            "MorphThresholdPosition": 0.015
+          },
+          "ReductionSettings": {
+            "TerminationCriterion": "SMTC_NumOfTriangles",
+            "NumOfTrianglesPercentage": 1.0,
+            "NumOfVertPercentage": 0.5,
+            "MaxNumOfTriangles": 4,
+            "MaxNumOfVerts": 6,
+            "MaxDeviationPercentage": 0.5,
+            "ReductionMethod": "SMOT_NumOfTriangles",
+            "SilhouetteImportance": "SMOI_Normal",
+            "TextureImportance": "SMOI_Normal",
+            "ShadingImportance": "SMOI_Normal",
+            "SkinningImportance": "SMOI_Normal",
+            "bRemapMorphTargets": false,
+            "bRecalcNormals": true,
+            "WeldingThreshold": 0.1,
+            "NormalsThreshold": 60.0,
+            "MaxBonesPerVertex": 4,
+            "bEnforceBoneBoundaries": false,
+            "VolumeImportance": 1.0,
+            "bLockEdges": false,
+            "bLockColorBounaries": false,
+            "BaseLOD": 0
+          },
+          "BonesToRemove": [],
+          "BonesToPrioritize": [],
+          "WeightOfPrioritization": 1.0,
+          "BakePose": null,
+          "BakePoseOverride": null,
+          "SourceImportFilename": "//pig3/【06】动作/何江悦/bug 修改/3.5/girl021_04/【角色皮肤】【三端】奈莉德-游闲心舒，持枪瞄准时开火肩膀衣服穿模/girl021_04/fight/girl021_04_body01_skm01.fbx",
+          "SkinCacheUsage": "ESkinCacheUsage::Auto",
+          "bHasBeenSimplified": false,
+          "bHasPerLODVertexColors": false,
+          "bAllowCPUAccess": false,
+          "bSupportUniformlyDistributedSampling": false
+        },
+        {
+          "ScreenSize": {
+            "bCooked": true,
+            "Default": 0.2,
+            "PerPlatform": null,
+            "Value": 0.2
+          },
+          "LODHysteresis": 0.0,
+          "LODMaterialMap": [],
+          "BuildSettings": {
+            "bRecomputeNormals": true,
+            "bRecomputeTangents": true,
+            "bUseMikkTSpace": true,
+            "bComputeWeightedNormals": false,
+            "bRemoveDegenerates": true,
+            "bUseHighPrecisionTangentBasis": false,
+            "bUseFullPrecisionUVs": false,
+            "bBuildAdjacencyBuffer": true,
+            "ThresholdPosition": 2E-05,
+            "ThresholdTangentNormal": 2E-05,
+            "ThresholdUV": 0.0009765625,
+            "MorphThresholdPosition": 0.015
+          },
+          "ReductionSettings": {
+            "TerminationCriterion": "SMTC_NumOfTriangles",
+            "NumOfTrianglesPercentage": 0.2,
+            "NumOfVertPercentage": 0.5,
+            "MaxNumOfTriangles": 4,
+            "MaxNumOfVerts": 6,
+            "MaxDeviationPercentage": 0.5,
+            "ReductionMethod": "SMOT_NumOfTriangles",
+            "SilhouetteImportance": "SMOI_Normal",
+            "TextureImportance": "SMOI_Normal",
+            "ShadingImportance": "SMOI_Normal",
+            "SkinningImportance": "SMOI_Normal",
+            "bRemapMorphTargets": false,
+            "bRecalcNormals": true,
+            "WeldingThreshold": 0.1,
+            "NormalsThreshold": 60.0,
+            "MaxBonesPerVertex": 4,
+            "bEnforceBoneBoundaries": false,
+            "VolumeImportance": 1.0,
+            "bLockEdges": false,
+            "bLockColorBounaries": false,
+            "BaseLOD": 0
+          },
+          "BonesToRemove": [],
+          "BonesToPrioritize": [],
+          "WeightOfPrioritization": 1.0,
+          "BakePose": null,
+          "BakePoseOverride": null,
+          "SourceImportFilename": "",
+          "SkinCacheUsage": "ESkinCacheUsage::Auto",
+          "bHasBeenSimplified": true,
+          "bHasPerLODVertexColors": false,
+          "bAllowCPUAccess": false,
+          "bSupportUniformlyDistributedSampling": false
+        }
+      ],
+      "bHasBeenSimplified": true,
+      "bHasVertexColors": true,
+      "PhysicsAsset": {
+        "ObjectName": "PhysicsAsset'girl021_body01_skm_PhysicsAsset'",
+        "ObjectPath": "/Game/Characters/Girl/girl021/girl021_body01_skm_PhysicsAsset"
+      },
+      "PostProcessAnimBlueprint": {
+        "ObjectName": "AnimBlueprintGeneratedClass'girl021_abpp_C'",
+        "ObjectPath": "/Game/Characters/Girl/girl021/girl021_abpp"
+      },
+      "SamplingInfo": {
+        "BuiltData": {
+          "WholeMeshBuiltData": [
+            {
+              "AreaWeightedTriangleSampler": {
+                "Prob": [],
+                "Alias": [],
+                "TotalWeight": 0.0
+              }
+            },
+            {
+              "AreaWeightedTriangleSampler": {
+                "Prob": [],
+                "Alias": [],
+                "TotalWeight": 0.0
+              }
+            },
+            {
+              "AreaWeightedTriangleSampler": {
+                "Prob": [],
+                "Alias": [],
+                "TotalWeight": 0.0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "ImportedBounds": {
+      "Origin": {
+        "X": 0.840538,
+        "Y": 0.0,
+        "Z": 89.26694
+      },
+      "BoxExtent": {
+        "X": 21.301273,
+        "Y": 54.719,
+        "Z": 88.21338
+      },
+      "SphereRadius": 105.9694
+    },
+    "SkeletalMaterials": [
+      {
+        "MaterialSlotName": "girl021_04_body00_inst",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'girl021_04_body00_inst'",
+          "ObjectPath": "/Game/Characters/Girl/girl021_04/Materials/girl021_04_body00_inst"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            102.45129,
+            0.0,
+            14.280024,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "girl021_04_body01_inst",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'girl021_04_body01_inst'",
+          "ObjectPath": "/Game/Characters/Girl/girl021_04/Materials/girl021_04_body01_inst"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            103.00531,
+            0.0,
+            7.7528043,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "girl021_04_body02_inst",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'girl021_04_body02_inst'",
+          "ObjectPath": "/Game/Characters/Girl/girl021_04/Materials/girl021_04_body02_inst"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            134.51451,
+            0.0,
+            8.701459,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "girl021_hair01_inst",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'girl021_hair01_inst'",
+          "ObjectPath": "/Game/Characters/Girl/girl021/Materials/girl021_hair01_inst"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            82.9226,
+            1712.2662,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "girl021_hair01_inst_2",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'girl021_hair01_inst_2'",
+          "ObjectPath": "/Game/Characters/Girl/girl021/Materials/girl021_hair01_inst_2"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            54.5964,
+            307.06128,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "girl021_hair01_shadow_inst",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'girl021_hair01_shadow_inst'",
+          "ObjectPath": "/Game/Characters/Girl/girl021/Materials/girl021_hair01_shadow_inst"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            133.52368,
+            3104.8835,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    ],
+    "LODModels": [
+      {
+        "Sections": [
+          {
+            "MaterialIndex": 0,
+            "BaseIndex": 0,
+            "NumTriangles": 12643,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Green",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 0,
+            "NumVertices": 80,
+            "MaxBoneInfluences": 327855,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": 208,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "NumVertices": 0,
+        "NumTexCoords": 0,
+        "VertexBufferGPUSkin": null
+      },
+      null,
+      null
+    ],
+    "NaniteResources": null
+  }
+]

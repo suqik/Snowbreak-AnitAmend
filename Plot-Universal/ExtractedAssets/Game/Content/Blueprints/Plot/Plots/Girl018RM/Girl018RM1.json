@@ -1,0 +1,4163 @@
+[
+  {
+    "Type": "Plot",
+    "Name": "Girl018RM1",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Plot'",
+    "Properties": {
+      "PlotConfig": "Girl018RM\\Girl018RM1",
+      "RootItem": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      }
+    }
+  },
+  {
+    "Type": "PlotItem_BackgroundTransform",
+    "Name": "PlotItem_BackgroundTransform_149",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_BackgroundTransform'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "RelativeAnchors": {
+        "X": 0.5,
+        "Y": 0.5
+      },
+      "Duration": 0.3,
+      "ScaleMultiplier": 0.95,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 22
+    }
+  },
+  {
+    "Type": "PlotItem_BackgroundTransform",
+    "Name": "PlotItem_BackgroundTransform_161",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_BackgroundTransform'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "RelativeAnchors": {
+        "X": 0.5,
+        "Y": 0.5
+      },
+      "FocusPosition": {
+        "X": -1500.0,
+        "Y": 0.0
+      },
+      "Duration": 1.0,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 121
+    }
+  },
+  {
+    "Type": "PlotItem_BackgroundTransform",
+    "Name": "PlotItem_BackgroundTransform_231",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_BackgroundTransform'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "RelativeAnchors": {
+        "X": 0.5,
+        "Y": 0.5
+      },
+      "FocusPosition": {
+        "X": 400.0,
+        "Y": 0.0
+      },
+      "Duration": 15.0,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 37
+    }
+  },
+  {
+    "Type": "PlotItem_BackgroundTransform",
+    "Name": "PlotItem_BackgroundTransform_60",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_BackgroundTransform'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "RelativeAnchors": {
+        "X": 0.5,
+        "Y": 0.5
+      },
+      "Duration": 0.2,
+      "ScaleMultiplier": 1.2,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 16
+    }
+  },
+  {
+    "Type": "PlotItem_BackgroundTransform",
+    "Name": "PlotItem_BackgroundTransform_61",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_BackgroundTransform'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "RelativeAnchors": {
+        "X": 0.5,
+        "Y": 0.5
+      },
+      "FocusPosition": {
+        "X": 0.0,
+        "Y": -250.0
+      },
+      "Duration": 15.0,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 72
+    }
+  },
+  {
+    "Type": "PlotItem_BackgroundTransform",
+    "Name": "PlotItem_BackgroundTransform_97",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_BackgroundTransform'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "RelativeAnchors": {
+        "X": 0.5,
+        "Y": 0.5
+      },
+      "FocusPosition": {
+        "X": 600.0,
+        "Y": 0.0
+      },
+      "Duration": 1.0,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "WaitType": "EWaitOperationType::WaitForCompletion",
+      "ItemIndex": 116
+    }
+  },
+  {
+    "Type": "PlotItem_Branch",
+    "Name": "PlotItem_Branch_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Branch'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Branchs": [
+        {
+          "JumpKey": "",
+          "AppearCondition": [],
+          "DisAppearCondition": []
+        }
+      ],
+      "Config": {
+        "Key": "b-1",
+        "Flag": "b-1"
+      },
+      "Childs": [
+        {
+          "ObjectName": "PlotItem_Branch_Item'Girl018RM1:PlotItem_Branch_Item_0'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.9"
+        }
+      ],
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 20
+    }
+  },
+  {
+    "Type": "PlotItem_Branch",
+    "Name": "PlotItem_Branch_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Branch'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Branchs": [
+        {
+          "JumpKey": "",
+          "AppearCondition": [],
+          "DisAppearCondition": []
+        }
+      ],
+      "Config": {
+        "Key": "b-2",
+        "Flag": "b-2"
+      },
+      "Childs": [
+        {
+          "ObjectName": "PlotItem_Branch_Item'Girl018RM1:PlotItem_Branch_Item_1'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.10"
+        }
+      ],
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 31
+    }
+  },
+  {
+    "Type": "PlotItem_Branch_Item",
+    "Name": "PlotItem_Branch_Item_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Branch_Item'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "7",
+        "Flag": "b-1-1",
+        "Content": "只是碰碰。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Branch'Girl018RM1:PlotItem_Branch_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.7"
+      },
+      "DisplayLabel": "只是碰碰。"
+    }
+  },
+  {
+    "Type": "PlotItem_Branch_Item",
+    "Name": "PlotItem_Branch_Item_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Branch_Item'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "15",
+        "Flag": "b-2-1",
+        "Content": "我只是亲一下。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Branch'Girl018RM1:PlotItem_Branch_1'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.8"
+      },
+      "DisplayLabel": "我只是亲一下。"
+    }
+  },
+  {
+    "Type": "PlotItem_Delay",
+    "Name": "PlotItem_Delay_138",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Delay'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "DelayTime": 1.0,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 122
+    }
+  },
+  {
+    "Type": "PlotItem_Delay",
+    "Name": "PlotItem_Delay_149",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Delay'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "DelayTime": 1.2,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 17
+    }
+  },
+  {
+    "Type": "PlotItem_Delay",
+    "Name": "PlotItem_Delay_230",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Delay'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "DelayTime": 1.0,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "WaitType": "EWaitOperationType::WaitForCompletion",
+      "ItemIndex": 29
+    }
+  },
+  {
+    "Type": "PlotItem_Delay",
+    "Name": "PlotItem_Delay_48",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Delay'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "DelayTime": 1.0,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 13
+    }
+  },
+  {
+    "Type": "PlotItem_Delay",
+    "Name": "PlotItem_Delay_61",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Delay'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "DelayTime": 0.25,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "WaitType": "EWaitOperationType::WaitForCompletion",
+      "ItemIndex": 64
+    }
+  },
+  {
+    "Type": "PlotItem_Delay",
+    "Name": "PlotItem_Delay_70",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Delay'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "DelayTime": 0.5,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 24
+    }
+  },
+  {
+    "Type": "PlotItem_Delay",
+    "Name": "PlotItem_Delay_79",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Delay'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "DelayTime": 1.0,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 117
+    }
+  },
+  {
+    "Type": "PlotItem_Delay",
+    "Name": "PlotItem_Delay_92",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Delay'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "DelayTime": 1.0,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 5
+    }
+  },
+  {
+    "Type": "PlotItem_InteractionGame",
+    "Name": "PlotItem_InteractionGame_60",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_InteractionGame'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "LangKeys": [
+        "Girl018RM1.9",
+        "Girl018RM1.10",
+        "Girl018RM1.11"
+      ],
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "bWait": true,
+      "ItemIndex": 26
+    }
+  },
+  {
+    "Type": "PlotItem_KillBackgroundTransform",
+    "Name": "PlotItem_KillBackgroundTransform_162",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_KillBackgroundTransform'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "IsRecover": true,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 34
+    }
+  },
+  {
+    "Type": "PlotItem_KillBackgroundTransform",
+    "Name": "PlotItem_KillBackgroundTransform_254",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_KillBackgroundTransform'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Iscompleteflag": false,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 42
+    }
+  },
+  {
+    "Type": "PlotItem_KillBackgroundTransform",
+    "Name": "PlotItem_KillBackgroundTransform_45",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_KillBackgroundTransform'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "IsRecover": true,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 82
+    }
+  },
+  {
+    "Type": "PlotItem_KillBackgroundTransform",
+    "Name": "PlotItem_KillBackgroundTransform_84",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_KillBackgroundTransform'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 129
+    }
+  },
+  {
+    "Type": "PlotItem_LoadImg",
+    "Name": "PlotItem_LoadImg_118",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_LoadImg'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "ImgPath": {
+        "AssetPathName": "/Game/UI/Picture/Dialogue/Dialogue_BG822.Dialogue_BG822",
+        "SubPathString": ""
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 83
+    }
+  },
+  {
+    "Type": "PlotItem_LoadImg",
+    "Name": "PlotItem_LoadImg_183",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_LoadImg'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "ImgPath": {
+        "AssetPathName": "/Game/UI/Picture/Dialogue/Dialogue_BG17.Dialogue_BG17",
+        "SubPathString": ""
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 94
+    }
+  },
+  {
+    "Type": "PlotItem_LoadImg",
+    "Name": "PlotItem_LoadImg_240",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_LoadImg'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "ImgPath": {
+        "AssetPathName": "/Game/UI/Picture/Dialogue/Dialogue_BG822.Dialogue_BG822",
+        "SubPathString": ""
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 1
+    }
+  },
+  {
+    "Type": "PlotItem_LoadImg",
+    "Name": "PlotItem_LoadImg_295",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_LoadImg'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "ImgPath": {
+        "AssetPathName": "/Game/UI/Picture/Dialogue/Dialogue_BG803.Dialogue_BG803",
+        "SubPathString": ""
+      },
+      "RelativeAnchors": {
+        "X": 0.5,
+        "Y": 0.4
+      },
+      "ScaleMultiplier": 1.5,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 100
+    }
+  },
+  {
+    "Type": "PlotItem_LoadImg",
+    "Name": "PlotItem_LoadImg_351",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_LoadImg'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "ImgPath": {
+        "AssetPathName": "/Game/UI/Picture/Dialogue/Dialogue_BG17.Dialogue_BG17",
+        "SubPathString": ""
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 131
+    }
+  },
+  {
+    "Type": "PlotItem_LoadImg",
+    "Name": "PlotItem_LoadImg_47",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_LoadImg'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "ImgPath": {
+        "AssetPathName": "/Game/UI/Picture/Dialogue/Dialogue_BG822.Dialogue_BG822",
+        "SubPathString": ""
+      },
+      "ScaleMultiplier": 1.5,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 36
+    }
+  },
+  {
+    "Type": "PlotItem_LoadImg",
+    "Name": "PlotItem_LoadImg_64",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_LoadImg'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "ImgPath": {
+        "AssetPathName": "/Game/UI/Picture/Dialogue/Dialogue_BG822.Dialogue_BG822",
+        "SubPathString": ""
+      },
+      "ScaleMultiplier": 1.5,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 71
+    }
+  },
+  {
+    "Type": "PlotItem_LoadImg",
+    "Name": "PlotItem_LoadImg_658",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_LoadImg'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "ImgPath": {
+        "AssetPathName": "/Game/UI/Picture/Dialogue/Dialogue_BG803.Dialogue_BG803",
+        "SubPathString": ""
+      },
+      "RelativeAnchors": {
+        "X": 0.7,
+        "Y": 0.4
+      },
+      "ScaleMultiplier": 1.5,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 137
+    }
+  },
+  {
+    "Type": "PlotItem_PlayUIParticleEffect",
+    "Name": "PlotItem_PlayUIParticleEffect_101",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayUIParticleEffect'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "UMGEffectAsset": {
+        "AssetPathName": "/Game/Effects/UI/e_ui_juqing/ui_juqing_lovegame_umg.ui_juqing_lovegame_umg_C",
+        "SubPathString": ""
+      },
+      "Name_key": "dream1",
+      "ZOrder": "EPlotWidgetOrderType::All",
+      "FadeTime": 1.0,
+      "bHide": true,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 43
+    }
+  },
+  {
+    "Type": "PlotItem_PlayUIParticleEffect",
+    "Name": "PlotItem_PlayUIParticleEffect_103",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayUIParticleEffect'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "UMGEffectAsset": {
+        "AssetPathName": "/Game/Effects/UI/e_ui_juqing/ui_juqing_lovegame_umg.ui_juqing_lovegame_umg_C",
+        "SubPathString": ""
+      },
+      "Name_key": "dream2",
+      "ZOrder": "EPlotWidgetOrderType::All",
+      "FadeTime": 4.0,
+      "bHide": true,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 57
+    }
+  },
+  {
+    "Type": "PlotItem_PlayUIParticleEffect",
+    "Name": "PlotItem_PlayUIParticleEffect_104",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayUIParticleEffect'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "UMGEffectAsset": {
+        "AssetPathName": "/Game/Effects/UI/e_ui_juqing/ui_juqing_lovegame_umg.ui_juqing_lovegame_umg_C",
+        "SubPathString": ""
+      },
+      "Name_key": "dream1",
+      "ZOrder": "EPlotWidgetOrderType::All",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 2
+    }
+  },
+  {
+    "Type": "PlotItem_PlayUIParticleEffect",
+    "Name": "PlotItem_PlayUIParticleEffect_207",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayUIParticleEffect'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "UMGEffectAsset": {
+        "AssetPathName": "/Game/Effects/UI/e_ui_juqing/ui_juqing_lovegame_umg.ui_juqing_lovegame_umg_C",
+        "SubPathString": ""
+      },
+      "Name_key": "dream2",
+      "ZOrder": "EPlotWidgetOrderType::All",
+      "FadeTime": 1.0,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 53
+    }
+  },
+  {
+    "Type": "PlotItem_PlayWwise",
+    "Name": "PlotItem_PlayWwise_111",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayWwise'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "EventNameSelected": {
+        "EventName": "Play_Story_Friction02"
+      },
+      "EventName": "Play_Story_Friction02",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 63
+    }
+  },
+  {
+    "Type": "PlotItem_PlayWwise",
+    "Name": "PlotItem_PlayWwise_153",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayWwise'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "EventName": "Play_S_Story_Clothes",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 15
+    }
+  },
+  {
+    "Type": "PlotItem_PlayWwise",
+    "Name": "PlotItem_PlayWwise_209",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayWwise'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "EventNameSelected": {
+        "EventName": "Play_S_Story_bodyconflict"
+      },
+      "EventName": "Play_S_Story_bodyconflict",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 44
+    }
+  },
+  {
+    "Type": "PlotItem_PlayWwise",
+    "Name": "PlotItem_PlayWwise_78",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayWwise'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "EventNameSelected": {
+        "EventName": "Play_S_Story_bodyconflict"
+      },
+      "EventName": "Play_S_Story_bodyconflict",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 10
+    }
+  },
+  {
+    "Type": "PlotItem_Root",
+    "Name": "PlotItem_Root_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Root'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Childs": [
+        {
+          "ObjectName": "PlotItem_Wwise_SetState'Girl018RM1:PlotItem_Wwise_SetState_98'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.156"
+        },
+        {
+          "ObjectName": "PlotItem_LoadImg'Girl018RM1:PlotItem_LoadImg_240'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.26"
+        },
+        {
+          "ObjectName": "PlotItem_PlayUIParticleEffect'Girl018RM1:PlotItem_PlayUIParticleEffect_104'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.34"
+        },
+        {
+          "ObjectName": "PlotItem_Spine'Girl018RM1:PlotItem_Spine_155'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.65"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'Girl018RM1:PlotItem_ScreenTransition_66'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.62"
+        },
+        {
+          "ObjectName": "PlotItem_Delay'Girl018RM1:PlotItem_Delay_92'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.18"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_0'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.81"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_1'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.82"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_2'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.92"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_3'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.103"
+        },
+        {
+          "ObjectName": "PlotItem_PlayWwise'Girl018RM1:PlotItem_PlayWwise_78'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.39"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenShake'Girl018RM1:PlotItem_ScreenShake_204'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.44"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'Girl018RM1:PlotItem_Spine_Hide_139'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.70"
+        },
+        {
+          "ObjectName": "PlotItem_Delay'Girl018RM1:PlotItem_Delay_48'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.14"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenBlur'Girl018RM1:PlotItem_ScreenBlur_77'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.42"
+        },
+        {
+          "ObjectName": "PlotItem_PlayWwise'Girl018RM1:PlotItem_PlayWwise_153'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.37"
+        },
+        {
+          "ObjectName": "PlotItem_BackgroundTransform'Girl018RM1:PlotItem_BackgroundTransform_60'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.4"
+        },
+        {
+          "ObjectName": "PlotItem_Delay'Girl018RM1:PlotItem_Delay_149'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.12"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_4'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.114"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_5'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.125"
+        },
+        {
+          "ObjectName": "PlotItem_Branch'Girl018RM1:PlotItem_Branch_0'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.7"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenBlurEnd'Girl018RM1:PlotItem_ScreenBlurEnd_137'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.43"
+        },
+        {
+          "ObjectName": "PlotItem_BackgroundTransform'Girl018RM1:PlotItem_BackgroundTransform_149'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.1"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'Girl018RM1:PlotItem_Spine_Hide_402'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.75"
+        },
+        {
+          "ObjectName": "PlotItem_Delay'Girl018RM1:PlotItem_Delay_70'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.16"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_6'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.136"
+        },
+        {
+          "ObjectName": "PlotItem_InteractionGame'Girl018RM1:PlotItem_InteractionGame_60'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.19"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_11'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.83"
+        },
+        {
+          "ObjectName": "PlotItem_SpineTransform'Girl018RM1:PlotItem_SpineTransform_93'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.80"
+        },
+        {
+          "ObjectName": "PlotItem_Delay'Girl018RM1:PlotItem_Delay_230'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.13"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_12'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.84"
+        },
+        {
+          "ObjectName": "PlotItem_Branch'Girl018RM1:PlotItem_Branch_1'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.8"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_13'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.85"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'Girl018RM1:PlotItem_ScreenTransition_84'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.63"
+        },
+        {
+          "ObjectName": "PlotItem_KillBackgroundTransform'Girl018RM1:PlotItem_KillBackgroundTransform_162'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.20"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'Girl018RM1:PlotItem_Spine_Hide_480'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.76"
+        },
+        {
+          "ObjectName": "PlotItem_LoadImg'Girl018RM1:PlotItem_LoadImg_47'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.29"
+        },
+        {
+          "ObjectName": "PlotItem_BackgroundTransform'Girl018RM1:PlotItem_BackgroundTransform_231'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.3"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'Girl018RM1:PlotItem_ScreenTransition_159'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.49"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_14'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.86"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_15'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.87"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_16'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.88"
+        },
+        {
+          "ObjectName": "PlotItem_KillBackgroundTransform'Girl018RM1:PlotItem_KillBackgroundTransform_254'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.21"
+        },
+        {
+          "ObjectName": "PlotItem_PlayUIParticleEffect'Girl018RM1:PlotItem_PlayUIParticleEffect_101'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.32"
+        },
+        {
+          "ObjectName": "PlotItem_PlayWwise'Girl018RM1:PlotItem_PlayWwise_209'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.38"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenShake'Girl018RM1:PlotItem_ScreenShake_38'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.45"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_17'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.89"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_18'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.90"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_19'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.91"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_20'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.93"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_21'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.94"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_22'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.95"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'Girl018RM1:PlotItem_ScreenTransition_299'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.53"
+        },
+        {
+          "ObjectName": "PlotItem_PlayUIParticleEffect'Girl018RM1:PlotItem_PlayUIParticleEffect_207'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.35"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'Girl018RM1:PlotItem_ScreenTransition_359'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.54"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_23'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.96"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_24'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.97"
+        },
+        {
+          "ObjectName": "PlotItem_PlayUIParticleEffect'Girl018RM1:PlotItem_PlayUIParticleEffect_103'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.33"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_25'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.98"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_26'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.99"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_27'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.100"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_28'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.101"
+        },
+        {
+          "ObjectName": "PlotItem_SpineTransform'Girl018RM1:PlotItem_SpineTransform_69'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.79"
+        },
+        {
+          "ObjectName": "PlotItem_PlayWwise'Girl018RM1:PlotItem_PlayWwise_111'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.36"
+        },
+        {
+          "ObjectName": "PlotItem_Delay'Girl018RM1:PlotItem_Delay_61'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.15"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'Girl018RM1:PlotItem_Spine_Hide_60'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.77"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_29'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.102"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_30'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.104"
+        },
+        {
+          "ObjectName": "PlotItem_Wwise_SetState'Girl018RM1:PlotItem_Wwise_SetState_66'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.155"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'Girl018RM1:PlotItem_ScreenTransition_42'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.56"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenBlur'Girl018RM1:PlotItem_ScreenBlur_71'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.41"
+        },
+        {
+          "ObjectName": "PlotItem_LoadImg'Girl018RM1:PlotItem_LoadImg_64'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.30"
+        },
+        {
+          "ObjectName": "PlotItem_BackgroundTransform'Girl018RM1:PlotItem_BackgroundTransform_61'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.5"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'Girl018RM1:PlotItem_ScreenTransition_136'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.48"
+        },
+        {
+          "ObjectName": "PlotItem_Wwise_SetState'Girl018RM1:PlotItem_Wwise_SetState_160'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.154"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_31'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.105"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_32'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.106"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_33'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.107"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_34'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.108"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_35'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.109"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_36'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.110"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'Girl018RM1:PlotItem_ScreenTransition_206'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.50"
+        },
+        {
+          "ObjectName": "PlotItem_KillBackgroundTransform'Girl018RM1:PlotItem_KillBackgroundTransform_45'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.22"
+        },
+        {
+          "ObjectName": "PlotItem_LoadImg'Girl018RM1:PlotItem_LoadImg_118'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.24"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'Girl018RM1:PlotItem_ScreenTransition_239'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.52"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_37'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.111"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_38'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.112"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_39'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.113"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_40'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.115"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_41'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.116"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_42'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.117"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_43'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.118"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_44'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.119"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'Girl018RM1:PlotItem_ScreenTransition_364'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.55"
+        },
+        {
+          "ObjectName": "PlotItem_LoadImg'Girl018RM1:PlotItem_LoadImg_183'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.25"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'Girl018RM1:PlotItem_Spine_Hide_151'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.71"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'Girl018RM1:PlotItem_ScreenTransition_422'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.57"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_45'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.120"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'Girl018RM1:PlotItem_ScreenTransition_479'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.58"
+        },
+        {
+          "ObjectName": "PlotItem_Spine'Girl018RM1:PlotItem_Spine_65'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.69"
+        },
+        {
+          "ObjectName": "PlotItem_LoadImg'Girl018RM1:PlotItem_LoadImg_295'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.27"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'Girl018RM1:PlotItem_ScreenTransition_526'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.60"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_46'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.121"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_47'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.122"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_48'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.123"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_49'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.124"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_50'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.126"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_51'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.127"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_52'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.128"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_53'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.129"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_54'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.130"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_55'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.131"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_56'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.132"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_57'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.133"
+        },
+        {
+          "ObjectName": "PlotItem_SetVisibility_New'Girl018RM1:PlotItem_SetVisibility_New_64'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.64"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'Girl018RM1:PlotItem_Spine_Hide_99'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.78"
+        },
+        {
+          "ObjectName": "PlotItem_BackgroundTransform'Girl018RM1:PlotItem_BackgroundTransform_97'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.6"
+        },
+        {
+          "ObjectName": "PlotItem_Delay'Girl018RM1:PlotItem_Delay_79'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.17"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_58'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.134"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_59'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.135"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'Girl018RM1:PlotItem_Spine_Hide_168'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.72"
+        },
+        {
+          "ObjectName": "PlotItem_BackgroundTransform'Girl018RM1:PlotItem_BackgroundTransform_161'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.2"
+        },
+        {
+          "ObjectName": "PlotItem_Delay'Girl018RM1:PlotItem_Delay_138'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.11"
+        },
+        {
+          "ObjectName": "PlotItem_Spine'Girl018RM1:PlotItem_Spine_254'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.66"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_60'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.137"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_61'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.138"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_62'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.139"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_63'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.140"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'Girl018RM1:PlotItem_ScreenTransition_64'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.61"
+        },
+        {
+          "ObjectName": "PlotItem_KillBackgroundTransform'Girl018RM1:PlotItem_KillBackgroundTransform_84'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.23"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'Girl018RM1:PlotItem_Spine_Hide_232'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.73"
+        },
+        {
+          "ObjectName": "PlotItem_LoadImg'Girl018RM1:PlotItem_LoadImg_351'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.28"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'Girl018RM1:PlotItem_ScreenTransition_132'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.47"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_64'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.141"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_65'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.142"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_66'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.143"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'Girl018RM1:PlotItem_ScreenTransition_48'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.59"
+        },
+        {
+          "ObjectName": "PlotItem_LoadImg'Girl018RM1:PlotItem_LoadImg_658'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.31"
+        },
+        {
+          "ObjectName": "PlotItem_Spine'Girl018RM1:PlotItem_Spine_461'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.67"
+        },
+        {
+          "ObjectName": "PlotItem_Spine'Girl018RM1:PlotItem_Spine_508'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.68"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'Girl018RM1:PlotItem_ScreenTransition_107'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.46"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_67'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.144"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_68'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.145"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_69'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.146"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_70'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.147"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'Girl018RM1:PlotItem_Spine_Hide_312'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.74"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_71'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.148"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_72'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.149"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_73'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.150"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_74'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.151"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_75'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.152"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'Girl018RM1:PlotItem_Talk_76'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.153"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'Girl018RM1:PlotItem_ScreenTransition_225'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.51"
+        }
+      ],
+      "ExecuteIndex": 153
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenBlur",
+    "Name": "PlotItem_ScreenBlur_71",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenBlur'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Strength": 2.5,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 70
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenBlur",
+    "Name": "PlotItem_ScreenBlur_77",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenBlur'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Strength": 2.0,
+      "FadeInTime": 0.2,
+      "FadeOutTime": 0.3,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 14
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenBlurEnd",
+    "Name": "PlotItem_ScreenBlurEnd_137",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenBlurEnd'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 21
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenShake",
+    "Name": "PlotItem_ScreenShake_204",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenShake'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Duration": 0.5,
+      "ShakeSetting": {
+        "X": {
+          "Amplitude": 2.0,
+          "Frequency": 8.0
+        },
+        "Y": {
+          "Amplitude": 40.0,
+          "Frequency": 8.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 11
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenShake",
+    "Name": "PlotItem_ScreenShake_38",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenShake'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Duration": 0.5,
+      "ShakeSetting": {
+        "X": {
+          "Amplitude": 30.0,
+          "Frequency": 10.0
+        },
+        "Y": {
+          "Amplitude": 30.0,
+          "Frequency": 10.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 45
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_107",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::BlackBackground",
+      "bBlendIn": false,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 140
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_132",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::BlackBackground",
+      "bBlendIn": false,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 132
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_136",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::BlackBackground",
+      "bBlendIn": false,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 73
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_159",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::WhiteBackground",
+      "bBlendIn": false,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 38
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_206",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::BlackBackground",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "bWait": true,
+      "WaitType": "EWaitOperationType::WaitForCompletion",
+      "ItemIndex": 81
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_225",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::BlackBackground",
+      "TransitionTime": 2.0,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "bWait": true,
+      "ItemIndex": 152
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_239",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::BlackBackground",
+      "bBlendIn": false,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 84
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_299",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::WhiteBackground",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "bWait": true,
+      "WaitType": "EWaitOperationType::WaitForCompletion",
+      "ItemIndex": 52
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_359",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::WhiteBackground",
+      "bBlendIn": false,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 54
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_364",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::BlackBackground",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "bWait": true,
+      "WaitType": "EWaitOperationType::WaitForCompletion",
+      "ItemIndex": 93
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_42",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::BlackBackground",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "bWait": true,
+      "WaitType": "EWaitOperationType::WaitForCompletion",
+      "ItemIndex": 69
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_422",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::BlackBackground",
+      "bBlendIn": false,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 96
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_479",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 98
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_48",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::BlackBackground",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "bWait": true,
+      "WaitType": "EWaitOperationType::WaitForCompletion",
+      "ItemIndex": 136
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_526",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::BlackBackground",
+      "bBlendIn": false,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 101
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_64",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::BlackBackground",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "bWait": true,
+      "WaitType": "EWaitOperationType::WaitForCompletion",
+      "ItemIndex": 128
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_66",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::BlackBackground",
+      "bBlendIn": false,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 4
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_84",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::WhiteBackground",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "bWait": true,
+      "WaitType": "EWaitOperationType::WaitForCompletion",
+      "ItemIndex": 33
+    }
+  },
+  {
+    "Type": "PlotItem_SetVisibility_New",
+    "Name": "PlotItem_SetVisibility_New_64",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_SetVisibility_New'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "UINodeType": "EPlotItemUINodeType::DialogueNode",
+      "Visibility": "ESlateVisibility::Hidden",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "bWait": true,
+      "ItemIndex": 114
+    }
+  },
+  {
+    "Type": "PlotItem_Spine",
+    "Name": "PlotItem_Spine_155",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Pos": 6,
+      "RoleName": "薇蒂雅病号服",
+      "SpineParameters": {
+        "Animation": "sp_girl018_stand_weixiao"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 3
+    }
+  },
+  {
+    "Type": "PlotItem_Spine",
+    "Name": "PlotItem_Spine_254",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Pos": 6,
+      "RoleName": "芬妮病号服",
+      "SpineParameters": {
+        "Offset": {
+          "X": 0.0,
+          "Y": 90.0
+        },
+        "Animation": "sp_girl008_fennu",
+        "bLoop": false
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 123
+    }
+  },
+  {
+    "Type": "PlotItem_Spine",
+    "Name": "PlotItem_Spine_461",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Pos": 4,
+      "RoleName": "安卡希雅病号服",
+      "SpineParameters": {
+        "Offset": {
+          "X": 0.95,
+          "Y": 110.0
+        },
+        "Animation": "sp_girl001_01_stand"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 138
+    }
+  },
+  {
+    "Type": "PlotItem_Spine",
+    "Name": "PlotItem_Spine_508",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Pos": 5,
+      "RoleName": "薇蒂雅病号服",
+      "SpineParameters": {
+        "Animation": "sp_girl018_stand_shishen"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 139
+    }
+  },
+  {
+    "Type": "PlotItem_Spine",
+    "Name": "PlotItem_Spine_65",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Pos": 6,
+      "RoleName": "里芙病号服",
+      "SpineParameters": {
+        "Offset": {
+          "X": 0.0,
+          "Y": 80.0
+        },
+        "Scale": 1.1,
+        "Animation": "sp_girl002_stand"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 99
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_139",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 12
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_151",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 95
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_168",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 120
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_232",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 130
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_312",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 145
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_402",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 23
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_480",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Delaytime": 0.5,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 35
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_60",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 65
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_99",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 115
+    }
+  },
+  {
+    "Type": "PlotItem_SpineTransform",
+    "Name": "PlotItem_SpineTransform_69",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_SpineTransform'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Pos": 6,
+      "Amplitude": {
+        "X": 0.0,
+        "Y": 100.0
+      },
+      "MoveCurve": {
+        "AssetPathName": "/Game/Blueprints/Plot/Assets/Curves/Spineygundong.Spineygundong",
+        "SubPathString": ""
+      },
+      "IsLoop": true,
+      "Duration": 0.5,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 62
+    }
+  },
+  {
+    "Type": "PlotItem_SpineTransform",
+    "Name": "PlotItem_SpineTransform_93",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_SpineTransform'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Pos": 6,
+      "Amplitude": {
+        "X": 30.0,
+        "Y": 30.0
+      },
+      "multiplier": 0.0,
+      "MoveCurve": {
+        "AssetPathName": "/Game/Blueprints/Plot/Assets/Curves/PlotRoleShake_02.PlotRoleShake_02",
+        "SubPathString": ""
+      },
+      "IsLoop": true,
+      "LoopTimes": 2,
+      "Duration": 0.15,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 28
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Animation": "sp_girl018_stand_weixiao"
+      },
+      "Config": {
+        "Key": "1",
+        "Pos": 6,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "亲爱的，现在是起床的时间了。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |亲爱的，现在是起床的时间了。",
+      "ItemIndex": 6
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "2",
+        "Pos": 6,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "接下来还有很多工作要做，学小孩子赖床可不好。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |接下来还有很多工作要做，学小孩子赖床可不好。",
+      "ItemIndex": 7
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Animation": "sp_girl018_stand"
+      },
+      "Config": {
+        "Key": "13",
+        "Pos": 6,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "总觉得身体怪怪的……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |总觉得身体怪怪的……",
+      "ItemIndex": 27
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "14",
+        "Pos": 6,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "啊……不可以。不是说了只碰碰吗，早上还有工作的……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |啊……不可以。不是说了只碰碰吗，早上还有工作的……",
+      "ItemIndex": 30
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Animation": "sp_girl018_haixiu",
+        "LoopStandAnimation": "sp_girl018_stand_weixiao",
+        "bLoop": false
+      },
+      "Config": {
+        "Key": "16",
+        "Pos": 6,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "就算你这样说……好吧。那你必须保证，真的只是先亲一下…"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |就算你这样说……好吧。那你必须保证，真的只是先亲一下…",
+      "ItemIndex": 32
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "17",
+        "Content": "就差一点点了……马上就是关键了。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |就差一点点了……马上就是关键了。",
+      "ItemIndex": 39
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "18",
+        "Content": "这次一定要坚持到最后……就算大脑烧掉。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |这次一定要坚持到最后……就算大脑烧掉。",
+      "ItemIndex": 40
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "19",
+        "Content": "温度进一步焦灼，香甜气息犹如粉色的光要浸入大脑之际——"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |温度进一步焦灼，香甜气息犹如粉色的光要浸入大脑之际——",
+      "ItemIndex": 41
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "20",
+        "Pos": 6,
+        "Content": "哐！"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |哐！",
+      "ItemIndex": 46
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Animation": "sp_girl018_shangxin",
+        "LoopStandAnimation": "sp_girl018_stand_beishang",
+        "bLoop": false
+      },
+      "Config": {
+        "Key": "21",
+        "Pos": 6,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "……痛！！痛痛痛！！"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |……痛！！痛痛痛！！",
+      "ItemIndex": 47
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "22",
+        "Content": "——在脑中幻想到关键剧情，因为太过兴奋，薇蒂雅忍不住配合着脑内剧情向墙壁上贴着的分析员照片凑过去，导致撞到了头。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |——在脑中幻想到关键剧情，因为太过兴奋，薇蒂雅忍不住配合着脑内剧情向墙壁上贴着的分析员照片凑过去，导致撞到了头。",
+      "ItemIndex": 48
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Animation": "sp_girl018_haixiu",
+        "LoopStandAnimation": "sp_girl018_stand_weixiao",
+        "bLoop": false
+      },
+      "Config": {
+        "Key": "3",
+        "Pos": 6,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "说到这个，我们好像还没有小孩呢。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |说到这个，我们好像还没有小孩呢。",
+      "ItemIndex": 8
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_20",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "23",
+        "Content": "强忍着兴奋的呻吟一下子变成了痛苦的呜咽。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |强忍着兴奋的呻吟一下子变成了痛苦的呜咽。",
+      "ItemIndex": 49
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_21",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Animation": "sp_girl018_stand_fennu"
+      },
+      "Config": {
+        "Key": "24",
+        "Pos": 6,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "不行，必须快点连回去。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |不行，必须快点连回去。",
+      "ItemIndex": 50
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_22",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "25",
+        "Pos": 6,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "再加把劲，我的妄想，你不会被这么简单击败。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |再加把劲，我的妄想，你不会被这么简单击败。",
+      "ItemIndex": 51
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_23",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Animation": "sp_girl018_stand_chixiao"
+      },
+      "Config": {
+        "Key": "26",
+        "Pos": 6,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "分析员，我，我准备好了……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |分析员，我，我准备好了……",
+      "ItemIndex": 55
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_24",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "27",
+        "Pos": 6,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "让我们继续吧。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |让我们继续吧。",
+      "ItemIndex": 56
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_25",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Animation": "sp_girl018_stand"
+      },
+      "Config": {
+        "Key": "28",
+        "Pos": 6,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "咦咦……分析员，为什么开始穿衣服了？要去工作？？你刚才明明还不是这么说的。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |咦咦……分析员，为什么开始穿衣服了？要去工作？？你刚才明明还不是这么说的。",
+      "ItemIndex": 58
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_26",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "29",
+        "Pos": 6,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "突然没兴趣了？？？"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |突然没兴趣了？？？",
+      "ItemIndex": 59
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_27",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Animation": "sp_girl018_stand_beishang"
+      },
+      "Config": {
+        "Key": "30",
+        "Pos": 6,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "为什么？？"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |为什么？？",
+      "ItemIndex": 60
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_28",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "31",
+        "Content": "连贯不上的情绪让脑内的妄想突然平静，就像是踩到了错误的选项，形势急转直下跳至突兀的BE。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |连贯不上的情绪让脑内的妄想突然平静，就像是踩到了错误的选项，形势急转直下跳至突兀的BE。",
+      "ItemIndex": 61
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_29",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "32",
+        "Content": "薇蒂雅瘫在沙发上，像是一条失去梦想的漂亮咸鱼。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |薇蒂雅瘫在沙发上，像是一条失去梦想的漂亮咸鱼。",
+      "ItemIndex": 66
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "4",
+        "Pos": 6,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "诶，为什么突然就兴奋起来了……不是，我没有暗示什么。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |诶，为什么突然就兴奋起来了……不是，我没有暗示什么。",
+      "ItemIndex": 9
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_30",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "33",
+        "Content": "这就是对自己过分妄想的惩罚吗。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |这就是对自己过分妄想的惩罚吗。",
+      "ItemIndex": 67
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_31",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "34",
+        "Content": "不过这种柔弱向只能乖乖等着被分析员吃掉的恒约对象角色会不会太弱气太普通了一些？不知道分析员到底更想要怎样的恒约对象。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |不过这种柔弱向只能乖乖等着被分析员吃掉的恒约对象角色会不会太弱气太普通了一些？不知道分析员到底更想要怎样的恒约对象。",
+      "ItemIndex": 75
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_32",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "35",
+        "Content": "是像里芙小姐那样看上去冰冷，可却能为分析员爆发出别样火热，向分析员倾注所有爱意的恒约对象；"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |是像里芙小姐那样看上去冰冷，可却能为分析员爆发出别样火热，向分析员倾注所有爱意的恒约对象；",
+      "ItemIndex": 76
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_33",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "36",
+        "Content": "还是和芬妮小姐那样永远闪耀，能为分析员奉献自我，将身上所有的光，转为对他的热爱的恒约对象；"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |还是和芬妮小姐那样永远闪耀，能为分析员奉献自我，将身上所有的光，转为对他的热爱的恒约对象；",
+      "ItemIndex": 77
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_34",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "37",
+        "Content": "又或者是……和这些反差再大一些，像是伊切尔那样经常可可爱爱，眷恋着分析员，偶尔会因为凶凶巴巴会变得更加可爱的恒约对象？"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |又或者是……和这些反差再大一些，像是伊切尔那样经常可可爱爱，眷恋着分析员，偶尔会因为凶凶巴巴会变得更加可爱的恒约对象？",
+      "ItemIndex": 78
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_35",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "38",
+        "Content": "还是都要……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |还是都要……",
+      "ItemIndex": 79
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_36",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "39",
+        "Content": "可就算都要，只要我一个人能扮演所有人的话……学无止境，任重道远。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |可就算都要，只要我一个人能扮演所有人的话……学无止境，任重道远。",
+      "ItemIndex": 80
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_37",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Animation": "sp_girl018_sikao",
+        "LoopStandAnimation": "sp_girl018_stand",
+        "bLoop": false
+      },
+      "Config": {
+        "Key": "40",
+        "Pos": 6,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "先将今天的角色心得记下好了——分析员可能喜欢的恒约对象，42号。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |先将今天的角色心得记下好了——分析员可能喜欢的恒约对象，42号。",
+      "ItemIndex": 85
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_38",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "41",
+        "Pos": 6,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "好，日常训练结束，接下来……得把成为恒约对象前的道路走完。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |好，日常训练结束，接下来……得把成为恒约对象前的道路走完。",
+      "ItemIndex": 86
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_39",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "42",
+        "Content": "新恒提罗的表演结束后，薇蒂雅原本以为她与分析员的关系能够突飞猛进，可真实情况是她痛苦的发现两人的关系好像突然停止了进展。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |新恒提罗的表演结束后，薇蒂雅原本以为她与分析员的关系能够突飞猛进，可真实情况是她痛苦的发现两人的关系好像突然停止了进展。",
+      "ItemIndex": 87
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Offset": {
+          "X": 250.0,
+          "Y": 320.0
+        },
+        "Scale": 1.5,
+        "Animation": "sp_girl018_stand_jingya"
+      },
+      "Config": {
+        "Key": "5",
+        "Pos": 6,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "等，等一下，分析员，我是让你起床吃早餐，不是吃我……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |等，等一下，分析员，我是让你起床吃早餐，不是吃我……",
+      "ItemIndex": 18
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_40",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "43",
+        "Content": "这种落差对她而言就像是超级英雄脱掉战斗套装，回归了路人的日常，她变得不起眼又平庸。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |这种落差对她而言就像是超级英雄脱掉战斗套装，回归了路人的日常，她变得不起眼又平庸。",
+      "ItemIndex": 88
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_41",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "44",
+        "Content": "而她的“对手”们还是无时无刻连战斗套装都不脱的超级英雄。当住进海姆达尔部队基地的时候，看到那么多女孩子围着分析员打转，就该预料到这种结果了的。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |而她的“对手”们还是无时无刻连战斗套装都不脱的超级英雄。当住进海姆达尔部队基地的时候，看到那么多女孩子围着分析员打转，就该预料到这种结果了的。",
+      "ItemIndex": 89
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_42",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "45",
+        "Content": "分析员本来就有日常的工作，空闲的时间是在挤牙膏一样被分配，如果她再不主动一点的话……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |分析员本来就有日常的工作，空闲的时间是在挤牙膏一样被分配，如果她再不主动一点的话……",
+      "ItemIndex": 90
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_43",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Animation": "sp_girl018_stand_fanguang"
+      },
+      "Config": {
+        "Key": "46",
+        "Pos": 6,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "不能继续依靠妄想生活了。通向幸福未来的门票，必须努力抓在手中。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |不能继续依靠妄想生活了。通向幸福未来的门票，必须努力抓在手中。",
+      "ItemIndex": 91
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_44",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "47",
+        "Pos": 6,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "邀请分析员看电影，坠入爱河，结婚……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |邀请分析员看电影，坠入爱河，结婚……",
+      "ItemIndex": 92
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_45",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "48",
+        "Content": "换上严肃的表情，带着固有的知性美丽，薇蒂雅走出房间。可少女未曾想到的是，她设想通向幸福殿堂的康庄大道，出门没几米就被一堵墙卡死了。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |换上严肃的表情，带着固有的知性美丽，薇蒂雅走出房间。可少女未曾想到的是，她设想通向幸福殿堂的康庄大道，出门没几米就被一堵墙卡死了。",
+      "ItemIndex": 97
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_46",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "49",
+        "Content": "依靠着墙壁，将背部紧紧贴附，在拐角的另一侧，是她心心念念的分析员与面无表情，气势凛然的女武神。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |依靠着墙壁，将背部紧紧贴附，在拐角的另一侧，是她心心念念的分析员与面无表情，气势凛然的女武神。",
+      "ItemIndex": 102
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_47",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.1
+      },
+      "Config": {
+        "Key": "50",
+        "Pos": 6,
+        "Speaker": "里芙病号服",
+        "Content": "这个给你。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "里芙病号服 |这个给你。",
+      "ItemIndex": 103
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_48",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "51",
+        "Speaker": "分析员",
+        "Content": "这个是……电影票？"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "分析员 |这个是……电影票？",
+      "ItemIndex": 104
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_49",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.1,
+        "Animation": "sp_girl002_stand_smile"
+      },
+      "Config": {
+        "Key": "52",
+        "Pos": 6,
+        "Speaker": "里芙病号服",
+        "Content": "嗯，我想和分析员做一些亲密的事情。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "里芙病号服 |嗯，我想和分析员做一些亲密的事情。",
+      "ItemIndex": 105
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.5
+      },
+      "Config": {
+        "Key": "6",
+        "Pos": 6,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "先说好了，早上还有工作要做，不能做毫无节制的事情。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |先说好了，早上还有工作要做，不能做毫无节制的事情。",
+      "ItemIndex": 19
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_50",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "53",
+        "Speaker": "分析员",
+        "Content": "亲密……我明白了。这是我近期收到最好的礼物。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "分析员 |亲密……我明白了。这是我近期收到最好的礼物。",
+      "ItemIndex": 106
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_51",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "54",
+        "Content": "不过里芙会有这种想法的话……芬妮应该也……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |不过里芙会有这种想法的话……芬妮应该也……",
+      "ItemIndex": 107
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_52",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.1
+      },
+      "Config": {
+        "Key": "55",
+        "Pos": 6,
+        "Speaker": "里芙病号服",
+        "Content": "这部电影，应该会很有意思。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "里芙病号服 |这部电影，应该会很有意思。",
+      "ItemIndex": 108
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_53",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "56",
+        "Speaker": "分析员",
+        "Content": "星穹堡垒，爱情片……里芙，你刚才说……你觉得这个会有意思？"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "分析员 |星穹堡垒，爱情片……里芙，你刚才说……你觉得这个会有意思？",
+      "ItemIndex": 109
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_54",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.1
+      },
+      "Config": {
+        "Key": "57",
+        "Pos": 6,
+        "Speaker": "里芙病号服",
+        "Content": "……名字是星穹堡垒，为什么是讲爱情？"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "里芙病号服 |……名字是星穹堡垒，为什么是讲爱情？",
+      "ItemIndex": 110
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_55",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "58",
+        "Speaker": "分析员",
+        "Content": "这事有些复杂。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "分析员 |这事有些复杂。",
+      "ItemIndex": 111
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_56",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.1,
+        "Animation": "sp_girl002_sikao",
+        "bLoop": false
+      },
+      "Config": {
+        "Key": "59",
+        "Pos": 6,
+        "Speaker": "里芙病号服",
+        "Content": "里面难道不该有值得学习的战斗技巧吗。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "里芙病号服 |里面难道不该有值得学习的战斗技巧吗。",
+      "ItemIndex": 112
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_57",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "60",
+        "Speaker": "分析员",
+        "Content": "应，应该吧……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "分析员 |应，应该吧……",
+      "ItemIndex": 113
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_58",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Animation": "sp_girl018_stand_beishang"
+      },
+      "Config": {
+        "Key": "61",
+        "Pos": 6,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "真好啊，要是我也能做到这么直接就好了。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |真好啊，要是我也能做到这么直接就好了。",
+      "ItemIndex": 118
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_59",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "62",
+        "Pos": 6,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "不过带分析员去看这种大烂片真的没问题吗？"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |不过带分析员去看这种大烂片真的没问题吗？",
+      "ItemIndex": 119
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Animation": "sp_girl018_stand"
+      },
+      "Config": {
+        "Key": "8",
+        "Pos": 6,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "什么？只是碰一下……真拿你没办法。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |什么？只是碰一下……真拿你没办法。",
+      "ItemIndex": 25
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_60",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Offset": {
+          "X": 0.0,
+          "Y": 40.0
+        }
+      },
+      "Config": {
+        "Key": "63",
+        "Content": "薇蒂雅目光转向另一侧墙角似乎同病相怜的少女，虽然隔了一段距离，但依稀还是能够听到咬牙切齿的低语，大概是念叨着“下次我会抢先一步”之类的话。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |薇蒂雅目光转向另一侧墙角似乎同病相怜的少女，虽然隔了一段距离，但依稀还是能够听到咬牙切齿的低语，大概是念叨着“下次我会抢先一步”之类的话。",
+      "ItemIndex": 124
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_61",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "64",
+        "Content": "感同身受的挫败感还未浮现，薇蒂雅忽然注意到芬妮收到了一条讯息。芬妮脸上的郁闷立马就消散了，她冷着脸，努力压着快要翘出笑容的嘴角回复语音。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |感同身受的挫败感还未浮现，薇蒂雅忽然注意到芬妮收到了一条讯息。芬妮脸上的郁闷立马就消散了，她冷着脸，努力压着快要翘出笑容的嘴角回复语音。",
+      "ItemIndex": 125
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_62",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Animation": "sp_girl008_tiaokan",
+        "bLoop": false
+      },
+      "Config": {
+        "Key": "65",
+        "Pos": 6,
+        "Speaker": "芬妮病号服",
+        "Content": "哼，我才不要分析员的这种安慰。不过……既然你主动提出要去陪我参加舞会，也不是不能答应你。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "芬妮病号服 |哼，我才不要分析员的这种安慰。不过……既然你主动提出要去陪我参加舞会，也不是不能答应你。",
+      "ItemIndex": 126
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_63",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "66",
+        "Speaker": "薇蒂雅病号服",
+        "Content": "……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |……",
+      "ItemIndex": 127
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_64",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "67",
+        "Content": "作为纯路人的薇蒂雅觉得胸口像是正面受到攻城锤的重击。她努力将自己蜷缩在拐角的阴影，极力掩藏气息，好像试图从这个世界抹去自己的存在。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |作为纯路人的薇蒂雅觉得胸口像是正面受到攻城锤的重击。她努力将自己蜷缩在拐角的阴影，极力掩藏气息，好像试图从这个世界抹去自己的存在。",
+      "ItemIndex": 133
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_65",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "68",
+        "Content": "过去做瓦尔基里游戏导播的时候，她也是这样注视着台前闪光的少女们。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |过去做瓦尔基里游戏导播的时候，她也是这样注视着台前闪光的少女们。",
+      "ItemIndex": 134
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_66",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "69",
+        "Content": "……或许我只是在回到自己该在的位置？"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |……或许我只是在回到自己该在的位置？",
+      "ItemIndex": 135
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_67",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 0.95,
+        "bLoop": false
+      },
+      "Config": {
+        "Key": "70",
+        "Pos": 4,
+        "Speaker": "安卡希雅病号服",
+        "Content": "薇蒂雅？"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "安卡希雅病号服 |薇蒂雅？",
+      "ItemIndex": 141
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_68",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "71",
+        "Pos": 5,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "安卡希雅……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |安卡希雅……",
+      "ItemIndex": 142
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_69",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 0.95
+      },
+      "Config": {
+        "Key": "72",
+        "Pos": 4,
+        "Speaker": "安卡希雅病号服",
+        "Content": "你这是在……潜行游戏扮演？"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "安卡希雅病号服 |你这是在……潜行游戏扮演？",
+      "ItemIndex": 143
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_70",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Animation": "sp_girl018_jingya",
+        "LoopStandAnimation": "sp_girl018_stand_jingya",
+        "bLoop": false
+      },
+      "Config": {
+        "Key": "73",
+        "Pos": 5,
+        "Speaker": "薇蒂雅病号服",
+        "Content": "……不是……我……抱歉……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "薇蒂雅病号服 |……不是……我……抱歉……",
+      "ItemIndex": 144
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_71",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "74",
+        "Content": "安卡希雅歪了歪脑袋，似乎发现了什么，好奇从拐角探过头去，很快发现了一幅绝景。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |安卡希雅歪了歪脑袋，似乎发现了什么，好奇从拐角探过头去，很快发现了一幅绝景。",
+      "ItemIndex": 146
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_72",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Offset": {
+          "X": 0.0,
+          "Y": 90.0
+        },
+        "Animation": "sp_girl001_01_stand"
+      },
+      "Config": {
+        "Key": "75",
+        "Pos": 6,
+        "Speaker": "安卡希雅病号服",
+        "Content": "可恶，我居然差点错过了这样的画面。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "安卡希雅病号服 |可恶，我居然差点错过了这样的画面。",
+      "ItemIndex": 147
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_73",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "76",
+        "Content": "突然的既视感浮上心头——"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |突然的既视感浮上心头——",
+      "ItemIndex": 148
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_74",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "77",
+        "Pos": 6,
+        "Speaker": "安卡希雅病号服",
+        "Content": "决定了，今晚再把虹色相簿看一遍。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "安卡希雅病号服 |决定了，今晚再把虹色相簿看一遍。",
+      "ItemIndex": 149
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_75",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "78",
+        "Content": "带着恶趣味念叨着，安卡希雅缩回脑袋的时候，身边的薇蒂雅已经不见了踪影，只有两张被捏得皱巴巴的电影票掉在地上。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": " |带着恶趣味念叨着，安卡希雅缩回脑袋的时候，身边的薇蒂雅已经不见了踪影，只有两张被捏得皱巴巴的电影票掉在地上。",
+      "ItemIndex": 150
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_76",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "79",
+        "Pos": 6,
+        "Speaker": "安卡希雅病号服",
+        "Content": "啊这……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "DisplayLabel": "安卡希雅病号服 |啊这……",
+      "ItemIndex": 151
+    }
+  },
+  {
+    "Type": "PlotItem_Wwise_SetState",
+    "Name": "PlotItem_Wwise_SetState_160",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Wwise_SetState'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "StateName": "Lyric05",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 74
+    }
+  },
+  {
+    "Type": "PlotItem_Wwise_SetState",
+    "Name": "PlotItem_Wwise_SetState_66",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Wwise_SetState'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "StateName": "None",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      },
+      "ItemIndex": 68
+    }
+  },
+  {
+    "Type": "PlotItem_Wwise_SetState",
+    "Name": "PlotItem_Wwise_SetState_98",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Wwise_SetState'",
+    "Outer": {
+      "ObjectName": "Plot'Girl018RM1'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.0"
+    },
+    "Properties": {
+      "StateName": "Cheerful03",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'Girl018RM1:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/Girl018RM/Girl018RM1.40"
+      }
+    }
+  }
+]

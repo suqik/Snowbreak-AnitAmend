@@ -1,0 +1,2056 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GirlBedRoom_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "bHasCookedComponentInstancingData": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'HouseLevelScriptActor'",
+      "ObjectPath": "/Script/Game"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GirlBedRoom_C'Default__GirlBedRoom_C'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.1"
+    }
+  },
+  {
+    "Type": "GirlBedRoom_C",
+    "Name": "Default__GirlBedRoom_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Game/Content/Maps/House/SubLevels/GirlBedRoom_8.GirlBedRoom_C'",
+    "Properties": {
+      "AreaId": 8
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "Arrow1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrowComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerSitBox_girlroom1_C'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom1_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.11"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom1_2.EnterPos'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.14"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "Arrow1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrowComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerSitBox_girlroom1_C'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom2_5'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.12"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom2_5.EnterPos'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.16"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BillboardComponent",
+    "Name": "Billboard",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BillboardComponent'",
+    "Outer": {
+      "ObjectName": "Bp_VirtualLight_C'GirlBedRoom_8:PersistentLevel.Bp_VirtualLight2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.13"
+    },
+    "Properties": {
+      "bIsScreenSizeScaled": true,
+      "RelativeLocation": {
+        "X": -170.79607,
+        "Y": 330.0,
+        "Z": 130.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerSitBox_girlroom1_C'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom1_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.11"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom1_2.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerSitBox_girlroom1_C'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom2_5'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.12"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom2_5.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.62"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "InteractBox",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "house_interact9916_bp_C'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.35"
+    },
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "house_interact9916_bp_C'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2'",
+              "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.35"
+            },
+            "FunctionName": "OnInteractBoxBeginOverlap"
+          }
+        ]
+      },
+      "OnComponentEndOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "house_interact9916_bp_C'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2'",
+              "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.35"
+            },
+            "FunctionName": "OnInteractBoxEndOverlap"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.73"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "HouseBedRoomDoor_C'GirlBedRoom_8:PersistentLevel.HouseBedRoomDoor_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.37"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.HouseBedRoomDoor_2.DefaultSceneRoot'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.74"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "BoxComponent",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "HouseBedRoomEntryPoint'GirlBedRoom_8:PersistentLevel.HouseBedRoomEntryPoint_Room8'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.38"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": -30.0,
+        "Y": 320.0,
+        "Z": 33.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "House_LevelBPCall_C'GirlBedRoom_8:PersistentLevel.wcdoor'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.36"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.wcdoor.DefaultSceneRoot'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.76"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BP_PlayerSitBox_girlroom1_C",
+    "Name": "BP_PlayerSitBox_girlroom1_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Properties": {
+      "Box": {
+        "ObjectName": "BoxComponent'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom1_2.Box'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.5"
+      },
+      "RootForward": null,
+      "Arrow1": {
+        "ObjectName": "ArrowComponent'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom1_2.Arrow1'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.2"
+      },
+      "Arrow": null,
+      "EnterPos": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom1_2.EnterPos'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.14"
+      },
+      "SitPos": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom1_2.SitPos'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.15"
+      },
+      "RootCom": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom1_2.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.61"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom1_2.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.61"
+      },
+      "BlueprintCreatedComponents": [
+        null,
+        {
+          "ObjectName": "ArrowComponent'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom1_2.Arrow1'",
+          "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.2"
+        },
+        null,
+        {
+          "ObjectName": "BoxComponent'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom1_2.Box'",
+          "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_PlayerSitBox_girlroom1_C",
+    "Name": "BP_PlayerSitBox_girlroom2_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Properties": {
+      "Box": {
+        "ObjectName": "BoxComponent'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom2_5.Box'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.6"
+      },
+      "RootForward": null,
+      "Arrow1": {
+        "ObjectName": "ArrowComponent'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom2_5.Arrow1'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.3"
+      },
+      "Arrow": null,
+      "EnterPos": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom2_5.EnterPos'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.16"
+      },
+      "SitPos": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom2_5.SitPos'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.17"
+      },
+      "RootCom": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom2_5.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.62"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom2_5.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.62"
+      },
+      "BlueprintCreatedComponents": [
+        null,
+        {
+          "ObjectName": "ArrowComponent'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom2_5.Arrow1'",
+          "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.3"
+        },
+        null,
+        {
+          "ObjectName": "BoxComponent'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom2_5.Box'",
+          "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Bp_VirtualLight_C",
+    "Name": "Bp_VirtualLight2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Properties": {
+      "Billboard": {
+        "ObjectName": "BillboardComponent'GirlBedRoom_8:PersistentLevel.Bp_VirtualLight2.Billboard'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.4"
+      },
+      "LightPosition": [
+        {
+          "X": -8.117996,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        {
+          "X": 21.567276,
+          "Y": -13.198151,
+          "Z": -17.801682
+        }
+      ],
+      "RootComponent": {
+        "ObjectName": "BillboardComponent'GirlBedRoom_8:PersistentLevel.Bp_VirtualLight2.Billboard'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.4"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "BillboardComponent'GirlBedRoom_8:PersistentLevel.Bp_VirtualLight2.Billboard'",
+          "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "EnterPos",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerSitBox_girlroom1_C'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom1_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.11"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom1_2.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.61"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "SitPos",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerSitBox_girlroom1_C'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom1_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.11"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom1_2.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.61"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "EnterPos",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerSitBox_girlroom1_C'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom2_5'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.12"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom2_5.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.62"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "SitPos",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerSitBox_girlroom1_C'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom2_5'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.12"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom2_5.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.62"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner10'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.39"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": -371.88712,
+        "Y": 7.199806,
+        "Z": 163.95726
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.40"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 303.86124,
+        "Y": -148.64969,
+        "Z": 0.312088
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner20'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.41"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 324.11288,
+        "Y": -407.8002,
+        "Z": 44.95726
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner21'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.42"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 293.25793,
+        "Y": -515.6013,
+        "Z": 104.513
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 7.91048,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner3'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.43"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 272.23062,
+        "Y": 130.26161,
+        "Z": 41.541763
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner4'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.44"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": -16.512756,
+        "Y": -68.091515,
+        "Z": 0.3119812
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner5'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.45"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 157.20949,
+        "Y": 206.92046,
+        "Z": 166.39934
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner6'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.46"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": -323.14258,
+        "Y": 133.59818,
+        "Z": 0.31199646
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner7'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.47"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 342.35098,
+        "Y": 18.02353,
+        "Z": 0.31201172
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner8'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.48"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": -348.69156,
+        "Y": -322.94086,
+        "Z": 83.77799
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner9'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.49"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": -99.97603,
+        "Y": -487.74084,
+        "Z": -4.5034943
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner_1'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.50"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": -347.5745,
+        "Y": 475.20477,
+        "Z": -2.9342346
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner_bath'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.51"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 215.0,
+        "Y": 281.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner_bed1'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.52"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 230.0,
+        "Y": -310.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner_bed2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.53"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 90.0,
+        "Y": -280.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner_chair'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.54"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": -240.0,
+        "Y": -450.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "GirlBedRoom_C",
+    "Name": "GirlBedRoom_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Game/Content/Maps/House/SubLevels/GirlBedRoom_8.GirlBedRoom_C'",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Template": {
+      "ObjectName": "GirlBedRoom_C'Default__GirlBedRoom_C'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.1"
+    }
+  },
+  {
+    "Type": "house_interact9916_bp_C",
+    "Name": "house_interact9916_bp_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Properties": {
+      "HouseShadowMapMask": {
+        "ObjectName": "HouseShadowMapMask'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.HouseShadowMapMask'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.55"
+      },
+      "Timeline_0": {
+        "ObjectName": "TimelineComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.Timeline_0'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.80"
+      },
+      "PlayerPosAfterAnim": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.PlayerPosAfterAnim'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.72"
+      },
+      "CameraRailTargetCenter": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.CameraRailViewCenter'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.64"
+      },
+      "CameraRailTrans": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.CameraRailPos'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.63"
+      },
+      "FurStaticMesh": {
+        "ObjectName": "StaticMeshComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.StaticFurnitureMesh'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.78"
+      },
+      "DropEffect": {
+        "ObjectName": "NiagaraComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.DropEffect'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.60"
+      },
+      "FurSkeletalMesh": {
+        "ObjectName": "SkeletalMeshComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.SkeletalFurnitureMesh'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.77"
+      },
+      "NpcMultiInteractPos2": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.NpcMultiInteractPos2'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.69"
+      },
+      "NpcMultiInteractPos3": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.NpcMultiInteractPos3'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.70"
+      },
+      "NpcMultiInteractPos4": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.NpcMultiInteractPos4'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.71"
+      },
+      "InteractPos": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.InteractPos'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.68"
+      },
+      "InteractBox": {
+        "ObjectName": "BoxComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.InteractBox'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.7"
+      },
+      "CPInteractCameraViewCenter": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.CPInteractViewCenter'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.65"
+      },
+      "CPInteractCameraViewCenter2": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.CPInteractViewCenter2'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.66"
+      },
+      "CPInteractCameraViewCenter3": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.CPInteractViewCenter3'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.67"
+      },
+      "IndexInArea": 13,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.73"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "HouseShadowMapMask'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.HouseShadowMapMask'",
+          "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.55"
+        },
+        {
+          "ObjectName": "TimelineComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.Timeline_0'",
+          "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.80"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "House_LevelBPCall_C",
+    "Name": "wcdoor",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Properties": {
+      "CallEvent": [
+        "door"
+      ],
+      "Box": {
+        "ObjectName": "BoxComponent'GirlBedRoom_8:PersistentLevel.wcdoor.Box'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.10"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.wcdoor.DefaultSceneRoot'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.76"
+      },
+      "InteractItemText": "house.wc",
+      "RootComponent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.wcdoor.DefaultSceneRoot'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.76"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.wcdoor.DefaultSceneRoot'",
+          "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.76"
+        },
+        {
+          "ObjectName": "BoxComponent'GirlBedRoom_8:PersistentLevel.wcdoor.Box'",
+          "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.10"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "HouseBedRoomDoor_C",
+    "Name": "HouseBedRoomDoor_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Properties": {
+      "InfoPos": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.HouseBedRoomDoor_2.InfoPos'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.75"
+      },
+      "StaticMesh": {
+        "ObjectName": "StaticMeshComponent'GirlBedRoom_8:PersistentLevel.HouseBedRoomDoor_2.StaticMesh'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.79"
+      },
+      "Box": {
+        "ObjectName": "BoxComponent'GirlBedRoom_8:PersistentLevel.HouseBedRoomDoor_2.Box'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.8"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.HouseBedRoomDoor_2.DefaultSceneRoot'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.74"
+      },
+      "GirlId": 8,
+      "InteractItemText": "house.door2",
+      "RootComponent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.HouseBedRoomDoor_2.DefaultSceneRoot'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.74"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.HouseBedRoomDoor_2.DefaultSceneRoot'",
+          "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.74"
+        },
+        {
+          "ObjectName": "BoxComponent'GirlBedRoom_8:PersistentLevel.HouseBedRoomDoor_2.Box'",
+          "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.8"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'GirlBedRoom_8:PersistentLevel.HouseBedRoomDoor_2.StaticMesh'",
+          "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.79"
+        },
+        {
+          "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.HouseBedRoomDoor_2.InfoPos'",
+          "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.75"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "HouseBedRoomEntryPoint",
+    "Name": "HouseBedRoomEntryPoint_Room8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HouseBedRoomEntryPoint'",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Properties": {
+      "AreaId": 8,
+      "Box": {
+        "ObjectName": "BoxComponent'GirlBedRoom_8:PersistentLevel.HouseBedRoomEntryPoint_Room8.BoxComponent'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.9"
+      },
+      "IsInside": true,
+      "RootComponent": {
+        "ObjectName": "BoxComponent'GirlBedRoom_8:PersistentLevel.HouseBedRoomEntryPoint_Room8.BoxComponent'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.9"
+      }
+    }
+  },
+  {
+    "Type": "HouseFurnitureSpawner",
+    "Name": "HouseFurnitureSpawner10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HouseFurnitureSpawner'",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Properties": {
+      "capsule": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner10.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.18"
+      },
+      "IndexInArea": 9,
+      "FurnitureTmpId": 808,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner10.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.18"
+      }
+    }
+  },
+  {
+    "Type": "HouseFurnitureSpawner",
+    "Name": "HouseFurnitureSpawner2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HouseFurnitureSpawner'",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Properties": {
+      "capsule": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner2.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.19"
+      },
+      "IndexInArea": 1,
+      "FurnitureTmpId": 802,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner2.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.19"
+      }
+    }
+  },
+  {
+    "Type": "HouseFurnitureSpawner",
+    "Name": "HouseFurnitureSpawner20",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HouseFurnitureSpawner'",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Properties": {
+      "capsule": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner20.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.20"
+      },
+      "IndexInArea": 10,
+      "FurnitureTmpId": 820,
+      "bHidden": true,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner20.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.20"
+      }
+    }
+  },
+  {
+    "Type": "HouseFurnitureSpawner",
+    "Name": "HouseFurnitureSpawner21",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HouseFurnitureSpawner'",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Properties": {
+      "capsule": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner21.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.21"
+      },
+      "IndexInArea": 11,
+      "FurnitureTmpId": 821,
+      "bHidden": true,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner21.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.21"
+      }
+    }
+  },
+  {
+    "Type": "HouseFurnitureSpawner",
+    "Name": "HouseFurnitureSpawner3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HouseFurnitureSpawner'",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Properties": {
+      "capsule": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner3.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.22"
+      },
+      "IndexInArea": 2,
+      "FurnitureTmpId": 803,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner3.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.22"
+      }
+    }
+  },
+  {
+    "Type": "HouseFurnitureSpawner",
+    "Name": "HouseFurnitureSpawner4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HouseFurnitureSpawner'",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Properties": {
+      "capsule": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner4.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.23"
+      },
+      "IndexInArea": 3,
+      "FurnitureTmpId": 804,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner4.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.23"
+      }
+    }
+  },
+  {
+    "Type": "HouseFurnitureSpawner",
+    "Name": "HouseFurnitureSpawner5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HouseFurnitureSpawner'",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Properties": {
+      "capsule": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner5.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.24"
+      },
+      "IndexInArea": 4,
+      "FurnitureTmpId": 805,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner5.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.24"
+      }
+    }
+  },
+  {
+    "Type": "HouseFurnitureSpawner",
+    "Name": "HouseFurnitureSpawner6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HouseFurnitureSpawner'",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Properties": {
+      "capsule": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner6.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.25"
+      },
+      "IndexInArea": 5,
+      "FurnitureTmpId": 806,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner6.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.25"
+      }
+    }
+  },
+  {
+    "Type": "HouseFurnitureSpawner",
+    "Name": "HouseFurnitureSpawner7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HouseFurnitureSpawner'",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Properties": {
+      "capsule": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner7.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.26"
+      },
+      "IndexInArea": 6,
+      "FurnitureTmpId": 807,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner7.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.26"
+      }
+    }
+  },
+  {
+    "Type": "HouseFurnitureSpawner",
+    "Name": "HouseFurnitureSpawner8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HouseFurnitureSpawner'",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Properties": {
+      "capsule": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner8.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.27"
+      },
+      "IndexInArea": 7,
+      "FurnitureTmpId": 809,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner8.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.27"
+      }
+    }
+  },
+  {
+    "Type": "HouseFurnitureSpawner",
+    "Name": "HouseFurnitureSpawner9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HouseFurnitureSpawner'",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Properties": {
+      "capsule": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner9.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.28"
+      },
+      "IndexInArea": 8,
+      "FurnitureTmpId": 810,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner9.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.28"
+      }
+    }
+  },
+  {
+    "Type": "HouseFurnitureSpawner",
+    "Name": "HouseFurnitureSpawner_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HouseFurnitureSpawner'",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Properties": {
+      "capsule": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner_1.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.29"
+      },
+      "IndexInArea": 0,
+      "GroupId": 1,
+      "FurnitureTmpId": -1,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner_1.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.29"
+      }
+    }
+  },
+  {
+    "Type": "HouseFurnitureSpawner",
+    "Name": "HouseFurnitureSpawner_bath",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HouseFurnitureSpawner'",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Properties": {
+      "capsule": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner_bath.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.30"
+      },
+      "IndexInArea": 14,
+      "FurnitureTmpId": 7016,
+      "bDefaultHad": true,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner_bath.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.30"
+      }
+    }
+  },
+  {
+    "Type": "HouseFurnitureSpawner",
+    "Name": "HouseFurnitureSpawner_bed1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HouseFurnitureSpawner'",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Properties": {
+      "capsule": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner_bed1.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.31"
+      },
+      "IndexInArea": 11,
+      "FurnitureTmpId": 7001,
+      "bDefaultHad": true,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner_bed1.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.31"
+      }
+    }
+  },
+  {
+    "Type": "HouseFurnitureSpawner",
+    "Name": "HouseFurnitureSpawner_bed2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HouseFurnitureSpawner'",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Properties": {
+      "capsule": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner_bed2.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.32"
+      },
+      "IndexInArea": 12,
+      "FurnitureTmpId": 7002,
+      "bDefaultHad": true,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner_bed2.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.32"
+      }
+    }
+  },
+  {
+    "Type": "HouseFurnitureSpawner",
+    "Name": "HouseFurnitureSpawner_chair",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HouseFurnitureSpawner'",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Properties": {
+      "capsule": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner_chair.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.33"
+      },
+      "IndexInArea": 10,
+      "FurnitureTmpId": 7003,
+      "bDefaultHad": true,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner_chair.Capsule'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.33"
+      }
+    }
+  },
+  {
+    "Type": "HouseShadowMapMask",
+    "Name": "HouseShadowMapMask",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HouseShadowMapMask'",
+    "Outer": {
+      "ObjectName": "house_interact9916_bp_C'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.35"
+    },
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Level'",
+    "Outer": {
+      "ObjectName": "World'GirlBedRoom_8'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.81"
+    },
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'GirlBedRoom_8:PersistentLevel.Model_0'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.58"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "GirlBedRoom_C'GirlBedRoom_8:PersistentLevel.GirlBedRoom_C_0'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.34"
+      },
+      "LevelBuildDataId": "DBF5C892-4F5EF2A7-B1A84385-35FC205F",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'GirlBedRoom_8:PersistentLevel.WorldSettings'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.82"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'GirlBedRoom_8:PersistentLevel.WorldSettings'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.82"
+      },
+      null,
+      {
+        "ObjectName": "HouseBedRoomEntryPoint'GirlBedRoom_8:PersistentLevel.HouseBedRoomEntryPoint_Room8'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.38"
+      },
+      {
+        "ObjectName": "HouseBedRoomDoor_C'GirlBedRoom_8:PersistentLevel.HouseBedRoomDoor_2'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.37"
+      },
+      {
+        "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner_1'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.50"
+      },
+      {
+        "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner2'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.40"
+      },
+      {
+        "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner3'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.43"
+      },
+      {
+        "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner4'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.44"
+      },
+      {
+        "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner5'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.45"
+      },
+      {
+        "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner6'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.46"
+      },
+      {
+        "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner7'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.47"
+      },
+      {
+        "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner8'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.48"
+      },
+      {
+        "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner9'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.49"
+      },
+      {
+        "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner10'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.39"
+      },
+      {
+        "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner_chair'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.54"
+      },
+      {
+        "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner_bed1'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.52"
+      },
+      {
+        "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner_bed2'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.53"
+      },
+      {
+        "ObjectName": "House_LevelBPCall_C'GirlBedRoom_8:PersistentLevel.wcdoor'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.36"
+      },
+      {
+        "ObjectName": "BP_PlayerSitBox_girlroom1_C'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom1_2'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.11"
+      },
+      {
+        "ObjectName": "BP_PlayerSitBox_girlroom1_C'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom2_5'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.12"
+      },
+      {
+        "ObjectName": "house_interact9916_bp_C'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.35"
+      },
+      {
+        "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner_bath'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.51"
+      },
+      {
+        "ObjectName": "Bp_VirtualLight_C'GirlBedRoom_8:PersistentLevel.Bp_VirtualLight2'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.13"
+      },
+      {
+        "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner20'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.41"
+      },
+      {
+        "ObjectName": "HouseFurnitureSpawner'GirlBedRoom_8:PersistentLevel.HouseFurnitureSpawner21'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.42"
+      },
+      {
+        "ObjectName": "GirlBedRoom_C'GirlBedRoom_8:PersistentLevel.GirlBedRoom_C_0'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.34"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Startup/Startup",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'GirlBedRoom_8:PersistentLevel.Model_0'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.58"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "GirlBedRoom_C'GirlBedRoom_8:PersistentLevel.GirlBedRoom_C_0'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.34"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Outer": {
+      "ObjectName": "World'GirlBedRoom_8'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.81"
+    },
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/House/house_girl008.house_girl008",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.6406249,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "D2FF00"
+      }
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Model'",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "ED1C4EF9-4BFE4D18-E20049A1-315CFD67",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Outer": {
+      "ObjectName": "WorldSettings'GirlBedRoom_8:PersistentLevel.WorldSettings'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.82"
+    },
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "DropEffect",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "house_interact9916_bp_C'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.35"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.73"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Root",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerSitBox_girlroom1_C'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom1_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.11"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 263.0,
+        "Y": -420.0,
+        "Z": 90.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Root",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerSitBox_girlroom1_C'GirlBedRoom_8:PersistentLevel.BP_PlayerSitBox_girlroom2_5'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.12"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 59.0,
+        "Y": -339.0,
+        "Z": 90.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraRailPos",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "house_interact9916_bp_C'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.35"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.73"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraRailViewCenter",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "house_interact9916_bp_C'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.35"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.73"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CPInteractViewCenter",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "house_interact9916_bp_C'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.35"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.73"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CPInteractViewCenter2",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "house_interact9916_bp_C'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.35"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.73"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CPInteractViewCenter3",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "house_interact9916_bp_C'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.35"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.73"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "InteractPos",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "house_interact9916_bp_C'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.35"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.73"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "NpcMultiInteractPos2",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "house_interact9916_bp_C'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.35"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.73"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "NpcMultiInteractPos3",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "house_interact9916_bp_C'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.35"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.73"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "NpcMultiInteractPos4",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "house_interact9916_bp_C'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.35"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.73"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerPosAfterAnim",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "house_interact9916_bp_C'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.35"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.73"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Root",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "house_interact9916_bp_C'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.35"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 381.0,
+        "Y": 499.0,
+        "Z": 62.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "HouseBedRoomDoor_C'GirlBedRoom_8:PersistentLevel.HouseBedRoomDoor_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.37"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 39.0,
+        "Y": 510.0,
+        "Z": 62.0
+      },
+      "RelativeScale3D": {
+        "X": 2.75,
+        "Y": 2.75,
+        "Z": 2.75
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeScale3D",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "InfoPos",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "HouseBedRoomDoor_C'GirlBedRoom_8:PersistentLevel.HouseBedRoomDoor_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.37"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.HouseBedRoomDoor_2.DefaultSceneRoot'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.74"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "House_LevelBPCall_C'GirlBedRoom_8:PersistentLevel.wcdoor'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.36"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 217.0,
+        "Y": 336.0,
+        "Z": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "SkeletalFurnitureMesh",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "house_interact9916_bp_C'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.35"
+    },
+    "Properties": {
+      "LDMaxDrawDistance": 16000.0,
+      "CachedMaxDrawDistance": 16000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.73"
+      },
+      "PrimaryComponentTick": {
+        "EndTickGroup": "TG_PostPhysics"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticFurnitureMesh",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "house_interact9916_bp_C'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.35"
+    },
+    "Properties": {
+      "LDMaxDrawDistance": 16000.0,
+      "CachedMaxDrawDistance": 16000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2.Root'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.73"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "HouseBedRoomDoor_C'GirlBedRoom_8:PersistentLevel.HouseBedRoomDoor_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.37"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'GirlBedRoom_8:PersistentLevel.HouseBedRoomDoor_2.DefaultSceneRoot'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.74"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "Timeline_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TimelineComponent'",
+    "Outer": {
+      "ObjectName": "house_interact9916_bp_C'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.35"
+    },
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "TL_TimelineLength",
+        "Length": 1.0,
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_HouseFurnitureBase_C:CurveFloat_0'",
+              "ObjectPath": "/Game/Blueprints/House/Furniture/BP_HouseFurnitureBase"
+            },
+            "InterpFunc": {
+              "Object": null,
+              "FunctionName": "None"
+            },
+            "TrackName": "NewTrack_0",
+            "FloatPropertyName": "Timeline_0_NewTrack_0_633092DD4558D1B01036F3B55B49D8EA"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Object": {
+            "ObjectName": "house_interact9916_bp_C'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2'",
+            "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.35"
+          },
+          "FunctionName": "Timeline_0__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Object": {
+            "ObjectName": "house_interact9916_bp_C'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2'",
+            "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.35"
+          },
+          "FunctionName": "Timeline_0__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "house_interact9916_bp_C'GirlBedRoom_8:PersistentLevel.house_interact9916_bp_2'",
+          "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.35"
+        },
+        "DirectionPropertyName": "Timeline_0__Direction_633092DD4558D1B01036F3B55B49D8EA"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "GirlBedRoom_8",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": [
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'GirlBedRoom_8:LevelStreamingAlwaysLoaded_0'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.57"
+      }
+    ]
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WorldSettings'",
+    "Outer": {
+      "ObjectName": "Level'GirlBedRoom_8:PersistentLevel'",
+      "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.56"
+    },
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'GirlBedRoom_8:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "Game/Content/Maps/House/SubLevels/GirlBedRoom_8.59"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "Texture2D",
+    "Name": "icon_maingirl_bg002_400",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Texture2D'",
+    "Properties": {
+      "ImportedSize": {
+        "X": 400,
+        "Y": 176
+      },
+      "LightingGuid": "4C49B70D-4EC5C054-16C4DA84-7B5A6EF7",
+      "LODGroup": "TEXTUREGROUP_UI",
+      "NeverStream": true
+    },
+    "SizeX": 400,
+    "SizeY": 176,
+    "PackedData": 1,
+    "PixelFormat": "PF_DXT1",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 35200,
+          "SizeOnDisk": 35200,
+          "OffsetInFile": "0x9274"
+        },
+        "SizeX": 400,
+        "SizeY": 176,
+        "SizeZ": 1
+      }
+    ]
+  }
+]

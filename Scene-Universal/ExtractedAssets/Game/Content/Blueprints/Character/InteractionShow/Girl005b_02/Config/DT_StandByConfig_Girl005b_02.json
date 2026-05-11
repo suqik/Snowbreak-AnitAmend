@@ -1,0 +1,733 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_StandByConfig_Girl005b_02",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'InteractionStandByConfig'",
+        "ObjectPath": "/Script/CharacterInteraction"
+      },
+      "bIgnoreExtraFields": true,
+      "bIgnoreMissingFields": true
+    },
+    "Rows": {
+      "茉莉安幽潮泳装Ma_Standby_Stand01": {
+        "ID": 1,
+        "SkinID": 120502,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl005b_02/Anim/manifestation/girl005b_02_ma_standby_stand01.girl005b_02_ma_standby_stand01",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl005b_02/AnimPart00/manifestation/girl005b_02_ma_standby_stand01.girl005b_02_ma_standby_stand01",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": 30.0,
+        "ShowSequences": [
+          {
+            "Weight": 1.0,
+            "ShowSequenceID": 33,
+            "CustomAction": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "StandByEvents": [
+          {
+            "AssetPathName": "/Game/Blueprints/Character/InteractionShow/Girl005b_02/Standby/DA_Girl005b_02_EasterEggComplete.DA_Girl005b_02_EasterEggComplete",
+            "SubPathString": ""
+          }
+        ],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "socket_Bone_lingjie_00",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl005b_02_Ma_Standby_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl005b_02/Curve/DBCurve_girl005b_02_Ma_Standby_Stand01"
+            }
+          },
+          {
+            "SocketName": "Bip001",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl005b_02_Ma_Standby_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl005b_02/Curve/DBCurve_girl005b_02_Ma_Standby_Stand01"
+            }
+          }
+        ],
+        "OperateCollisions": [
+          {
+            "CollisionID": 7100000,
+            "ClickOperateID": 7100000,
+            "DragOperateID": -1,
+            "SocketName": "Bone_hair_00",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          },
+          {
+            "CollisionID": 7030000,
+            "ClickOperateID": 7030000,
+            "DragOperateID": -1,
+            "SocketName": "Bip001-L-Forearm",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          },
+          {
+            "CollisionID": 7810000,
+            "ClickOperateID": 7810000,
+            "DragOperateID": -1,
+            "SocketName": "Bip001-R-Finger4",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          }
+        ],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "茉莉安幽潮泳装Ma_Interact01_Stand01": {
+        "ID": 2,
+        "SkinID": 120502,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl005b_02/Anim/manifestation/girl005b_02_ma_interact01_stand01.girl005b_02_ma_interact01_stand01",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl005b_02/AnimPart00/manifestation/girl005b_02_ma_interact01_stand01.girl005b_02_ma_interact01_stand01",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": 10.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": false,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "socket_Bone_lingjie_00",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl005b_02_Ma_Standby_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl005b_02/Curve/DBCurve_girl005b_02_Ma_Standby_Stand01"
+            }
+          },
+          {
+            "SocketName": "Bip001",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl005b_02_Ma_Standby_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl005b_02/Curve/DBCurve_girl005b_02_Ma_Standby_Stand01"
+            }
+          }
+        ],
+        "OperateCollisions": [
+          {
+            "CollisionID": 7100001,
+            "ClickOperateID": -1,
+            "DragOperateID": 7100001,
+            "SocketName": "Bip001-Head",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 10.0,
+              "Y": 4.0,
+              "Z": 4.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": -1.0,
+              "Z": 2.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": -20.0,
+              "Yaw": 0.0,
+              "Roll": 55.0
+            }
+          }
+        ],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "茉莉安幽潮泳装Ma_Interact02_Stand01": {
+        "ID": 3,
+        "SkinID": 120502,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl005b_02/Anim/manifestation/girl005b_02_ma_interact02_stand01.girl005b_02_ma_interact02_stand01",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl005b_02/AnimPart00/manifestation/girl005b_02_ma_interact02_stand01.girl005b_02_ma_interact02_stand01",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": 10.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "socket_Bone_lingjie_00",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl005b_02_Ma_Standby_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl005b_02/Curve/DBCurve_girl005b_02_Ma_Standby_Stand01"
+            }
+          },
+          {
+            "SocketName": "Bip001",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl005b_02_Ma_Standby_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl005b_02/Curve/DBCurve_girl005b_02_Ma_Standby_Stand01"
+            }
+          }
+        ],
+        "OperateCollisions": [
+          {
+            "CollisionID": 7030001,
+            "ClickOperateID": -1,
+            "DragOperateID": 7030001,
+            "SocketName": "Bip001-Spine2",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          }
+        ],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "茉莉安幽潮泳装Ma_Interact03_Stand01": {
+        "ID": 4,
+        "SkinID": 120502,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl005b_02/Anim/manifestation/girl005b_02_ma_interact03_stand01.girl005b_02_ma_interact03_stand01",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl005b_02/AnimPart00/manifestation/girl005b_02_ma_interact03_stand01.girl005b_02_ma_interact03_stand01",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": 10.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "socket_Bone_lingjie_00",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl005b_02_Ma_Standby_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl005b_02/Curve/DBCurve_girl005b_02_Ma_Standby_Stand01"
+            }
+          },
+          {
+            "SocketName": "Bip001",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl005b_02_Ma_Standby_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl005b_02/Curve/DBCurve_girl005b_02_Ma_Standby_Stand01"
+            }
+          }
+        ],
+        "OperateCollisions": [
+          {
+            "CollisionID": 7140001,
+            "ClickOperateID": -1,
+            "DragOperateID": 7140001,
+            "SocketName": "Bip001-R-UpperArm",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          }
+        ],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "茉莉安幽潮泳装Show_Stand01": {
+        "ID": 5,
+        "SkinID": 120502,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl005b_02/Anim/manifestation/girl005b_02_ma_show_stand01.girl005b_02_ma_show_stand01",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl005b_02/AnimPart00/manifestation/girl005b_02_ma_show_stand01.girl005b_02_ma_show_stand01",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": 10.0,
+        "ShowSequences": [],
+        "StandByEvents": [
+          {
+            "AssetPathName": "/Game/Blueprints/Character/InteractionShow/Girl005b_02/Standby/DA_Girl005b_02_EasterEggComplete.DA_Girl005b_02_EasterEggComplete",
+            "SubPathString": ""
+          }
+        ],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine1",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl005b_02_Ma_Show_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl005b_02/Curve/DBCurve_girl005b_02_Ma_Show_Stand01"
+            }
+          },
+          {
+            "SocketName": "Bip001",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl005b_02_Ma_Show_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl005b_02/Curve/DBCurve_girl005b_02_Ma_Show_Stand01"
+            }
+          }
+        ],
+        "OperateCollisions": [
+          {
+            "CollisionID": 7040100,
+            "ClickOperateID": -1,
+            "DragOperateID": 7040100,
+            "SocketName": "Bip001-L-Toe0",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          },
+          {
+            "CollisionID": 7050100,
+            "ClickOperateID": -1,
+            "DragOperateID": 7050100,
+            "SocketName": "Bip001-R-Foot",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          },
+          {
+            "CollisionID": 7150100,
+            "ClickOperateID": -1,
+            "DragOperateID": 7150100,
+            "SocketName": "Bip001-R-UpperArm",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          }
+        ],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "茉莉安幽潮泳装Show_Stand02": {
+        "ID": 6,
+        "SkinID": 120502,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl005b_02/Anim/manifestation/girl005b_02_ma_show_stand02.girl005b_02_ma_show_stand02",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl005b_02/AnimPart00/manifestation/girl005b_02_ma_show_stand02.girl005b_02_ma_show_stand02",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": 10.0,
+        "ShowSequences": [],
+        "StandByEvents": [
+          {
+            "AssetPathName": "/Game/Blueprints/Character/InteractionShow/Girl005b_02/Standby/DA_Girl005b_02_EasterEggComplete.DA_Girl005b_02_EasterEggComplete",
+            "SubPathString": ""
+          }
+        ],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine1",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl005b_02_Ma_Show_Stand02'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl005b_02/Curve/DBCurve_girl005b_02_Ma_Show_Stand02"
+            }
+          },
+          {
+            "SocketName": "Bip001",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl005b_02_Ma_Show_Stand02'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl005b_02/Curve/DBCurve_girl005b_02_Ma_Show_Stand02"
+            }
+          }
+        ],
+        "OperateCollisions": [
+          {
+            "CollisionID": 7010200,
+            "ClickOperateID": -1,
+            "DragOperateID": 7010200,
+            "SocketName": "Bone_hair_14",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          },
+          {
+            "CollisionID": 7120200,
+            "ClickOperateID": -1,
+            "DragOperateID": 7120200,
+            "SocketName": "Bip001-R-Finger4",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          }
+        ],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "茉莉安幽潮泳装Show_Stand03": {
+        "ID": 7,
+        "SkinID": 120502,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl005b_02/Anim/manifestation/girl005b_02_ma_show_stand03.girl005b_02_ma_show_stand03",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl005b_02/AnimPart00/manifestation/girl005b_02_ma_show_stand03.girl005b_02_ma_show_stand03",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": 10.0,
+        "ShowSequences": [],
+        "StandByEvents": [
+          {
+            "AssetPathName": "/Game/Blueprints/Character/InteractionShow/Girl005b_02/Standby/DA_Girl005b_02_StartPropsInteraction.DA_Girl005b_02_StartPropsInteraction",
+            "SubPathString": ""
+          }
+        ],
+        "bIsEyeFollow": false,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine1",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl005b_02_Ma_Show_Stand03'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl005b_02/Curve/DBCurve_girl005b_02_Ma_Show_Stand03"
+            }
+          },
+          {
+            "SocketName": "Bip001",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl005b_02_Ma_Show_Stand03'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl005b_02/Curve/DBCurve_girl005b_02_Ma_Show_Stand03"
+            }
+          }
+        ],
+        "OperateCollisions": [
+          {
+            "CollisionID": 7830300,
+            "ClickOperateID": 7830300,
+            "DragOperateID": -1,
+            "SocketName": "Bip001-L-UpperArm",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          },
+          {
+            "CollisionID": 7820301,
+            "ClickOperateID": 7820301,
+            "DragOperateID": -1,
+            "SocketName": "Bip001-L-Hand",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          },
+          {
+            "CollisionID": 7840303,
+            "ClickOperateID": 7840303,
+            "DragOperateID": -1,
+            "SocketName": "Bip001-L-Calf",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          }
+        ],
+        "KawaiBlendSpeedScale": 1.0
+      }
+    }
+  }
+]

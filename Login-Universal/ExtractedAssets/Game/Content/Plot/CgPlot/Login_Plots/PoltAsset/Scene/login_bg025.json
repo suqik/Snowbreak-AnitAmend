@@ -1,0 +1,128 @@
+[
+  {
+    "Type": "CGSpineData",
+    "Name": "login_bg025",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CGSpineData'",
+    "Properties": {
+      "SpineObjects": [
+        {
+          "Index": 1,
+          "Name": "None",
+          "PlotName": "None",
+          "AtlasDataPath": {
+            "AssetPathName": "/Game/Plot/CgPlot/Login_Plots/PoltAsset/Spine/sp_login_bg025/sp_login_bg025.sp_login_bg025-atlas",
+            "SubPathString": ""
+          },
+          "SkeletonDataPath": {
+            "AssetPathName": "/Game/Plot/CgPlot/Login_Plots/PoltAsset/Spine/sp_login_bg025/sp_login_bg025.sp_login_bg025-data",
+            "SubPathString": ""
+          },
+          "StartAnimationName": "sp_login_bg025_stand",
+          "NormalMaterialPath": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MultiplyMaterialPath": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ViewTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.70710665,
+              "W": 0.7071069,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 700.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale3D": {
+              "X": 0.111,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        },
+        {
+          "Index": 2,
+          "Name": "None",
+          "PlotName": "None",
+          "AtlasDataPath": {
+            "AssetPathName": "/Game/Plot/CgPlot/Login_Plots/PoltAsset/Spine/sp_login_bg025/sp_login_bg025_02.sp_login_bg025_02-atlas",
+            "SubPathString": ""
+          },
+          "SkeletonDataPath": {
+            "AssetPathName": "/Game/Plot/CgPlot/Login_Plots/PoltAsset/Spine/sp_login_bg025/sp_login_bg025_02.sp_login_bg025_02-data",
+            "SubPathString": ""
+          },
+          "StartAnimationName": "sp_login_bg025_stand",
+          "NormalMaterialPath": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MultiplyMaterialPath": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ViewTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.70710665,
+              "W": 0.7071069,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 2156.0996,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale3D": {
+              "X": 0.111,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        }
+      ],
+      "BackgroundLayer": {
+        "TexturePath": {
+          "AssetPathName": "/Game/Plot/CgPlot/Login_Plots/PoltAsset/Bg/pic_login_bg025_01.pic_login_bg025_01",
+          "SubPathString": ""
+        },
+        "bIsScaleToFit": true,
+        "Name": "BackgroundLayer",
+        "ViewTransform": {
+          "Rotation": {
+            "X": -0.49999994,
+            "Y": -0.49999997,
+            "Z": 0.49999994,
+            "W": 0.4999999,
+            "IsNormalized": true,
+            "Size": 0.9999999,
+            "SizeSquared": 0.99999976
+          },
+          "Translation": {
+            "X": 2498.627,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 10.24,
+            "Y": 4.608,
+            "Z": 1.0
+          }
+        }
+      },
+      "GlobalTime": 7.3
+    }
+  }
+]

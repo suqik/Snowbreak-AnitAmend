@@ -1,0 +1,5541 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_CBP_Interaction_girl013b_02",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetViewportScale_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetMousePositionOnViewport_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector2D'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Multiply_Vector2DFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector2D'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Subtract_Vector2DVector2D_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector2D'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Divide_Vector2DFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector2D'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_VSize2D_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Subtract_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GreaterEqual_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAnimInstance_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AnimInstance'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_RandomIntegerInRange_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetInteractionDirector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'InteractionDirectorV3'",
+          "ObjectPath": "/Script/CharacterInteractionV3"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsDBP_Siris_Swim",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'DBP_SirisSwim_C'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/DBP_SirisSwim"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'CBP_Character_C:ReceiveBeginPlay'",
+      "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/BPBase/CBP_Character"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "PlaySc04Voice",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveTick'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SC01_B_BlendOutPhysics",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_BodyWetness__UpdateFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_BodyWetness__FinishedFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_0__UpdateFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_0__FinishedFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateMaterial",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_StartCharacterStateSimple_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "EndUpdateMaterial",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnUpdateHandIk_SC02B",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CalculateHandIKTransform_jointTargetLocation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CalculateHandIKTransform_EffectTargetLocation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetDragOffset_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_X",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Y",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Z",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Add_VectorVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_InverseTransformLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_VInterpTo_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_3",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_3",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_3",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_4",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_4",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_4",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Add_VectorVector_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CalculateDistanceConstraint_Return_Value",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_InverseTransformLocation_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_VInterpTo_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Calculate_Arm_Left_Lenght_Return_Value",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetBoneTransform_BoneTransform",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_GetBoneTransform_BoneTransform",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "Struct": {
+            "ObjectName": "ScriptStruct'Transform'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetBoneTransform_BoneTransformAfter",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_GetBoneTransform_BoneTransformAfter",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "Struct": {
+            "ObjectName": "ScriptStruct'Transform'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Calculate_Bone_Rotation_Mapping_SpineRotation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Calculate_Bone_Rotation_Mapping_NeckRotation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Calculate_EffertorBone_Offset_NewHandOffset",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Calculate_EffertorBone_Offset_NewUpperArmOffset",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Calculate_EffertorBone_Offset_NewArmIsStretch",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Calculate_EffertorBone_Offset_NewArmStretchBack",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnEndHandIk_SC02B",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "MainAnimInstance",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "PropertyClass": {
+          "ObjectName": "AnimBlueprintGeneratedClass'ABP_InteractionLayer_girl013b_02_C'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/ABP_InteractionLayer_girl013b_02"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStartHandIk_SC02B",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "GetBoneTransform",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ArrayProperty",
+        "Name": "SaveBoneName",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+        "Inner": {
+          "Type": "NameProperty",
+          "Name": "SaveBoneName",
+          "Flags": "RF_Public",
+          "ElementSize": 12
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "GroupName",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+        "Inner": {
+          "Type": "NameProperty",
+          "Name": "GroupName",
+          "Flags": "RF_Public",
+          "ElementSize": 12
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AnimInstance",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'AnimInstance'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "BoneTransform",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "Parm | OutParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "BoneTransform",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "Struct": {
+            "ObjectName": "ScriptStruct'Transform'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "BoneTransformAfter",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "Parm | OutParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "BoneTransformAfter",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "Struct": {
+            "ObjectName": "ScriptStruct'Transform'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "LocalBoneTransformAfter",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "LocalBoneTransformAfter",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "Struct": {
+            "ObjectName": "ScriptStruct'Transform'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "LocalBoneTransform",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "LocalBoneTransform",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "Struct": {
+            "ObjectName": "ScriptStruct'Transform'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Array_Index_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetSavedBoneTransform_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Loop_Counter_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Array_Index_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_Array_Get_Item_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetSavedBoneTransform_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Add_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Add_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Loop_Counter_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Calculate Arm Left Lenght",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "MaxLenght",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Percentage",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "SaveBoneTransform",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "SaveBoneTransform",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "Struct": {
+            "ObjectName": "ScriptStruct'Transform'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "SaveBoneTransform After",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "SaveBoneTransform After",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "Struct": {
+            "ObjectName": "ScriptStruct'Transform'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Return Value",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_VectorToString_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_VectorToString_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_FloatToString_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Subtract_VectorVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Concat_StrStr_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_VSizeXY_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LessEqual_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_FloatToString_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_BoolToString_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Concat_StrStr_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Concat_StrStr_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Concat_StrStr_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Concat_StrStr_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Concat_StrStr_ReturnValue_5",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Concat_StrStr_ReturnValue_6",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Calculate EffertorBone Offset",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "CurrentHandOffset",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ArmIsStretch",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "HandControlTransform",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ArmStretchBack",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "NewHandOffset",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "PropertyFlags": "Parm | OutParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "NewUpperArmOffset",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "PropertyFlags": "Parm | OutParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "NewArmIsStretch",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "NewArmStretchBack",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "LocalUpperArmOffset",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "LocalHandOffset",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_X",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Y",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Z",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_X_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Y_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Z_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Greater_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_X_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Y_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Z_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_3",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_3",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_3",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_4",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_4",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_4",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_X_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Y_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Z_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_5",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_5",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_5",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Subtract_VectorVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_X_4",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Y_4",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Z_4",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Add_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "CalculateDistanceConstraint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "CurrentLocation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "NewLocation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "RootBoneLocation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ArmIsStretch",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Return Value",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "Parm | OutParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "NewLocalVar_0",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "NewLocalVar_0",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'Actor'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "NewDistance",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CurrentDistance",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetDirectionUnitVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Vector_Distance_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Multiply_VectorFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Add_VectorVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Vector_Distance_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStart_Sc02A",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnEnd_Sc02A",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SC04_BeginBS",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetOperateInputControl_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'InteractionV3InputControl'",
+          "ObjectPath": "/Script/CharacterInteractionV3"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetSocketTransform_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetSocketTransform_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetSocketTransform_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetSocketTransform_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetSocketTransform_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetSocketTransform_ReturnValue_5",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Add_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAnimInstance_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AnimInstance'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsABP_Interaction_Girl_013b_02",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "AnimBlueprintGeneratedClass'ABP_Interaction_girl013b_02_C'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/ABP_Interaction_girl013b_02"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Add_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Add_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLinkedAnimLayerInstanceByClass_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AnimInstance'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Add_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsABP_Interaction_Layer_Girl_013b_02",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "AnimBlueprintGeneratedClass'ABP_InteractionLayer_girl013b_02_C'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/ABP_InteractionLayer_girl013b_02"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Add_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Add_ReturnValue_5",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SC04_EndBS",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "AnimLayer",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "PropertyClass": {
+          "ObjectName": "AnimBlueprintGeneratedClass'ABP_InteractionLayer_girl013b_02_C'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/ABP_InteractionLayer_girl013b_02"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SC04_ExistBS",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SC04_BeginHand",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetOperateInputControl_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'InteractionV3InputControl'",
+          "ObjectPath": "/Script/CharacterInteractionV3"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetSocketTransform_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetSocketTransform_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAnimInstance_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AnimInstance'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsABP_Interaction_Girl_013b_02",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "AnimBlueprintGeneratedClass'ABP_Interaction_girl013b_02_C'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/ABP_Interaction_girl013b_02"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLinkedAnimLayerInstanceByClass_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AnimInstance'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsABP_Interaction_Layer_Girl_013b_02",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "AnimBlueprintGeneratedClass'ABP_InteractionLayer_girl013b_02_C'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/ABP_InteractionLayer_girl013b_02"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SC04_UpdateHand",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetOperateInputControl_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'InteractionV3InputControl'",
+          "ObjectPath": "/Script/CharacterInteractionV3"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetDragOffset_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetInputValue_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector2D'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetWorldDeltaSeconds_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_RInterpTo_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetFloatValue_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeRotator_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SC04_EndHand",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SC04_ExistHand",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Calculate Bone Rotation Mapping",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "Drag Input Current",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Interp Speed",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Last Spine Rotation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Last Neck Rotation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "SpineRotation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "Parm | OutParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "NeckRotation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "Parm | OutParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "NeckRotationRage",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "SpineRotationRange",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Concat_StrStr_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_X",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Y",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Z",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_X_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Y_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Z_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_FloatToString_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Roll",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Pitch",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Yaw",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Concat_StrStr_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_MapRangeClamped_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Concat_StrStr_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_MapRangeClamped_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeRotator_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Roll_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Pitch_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Yaw_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_RInterpTo_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_RotatorToString_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_MapRangeClamped_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Concat_StrStr_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_MapRangeClamped_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeRotator_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_RInterpTo_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetSC01WaterStainTexture",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetSC02WaterStainTexture",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnUpdate_SC02A",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "NeckRotationRage",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "HeadRotationRage",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Pelvis_Param",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "InterpSpeed_HandFK_SC02Back",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Roll",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Pitch",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Yaw",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_X",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Y",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Z",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Abs_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_MapRangeClamped_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_MapRangeClamped_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_MapRangeClamped_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeRotator_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_X_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Y_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Z_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_X_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Y_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Z_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Abs_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeRotator_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_RInterpTo_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeRotator_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_RInterpTo_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_3",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_3",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_3",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_X_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Y_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Z_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Abs_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Abs_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue_5",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeRotator_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_RInterpTo_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_RInterpTo_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_4",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_4",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_4",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_X_4",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Y_4",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Z_4",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Greater_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_5",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_5",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_5",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Multiply_VectorFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Roll_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Pitch_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Yaw_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_VInterpTo_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_6",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_6",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_6",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_7",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_7",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_7",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_X_5",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Y_5",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Z_5",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_MapRangeClamped_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_MapRangeClamped_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_8",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_8",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_8",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue_6",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Add_VectorVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeRotator_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_InverseTransformLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_RInterpTo_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetBoneTransform_BoneTransform",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_GetBoneTransform_BoneTransform",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "Struct": {
+            "ObjectName": "ScriptStruct'Transform'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetBoneTransform_BoneTransformAfter",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_GetBoneTransform_BoneTransformAfter",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "Struct": {
+            "ObjectName": "ScriptStruct'Transform'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetDragOffset_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_X_6",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Y_6",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Z_6",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue_7",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "CalculateHandIKTransform",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "jointTargetLocation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "Parm | OutParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "EffectTargetLocation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "Parm | OutParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "JointBone",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "TargetEffectBone",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "RootBone",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CurrentEffectBone",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_InverseTransformLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Add_VectorVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_3",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_3",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_3",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_4",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_4",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_4",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Subtract_VectorVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_InvertTransform_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_5",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_5",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_5",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_6",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_6",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_6",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Subtract_VectorVector_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_7",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_7",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_7",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Normal_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Subtract_VectorVector_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Normal_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Cross_VectorVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Dot_VectorVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Normal_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_DegAcos_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GreaterGreater_VectorRotator_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_RotatorFromAxisAndAngle_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GreaterGreater_VectorRotator_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Add_VectorVector_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_InverseTransformLocation_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Init_SC02",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "Struct": {
+            "ObjectName": "ScriptStruct'Transform'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "K2Node_MakeArray_Array_1",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "Struct": {
+            "ObjectName": "ScriptStruct'Transform'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetOperateInputControl_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'InteractionV3InputControl'",
+          "ObjectPath": "/Script/CharacterInteractionV3"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAnimInstance_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AnimInstance'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsABP_Interaction_Girl_013b_02",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "AnimBlueprintGeneratedClass'ABP_Interaction_girl013b_02_C'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/ABP_Interaction_girl013b_02"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLinkedAnimLayerInstanceByClass_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AnimInstance'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsABP_Interaction_Layer_Girl_013b_02",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "AnimBlueprintGeneratedClass'ABP_InteractionLayer_girl013b_02_C'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/ABP_InteractionLayer_girl013b_02"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CBP_Interaction_girl013b_02_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "bHasCookedComponentInstancingData": true,
+      "Timelines": [
+        {
+          "ObjectName": "TimelineTemplate'CBP_Interaction_girl013b_02_C:Timeline_0_Template'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.57"
+        },
+        {
+          "ObjectName": "TimelineTemplate'CBP_Interaction_girl013b_02_C:Timeline_BodyWetness_Template'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.58"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'CBP_Interaction_girl013b_02_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.51"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:ExecuteUbergraph_CBP_Interaction_girl013b_02'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Character_C'",
+      "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/BPBase/CBP_Character"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:Init_SC02'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.32"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:CalculateHandIKTransform'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.31"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:OnUpdate_SC02A'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.30"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:SetSC02WaterStainTexture'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.29"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:SetSC01WaterStainTexture'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.28"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:Calculate Bone Rotation Mapping'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.27"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:SC04_ExistHand'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.26"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:SC04_EndHand'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.25"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:SC04_UpdateHand'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.24"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:SC04_BeginHand'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.23"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:SC04_ExistBS'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.22"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:SC04_EndBS'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.21"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:SC04_BeginBS'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.20"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:OnEnd_Sc02A'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.19"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:OnStart_Sc02A'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.18"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:CalculateDistanceConstraint'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.17"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:Calculate EffertorBone Offset'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.16"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:Calculate Arm Left Lenght'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.15"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:GetBoneTransform'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.14"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:OnStartHandIk_SC02B'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.13"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:OnEndHandIk_SC02B'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.12"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:OnUpdateHandIk_SC02B'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.11"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:EndUpdateMaterial'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.10"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:UpdateMaterial'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.9"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:Timeline_0__FinishedFunc'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.8"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:Timeline_0__UpdateFunc'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.7"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:Timeline_BodyWetness__FinishedFunc'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.6"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:Timeline_BodyWetness__UpdateFunc'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.5"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:SC01_B_BlendOutPhysics'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.4"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:ReceiveTick'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.3"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:PlaySc04Voice'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.2"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:ReceiveBeginPlay'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.1"
+      },
+      {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:ExecuteUbergraph_CBP_Interaction_girl013b_02'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AC_WetSkinManager",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'AC_WetSkinManager_C'",
+          "ObjectPath": "/Game/Cinematics/Manifestation/FennySwim/Effect/Scene01Master/AC_WetSkinManager"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Paomo Component",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Timeline_BodyWetness_Alpha_F2DDAD354FD9F74BB2DD399A129CBA93",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Timeline_BodyWetness__Direction_F2DDAD354FD9F74BB2DD399A129CBA93",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ETimelineDirection'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Timeline_BodyWetness",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'TimelineComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Timeline_0_NewTrack_0_77164F7B488930508AF4BFAE9A71620E",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Timeline_0__Direction_77164F7B488930508AF4BFAE9A71620E",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ETimelineDirection'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Timeline_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'TimelineComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "LastMousePosition",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector2D'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Mat ID",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CurrentHandControlTransform_SC02",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 48,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Arm Stretch Back_SC02",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SC04_AnimLayer",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "AnimBlueprintGeneratedClass'ABP_InteractionLayer_girl013b_02_C'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/ABP_InteractionLayer_girl013b_02"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SC04_HandSpine",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CurveFloat'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "SC04_SpineTargetRot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OperateInputContro",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'InteractionV3InputControl'",
+          "ObjectPath": "/Script/CharacterInteractionV3"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BPSmear",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_Smear_C'",
+          "ObjectPath": "/Game/Cinematics/Manifestation/SirisSwim/Effect/Scene01Master/BP/BP_Smear"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OperateInputControl_SC02",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'InteractionV3InputControl'",
+          "ObjectPath": "/Script/CharacterInteractionV3"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MainAnimation_SC02",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "AnimBlueprintGeneratedClass'ABP_InteractionLayer_girl013b_02_C'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/ABP_InteractionLayer_girl013b_02"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CurveMapping",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CurveFloat'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Delta Seconds",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bOnceClick",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Sc04RandomVoice",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Inner": {
+          "Type": "StrProperty",
+          "Name": "Sc04RandomVoice",
+          "Flags": "RF_Public",
+          "ElementSize": 16
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_CBP_Interaction_girl013b_02": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:ExecuteUbergraph_CBP_Interaction_girl013b_02'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.0"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:ReceiveBeginPlay'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.1"
+      },
+      "PlaySc04Voice": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:PlaySc04Voice'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.2"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:ReceiveTick'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.3"
+      },
+      "SC01_B_BlendOutPhysics": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:SC01_B_BlendOutPhysics'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.4"
+      },
+      "Timeline_BodyWetness__UpdateFunc": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:Timeline_BodyWetness__UpdateFunc'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.5"
+      },
+      "Timeline_BodyWetness__FinishedFunc": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:Timeline_BodyWetness__FinishedFunc'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.6"
+      },
+      "Timeline_0__UpdateFunc": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:Timeline_0__UpdateFunc'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.7"
+      },
+      "Timeline_0__FinishedFunc": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:Timeline_0__FinishedFunc'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.8"
+      },
+      "UpdateMaterial": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:UpdateMaterial'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.9"
+      },
+      "EndUpdateMaterial": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:EndUpdateMaterial'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.10"
+      },
+      "OnUpdateHandIk_SC02B": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:OnUpdateHandIk_SC02B'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.11"
+      },
+      "OnEndHandIk_SC02B": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:OnEndHandIk_SC02B'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.12"
+      },
+      "OnStartHandIk_SC02B": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:OnStartHandIk_SC02B'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.13"
+      },
+      "GetBoneTransform": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:GetBoneTransform'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.14"
+      },
+      "Calculate Arm Left Lenght": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:Calculate Arm Left Lenght'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.15"
+      },
+      "Calculate EffertorBone Offset": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:Calculate EffertorBone Offset'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.16"
+      },
+      "CalculateDistanceConstraint": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:CalculateDistanceConstraint'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.17"
+      },
+      "OnStart_Sc02A": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:OnStart_Sc02A'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.18"
+      },
+      "OnEnd_Sc02A": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:OnEnd_Sc02A'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.19"
+      },
+      "SC04_BeginBS": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:SC04_BeginBS'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.20"
+      },
+      "SC04_EndBS": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:SC04_EndBS'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.21"
+      },
+      "SC04_ExistBS": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:SC04_ExistBS'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.22"
+      },
+      "SC04_BeginHand": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:SC04_BeginHand'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.23"
+      },
+      "SC04_UpdateHand": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:SC04_UpdateHand'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.24"
+      },
+      "SC04_EndHand": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:SC04_EndHand'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.25"
+      },
+      "SC04_ExistHand": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:SC04_ExistHand'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.26"
+      },
+      "Calculate Bone Rotation Mapping": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:Calculate Bone Rotation Mapping'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.27"
+      },
+      "SetSC01WaterStainTexture": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:SetSC01WaterStainTexture'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.28"
+      },
+      "SetSC02WaterStainTexture": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:SetSC02WaterStainTexture'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.29"
+      },
+      "OnUpdate_SC02A": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:OnUpdate_SC02A'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.30"
+      },
+      "CalculateHandIKTransform": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:CalculateHandIKTransform'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.31"
+      },
+      "Init_SC02": {
+        "ObjectName": "Function'CBP_Interaction_girl013b_02_C:Init_SC02'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.32"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CBP_Interaction_girl013b_02_C'Default__CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.34"
+    }
+  },
+  {
+    "Type": "CBP_Interaction_girl013b_02_C",
+    "Name": "Default__CBP_Interaction_girl013b_02_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.CBP_Interaction_girl013b_02_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "LastMousePosition": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "CurrentHandControlTransform_SC02": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.0,
+          "W": 1.0,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      },
+      "SC04_HandSpine": {
+        "ObjectName": "CurveFloat'CV_SC04_DragHandSpine'",
+        "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Physics/SC04_A/CV_SC04_DragHandSpine"
+      },
+      "SC04_SpineTargetRot": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "CurveMapping": {
+        "ObjectName": "CurveFloat'DBCurve_girl013b_02_SC02'",
+        "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/Curve/DBCurve_girl013b_02_SC02"
+      },
+      "Sc04RandomVoice": [
+        "main779",
+        "main780"
+      ],
+      "MeshReplacement": {
+        "ObjectName": "SkeletalMesh'girl013b_02_ma_body01_skm_a'",
+        "ObjectPath": "/Game/Characters/Girl/girl013b_02/girl013b_02_ma_body01_skm_a"
+      },
+      "RenderComponent": {
+        "ObjectName": "CharacterRenderComponent'Default__CBP_Interaction_girl013b_02_C:RenderComponent'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.39"
+      },
+      "FaceComponent": {
+        "ObjectName": "SkeletalMeshComponent'Default__CBP_Interaction_girl013b_02_C:FaceMesh'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.54"
+      },
+      "LeftShoeComponent": {
+        "ObjectName": "SkeletalMeshComponent'Default__CBP_Interaction_girl013b_02_C:LeftShoe'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.55"
+      },
+      "RightShoeComponent": {
+        "ObjectName": "SkeletalMeshComponent'Default__CBP_Interaction_girl013b_02_C:RightShoe'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.56"
+      },
+      "LipSyncComponent": {
+        "ObjectName": "OVRLipSyncPlaybackActorComponent'Default__CBP_Interaction_girl013b_02_C:LipSyncComponent'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.46"
+      },
+      "FacePhysicsControlComponent": {
+        "ObjectName": "InteractionV3PhysicsControlComponent'Default__CBP_Interaction_girl013b_02_C:FacePhysicsControl'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.45"
+      },
+      "bIsEnableKawaiiBlendCurve": true,
+      "EnableKawaiiBlendCurve": {
+        "ObjectName": "CurveFloat'CV_girl013b_02_KawaiiEnableCurve'",
+        "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/ScenarioOperate/Curve/CV_girl013b_02_KawaiiEnableCurve"
+      },
+      "DisableKawaiiBlendCurve": {
+        "ObjectName": "CurveFloat'CV_girl013b_02_KawaiiDisableCurve'",
+        "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/ScenarioOperate/Curve/CV_girl013b_02_KawaiiDisableCurve"
+      },
+      "SkeletalMeshComponent": {
+        "ObjectName": "SkeletalMeshComponent'Default__CBP_Interaction_girl013b_02_C:BodyMesh'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.53"
+      },
+      "BodyPhysicsControlComponent": {
+        "ObjectName": "InteractionV3PhysicsControlComponent'Default__CBP_Interaction_girl013b_02_C:BodyPhysicsControl'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.44"
+      },
+      "BodyAnimNodePhysicsControlComponent": {
+        "ObjectName": "InteractionV3PhysicsControlComponent'Default__CBP_Interaction_girl013b_02_C:BodyAnimNodePhysicsControl'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.43"
+      },
+      "PhysicsHandleComponent": {
+        "ObjectName": "InteractionV3PhysHandleComponent'Default__CBP_Interaction_girl013b_02_C:PhysicsHandle'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.42"
+      },
+      "bSyncBodyAnim": true,
+      "RootComponent": {
+        "ObjectName": "SkeletalMeshComponent'Default__CBP_Interaction_girl013b_02_C:BodyMesh'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.53"
+      }
+    }
+  },
+  {
+    "Type": "AC_WetSkinManager_C",
+    "Name": "AC_WetSkinManager_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "Properties": {
+      "SkinMaterialIndex": 0,
+      "UseDetailedNormal": false,
+      "UseWholeBodyStainEffect": true
+    }
+  },
+  {
+    "Type": "ActorPhysicalMaterialMask",
+    "Name": "CharacterPhysicalMaterialMask",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ActorPhysicalMaterialMask'",
+    "Outer": {
+      "ObjectName": "CharacterRenderComponent'Default__CBP_Interaction_girl013b_02_C:RenderComponent'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.39"
+    }
+  },
+  {
+    "Type": "ActorShadowMapMask",
+    "Name": "CharacterShadowMapMask",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ActorShadowMapMask'",
+    "Outer": {
+      "ObjectName": "CharacterRenderComponent'Default__CBP_Interaction_girl013b_02_C:RenderComponent'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.39"
+    }
+  },
+  {
+    "Type": "CharacterMaterialManager",
+    "Name": "CharacterMaterialManager",
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CharacterMaterialManager'",
+    "Outer": {
+      "ObjectName": "CharacterRenderComponent'Default__CBP_Interaction_girl013b_02_C:RenderComponent'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.39"
+    }
+  },
+  {
+    "Type": "CharacterRenderComponent",
+    "Name": "RenderComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CharacterRenderComponent'",
+    "Outer": {
+      "ObjectName": "CBP_Interaction_girl013b_02_C'Default__CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.34"
+    },
+    "Properties": {
+      "CharacterShadowMapMask": {
+        "ObjectName": "ActorShadowMapMask'Default__CBP_Interaction_girl013b_02_C:RenderComponent.CharacterShadowMapMask'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.37"
+      },
+      "CharacterPhysicalMaterialMask": {
+        "ObjectName": "ActorPhysicalMaterialMask'Default__CBP_Interaction_girl013b_02_C:RenderComponent.CharacterPhysicalMaterialMask'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.36"
+      }
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveFloat'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveFloat'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "InteractionV3PhysHandleComponent",
+    "Name": "PhysicsHandle",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3PhysHandleComponent'",
+    "Outer": {
+      "ObjectName": "CBP_Interaction_girl013b_02_C'Default__CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.34"
+    }
+  },
+  {
+    "Type": "InteractionV3PhysicsControlComponent",
+    "Name": "BodyAnimNodePhysicsControl",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3PhysicsControlComponent'",
+    "Outer": {
+      "ObjectName": "CBP_Interaction_girl013b_02_C'Default__CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.34"
+    }
+  },
+  {
+    "Type": "InteractionV3PhysicsControlComponent",
+    "Name": "BodyPhysicsControl",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3PhysicsControlComponent'",
+    "Outer": {
+      "ObjectName": "CBP_Interaction_girl013b_02_C'Default__CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.34"
+    }
+  },
+  {
+    "Type": "InteractionV3PhysicsControlComponent",
+    "Name": "FacePhysicsControl",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3PhysicsControlComponent'",
+    "Outer": {
+      "ObjectName": "CBP_Interaction_girl013b_02_C'Default__CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.34"
+    }
+  },
+  {
+    "Type": "OVRLipSyncPlaybackActorComponent",
+    "Name": "LipSyncComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OVRLipSyncPlaybackActorComponent'",
+    "Outer": {
+      "ObjectName": "CBP_Interaction_girl013b_02_C'Default__CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.34"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CBP_Interaction_girl013b_02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'CBP_Interaction_girl013b_02_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.47"
+      },
+      "VariableGuid": "FA0B0014-4C94AF76-DD62438E-78F38CC1",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CBP_Interaction_girl013b_02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshComponent'CBP_Interaction_girl013b_02_C:Paomo Component_GEN_VARIABLE'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.52"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "AnimClass",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'SkeletalMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ClothingSimulationFactory",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'SkeletalMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "SkeletalMesh",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'SkeletalMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ComponentTags",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'SkeletalMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "None",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'SkeletalMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "ParentComponentOrVariableName": "BodyMesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "746463C0-4A28C4B5-0DEDB594-E0C9C510",
+      "InternalVariableName": "Paomo Component"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CBP_Interaction_girl013b_02_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'AC_WetSkinManager_C'",
+        "ObjectPath": "/Game/Cinematics/Manifestation/FennySwim/Effect/Scene01Master/AC_WetSkinManager"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AC_WetSkinManager_C'CBP_Interaction_girl013b_02_C:AC_WetSkinManager_GEN_VARIABLE'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.35"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "SkinMaterialIndex",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'AC_WetSkinManager_C'",
+              "ObjectPath": "/Game/Cinematics/Manifestation/FennySwim/Effect/Scene01Master/AC_WetSkinManager"
+            }
+          },
+          {
+            "PropertyName": "UseDetailedNormal",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'AC_WetSkinManager_C'",
+              "ObjectPath": "/Game/Cinematics/Manifestation/FennySwim/Effect/Scene01Master/AC_WetSkinManager"
+            }
+          },
+          {
+            "PropertyName": "UseWholeBodyStainEffect",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'AC_WetSkinManager_C'",
+              "ObjectPath": "/Game/Cinematics/Manifestation/FennySwim/Effect/Scene01Master/AC_WetSkinManager"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "VariableGuid": "5B8DCFBC-40730081-4AB00A98-99A21F1C",
+      "InternalVariableName": "AC_WetSkinManager"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'CBP_Interaction_girl013b_02_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.49"
+        },
+        {
+          "ObjectName": "SCS_Node'CBP_Interaction_girl013b_02_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.50"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'CBP_Interaction_girl013b_02_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.49"
+        },
+        {
+          "ObjectName": "SCS_Node'CBP_Interaction_girl013b_02_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.50"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'CBP_Interaction_girl013b_02_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.48"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "Paomo Component_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_PaomoInteraction_girl013b_02_C'",
+        "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/ABP_PaomoInteraction_girl013b_02"
+      },
+      "ClothingSimulationFactory": {
+        "ObjectName": "Class'ClothingSimulationFactoryNv'",
+        "ObjectPath": "/Script/ClothingSystemRuntimeNv"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SirisSwim_Prop10_skm'",
+        "ObjectPath": "/Game/Props/Manifestation/SirisSwim_Prop10/SirisSwim_Prop10_skm"
+      },
+      "ComponentTags": [
+        "Paomo"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "BodyMesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "CBP_Interaction_girl013b_02_C'Default__CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.34"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_Interaction_girl013b_02_C'",
+        "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/ABP_Interaction_girl013b_02"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'girl013b_02_ma_body01_skm'",
+        "ObjectPath": "/Game/Characters/Girl/girl013b_02/girl013b_02_ma_body01_skm"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'girl013b_02_body00_wetskin_inst'",
+          "ObjectPath": "/Game/Characters/Girl/girl013b_02/Materials/girl013b_02_body00_wetskin_inst"
+        }
+      ],
+      "TertiaryMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'sirris_water_stain_skin_Inst'",
+          "ObjectPath": "/Game/Cinematics/Manifestation/SirisSwim/Materials/sirris_water_stain_skin_Inst"
+        }
+      ],
+      "LightingChannels": {
+        "bChannel1": true
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "FaceMesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "CBP_Interaction_girl013b_02_C'Default__CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.34"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_FaceInteraction_girl013b_02_C'",
+        "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/ABP_FaceInteraction_girl013b_02"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'girl013_com01_face_skm'",
+        "ObjectPath": "/Game/Characters/CommonFace/girl013_com01/girl013_com01_face_skm"
+      },
+      "LightingChannels": {
+        "bChannel2": true
+      },
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'Default__CBP_Interaction_girl013b_02_C:BodyMesh'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.53"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "LeftShoe",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "CBP_Interaction_girl013b_02_C'Default__CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.34"
+    },
+    "Properties": {
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'girl013b_02_ma_shoe_L_skm'",
+        "ObjectPath": "/Game/Characters/Girl/girl013b_02/girl013b_02_ma_shoe_L_skm"
+      },
+      "LightingChannels": {
+        "bChannel1": true
+      },
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'Default__CBP_Interaction_girl013b_02_C:BodyMesh'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.53"
+      },
+      "ComponentTags": [
+        "shoe"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "RightShoe",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "CBP_Interaction_girl013b_02_C'Default__CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.34"
+    },
+    "Properties": {
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'girl013b_02_ma_shoe_R_skm'",
+        "ObjectPath": "/Game/Characters/Girl/girl013b_02/girl013b_02_ma_shoe_R_skm"
+      },
+      "LightingChannels": {
+        "bChannel1": true
+      },
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'Default__CBP_Interaction_girl013b_02_C:BodyMesh'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.53"
+      },
+      "ComponentTags": [
+        "shoe"
+      ]
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "Timeline_0_Template",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TimelineTemplate'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "Properties": {
+      "TimelineLength": 1.0,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat'CBP_Interaction_girl013b_02_C:CurveFloat_1'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.41"
+          },
+          "PropertyName": "Timeline_0_NewTrack_0_77164F7B488930508AF4BFAE9A71620E",
+          "TrackName": "NewTrack_0",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "77164F7B-48893050-8AF4BFAE-9A71620E",
+      "VariableName": "Timeline_0",
+      "DirectionPropertyName": "Timeline_0__Direction_77164F7B488930508AF4BFAE9A71620E",
+      "UpdateFunctionName": "Timeline_0__UpdateFunc",
+      "FinishedFunctionName": "Timeline_0__FinishedFunc"
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "Timeline_BodyWetness_Template",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TimelineTemplate'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CBP_Interaction_girl013b_02_C'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.33"
+    },
+    "Properties": {
+      "TimelineLength": 1.0,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat'CBP_Interaction_girl013b_02_C:CurveFloat_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/SirisSwim/girl013b_02/Blueprints/CBP_Interaction_girl013b_02.40"
+          },
+          "PropertyName": "Timeline_BodyWetness_Alpha_F2DDAD354FD9F74BB2DD399A129CBA93",
+          "TrackName": "Alpha",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "F2DDAD35-4FD9F74B-B2DD399A-129CBA93",
+      "VariableName": "Timeline_BodyWetness",
+      "DirectionPropertyName": "Timeline_BodyWetness__Direction_F2DDAD354FD9F74BB2DD399A129CBA93",
+      "UpdateFunctionName": "Timeline_BodyWetness__UpdateFunc",
+      "FinishedFunctionName": "Timeline_BodyWetness__FinishedFunc"
+    }
+  }
+]

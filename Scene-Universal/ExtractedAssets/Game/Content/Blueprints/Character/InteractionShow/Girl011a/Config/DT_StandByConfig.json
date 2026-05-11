@@ -1,0 +1,500 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_StandByConfig",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'InteractionStandByConfig'",
+        "ObjectPath": "/Script/CharacterInteraction"
+      },
+      "bIgnoreExtraFields": true,
+      "bIgnoreMissingFields": true
+    },
+    "Rows": {
+      "羽蜕·护士皮主场景": {
+        "ID": 1,
+        "SkinID": 101102,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl011a_02/Anim/manifestation/girl011a_02_manifestation_standby_stand01.girl011a_02_manifestation_standby_stand01",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl011a_02/AnimPart00/girl011a_02_manifestation_standby_stand01.girl011a_02_manifestation_standby_stand01",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": 30.0,
+        "ShowSequences": [
+          {
+            "Weight": 1.0,
+            "ShowSequenceID": 1,
+            "CustomAction": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine3",
+            "Intensity": 28,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl011a_02_Ma_Standby_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl011a/Curve/DBCurve_girl011a_02_Ma_Standby_Stand01"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 28,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl011a_02_Ma_Standby_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl011a/Curve/DBCurve_girl011a_02_Ma_Standby_Stand01"
+            }
+          }
+        ],
+        "OperateCollisions": [
+          {
+            "CollisionID": 1001,
+            "ClickOperateID": -1,
+            "DragOperateID": 1001,
+            "SocketName": "BONE_hari_LOD1_01_001",
+            "AllAgeLevel": 30,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          },
+          {
+            "CollisionID": 0,
+            "ClickOperateID": -1,
+            "DragOperateID": 1003,
+            "SocketName": "Bip001-R-Hand",
+            "AllAgeLevel": 30,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          },
+          {
+            "CollisionID": 0,
+            "ClickOperateID": -1,
+            "DragOperateID": 1002,
+            "SocketName": "Bip001-L-Hand",
+            "AllAgeLevel": 30,
+            "BoxSize": {
+              "X": 6.0,
+              "Y": 6.0,
+              "Z": 6.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          }
+        ],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "羽蜕·护士皮次场景1": {
+        "ID": 2,
+        "SkinID": 101102,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl011a_02/Anim/manifestation/girl011a_02_manifestation_show_stand02.girl011a_02_manifestation_show_stand02",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl011a_02/AnimPart00/manifestation/girl011a_02_manifestation_show_stand02.girl011a_02_manifestation_show_stand02",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": 10.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine3",
+            "Intensity": 28,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl011a_02_Show_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl011a/Curve/DBCurve_girl011a_02_Show_Stand01"
+            }
+          },
+          {
+            "SocketName": "Bip001-LThighTwist1",
+            "Intensity": 28,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl011a_02_Show_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl011a/Curve/DBCurve_girl011a_02_Show_Stand01"
+            }
+          }
+        ],
+        "OperateCollisions": [
+          {
+            "CollisionID": 0,
+            "ClickOperateID": -1,
+            "DragOperateID": 1101,
+            "SocketName": "BONE_hari_LOD1_01_001",
+            "AllAgeLevel": 30,
+            "BoxSize": {
+              "X": 7.0,
+              "Y": 7.0,
+              "Z": 7.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          },
+          {
+            "CollisionID": 1108,
+            "ClickOperateID": -1,
+            "DragOperateID": 1108,
+            "SocketName": "Bip001-Pelvis",
+            "AllAgeLevel": 30,
+            "BoxSize": {
+              "X": 10.0,
+              "Y": 10.0,
+              "Z": 10.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          }
+        ],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "羽蜕·护士皮次场景2": {
+        "ID": 4,
+        "SkinID": 101102,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl011a_02/Anim/manifestation/girl011a_02_manifestation_show_stand04.girl011a_02_manifestation_show_stand04",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl011a_02/AnimPart00/manifestation/girl011a_02_manifestation_show_stand04.girl011a_02_manifestation_show_stand04",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": 10.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine3",
+            "Intensity": 28,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl011a_02_Show_Stand02'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl011a/Curve/DBCurve_girl011a_02_Show_Stand02"
+            }
+          },
+          {
+            "SocketName": "Bip001-RThighTwist1",
+            "Intensity": 28,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl011a_02_Show_Stand02'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl011a/Curve/DBCurve_girl011a_02_Show_Stand02"
+            }
+          }
+        ],
+        "OperateCollisions": [
+          {
+            "CollisionID": 0,
+            "ClickOperateID": -1,
+            "DragOperateID": 1201,
+            "SocketName": "BONE_hari_LOD1_01_001",
+            "AllAgeLevel": 30,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          },
+          {
+            "CollisionID": 0,
+            "ClickOperateID": -1,
+            "DragOperateID": 1204,
+            "SocketName": "Bip001-L-Foot",
+            "AllAgeLevel": 30,
+            "BoxSize": {
+              "X": 10.0,
+              "Y": 10.0,
+              "Z": 10.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          },
+          {
+            "CollisionID": 0,
+            "ClickOperateID": -1,
+            "DragOperateID": 1205,
+            "SocketName": "Bip001-R-Foot",
+            "AllAgeLevel": 30,
+            "BoxSize": {
+              "X": 10.0,
+              "Y": 10.0,
+              "Z": 10.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          }
+        ],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "羽蜕·护士皮次场景3": {
+        "ID": 5,
+        "SkinID": 101102,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl011a_02/Anim/manifestation/girl011a_02_manifestation_show_stand05.girl011a_02_manifestation_show_stand05",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl011a_02/AnimPart00/manifestation/girl011a_02_manifestation_show_stand05.girl011a_02_manifestation_show_stand05",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": 10.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine3",
+            "Intensity": 28,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl011a_02_Show_Stand03'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl011a/Curve/DBCurve_girl011a_02_Show_Stand03"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 28,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl011a_02_Show_Stand03'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl011a/Curve/DBCurve_girl011a_02_Show_Stand03"
+            }
+          }
+        ],
+        "OperateCollisions": [
+          {
+            "CollisionID": 0,
+            "ClickOperateID": -1,
+            "DragOperateID": 1301,
+            "SocketName": "BONE_hari_LOD1_01_001",
+            "AllAgeLevel": 30,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          },
+          {
+            "CollisionID": 0,
+            "ClickOperateID": -1,
+            "DragOperateID": 1304,
+            "SocketName": "Bip001-L-Foot",
+            "AllAgeLevel": 30,
+            "BoxSize": {
+              "X": 10.0,
+              "Y": 10.0,
+              "Z": 10.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          },
+          {
+            "CollisionID": 0,
+            "ClickOperateID": -1,
+            "DragOperateID": 1305,
+            "SocketName": "Bip001-R-Foot",
+            "AllAgeLevel": 30,
+            "BoxSize": {
+              "X": 10.0,
+              "Y": 10.0,
+              "Z": 10.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          }
+        ],
+        "KawaiBlendSpeedScale": 1.0
+      }
+    }
+  }
+]

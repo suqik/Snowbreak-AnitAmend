@@ -1,0 +1,5425 @@
+[
+  {
+    "Type": "Plot",
+    "Name": "CH13EP5",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Plot'",
+    "Properties": {
+      "PlotConfig": "CH13\\CH13EP5",
+      "RootItem": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      }
+    }
+  },
+  {
+    "Type": "PlotItem_Delay",
+    "Name": "PlotItem_Delay_146",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Delay'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "DelayTime": 1.0,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "bWait": false,
+      "ItemIndex": 59
+    }
+  },
+  {
+    "Type": "PlotItem_Delay",
+    "Name": "PlotItem_Delay_217",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Delay'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "DelayTime": 1.0,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "bWait": false,
+      "ItemIndex": 145
+    }
+  },
+  {
+    "Type": "PlotItem_Delay",
+    "Name": "PlotItem_Delay_231",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Delay'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "DelayTime": 0.8,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "bWait": false,
+      "ItemIndex": 62
+    }
+  },
+  {
+    "Type": "PlotItem_Delay",
+    "Name": "PlotItem_Delay_27",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Delay'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "DelayTime": 1.3,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "bWait": false,
+      "ItemIndex": 14
+    }
+  },
+  {
+    "Type": "PlotItem_Delay",
+    "Name": "PlotItem_Delay_286",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Delay'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "DelayTime": 2.0,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 201
+    }
+  },
+  {
+    "Type": "PlotItem_Delay",
+    "Name": "PlotItem_Delay_293",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Delay'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "DelayTime": 1.0,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "bWait": false,
+      "ItemIndex": 65
+    }
+  },
+  {
+    "Type": "PlotItem_Delay",
+    "Name": "PlotItem_Delay_330",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Delay'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "DelayTime": 1.3,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "bWait": false,
+      "ItemIndex": 96
+    }
+  },
+  {
+    "Type": "PlotItem_Delay",
+    "Name": "PlotItem_Delay_388",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Delay'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "DelayTime": 0.1,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "bWait": false,
+      "ItemIndex": 105
+    }
+  },
+  {
+    "Type": "PlotItem_Delay",
+    "Name": "PlotItem_Delay_50",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Delay'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "DelayTime": 1.3,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "bWait": false,
+      "ItemIndex": 5
+    }
+  },
+  {
+    "Type": "PlotItem_Delay",
+    "Name": "PlotItem_Delay_505",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Delay'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "DelayTime": 1.0,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "bWait": false,
+      "ItemIndex": 107
+    }
+  },
+  {
+    "Type": "PlotItem_LoadImg",
+    "Name": "PlotItem_LoadImg_124",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_LoadImg'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "ImgPath": {
+        "AssetPathName": "/Game/UI/Picture/Dialogue/Dialogue_BG112.Dialogue_BG112",
+        "SubPathString": ""
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 94
+    }
+  },
+  {
+    "Type": "PlotItem_LoadImg",
+    "Name": "PlotItem_LoadImg_31",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_LoadImg'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "ImgPath": {
+        "AssetPathName": "/Game/UI/Picture/Dialogue/Dialogue_BG112.Dialogue_BG112",
+        "SubPathString": ""
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 12
+    }
+  },
+  {
+    "Type": "PlotItem_LoadImg",
+    "Name": "PlotItem_LoadImg_82",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_LoadImg'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "ImgPath": {
+        "AssetPathName": "/Game/UI/Picture/Dialogue/Dialogue_BG17.Dialogue_BG17",
+        "SubPathString": ""
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 2
+    }
+  },
+  {
+    "Type": "PlotItem_LoadImg",
+    "Name": "PlotItem_LoadImg_86",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_LoadImg'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "ImgPath": {
+        "AssetPathName": "/Game/UI/Picture/Dialogue/Dialogue_BG17.Dialogue_BG17",
+        "SubPathString": ""
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 88
+    }
+  },
+  {
+    "Type": "PlotItem_LoadImg_Reward",
+    "Name": "PlotItem_LoadImg_Reward_172",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_LoadImg_Reward'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "ImgPath": {
+        "AssetPathName": "/Game/UI/Icon/Plot/icon_plot_di76.icon_plot_di76",
+        "SubPathString": ""
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 134
+    }
+  },
+  {
+    "Type": "PlotItem_LoadImg_Reward",
+    "Name": "PlotItem_LoadImg_Reward_233",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_LoadImg_Reward'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "bHide": true,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 137
+    }
+  },
+  {
+    "Type": "PlotItem_PlayWwise",
+    "Name": "PlotItem_PlayWwise_129",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayWwise'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "EventName": "Play_Story_Friction02",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 38
+    }
+  },
+  {
+    "Type": "PlotItem_PlayWwise",
+    "Name": "PlotItem_PlayWwise_167",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayWwise'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "EventName": "Play_Story_QinShi1",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 132
+    }
+  },
+  {
+    "Type": "PlotItem_PlayWwise",
+    "Name": "PlotItem_PlayWwise_195",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayWwise'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "EventName": "Play_S_Story_Clothes",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 123
+    }
+  },
+  {
+    "Type": "PlotItem_PlayWwise",
+    "Name": "PlotItem_PlayWwise_223",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayWwise'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "EventName": "Play_S_Story_Clothes",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 45
+    }
+  },
+  {
+    "Type": "PlotItem_PlayWwise",
+    "Name": "PlotItem_PlayWwise_244",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayWwise'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 135
+    }
+  },
+  {
+    "Type": "PlotItem_PlayWwise",
+    "Name": "PlotItem_PlayWwise_266",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayWwise'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "EventName": "Play_Story_Heartbeat_A",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 4
+    }
+  },
+  {
+    "Type": "PlotItem_PlayWwise",
+    "Name": "PlotItem_PlayWwise_307",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayWwise'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "EventName": "Play_Story_Friction02",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 55
+    }
+  },
+  {
+    "Type": "PlotItem_PlayWwise",
+    "Name": "PlotItem_PlayWwise_389",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayWwise'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "EventName": "Play_S_Story_highheel",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 143
+    }
+  },
+  {
+    "Type": "PlotItem_PlayWwise",
+    "Name": "PlotItem_PlayWwise_434",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayWwise'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "EventName": "Play_Story_Friction02",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 152
+    }
+  },
+  {
+    "Type": "PlotItem_PlayWwise",
+    "Name": "PlotItem_PlayWwise_487",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayWwise'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "EventName": "Play_Story_RouTi",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 159
+    }
+  },
+  {
+    "Type": "PlotItem_PlayWwise",
+    "Name": "PlotItem_PlayWwise_523",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayWwise'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "EventName": "Play_Story_QinShi1",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 169
+    }
+  },
+  {
+    "Type": "PlotItem_PlayWwise",
+    "Name": "PlotItem_PlayWwise_53",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayWwise'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "EventName": "Play_Story_Friction02",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 115
+    }
+  },
+  {
+    "Type": "PlotItem_PlayWwise",
+    "Name": "PlotItem_PlayWwise_557",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayWwise'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "EventName": "Play_Story_Gun5",
+      "PlayCount": 3,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 175
+    }
+  },
+  {
+    "Type": "PlotItem_PlayWwise",
+    "Name": "PlotItem_PlayWwise_601",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayWwise'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "EventName": "Play_Story_GuangJiao",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 17
+    }
+  },
+  {
+    "Type": "PlotItem_PlayWwise",
+    "Name": "PlotItem_PlayWwise_640",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayWwise'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "EventName": "Play_S_Story_wakeup",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 188
+    }
+  },
+  {
+    "Type": "PlotItem_PlayWwise",
+    "Name": "PlotItem_PlayWwise_85",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayWwise'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "EventName": "Play_Story_QinShi2",
+      "PlayCount": 2,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 126
+    }
+  },
+  {
+    "Type": "PlotItem_PlayWwise",
+    "Name": "PlotItem_PlayWwise_88",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_PlayWwise'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "EventName": "Play_Story_Friction01",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 36
+    }
+  },
+  {
+    "Type": "PlotItem_Root",
+    "Name": "PlotItem_Root_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Root'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Childs": [
+        {
+          "ObjectName": "PlotItem_SetVolumeScalue'CH13EP5:PlotItem_SetVolumeScalue_155'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.51"
+        },
+        {
+          "ObjectName": "PlotItem_Wwise_SetState'CH13EP5:PlotItem_Wwise_SetState_181'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.199"
+        },
+        {
+          "ObjectName": "PlotItem_LoadImg'CH13EP5:PlotItem_LoadImg_82'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.13"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'CH13EP5:PlotItem_ScreenTransition_34'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.42"
+        },
+        {
+          "ObjectName": "PlotItem_PlayWwise'CH13EP5:PlotItem_PlayWwise_266'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.22"
+        },
+        {
+          "ObjectName": "PlotItem_Delay'CH13EP5:PlotItem_Delay_50'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.9"
+        },
+        {
+          "ObjectName": "PlotItem_SetCameraArgs'CH13EP5:PlotItem_SetCameraArgs_0'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.46"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_0'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.81"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'CH13EP5:PlotItem_Spine_Hide_369'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.69"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_1'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.82"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'CH13EP5:PlotItem_Spine_Hide_69'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.79"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'CH13EP5:PlotItem_ScreenTransition_35'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.43"
+        },
+        {
+          "ObjectName": "PlotItem_LoadImg'CH13EP5:PlotItem_LoadImg_31'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.12"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'CH13EP5:PlotItem_ScreenTransition_85'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.45"
+        },
+        {
+          "ObjectName": "PlotItem_Delay'CH13EP5:PlotItem_Delay_27'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.4"
+        },
+        {
+          "ObjectName": "PlotItem_Wwise_SetState'CH13EP5:PlotItem_Wwise_SetState_54'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.203"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_2'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.109"
+        },
+        {
+          "ObjectName": "PlotItem_PlayWwise'CH13EP5:PlotItem_PlayWwise_601'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.30"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_3'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.120"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_4'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.131"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_5'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.141"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_6'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.152"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'CH13EP5:PlotItem_Spine_Hide_115'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.60"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_7'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.163"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_8'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.174"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_9'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.185"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_10'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.83"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_11'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.94"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_12'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.100"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_13'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.101"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'CH13EP5:PlotItem_Spine_Hide_256'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.64"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_14'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.102"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_15'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.103"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_16'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.104"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_17'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.105"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'CH13EP5:PlotItem_Spine_Hide_312'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.66"
+        },
+        {
+          "ObjectName": "PlotItem_PlayWwise'CH13EP5:PlotItem_PlayWwise_88'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.33"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_18'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.106"
+        },
+        {
+          "ObjectName": "PlotItem_PlayWwise'CH13EP5:PlotItem_PlayWwise_129'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.17"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_19'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.108"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_20'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.110"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_21'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.111"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_22'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.112"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_23'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.113"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'CH13EP5:PlotItem_Spine_Hide_417'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.70"
+        },
+        {
+          "ObjectName": "PlotItem_PlayWwise'CH13EP5:PlotItem_PlayWwise_223'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.20"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_24'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.114"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenShake'CH13EP5:PlotItem_ScreenShake_62'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.36"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_25'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.115"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_26'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.116"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_27'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.117"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_28'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.118"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_29'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.119"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'CH13EP5:PlotItem_Spine_Hide_454'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.73"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_30'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.121"
+        },
+        {
+          "ObjectName": "PlotItem_PlayWwise'CH13EP5:PlotItem_PlayWwise_307'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.23"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_31'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.122"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_32'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.123"
+        },
+        {
+          "ObjectName": "PlotItem_SetVisibility_New'CH13EP5:PlotItem_SetVisibility_New_53'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.49"
+        },
+        {
+          "ObjectName": "PlotItem_Delay'CH13EP5:PlotItem_Delay_146'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.1"
+        },
+        {
+          "ObjectName": "PlotItem_TwinkleEffect'CH13EP5:PlotItem_TwinkleEffect_118'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.198"
+        },
+        {
+          "ObjectName": "PlotItem_Wwise_SetState'CH13EP5:PlotItem_Wwise_SetState_438'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.201"
+        },
+        {
+          "ObjectName": "PlotItem_Delay'CH13EP5:PlotItem_Delay_231'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.3"
+        },
+        {
+          "ObjectName": "PlotItem_Spine'CH13EP5:PlotItem_Spine_36'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.56"
+        },
+        {
+          "ObjectName": "PlotItem_Wwise_SetState'CH13EP5:PlotItem_Wwise_SetState_342'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.200"
+        },
+        {
+          "ObjectName": "PlotItem_Delay'CH13EP5:PlotItem_Delay_293'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.6"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_33'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.124"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_34'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.125"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_35'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.126"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_36'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.127"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_37'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.128"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'CH13EP5:PlotItem_Spine_Hide_512'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.75"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_38'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.129"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_39'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.130"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_40'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.132"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_41'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.133"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_42'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.134"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_43'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.135"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_44'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.136"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_45'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.137"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_46'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.138"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_47'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.139"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_182'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.107"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_49'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.140"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'CH13EP5:PlotItem_Spine_Hide_583'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.77"
+        },
+        {
+          "ObjectName": "PlotItem_SetVisibility_New'CH13EP5:PlotItem_SetVisibility_New_95'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.50"
+        },
+        {
+          "ObjectName": "PlotItem_Wwise_SetState'CH13EP5:PlotItem_Wwise_SetState_540'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.204"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'CH13EP5:PlotItem_ScreenTransition_218'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.38"
+        },
+        {
+          "ObjectName": "PlotItem_LoadImg'CH13EP5:PlotItem_LoadImg_86'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.14"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'CH13EP5:PlotItem_ScreenTransition_305'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.40"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_50'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.142"
+        },
+        {
+          "ObjectName": "PlotItem_SetVisibility_New'CH13EP5:PlotItem_SetVisibility_New_189'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.47"
+        },
+        {
+          "ObjectName": "PlotItem_Wwise_SetState'CH13EP5:PlotItem_Wwise_SetState_681'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.205"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'CH13EP5:PlotItem_ScreenTransition_334'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.41"
+        },
+        {
+          "ObjectName": "PlotItem_LoadImg'CH13EP5:PlotItem_LoadImg_124'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.11"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'CH13EP5:PlotItem_ScreenTransition_260'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.39"
+        },
+        {
+          "ObjectName": "PlotItem_Delay'CH13EP5:PlotItem_Delay_330'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.7"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_51'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.143"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_52'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.144"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_53'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.145"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_54'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.146"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'CH13EP5:PlotItem_Spine_Hide_622'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.78"
+        },
+        {
+          "ObjectName": "PlotItem_Spine'CH13EP5:PlotItem_Spine_67'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.58"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_55'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.147"
+        },
+        {
+          "ObjectName": "PlotItem_TransformAnimation'CH13EP5:PlotItem_TransformAnimation_113'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.196"
+        },
+        {
+          "ObjectName": "PlotItem_Delay'CH13EP5:PlotItem_Delay_388'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.8"
+        },
+        {
+          "ObjectName": "PlotItem_TransformAnimation'CH13EP5:PlotItem_TransformAnimation_170'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.197"
+        },
+        {
+          "ObjectName": "PlotItem_Delay'CH13EP5:PlotItem_Delay_505'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.10"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'CH13EP5:PlotItem_Spine_Hide_725'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.80"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_56'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.148"
+        },
+        {
+          "ObjectName": "PlotItem_Spine'CH13EP5:PlotItem_Spine_107'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.54"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_57'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.149"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_58'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.150"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_59'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.151"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_60'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.153"
+        },
+        {
+          "ObjectName": "PlotItem_PlayWwise'CH13EP5:PlotItem_PlayWwise_53'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.28"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_61'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.154"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'CH13EP5:PlotItem_Spine_Hide_571'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.76"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_62'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.155"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_63'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.156"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'CH13EP5:PlotItem_Spine_Hide_43'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.71"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_64'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.157"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'CH13EP5:PlotItem_Spine_Hide_143'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.61"
+        },
+        {
+          "ObjectName": "PlotItem_PlayWwise'CH13EP5:PlotItem_PlayWwise_195'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.19"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_65'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.158"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_66'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.159"
+        },
+        {
+          "ObjectName": "PlotItem_PlayWwise'CH13EP5:PlotItem_PlayWwise_85'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.32"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_67'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.160"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'CH13EP5:PlotItem_Spine_Hide_192'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.62"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenShake'CH13EP5:PlotItem_ScreenShake_67'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.37"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_68'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.161"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'CH13EP5:PlotItem_Spine_Hide_234'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.63"
+        },
+        {
+          "ObjectName": "PlotItem_PlayWwise'CH13EP5:PlotItem_PlayWwise_167'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.18"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_69'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.162"
+        },
+        {
+          "ObjectName": "PlotItem_LoadImg_Reward'CH13EP5:PlotItem_LoadImg_Reward_172'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.15"
+        },
+        {
+          "ObjectName": "PlotItem_PlayWwise'CH13EP5:PlotItem_PlayWwise_244'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.21"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_70'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.164"
+        },
+        {
+          "ObjectName": "PlotItem_LoadImg_Reward'CH13EP5:PlotItem_LoadImg_Reward_233'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.16"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_71'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.165"
+        },
+        {
+          "ObjectName": "PlotItem_Spine'CH13EP5:PlotItem_Spine_44'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.57"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_72'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.166"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_73'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.167"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'CH13EP5:PlotItem_Spine_Hide_274'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.65"
+        },
+        {
+          "ObjectName": "PlotItem_PlayWwise'CH13EP5:PlotItem_PlayWwise_389'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.24"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_74'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.168"
+        },
+        {
+          "ObjectName": "PlotItem_Delay'CH13EP5:PlotItem_Delay_217'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.2"
+        },
+        {
+          "ObjectName": "PlotItem_Spine'CH13EP5:PlotItem_Spine_89'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.59"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_75'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.169"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_76'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.170"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_77'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.171"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_78'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.172"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'CH13EP5:PlotItem_Spine_Hide_330'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.67"
+        },
+        {
+          "ObjectName": "PlotItem_PlayWwise'CH13EP5:PlotItem_PlayWwise_434'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.25"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_79'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.173"
+        },
+        {
+          "ObjectName": "PlotItem_Spine'CH13EP5:PlotItem_Spine_130'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.55"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_80'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.175"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_81'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.176"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_82'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.177"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_83'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.178"
+        },
+        {
+          "ObjectName": "PlotItem_PlayWwise'CH13EP5:PlotItem_PlayWwise_487'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.26"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_84'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.179"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_85'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.180"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_86'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.181"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_87'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.182"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_88'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.183"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_89'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.184"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_90'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.186"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_91'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.187"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'CH13EP5:PlotItem_Spine_Hide_367'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.68"
+        },
+        {
+          "ObjectName": "PlotItem_PlayWwise'CH13EP5:PlotItem_PlayWwise_523'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.27"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_92'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.188"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_93'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.189"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_94'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.190"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_95'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.191"
+        },
+        {
+          "ObjectName": "PlotItem_SetVolumeScalue'CH13EP5:PlotItem_SetVolumeScalue_43'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.52"
+        },
+        {
+          "ObjectName": "PlotItem_PlayWwise'CH13EP5:PlotItem_PlayWwise_557'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.29"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_96'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.192"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_97'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.193"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_98'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.194"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'CH13EP5:PlotItem_Spine_Hide_433'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.72"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_99'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.195"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_100'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.84"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_101'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.85"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_102'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.86"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_103'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.87"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_104'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.88"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_105'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.89"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_106'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.90"
+        },
+        {
+          "ObjectName": "PlotItem_PlayWwise'CH13EP5:PlotItem_PlayWwise_640'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.31"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenShake'CH13EP5:PlotItem_ScreenShake_137'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.35"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_107'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.91"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_108'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.92"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_109'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.93"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_110'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.95"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_111'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.96"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_112'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.97"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_113'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.98"
+        },
+        {
+          "ObjectName": "PlotItem_Talk'CH13EP5:PlotItem_Talk_114'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.99"
+        },
+        {
+          "ObjectName": "PlotItem_Spine_Hide'CH13EP5:PlotItem_Spine_Hide_488'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.74"
+        },
+        {
+          "ObjectName": "PlotItem_SetVisibility_New'CH13EP5:PlotItem_SetVisibility_New_50'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.48"
+        },
+        {
+          "ObjectName": "PlotItem_ScreenTransition'CH13EP5:PlotItem_ScreenTransition_48'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.44"
+        },
+        {
+          "ObjectName": "PlotItem_Delay'CH13EP5:PlotItem_Delay_286'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.5"
+        },
+        {
+          "ObjectName": "PlotItem_Wwise_SetState'CH13EP5:PlotItem_Wwise_SetState_45'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.202"
+        },
+        {
+          "ObjectName": "PlotItem_SetVolumeScalue'CH13EP5:PlotItem_SetVolumeScalue_90'",
+          "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.53"
+        }
+      ],
+      "ExecuteIndex": 75
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenShake",
+    "Name": "PlotItem_ScreenShake_137",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenShake'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "OrderType": "EPlotWidgetOrderType::RoleAndBg",
+      "Duration": 1.0,
+      "ShakeSetting": {
+        "X": {
+          "Amplitude": 15.0,
+          "Frequency": 20.0,
+          "Waveform": "EOscillatorWaveform::PerlinNoise"
+        },
+        "Y": {
+          "Amplitude": 15.0,
+          "Frequency": 20.0,
+          "Waveform": "EOscillatorWaveform::PerlinNoise"
+        }
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 189
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenShake",
+    "Name": "PlotItem_ScreenShake_62",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenShake'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "OrderType": "EPlotWidgetOrderType::RoleAndBg",
+      "Duration": 0.8,
+      "ShakeSetting": {
+        "X": {
+          "Amplitude": 15.0,
+          "Frequency": 20.0,
+          "Waveform": "EOscillatorWaveform::PerlinNoise"
+        },
+        "Y": {
+          "Amplitude": 15.0,
+          "Frequency": 20.0,
+          "Waveform": "EOscillatorWaveform::PerlinNoise"
+        }
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 47
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenShake",
+    "Name": "PlotItem_ScreenShake_67",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenShake'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "OrderType": "EPlotWidgetOrderType::RoleAndBg",
+      "Duration": 1.0,
+      "ShakeSetting": {
+        "X": {
+          "Amplitude": 20.0,
+          "Frequency": 30.0,
+          "Waveform": "EOscillatorWaveform::PerlinNoise"
+        },
+        "Y": {
+          "Amplitude": 20.0,
+          "Frequency": 30.0,
+          "Waveform": "EOscillatorWaveform::PerlinNoise"
+        }
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 129
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_218",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::BlackBackground",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "bWait": true,
+      "ItemIndex": 87
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_260",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::BlackBackground",
+      "bBlendIn": false,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 95
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_305",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::BlackBackground",
+      "bBlendIn": false,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 89
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_334",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::BlackBackground",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "bWait": true,
+      "ItemIndex": 93
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_34",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::BlackBackground",
+      "bBlendIn": false,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 3
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_35",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::BlackBackground",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "bWait": true,
+      "ItemIndex": 11
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_48",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::BlackBackground",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "bWait": true,
+      "ItemIndex": 200
+    }
+  },
+  {
+    "Type": "PlotItem_ScreenTransition",
+    "Name": "PlotItem_ScreenTransition_85",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_ScreenTransition'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "EffectType": "EScreenTransitionEffectType::BlackBackground",
+      "bBlendIn": false,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 13
+    }
+  },
+  {
+    "Type": "PlotItem_SetCameraArgs",
+    "Name": "PlotItem_SetCameraArgs_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_SetCameraArgs'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Args": {
+        "Postion": {
+          "X": 0.0,
+          "Y": 1024.0,
+          "Z": 512.0
+        },
+        "Rotator": {
+          "Pitch": -15.0,
+          "Yaw": -90.0,
+          "Roll": 0.0
+        },
+        "FOV": 90.0,
+        "Offset": {
+          "X": 0.0,
+          "Y": "NaN",
+          "Z": 1E-44
+        },
+        "Direction": {
+          "X": -3.147386E-07,
+          "Y": -0.9659258,
+          "Z": -0.25881907
+        }
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 6
+    }
+  },
+  {
+    "Type": "PlotItem_SetVisibility_New",
+    "Name": "PlotItem_SetVisibility_New_189",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_SetVisibility_New'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "UINodeType": "EPlotItemUINodeType::PanelAside",
+      "Visibility": "ESlateVisibility::Hidden",
+      "FadeTime": 0.4,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "bWait": true,
+      "ItemIndex": 91
+    }
+  },
+  {
+    "Type": "PlotItem_SetVisibility_New",
+    "Name": "PlotItem_SetVisibility_New_50",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_SetVisibility_New'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "UINodeType": "EPlotItemUINodeType::PanelAside",
+      "Visibility": "ESlateVisibility::Hidden",
+      "FadeTime": 0.4,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "bWait": true,
+      "ItemIndex": 199
+    }
+  },
+  {
+    "Type": "PlotItem_SetVisibility_New",
+    "Name": "PlotItem_SetVisibility_New_53",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_SetVisibility_New'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "UINodeType": "EPlotItemUINodeType::DialogueNode",
+      "Visibility": "ESlateVisibility::Hidden",
+      "FadeTime": 0.4,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "bWait": true,
+      "ItemIndex": 58
+    }
+  },
+  {
+    "Type": "PlotItem_SetVisibility_New",
+    "Name": "PlotItem_SetVisibility_New_95",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_SetVisibility_New'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "UINodeType": "EPlotItemUINodeType::DialogueNode",
+      "Visibility": "ESlateVisibility::Hidden",
+      "FadeTime": 0.4,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "bWait": true,
+      "ItemIndex": 85
+    }
+  },
+  {
+    "Type": "PlotItem_SetVolumeScalue",
+    "Name": "PlotItem_SetVolumeScalue_155",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_SetVolumeScalue'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "VolumeType": "EWwiseVolumeType::Sound",
+      "Scale": 0.8,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      }
+    }
+  },
+  {
+    "Type": "PlotItem_SetVolumeScalue",
+    "Name": "PlotItem_SetVolumeScalue_43",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_SetVolumeScalue'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "VolumeType": "EWwiseVolumeType::Sound",
+      "Scale": 0.5,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 174
+    }
+  },
+  {
+    "Type": "PlotItem_SetVolumeScalue",
+    "Name": "PlotItem_SetVolumeScalue_90",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_SetVolumeScalue'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 203
+    }
+  },
+  {
+    "Type": "PlotItem_Spine",
+    "Name": "PlotItem_Spine_107",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Pos": 6,
+      "RoleName": "罗赞",
+      "SpineParameters": {
+        "SpineEffectType": "ESpineEffectType::HalfBlack",
+        "Animation": "sp_npc069_stand"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 110
+    }
+  },
+  {
+    "Type": "PlotItem_Spine",
+    "Name": "PlotItem_Spine_130",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Pos": 6,
+      "RoleName": "罗赞",
+      "SpineParameters": {
+        "Offset": {
+          "X": 250.0,
+          "Y": 390.0
+        },
+        "Scale": 1.5,
+        "Animation": "sp_npc069_stand"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 154
+    }
+  },
+  {
+    "Type": "PlotItem_Spine",
+    "Name": "PlotItem_Spine_36",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Pos": 6,
+      "RoleName": "里芙病号服",
+      "SpineParameters": {
+        "Offset": {
+          "X": 220.0,
+          "Y": 440.0
+        },
+        "Scale": 1.5,
+        "Animation": "sp_girl002_stand"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 63
+    }
+  },
+  {
+    "Type": "PlotItem_Spine",
+    "Name": "PlotItem_Spine_44",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Pos": 6,
+      "RoleName": "罗赞",
+      "SpineParameters": {
+        "Animation": "sp_npc069_stand"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 139
+    }
+  },
+  {
+    "Type": "PlotItem_Spine",
+    "Name": "PlotItem_Spine_67",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Pos": 6,
+      "RoleName": "真神室女",
+      "SpineParameters": {
+        "Animation": "sp_npc071_stand"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 102
+    }
+  },
+  {
+    "Type": "PlotItem_Spine",
+    "Name": "PlotItem_Spine_89",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Pos": 6,
+      "RoleName": "罗赞",
+      "SpineParameters": {
+        "Offset": {
+          "X": 250.0,
+          "Y": 390.0
+        },
+        "Scale": 1.5
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 146
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_115",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 22
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_143",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 122
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_192",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 128
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_234",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Delaytime": 1.0,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 131
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_256",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 30
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_274",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 142
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_312",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 35
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_330",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 151
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_367",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 168
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_369",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Delaytime": 1.0,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 8
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_417",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 44
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_43",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 120
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_433",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Delaytime": 1.0,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 179
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_454",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 53
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_488",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Delaytime": 1.0,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 198
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_512",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 71
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_571",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Delaytime": 1.0,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 117
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_583",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 84
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_622",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Delaytime": 1.0,
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 101
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_69",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 10
+    }
+  },
+  {
+    "Type": "PlotItem_Spine_Hide",
+    "Name": "PlotItem_Spine_Hide_725",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Spine_Hide'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 108
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Offset": {
+          "X": 0.0,
+          "Y": 40.0
+        },
+        "Scale": 0.95,
+        "Animation": "sp_girl008_stand"
+      },
+      "Config": {
+        "Key": "1",
+        "Pos": 6,
+        "Speaker": "芬妮病号服",
+        "Content": "……分析员……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "芬妮病号服 |……分析员……",
+      "ItemIndex": 7
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Offset": {
+          "X": 220.0,
+          "Y": 440.0
+        },
+        "Scale": 1.5,
+        "Animation": "sp_girl008_stand"
+      },
+      "Config": {
+        "Key": "2",
+        "Pos": 6,
+        "Speaker": "芬妮病号服",
+        "Content": "看着我……分析员……我要你看着我……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "芬妮病号服 |看着我……分析员……我要你看着我……",
+      "ItemIndex": 9
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Offset": {
+          "X": 220.0,
+          "Y": 440.0
+        },
+        "Scale": 1.5,
+        "Animation": "sp_girl008_stand_youchou"
+      },
+      "Config": {
+        "Key": "11",
+        "Pos": 6,
+        "Speaker": "芬妮病号服",
+        "Content": "亏你还叫得出我的名字……我以为你早把我忘了！我以为你……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "芬妮病号服 |亏你还叫得出我的名字……我以为你早把我忘了！我以为你……",
+      "ItemIndex": 26
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_100",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "101",
+        "Speaker": "分析员",
+        "Content": "不。我觉得我可以自己走出去！"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "分析员 |不。我觉得我可以自己走出去！",
+      "ItemIndex": 181
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_101",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "102",
+        "Content": "伴随着说出口的话语，我猛地挥拳直捣她的面门。在她不出我所料地向后弓腰，反手抓住我的拳头之后，我的另一只手伸向了那团真菌状的物什。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |伴随着说出口的话语，我猛地挥拳直捣她的面门。在她不出我所料地向后弓腰，反手抓住我的拳头之后，我的另一只手伸向了那团真菌状的物什。",
+      "ItemIndex": 182
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_102",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Animation": "sp_npc069_stand_weixiao"
+      },
+      "Config": {
+        "Key": "103",
+        "Pos": 6,
+        "Speaker": "罗赞",
+        "Content": "啊哈——明抢可不行，分析员。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "罗赞 |啊哈——明抢可不行，分析员。",
+      "ItemIndex": 183
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_103",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "104",
+        "Content": "她只是手掌轻轻一翻，那东西就自行钻入了她的皮肉里消失不见。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |她只是手掌轻轻一翻，那东西就自行钻入了她的皮肉里消失不见。",
+      "ItemIndex": 184
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_104",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "105",
+        "Pos": 6,
+        "Speaker": "罗赞",
+        "Content": "不过你想活动活动筋骨的话，我倒是很乐意陪你。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "罗赞 |不过你想活动活动筋骨的话，我倒是很乐意陪你。",
+      "ItemIndex": 185
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_105",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "106",
+        "Content": "她话还没说完，反手的手刀就已经对着我的颈动脉直劈过来。不得已之下，我只能收紧下颌，后腰和大腿一起发力，想将她从我身上掀翻下去。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |她话还没说完，反手的手刀就已经对着我的颈动脉直劈过来。不得已之下，我只能收紧下颌，后腰和大腿一起发力，想将她从我身上掀翻下去。",
+      "ItemIndex": 186
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_106",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "107",
+        "Content": "但她的灵活和技巧显然超出了我的预料——单手撑住我的胸口，抬腿侧翻，不仅从容地脱身，还顺势在我的侧腹上重重地踢了一脚。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |但她的灵活和技巧显然超出了我的预料——单手撑住我的胸口，抬腿侧翻，不仅从容地脱身，还顺势在我的侧腹上重重地踢了一脚。",
+      "ItemIndex": 187
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_107",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "108",
+        "Content": "我堪称狼狈地从身下的床榻里脱身，忍着钻心的痛楚勉强站直了身体，而她早已好整以暇地拦在了我通往房门的去路上，一边晃着脖子，一边轻松地舒展着筋骨。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |我堪称狼狈地从身下的床榻里脱身，忍着钻心的痛楚勉强站直了身体，而她早已好整以暇地拦在了我通往房门的去路上，一边晃着脖子，一边轻松地舒展着筋骨。",
+      "ItemIndex": 190
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_108",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Animation": "sp_npc069_stand"
+      },
+      "Config": {
+        "Key": "109",
+        "Pos": 6,
+        "Speaker": "罗赞",
+        "Content": "你知道从一开始，我为什么会选择去投身行伍吗？"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "罗赞 |你知道从一开始，我为什么会选择去投身行伍吗？",
+      "ItemIndex": 191
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_109",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "110",
+        "Content": "我知道。就算此前我不知道，现在我也该知道了。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |我知道。就算此前我不知道，现在我也该知道了。",
+      "ItemIndex": 192
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "12",
+        "Speaker": "分析员",
+        "Content": "把你……忘了？为什么……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "分析员 |把你……忘了？为什么……",
+      "ItemIndex": 27
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_110",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "111",
+        "Pos": 6,
+        "Speaker": "罗赞",
+        "Content": "磨练肉体，施展暴力，用相应的成果来满足心灵的欲求——人类作为一种动物，这是理所当然的本能。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "罗赞 |磨练肉体，施展暴力，用相应的成果来满足心灵的欲求——人类作为一种动物，这是理所当然的本能。",
+      "ItemIndex": 193
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_111",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "112",
+        "Pos": 6,
+        "Speaker": "罗赞",
+        "Content": "在整个世界都与这种本能背道而驰的今天，我重新拥抱了它，并且从它的内在里……找到了无上的快乐！"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "罗赞 |在整个世界都与这种本能背道而驰的今天，我重新拥抱了它，并且从它的内在里……找到了无上的快乐！",
+      "ItemIndex": 194
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_112",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "113",
+        "Content": "我发誓，在我明知道“自己现在即使立刻死掉也无所谓”的前提下，我仍然忍不住脊背发凉。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |我发誓，在我明知道“自己现在即使立刻死掉也无所谓”的前提下，我仍然忍不住脊背发凉。",
+      "ItemIndex": 195
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_113",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "114",
+        "Content": "如同离弦之箭一般向我直冲过来的毫无疑问只是一个人类，但她身上所裹挟的却是比泰坦，甚至鬼神都要更可怕的东西。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |如同离弦之箭一般向我直冲过来的毫无疑问只是一个人类，但她身上所裹挟的却是比泰坦，甚至鬼神都要更可怕的东西。",
+      "ItemIndex": 196
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_114",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "115",
+        "Content": "那是坦诚真挚到让我非信不可的……纯粹杀意。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |那是坦诚真挚到让我非信不可的……纯粹杀意。",
+      "ItemIndex": 197
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.5,
+        "Animation": "sp_girl008_stand_youchou",
+        "bLoop": false
+      },
+      "Config": {
+        "Key": "13",
+        "Pos": 6,
+        "Speaker": "芬妮病号服",
+        "Content": "你不理我，不陪着我，也不再带我做任何事……尤其是任务！"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "芬妮病号服 |你不理我，不陪着我，也不再带我做任何事……尤其是任务！",
+      "ItemIndex": 28
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "14",
+        "Speaker": "分析员",
+        "Content": "我——"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "分析员 |我——",
+      "ItemIndex": 29
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "15",
+        "Content": "下意识的辩驳被突如其来的扼喉所打断——她猛然间贴了过来，用鼻尖顶着我的上唇，把更温热的呼吸毫无保留地传递给了我。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |下意识的辩驳被突如其来的扼喉所打断——她猛然间贴了过来，用鼻尖顶着我的上唇，把更温热的呼吸毫无保留地传递给了我。",
+      "ItemIndex": 31
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Offset": {
+          "X": 220.0,
+          "Y": 440.0
+        },
+        "Scale": 1.5,
+        "Animation": "sp_girl008_xiao",
+        "bLoop": false
+      },
+      "Config": {
+        "Key": "16",
+        "Pos": 6,
+        "Speaker": "芬妮病号服",
+        "Content": "本小姐现在逮住机会了！我……霸占了分析员了，所以你不许反驳，你不许再用那张骗过别人的嘴来骗我。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "芬妮病号服 |本小姐现在逮住机会了！我……霸占了分析员了，所以你不许反驳，你不许再用那张骗过别人的嘴来骗我。",
+      "ItemIndex": 32
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.5
+      },
+      "Config": {
+        "Key": "17",
+        "Pos": 6,
+        "Speaker": "芬妮病号服",
+        "Content": "你如果不是……想把我忘了！那你为什么一直不把我带在身边？"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "芬妮病号服 |你如果不是……想把我忘了！那你为什么一直不把我带在身边？",
+      "ItemIndex": 33
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.5
+      },
+      "Config": {
+        "Key": "18",
+        "Pos": 6,
+        "Speaker": "芬妮病号服",
+        "Content": "你如果不是心里都装着别人，那为什么自打耶洛沙……不，要更早！第五研究所的事情之后，断点行动那次你就没叫我陪你！"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "芬妮病号服 |你如果不是心里都装着别人，那为什么自打耶洛沙……不，要更早！第五研究所的事情之后，断点行动那次你就没叫我陪你！",
+      "ItemIndex": 34
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 0.95
+      },
+      "Config": {
+        "Key": "19",
+        "Content": "她忽然双手用力，撑着我的身体，坐直了腰。手指在我的胸口胡乱摸索着，直到她找到了能为她作证的证据也还不作罢，而是狠狠抓了我一把。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |她忽然双手用力，撑着我的身体，坐直了腰。手指在我的胸口胡乱摸索着，直到她找到了能为她作证的证据也还不作罢，而是狠狠抓了我一把。",
+      "ItemIndex": 37
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_182",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "49",
+        "Pos": 6,
+        "Speaker": "里芙病号服",
+        "Content": "比如呢……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "里芙病号服 |比如呢……",
+      "ItemIndex": 82
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 0.95
+      },
+      "Config": {
+        "Key": "20",
+        "Content": "锋利的指甲破开皮肉，带来让人热血上涌的疼痛，也放大了本就难耐的欲念。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |锋利的指甲破开皮肉，带来让人热血上涌的疼痛，也放大了本就难耐的欲念。",
+      "ItemIndex": 39
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "3",
+        "Content": "昏暗，燥热……耳畔的气息灼热，但无论那呼唤声有多么真切，我的视线却始终模糊。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |昏暗，燥热……耳畔的气息灼热，但无论那呼唤声有多么真切，我的视线却始终模糊。",
+      "ItemIndex": 16
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_20",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Offset": {
+          "X": 220.0,
+          "Y": 440.0
+        },
+        "Scale": 1.5,
+        "Animation": "sp_girl008_stand_yansu"
+      },
+      "Config": {
+        "Key": "21",
+        "Pos": 6,
+        "Speaker": "芬妮病号服",
+        "Content": "这颗子弹……改变了一切……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "芬妮病号服 |这颗子弹……改变了一切……",
+      "ItemIndex": 40
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_21",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.5
+      },
+      "Config": {
+        "Key": "22",
+        "Pos": 6,
+        "Speaker": "芬妮病号服",
+        "Content": "从那之后，我没有一天不担惊受怕！我……我总觉得会有人把你……从我身边夺走……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "芬妮病号服 |从那之后，我没有一天不担惊受怕！我……我总觉得会有人把你……从我身边夺走……",
+      "ItemIndex": 41
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_22",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "23",
+        "Speaker": "分析员",
+        "Content": "不会的……我们是一家人，不会有什么夺走不夺走的……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "分析员 |不会的……我们是一家人，不会有什么夺走不夺走的……",
+      "ItemIndex": 42
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_23",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.5,
+        "Animation": "sp_girl008_stand_youchou",
+        "bLoop": false
+      },
+      "Config": {
+        "Key": "24",
+        "Pos": 6,
+        "Speaker": "芬妮病号服",
+        "Content": "一家人，哼……那分析员这个家未免也太大了点，装得下太多人了吧！"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "芬妮病号服 |一家人，哼……那分析员这个家未免也太大了点，装得下太多人了吧！",
+      "ItemIndex": 43
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_24",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "25",
+        "Content": "她用着彻头彻尾的哭腔，一边埋怨着，一边恶狠狠地用双腿夹紧了我的腰。内脏和肋骨猛然间受到挤压，我不由得一阵头晕目眩，仰躺着咳嗽出声。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |她用着彻头彻尾的哭腔，一边埋怨着，一边恶狠狠地用双腿夹紧了我的腰。内脏和肋骨猛然间受到挤压，我不由得一阵头晕目眩，仰躺着咳嗽出声。",
+      "ItemIndex": 46
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_25",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "26",
+        "Speaker": "分析员",
+        "Content": "你……咳咳……你又胡闹上了。世界树……海姆达尔的所有人，大家不都是一家人吗……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "分析员 |你……咳咳……你又胡闹上了。世界树……海姆达尔的所有人，大家不都是一家人吗……",
+      "ItemIndex": 48
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_26",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "27",
+        "Speaker": "分析员",
+        "Content": "不管这个家是大是小，不管这个家里有多少人，这都是我们……在眼下这个世界上，唯一的归宿，不是吗……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "分析员 |不管这个家是大是小，不管这个家里有多少人，这都是我们……在眼下这个世界上，唯一的归宿，不是吗……",
+      "ItemIndex": 49
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_27",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Offset": {
+          "X": 220.0,
+          "Y": 440.0
+        },
+        "Scale": 1.5
+      },
+      "Config": {
+        "Key": "28",
+        "Pos": 6,
+        "Speaker": "芬妮病号服",
+        "Content": "那你告诉我！这个家里，你最在乎的人是谁？"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "芬妮病号服 |那你告诉我！这个家里，你最在乎的人是谁？",
+      "ItemIndex": 50
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_28",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.5
+      },
+      "Config": {
+        "Key": "29",
+        "Pos": 6,
+        "Speaker": "芬妮病号服",
+        "Content": "不只是以前和现在，以后，以后的以后！在这个家里你只需在乎一个人，那个人是谁！"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "芬妮病号服 |不只是以前和现在，以后，以后的以后！在这个家里你只需在乎一个人，那个人是谁！",
+      "ItemIndex": 51
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_29",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "30",
+        "Speaker": "分析员",
+        "Content": "……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "分析员 |……",
+      "ItemIndex": 52
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "4",
+        "Content": "身体疲惫到无以复加，连抬起一根手指都做不到，但皮肤的触感却偏偏因之变得敏锐……连正在我身体上游走的手掌到底有多么柔嫩都可以捕捉。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |身体疲惫到无以复加，连抬起一根手指都做不到，但皮肤的触感却偏偏因之变得敏锐……连正在我身体上游走的手掌到底有多么柔嫩都可以捕捉。",
+      "ItemIndex": 18
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_30",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "31",
+        "Content": "我自己都分不清刚刚我到底是在呢喃着回答，还是无力地吐了口气。但下一秒，我只觉得身上一轻，脸颊被发丝抽打，香风扑鼻，然后身边就传来了床榻的颤动。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |我自己都分不清刚刚我到底是在呢喃着回答，还是无力地吐了口气。但下一秒，我只觉得身上一轻，脸颊被发丝抽打，香风扑鼻，然后身边就传来了床榻的颤动。",
+      "ItemIndex": 54
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_31",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "32",
+        "Content": "她……像是在赌气一般，翻身躺到了我的旁边。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |她……像是在赌气一般，翻身躺到了我的旁边。",
+      "ItemIndex": 56
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_32",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "33",
+        "Speaker": "分析员",
+        "Content": "……芬妮，我们这是……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "分析员 |……芬妮，我们这是……",
+      "ItemIndex": 57
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_33",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.5,
+        "Animation": "sp_girl002_stand"
+      },
+      "Config": {
+        "Key": "34",
+        "Pos": 6,
+        "Speaker": "里芙病号服",
+        "Content": "……我不明白。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "里芙病号服 |……我不明白。",
+      "ItemIndex": 66
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_34",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "35",
+        "Speaker": "分析员",
+        "Content": "……！"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "分析员 |……！",
+      "ItemIndex": 67
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_35",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.5,
+        "Animation": "sp_girl002_bunai",
+        "bLoop": false
+      },
+      "Config": {
+        "Key": "36",
+        "Pos": 6,
+        "Speaker": "里芙病号服",
+        "Content": "我……学她……学得有那么像吗……！"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "里芙病号服 |我……学她……学得有那么像吗……！",
+      "ItemIndex": 68
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_36",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.5
+      },
+      "Config": {
+        "Key": "37",
+        "Pos": 6,
+        "Speaker": "里芙病号服",
+        "Content": "逼真到你一直……都没怀疑过？还是说你早知道了，但你却在享受这种事……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "里芙病号服 |逼真到你一直……都没怀疑过？还是说你早知道了，但你却在享受这种事……",
+      "ItemIndex": 69
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_37",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.5
+      },
+      "Config": {
+        "Key": "38",
+        "Pos": 6,
+        "Speaker": "里芙病号服",
+        "Content": "……她果然平日里……都是像刚才那样……跟你在一起的吗……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "里芙病号服 |……她果然平日里……都是像刚才那样……跟你在一起的吗……",
+      "ItemIndex": 70
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_38",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "39",
+        "Content": "我很确定我没有在睡梦里。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |我很确定我没有在睡梦里。",
+      "ItemIndex": 72
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_39",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "40",
+        "Content": "我不会做这种梦。我不需要做。但硬要说眼前发生的一切是现实？上一秒还骑在我身上与我耳鬓厮磨的人，只不过翻了个身就变成了里芙的模样？"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |我不会做这种梦。我不需要做。但硬要说眼前发生的一切是现实？上一秒还骑在我身上与我耳鬓厮磨的人，只不过翻了个身就变成了里芙的模样？",
+      "ItemIndex": 73
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "5",
+        "Content": "如同从衣角的缝隙里钻进去的一条蛇……有什么，不，有谁……正在尝试探索我。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |如同从衣角的缝隙里钻进去的一条蛇……有什么，不，有谁……正在尝试探索我。",
+      "ItemIndex": 19
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_40",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "41",
+        "Content": "开什么玩笑……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |开什么玩笑……",
+      "ItemIndex": 74
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_41",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "TalkConfig": {
+        "FontSize": 32,
+        "bBold": true,
+        "bUseDefaultFontParams": false
+      },
+      "Config": {
+        "Key": "42",
+        "Content": "<orange>罢了。既然不是梦境，也不是现实，那唯一剩下的那种可能……就很无趣了。</>"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |<orange>罢了。既然不是梦境，也不是现实，那唯一剩下的那种可能……就很无趣了。</>",
+      "ItemIndex": 75
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_42",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Offset": {
+          "X": 0.0,
+          "Y": 60.0
+        }
+      },
+      "Config": {
+        "Key": "43",
+        "Pos": 6,
+        "Speaker": "里芙病号服",
+        "Content": "……你不说话，你默认了吗。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "里芙病号服 |……你不说话，你默认了吗。",
+      "ItemIndex": 76
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_43",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "44",
+        "Speaker": "分析员",
+        "Content": "嗯……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "分析员 |嗯……",
+      "ItemIndex": 77
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_44",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "45",
+        "Content": "我把舌头咬在牙齿间，借着短暂的疼痛来让自己恢复一些力气，好让我的脑袋能摇起来。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |我把舌头咬在牙齿间，借着短暂的疼痛来让自己恢复一些力气，好让我的脑袋能摇起来。",
+      "ItemIndex": 78
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_45",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "46",
+        "Speaker": "分析员",
+        "Content": "我在等你先开口。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "分析员 |我在等你先开口。",
+      "ItemIndex": 79
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_46",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Animation": "sp_girl002_sikao",
+        "bLoop": false
+      },
+      "Config": {
+        "Key": "47",
+        "Pos": 6,
+        "Speaker": "里芙病号服",
+        "Content": "等我？你希望我说什么？"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "里芙病号服 |等我？你希望我说什么？",
+      "ItemIndex": 80
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_47",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "48",
+        "Speaker": "分析员",
+        "Content": "说你该说的。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "分析员 |说你该说的。",
+      "ItemIndex": 81
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_49",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "50",
+        "Speaker": "分析员",
+        "Content": "比如这么无聊的闹剧，你看到什么时候才算够？"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "分析员 |比如这么无聊的闹剧，你看到什么时候才算够？",
+      "ItemIndex": 83
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "6",
+        "Content": "小腹……肋骨……胸口，直至咽喉，然后无声无息地贴满了我的脸。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |小腹……肋骨……胸口，直至咽喉，然后无声无息地贴满了我的脸。",
+      "ItemIndex": 20
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_50",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "51",
+        "Content": "……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |……",
+      "ItemIndex": 90
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_51",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "SpineEffectType": "ESpineEffectType::HalfBlack",
+        "Animation": "sp_npc069_stand"
+      },
+      "Config": {
+        "Key": "52",
+        "Pos": 6,
+        "Speaker": "罗赞",
+        "Content": "噗……哈哈，哈哈哈哈哈哈哈哈……哎呦，你这人可真是……啊，不行不行，哈哈哈哈——"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "罗赞 |噗……哈哈，哈哈哈哈哈哈哈哈……哎呦，你这人可真是……啊，不行不行，哈哈哈哈——",
+      "ItemIndex": 97
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_52",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "53",
+        "Content": "片刻的沉默之后，从我脚边床尾的方向猛然传来了爽朗且刺耳的笑声。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |片刻的沉默之后，从我脚边床尾的方向猛然传来了爽朗且刺耳的笑声。",
+      "ItemIndex": 98
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_53",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "54",
+        "Content": "单论声调的话，那其实很动听……真正刺耳的是那笑声里饱含的戏谑，侮辱，胜券在握。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |单论声调的话，那其实很动听……真正刺耳的是那笑声里饱含的戏谑，侮辱，胜券在握。",
+      "ItemIndex": 99
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_54",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "SpineEffectType": "ESpineEffectType::HalfBlack"
+      },
+      "Config": {
+        "Key": "55",
+        "Pos": 6,
+        "Speaker": "罗赞",
+        "Content": "……扶他起来吧，让他坐直一点。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "罗赞 |……扶他起来吧，让他坐直一点。",
+      "ItemIndex": 100
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_55",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "56",
+        "Content": "我身边的“它”在得到命令之后，立刻收敛起了所有的矫揉造作。动作拘谨，刻板，小心翼翼，像是生怕违逆了她的命令一样。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |我身边的“它”在得到命令之后，立刻收敛起了所有的矫揉造作。动作拘谨，刻板，小心翼翼，像是生怕违逆了她的命令一样。",
+      "ItemIndex": 103
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_56",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "57",
+        "Content": "我的视线终于变得清晰了一些，然后就眼睁睁看着自己被“它”搀扶着坐起来，背靠在床头柔软的靠枕上，得以看向床尾的她。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |我的视线终于变得清晰了一些，然后就眼睁睁看着自己被“它”搀扶着坐起来，背靠在床头柔软的靠枕上，得以看向床尾的她。",
+      "ItemIndex": 109
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_57",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "58",
+        "Content": "罗赞·赫瓦雷纳……她背对着我，赤身裸体地站在昏黄的灯光里，毫不避讳地用她的身体向我展示着她的身份。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |罗赞·赫瓦雷纳……她背对着我，赤身裸体地站在昏黄的灯光里，毫不避讳地用她的身体向我展示着她的身份。",
+      "ItemIndex": 111
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_58",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "59",
+        "Content": "一个女人，一个……战士。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |一个女人，一个……战士。",
+      "ItemIndex": 112
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_59",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "60",
+        "Content": "只不过瞥了一眼就能看得一清二楚——子弹和刀刃在她的脊背上留下刻痕，连同着她锻炼得当的肌肉，一起构成了一幅……堪称精美的画卷。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |只不过瞥了一眼就能看得一清二楚——子弹和刀刃在她的脊背上留下刻痕，连同着她锻炼得当的肌肉，一起构成了一幅……堪称精美的画卷。",
+      "ItemIndex": 113
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Offset": {
+          "X": 220.0,
+          "Y": 440.0
+        },
+        "Scale": 1.5,
+        "Animation": "sp_girl008_wink",
+        "bLoop": false
+      },
+      "Config": {
+        "Key": "7",
+        "Pos": 6,
+        "Speaker": "芬妮病号服",
+        "Content": "看着我好不好……只看着我一个人，好不好……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "芬妮病号服 |看着我好不好……只看着我一个人，好不好……",
+      "ItemIndex": 21
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_60",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "61",
+        "Content": "适才在我身旁的那个“人形生物”起身下床，从衣架上取下一件风衣，迈着小碎步凑到她跟前，局促地服侍着她。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |适才在我身旁的那个“人形生物”起身下床，从衣架上取下一件风衣，迈着小碎步凑到她跟前，局促地服侍着她。",
+      "ItemIndex": 114
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_61",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "62",
+        "Content": "而她却很随意地把风衣往身上一裹，大大方方地转过身来，笑吟吟地盯着我。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |而她却很随意地把风衣往身上一裹，大大方方地转过身来，笑吟吟地盯着我。",
+      "ItemIndex": 116
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_62",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Animation": "sp_npc069_stand_weixiao"
+      },
+      "Config": {
+        "Key": "63",
+        "Pos": 6,
+        "Speaker": "罗赞",
+        "Content": "香艳的……人家不要，带着醋味儿的人家又不喜欢……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "罗赞 |香艳的……人家不要，带着醋味儿的人家又不喜欢……",
+      "ItemIndex": 118
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_63",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Animation": "sp_npc069_stand_weixiao"
+      },
+      "Config": {
+        "Key": "64",
+        "Pos": 6,
+        "Speaker": "罗赞",
+        "Content": "你呀，呵，搞不定人家，骗不到他。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "罗赞 |你呀，呵，搞不定人家，骗不到他。",
+      "ItemIndex": 119
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_64",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Animation": "sp_npc071_stand"
+      },
+      "Config": {
+        "Key": "65",
+        "Pos": 6,
+        "Speaker": "真神室女",
+        "Content": "司令！对不起！我……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "真神室女 |司令！对不起！我……",
+      "ItemIndex": 121
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_65",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "66",
+        "Content": "它忙不迭地跪倒在罗赞的脚边，用肢体表露着它的惶恐。而罗赞却只是摇摇头，抬起一只手按住了它的头顶。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |它忙不迭地跪倒在罗赞的脚边，用肢体表露着它的惶恐。而罗赞却只是摇摇头，抬起一只手按住了它的头顶。",
+      "ItemIndex": 124
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_66",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Animation": "sp_npc069_stand_ningxiao"
+      },
+      "Config": {
+        "Key": "67",
+        "Pos": 6,
+        "Speaker": "罗赞",
+        "Content": "也是，家花都太香了，看不上野花，倒是不怪你。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "罗赞 |也是，家花都太香了，看不上野花，倒是不怪你。",
+      "ItemIndex": 125
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_67",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "68",
+        "Content": "她一脸平淡地这么说着，但手上却没停下来——分开的五指直挺挺地嵌进了“它”的头颅里，直到连手腕都齐根没入。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |她一脸平淡地这么说着，但手上却没停下来——分开的五指直挺挺地嵌进了“它”的头颅里，直到连手腕都齐根没入。",
+      "ItemIndex": 127
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_68",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "SpineEffectType": "ESpineEffectType::HalfBlack",
+        "Animation": "sp_npc071_stand"
+      },
+      "Config": {
+        "Key": "69",
+        "Pos": 6,
+        "Speaker": "真神室女",
+        "Content": "呃啊——啊啊啊啊啊啊啊啊……！"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "真神室女 |呃啊——啊啊啊啊啊啊啊啊……！",
+      "ItemIndex": 130
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_69",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "70",
+        "Content": "人形的怪物发出凄厉的惨叫，但罗赞的动作却更进一步……她像是徒手在那怪物的脑袋里打捞着什么一般，片刻之后，她找到了她要的东西。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |人形的怪物发出凄厉的惨叫，但罗赞的动作却更进一步……她像是徒手在那怪物的脑袋里打捞着什么一般，片刻之后，她找到了她要的东西。",
+      "ItemIndex": 133
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "8",
+        "Content": "如怨如慕，细语痴缠，但那份腔调里还是带着她独有的……娇蛮？"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |如怨如慕，细语痴缠，但那份腔调里还是带着她独有的……娇蛮？",
+      "ItemIndex": 23
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_70",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "71",
+        "Content": "晶莹剔透，团团簇拥的丝状物体——那一团精密的东西在罗赞平摊的掌心里熠熠发光，而那怪物的身体早就委顿在地，以肉眼可见的速度崩解。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |晶莹剔透，团团簇拥的丝状物体——那一团精密的东西在罗赞平摊的掌心里熠熠发光，而那怪物的身体早就委顿在地，以肉眼可见的速度崩解。",
+      "ItemIndex": 136
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_71",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "72",
+        "Content": "我盯着那怪物的身躯，它消散的方式与死亡的异化人有很多相似的地方，而这给了我一点启发……或许我该先和这位司令拌拌嘴，为自己多拖一点时间出来。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |我盯着那怪物的身躯，它消散的方式与死亡的异化人有很多相似的地方，而这给了我一点启发……或许我该先和这位司令拌拌嘴，为自己多拖一点时间出来。",
+      "ItemIndex": 138
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_72",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "73",
+        "Speaker": "分析员",
+        "Content": "软磨不成……就来这种硬的下马威，很抱歉我不吃这一套，你没必要这么兜圈子。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "分析员 |软磨不成……就来这种硬的下马威，很抱歉我不吃这一套，你没必要这么兜圈子。",
+      "ItemIndex": 140
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_73",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "74",
+        "Pos": 6,
+        "Speaker": "罗赞",
+        "Content": "哪有那么复杂……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "罗赞 |哪有那么复杂……",
+      "ItemIndex": 141
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_74",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "75",
+        "Content": "她看着手里的那团东西，慢慢起身，向着我走过来。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |她看着手里的那团东西，慢慢起身，向着我走过来。",
+      "ItemIndex": 144
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_75",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.5
+      },
+      "Config": {
+        "Key": "76",
+        "Pos": 6,
+        "Speaker": "罗赞",
+        "Content": "只是因为没用的东西……都不配活着罢了。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "罗赞 |只是因为没用的东西……都不配活着罢了。",
+      "ItemIndex": 147
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_76",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "77",
+        "Speaker": "分析员",
+        "Content": "照你这么说，我岂不是也不配活着了。你知道不管你想干什么，我都不可能加入你，不可能跟你合作的。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "分析员 |照你这么说，我岂不是也不配活着了。你知道不管你想干什么，我都不可能加入你，不可能跟你合作的。",
+      "ItemIndex": 148
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_77",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "78",
+        "Speaker": "分析员",
+        "Content": "这样的人在你眼里，难道不也是没用的东西吗。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "分析员 |这样的人在你眼里，难道不也是没用的东西吗。",
+      "ItemIndex": 149
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_78",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.5,
+        "Animation": "sp_npc069_stand_weixiao"
+      },
+      "Config": {
+        "Key": "79",
+        "Pos": 6,
+        "Speaker": "罗赞",
+        "Content": "……不。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "罗赞 |……不。",
+      "ItemIndex": 150
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_79",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.5
+      },
+      "Config": {
+        "Key": "80",
+        "Content": "她走到床边，轻巧地一抬腿，跨坐在了我身上，居高临下地凝视着我。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |她走到床边，轻巧地一抬腿，跨坐在了我身上，居高临下地凝视着我。",
+      "ItemIndex": 153
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "9",
+        "Content": "她骑乘在我身上，匍匐在我胸口，任由发丝在我的脖子上散开。发梢的摩挲混着这些语气中的幽怨，把最砭骨的麻痒一点一点地送进了我的身体里。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |她骑乘在我身上，匍匐在我胸口，任由发丝在我的脖子上散开。发梢的摩挲混着这些语气中的幽怨，把最砭骨的麻痒一点一点地送进了我的身体里。",
+      "ItemIndex": 24
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_80",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.5
+      },
+      "Config": {
+        "Key": "81",
+        "Pos": 6,
+        "Speaker": "罗赞",
+        "Content": "你不是没用，你只是不开窍，分析员。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "罗赞 |你不是没用，你只是不开窍，分析员。",
+      "ItemIndex": 155
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_81",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.5
+      },
+      "Config": {
+        "Key": "82",
+        "Pos": 6,
+        "Speaker": "罗赞",
+        "Content": "你的上司，你们世界树，这个天底下所有一边畏惧着泰坦物质，一边又渴望从中汲取力量的人，都不开窍。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "罗赞 |你的上司，你们世界树，这个天底下所有一边畏惧着泰坦物质，一边又渴望从中汲取力量的人，都不开窍。",
+      "ItemIndex": 156
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_82",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.5
+      },
+      "Config": {
+        "Key": "83",
+        "Pos": 6,
+        "Speaker": "罗赞",
+        "Content": "而被那些蠢货庸才妄自驱使，为了一个又一个虚假的宣称不停奔波，在每一处绝境里拼尽全力，只为他人作嫁衣的你……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "罗赞 |而被那些蠢货庸才妄自驱使，为了一个又一个虚假的宣称不停奔波，在每一处绝境里拼尽全力，只为他人作嫁衣的你……",
+      "ItemIndex": 157
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_83",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.5
+      },
+      "Config": {
+        "Key": "84",
+        "Pos": 6,
+        "Speaker": "罗赞",
+        "Content": "对我而言，是最重要的，最有用的东西。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "罗赞 |对我而言，是最重要的，最有用的东西。",
+      "ItemIndex": 158
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_84",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "85",
+        "Content": "她慢慢地俯下身，以手指轻柔地划过我的脸——咫尺之距，她的双目无比澄澈，那叹息式的语调里似乎只有坦然可言。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |她慢慢地俯下身，以手指轻柔地划过我的脸——咫尺之距，她的双目无比澄澈，那叹息式的语调里似乎只有坦然可言。",
+      "ItemIndex": 160
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_85",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.5
+      },
+      "Config": {
+        "Key": "86",
+        "Pos": 6,
+        "Speaker": "罗赞",
+        "Content": "我说过了，我们是同胞，是同类。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "罗赞 |我说过了，我们是同胞，是同类。",
+      "ItemIndex": 161
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_86",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "87",
+        "Speaker": "分析员",
+        "Content": "……那这又是什么？"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "分析员 |……那这又是什么？",
+      "ItemIndex": 162
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_87",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "88",
+        "Content": "我尽可能摆出手无缚鸡之力的弱势模样，带着一脸任她宰割的苦闷表情，看着她手里的那团东西，打探着这一次我最想弄明白的事情。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |我尽可能摆出手无缚鸡之力的弱势模样，带着一脸任她宰割的苦闷表情，看着她手里的那团东西，打探着这一次我最想弄明白的事情。",
+      "ItemIndex": 163
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_88",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.5,
+        "Animation": "sp_npc069_stand_ningxiao"
+      },
+      "Config": {
+        "Key": "89",
+        "Pos": 6,
+        "Speaker": "罗赞",
+        "Content": "别露出那种弱不禁风的表情，分析员。凭你现在的演技可演不好那副扮猪吃老虎的模样来……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "罗赞 |别露出那种弱不禁风的表情，分析员。凭你现在的演技可演不好那副扮猪吃老虎的模样来……",
+      "ItemIndex": 164
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_89",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.5,
+        "Animation": "sp_npc069_stand_weixiao"
+      },
+      "Config": {
+        "Key": "90",
+        "Pos": 6,
+        "Speaker": "罗赞",
+        "Content": "而且，你现在应该已经恢复力气了，对吧？"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "罗赞 |而且，你现在应该已经恢复力气了，对吧？",
+      "ItemIndex": 165
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "10",
+        "Speaker": "分析员",
+        "Content": "……芬妮……吗……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "分析员 |……芬妮……吗……",
+      "ItemIndex": 25
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_90",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "91",
+        "Content": "……她是怎么知道的？！"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |……她是怎么知道的？！",
+      "ItemIndex": 166
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_91",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.5
+      },
+      "Config": {
+        "Key": "92",
+        "Pos": 6,
+        "Speaker": "罗赞",
+        "Content": "天底下可不是只有你一个人懂得怎么利用泰坦物质。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "罗赞 |天底下可不是只有你一个人懂得怎么利用泰坦物质。",
+      "ItemIndex": 167
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_92",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "93",
+        "Content": "她话音未落，忽然手上用力，捏住了我的下颌——转瞬之间，浓度精纯的信息态泰坦物质就沿着她探入我口中的指尖汩汩流入我的身体。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |她话音未落，忽然手上用力，捏住了我的下颌——转瞬之间，浓度精纯的信息态泰坦物质就沿着她探入我口中的指尖汩汩流入我的身体。",
+      "ItemIndex": 170
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_93",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "94",
+        "Content": "酒店房间里原本由那个死亡崩解的怪物所散逸出的部分也像是受到了什么引导一样，冲着我席卷过来。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |酒店房间里原本由那个死亡崩解的怪物所散逸出的部分也像是受到了什么引导一样，冲着我席卷过来。",
+      "ItemIndex": 171
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_94",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Offset": {
+          "X": 250.0,
+          "Y": 390.0
+        },
+        "Scale": 1.5
+      },
+      "Config": {
+        "Key": "95",
+        "Pos": 6,
+        "Speaker": "罗赞",
+        "Content": "头脑和身体都坦率一点，哈……这样就好多了。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "罗赞 |头脑和身体都坦率一点，哈……这样就好多了。",
+      "ItemIndex": 172
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_95",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "96",
+        "Content": "她把耻骨抵在我的腰胯上，轻轻一发力。陡然袭来的刺激让我忍不住张大了嘴，而她则趁势就要将手里的那团东西塞进来。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |她把耻骨抵在我的腰胯上，轻轻一发力。陡然袭来的刺激让我忍不住张大了嘴，而她则趁势就要将手里的那团东西塞进来。",
+      "ItemIndex": 173
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_96",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Scale": 1.5,
+        "Animation": "sp_npc069_stand_fennu"
+      },
+      "Config": {
+        "Key": "97",
+        "Pos": 6,
+        "Speaker": "罗赞",
+        "Content": "……"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "罗赞 |……",
+      "ItemIndex": 176
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_97",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "98",
+        "Content": "透过楼板，从下方隐约传来的杂乱枪声让我和她都停止了动作……她瞪着我，眼睛里一瞬间闪过一丝疑惑。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": " |透过楼板，从下方隐约传来的杂乱枪声让我和她都停止了动作……她瞪着我，眼睛里一瞬间闪过一丝疑惑。",
+      "ItemIndex": 177
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_98",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Config": {
+        "Key": "99",
+        "Speaker": "分析员",
+        "Content": "看来你做事也没那么滴水不漏，罗赞司令。"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "分析员 |看来你做事也没那么滴水不漏，罗赞司令。",
+      "ItemIndex": 178
+    }
+  },
+  {
+    "Type": "PlotItem_Talk",
+    "Name": "PlotItem_Talk_99",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Talk'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "SpineParameters": {
+        "Animation": "sp_npc069_stand_ningxiao"
+      },
+      "Config": {
+        "Key": "100",
+        "Pos": 6,
+        "Speaker": "罗赞",
+        "Content": "哈……你觉得真的会有人来救你？"
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "DisplayLabel": "罗赞 |哈……你觉得真的会有人来救你？",
+      "ItemIndex": 180
+    }
+  },
+  {
+    "Type": "PlotItem_TransformAnimation",
+    "Name": "PlotItem_TransformAnimation_113",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_TransformAnimation'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "PlotWidgetType": "EPlotWidgetType::Spine",
+      "RolePosIndex": 6,
+      "Offset": {
+        "X": 0.0,
+        "Y": 80.0
+      },
+      "MoveBlend": {
+        "BlendTime": 0.4
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 104
+    }
+  },
+  {
+    "Type": "PlotItem_TransformAnimation",
+    "Name": "PlotItem_TransformAnimation_170",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_TransformAnimation'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "PlotWidgetType": "EPlotWidgetType::Spine",
+      "RolePosIndex": 6,
+      "Offset": {
+        "X": 0.0,
+        "Y": -20.0
+      },
+      "MoveBlend": {
+        "BlendTime": 0.4
+      },
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 106
+    }
+  },
+  {
+    "Type": "PlotItem_TwinkleEffect",
+    "Name": "PlotItem_TwinkleEffect_118",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_TwinkleEffect'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 60
+    }
+  },
+  {
+    "Type": "PlotItem_Wwise_SetState",
+    "Name": "PlotItem_Wwise_SetState_181",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Wwise_SetState'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "StateName": "None",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 1
+    }
+  },
+  {
+    "Type": "PlotItem_Wwise_SetState",
+    "Name": "PlotItem_Wwise_SetState_342",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Wwise_SetState'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "StateName": "Lonely03",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 64
+    }
+  },
+  {
+    "Type": "PlotItem_Wwise_SetState",
+    "Name": "PlotItem_Wwise_SetState_438",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Wwise_SetState'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 61
+    }
+  },
+  {
+    "Type": "PlotItem_Wwise_SetState",
+    "Name": "PlotItem_Wwise_SetState_45",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Wwise_SetState'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 202
+    }
+  },
+  {
+    "Type": "PlotItem_Wwise_SetState",
+    "Name": "PlotItem_Wwise_SetState_54",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Wwise_SetState'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "StateName": "Lonely05",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 15
+    }
+  },
+  {
+    "Type": "PlotItem_Wwise_SetState",
+    "Name": "PlotItem_Wwise_SetState_540",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Wwise_SetState'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 86
+    }
+  },
+  {
+    "Type": "PlotItem_Wwise_SetState",
+    "Name": "PlotItem_Wwise_SetState_681",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PlotItem_Wwise_SetState'",
+    "Outer": {
+      "ObjectName": "Plot'CH13EP5'",
+      "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.0"
+    },
+    "Properties": {
+      "StateName": "Tense08",
+      "Parent": {
+        "ObjectName": "PlotItem_Root'CH13EP5:PlotItem_Root_0'",
+        "ObjectPath": "Game/Content/Blueprints/Plot/Plots/CH13/CH13EP5.34"
+      },
+      "ItemIndex": 92
+    }
+  }
+]

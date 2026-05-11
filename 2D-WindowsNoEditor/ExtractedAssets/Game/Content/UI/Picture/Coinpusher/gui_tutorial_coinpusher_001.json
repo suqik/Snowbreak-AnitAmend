@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "Texture2D",
+    "Name": "gui_tutorial_coinpusher_001",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Texture2D'",
+    "Properties": {
+      "ImportedSize": {
+        "X": 1568,
+        "Y": 588
+      },
+      "LightingGuid": "9219E735-40B95175-B177188D-770ACE79",
+      "LODGroup": "TEXTUREGROUP_UI",
+      "NeverStream": true
+    },
+    "SizeX": 1568,
+    "SizeY": 588,
+    "PackedData": 1,
+    "PixelFormat": "PF_DXT1",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 460992,
+          "SizeOnDisk": 460992,
+          "OffsetInFile": "0x711D8"
+        },
+        "SizeX": 1568,
+        "SizeY": 588,
+        "SizeZ": 1
+      }
+    ]
+  }
+]

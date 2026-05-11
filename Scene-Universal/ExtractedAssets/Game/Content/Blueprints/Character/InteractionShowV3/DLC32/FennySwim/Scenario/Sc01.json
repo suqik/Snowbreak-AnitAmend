@@ -1,0 +1,1628 @@
+[
+  {
+    "Type": "ActorOperateAct",
+    "Name": "ActorOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ActorOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.52"
+    },
+    "Properties": {
+      "ProfileModifier": {
+        "BodyProfile": {
+          "StartPhysicsControlProfile": "Sim",
+          "EndPhysicsControlProfile": "Sim"
+        }
+      }
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.58"
+    },
+    "Properties": {
+      "ActorName": "Fenny",
+      "FunctionName": "EndHipPush"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.52"
+    },
+    "Properties": {
+      "ActorName": "Champagne",
+      "FunctionName": "Complete Trigger"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.52"
+    },
+    "Properties": {
+      "ActorName": "Champagne",
+      "FunctionName": "ResetNum"
+    }
+  },
+  {
+    "Type": "CreatePhysicsControlEvent",
+    "Name": "CreatePhysicsControlEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CreatePhysicsControlEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.60"
+    },
+    "Properties": {
+      "ControlName": "Champagne_Ctrl",
+      "SetName": "Champagnes",
+      "ParentActorName": "Fenny",
+      "ParentBoneName": "Bip001-R-Hand",
+      "ChildActorName": "Champagne",
+      "ChildBoneName": "Bone_zc_01"
+    }
+  },
+  {
+    "Type": "Event_FennySwim_Sc01_BodyDry_Event_C",
+    "Name": "Event_FennySwim_Sc01_BodyDry_Event_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.56"
+    },
+    "Properties": {
+      "GirlName": "Fenny"
+    }
+  },
+  {
+    "Type": "Event_FennySwim_Sc01_BodyWet_Event_C",
+    "Name": "Event_FennySwim_Sc01_BodyWet_Event_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.56"
+    },
+    "Properties": {
+      "GirlName": "Fenny"
+    }
+  },
+  {
+    "Type": "Event_FennySwim_Sc01_Champagne_VAT_Hide_Event_C",
+    "Name": "Event_FennySwim_Sc01_Champagne_VAT_Hide_Event_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.56"
+    }
+  },
+  {
+    "Type": "EyesFollowOperateAct",
+    "Name": "EyesFollowOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EyesFollowOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.50"
+    },
+    "Properties": {
+      "HeadRotationScale": {
+        "X": 0.3,
+        "Y": 0.15
+      },
+      "bInterpHead": true,
+      "HeadInterpSpeed": 3.3,
+      "ActorOperateActName": "Sc01_Eyes_A__girl008c_02_EyesFollow01"
+    }
+  },
+  {
+    "Type": "EyesFollowOperateAct",
+    "Name": "EyesFollowOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EyesFollowOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.53"
+    },
+    "Properties": {
+      "ActorOperateActName": "Sc01_Eyes_C__girl008c_02_EyesFollow01"
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode'Sc01:ScenarioStateNode_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.57"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_0.InteractionOperateV3_0.InteractionV3SphereCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.27"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.46"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.58"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0.InteractionV3SphereCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.28"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.47"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.58"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1.InteractionV3SphereCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.29"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.48"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_2",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.58"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2.InteractionV3SphereCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.30"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.49"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_3",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.58"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3AutoTriggerInput'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.InteractionV3AutoTriggerInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.18"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.50"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.59"
+    },
+    "Properties": {
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.51"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.60"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3CapsuleCollisionInput'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.InteractionV3CapsuleCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.20"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.52"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.60"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3AutoTriggerInput'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.InteractionV3AutoTriggerInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.19"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.53"
+      }
+    }
+  },
+  {
+    "Type": "InteractionV3AutoTriggerInput",
+    "Name": "InteractionV3AutoTriggerInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3AutoTriggerInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.14"
+    }
+  },
+  {
+    "Type": "InteractionV3AutoTriggerInput",
+    "Name": "InteractionV3AutoTriggerInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3AutoTriggerInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.17"
+    }
+  },
+  {
+    "Type": "InteractionV3CapsuleCollisionInput",
+    "Name": "InteractionV3CapsuleCollisionInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3CapsuleCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.16"
+    },
+    "Properties": {
+      "bAlignToPhysicsBody": true,
+      "Length": 1.2,
+      "CharacterName": "Fenny",
+      "BoneName": "Bip001-R-Hand",
+      "OperateName": "FennySwim_prop04"
+    }
+  },
+  {
+    "Type": "InteractionV3DragControl",
+    "Name": "InteractionV3DragControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3DragControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.46"
+    },
+    "Properties": {
+      "DragControl": {
+        "ScreenPercentToWorld": {
+          "X": 20.0,
+          "Y": 20.0
+        },
+        "WorldSpaceLimit": {
+          "X": -20.0,
+          "Y": 20.0,
+          "Z": -20.0,
+          "W": 10.0
+        },
+        "DragDampingCurve": {
+          "ObjectName": "CurveFloat'CV_IKDamp'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl011a/Operate/Curve/CV_IKDamp"
+        },
+        "DragRecoverCurve": {
+          "ObjectName": "CurveFloat'Curve_Recover_SC01_D'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/girl008c_02/Physics/SC01_D/Curve_Recover_SC01_D"
+        },
+        "DragRecoverTime": 1.0
+      },
+      "OffsetAdditiveRot_Pitch": -70.0
+    }
+  },
+  {
+    "Type": "InteractionV3DragControl",
+    "Name": "InteractionV3DragControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3DragControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.52"
+    },
+    "Properties": {
+      "DragControl": {
+        "ScreenPercentToWorld": {
+          "X": 60.0,
+          "Y": 60.0
+        },
+        "WorldSpaceLimit": {
+          "X": -50.0,
+          "Y": 0.0,
+          "Z": -20.0,
+          "W": 20.0
+        },
+        "DragDampingCurve": {
+          "ObjectName": "CurveFloat'CV_IKDamp'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl008b/Operate/Curve/CV_IKDamp"
+        },
+        "DragRecoverCurve": {
+          "ObjectName": "CurveFloat'CV_IKRecover'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl008b/Operate/Curve/CV_IKRecover"
+        },
+        "DragRecoverTime": 1.0,
+        "SpdLimit": 500.0
+      }
+    }
+  },
+  {
+    "Type": "InteractionV3DragTrigger",
+    "Name": "InteractionV3DragTrigger_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3DragTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.46"
+    },
+    "Properties": {
+      "DragLimit": {
+        "X": -8.0,
+        "Y": 1.0
+      },
+      "XCompareType": "EInteractionDragValueCompareType::Less"
+    }
+  },
+  {
+    "Type": "InteractionV3Event_ConditionCompleted",
+    "Name": "InteractionV3Event_ConditionCompleted_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3Event_ConditionCompleted'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.47"
+    },
+    "Properties": {
+      "ConditionId": 1
+    }
+  },
+  {
+    "Type": "InteractionV3EyesFollowControl",
+    "Name": "InteractionV3EyesFollowControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3EyesFollowControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.50"
+    },
+    "Properties": {
+      "CharacterNames": [
+        "Fenny"
+      ]
+    }
+  },
+  {
+    "Type": "InteractionV3EyesFollowControl",
+    "Name": "InteractionV3EyesFollowControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3EyesFollowControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.53"
+    },
+    "Properties": {
+      "CharacterNames": [
+        "Fenny"
+      ]
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_0.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.10"
+    },
+    "Properties": {
+      "Radius": 3.0,
+      "CharacterName": "Fenny",
+      "BoneName": "Bip001-Spine2"
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.11"
+    },
+    "Properties": {
+      "CharacterName": "Fenny",
+      "BoneName": "Bip001-Pelvis",
+      "AllAgeLevel": 15
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.12"
+    },
+    "Properties": {
+      "CharacterName": "Fenny",
+      "BoneName": "Bip001-L-Hand",
+      "AllAgeLevel": 15,
+      "OperateName": "LHand"
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.13"
+    },
+    "Properties": {
+      "CharacterName": "Fenny",
+      "BoneName": "Bip001-R-Hand",
+      "AllAgeLevel": 15
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.46"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Water_D_A",
+      "EndState": "A"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.47"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Butt_A_B",
+      "EndState": "B"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.48"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Drink_A_C",
+      "EndState": "C"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.49"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Hand_A_D",
+      "EndState": "D"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.50"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Eyes_A_"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.51"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Gun_B_A",
+      "EndState": "A"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.52"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Cup_C_A",
+      "EndState": "A"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.53"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Eyes_C_"
+    }
+  },
+  {
+    "Type": "PhysicalOffsetOperateAct",
+    "Name": "PhysicalOffsetOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicalOffsetOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.46"
+    },
+    "Properties": {
+      "bDragFixedBone": true,
+      "DefaultDragBoneName": "Bip001-Spine2",
+      "DefaultDragLocationBoneName": "Bip001-Spine2",
+      "VoiceConfig": {
+        "WeightedVoice": [
+          {
+            "Weight": 1.0,
+            "VoiceID": "main736",
+            "SpeakingContent": ""
+          },
+          {
+            "Weight": 1.0,
+            "VoiceID": "main742",
+            "SpeakingContent": ""
+          }
+        ],
+        "CharacterID": "130802"
+      },
+      "ActorOperateActName": "Sc01_Water_D_A_girl008c_02_ActBase01",
+      "FacialAnim": {
+        "AssetPathName": "/Game/Characters/CommonFace/girl008_com01/AnimPart00/manifestation/FennySwim/girl008c_02_com01_face_ma_OperateAnim_05.girl008c_02_com01_face_ma_OperateAnim_05",
+        "SubPathString": ""
+      },
+      "ProfileModifier": {
+        "BodyProfile": {
+          "StartPhysicsControlProfile": "Drag_LeftHand",
+          "EndPhysicsControlProfile": "Release_LeftHand"
+        }
+      },
+      "bPhysicsBlendOut": true
+    }
+  },
+  {
+    "Type": "PhysicalOffsetOperateAct",
+    "Name": "PhysicalOffsetOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicalOffsetOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.52"
+    },
+    "Properties": {
+      "DefaultDragBoneName": "Bip001-R-Hand",
+      "DefaultDragLocationBoneName": "Bip001-R-Hand",
+      "VoiceConfig": {
+        "WeightedVoice": [
+          {
+            "Weight": 1.0,
+            "VoiceID": "main745",
+            "SpeakingContent": ""
+          },
+          {
+            "Weight": 1.0,
+            "VoiceID": "main735",
+            "SpeakingContent": ""
+          }
+        ],
+        "CharacterID": "130802",
+        "bPlayUntilFinished": true
+      },
+      "ActorOperateActName": "Sc01_Cup_C_A_girl008c_02_ActBase01",
+      "FacialAnim": {
+        "AssetPathName": "/Game/Characters/CommonFace/girl008_com01/AnimPart00/manifestation/FennySwim/girl008c_02_com01_face_ma_OperateAnim_04.girl008c_02_com01_face_ma_OperateAnim_04",
+        "SubPathString": ""
+      },
+      "ProfileModifier": {
+        "BodyProfile": {
+          "StartPhysicsControlProfile": "Drag_RightHand",
+          "EndPhysicsControlProfile": "Drag_RightHand"
+        }
+      },
+      "bPhysicsBlendOut": true
+    }
+  },
+  {
+    "Type": "PhysicsAssetModifierEvent",
+    "Name": "PhysicsAssetModifierEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicsAssetModifierEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode'Sc01:ScenarioStateNode_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.57"
+    },
+    "Properties": {
+      "PhysicsAssetModifiers": [
+        {
+          "ActorName": "Fenny",
+          "BodyModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/girl008c_02/Physics/SC01_D/PA_Girl008c_02_SC01_D.PA_Girl008c_02_SC01_D",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/girl008c_02/Physics/SC01_D/PCA_Girl008c_02_SC01_D.PCA_Girl008c_02_SC01_D",
+              "SubPathString": ""
+            }
+          },
+          "BodyAnimNodeModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          "FaceModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PhysicsAssetModifierEvent",
+    "Name": "PhysicsAssetModifierEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicsAssetModifierEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.58"
+    },
+    "Properties": {
+      "PhysicsAssetModifiers": [
+        {
+          "ActorName": "Fenny",
+          "BodyModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/girl008c_02/Physics/Common/PA_Girl008c_02_Common.PA_Girl008c_02_Common",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/girl008c_02/Physics/Common/PCA_Girl008c_02_Common.PCA_Girl008c_02_Common",
+              "SubPathString": ""
+            }
+          },
+          "BodyAnimNodeModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          "FaceModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PhysicsAssetModifierEvent",
+    "Name": "PhysicsAssetModifierEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicsAssetModifierEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.59"
+    },
+    "Properties": {
+      "PhysicsAssetModifiers": [
+        {
+          "ActorName": "Fenny",
+          "BodyModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/girl008c_02/Physics/SC01_B/PA_Girl008c_02_SC01_B.PA_Girl008c_02_SC01_B",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/girl008c_02/Physics/SC01_B/PCA_Girl008c_02_SC01_B.PCA_Girl008c_02_SC01_B",
+              "SubPathString": ""
+            }
+          },
+          "BodyAnimNodeModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          "FaceModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PhysicsAssetModifierEvent",
+    "Name": "PhysicsAssetModifierEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicsAssetModifierEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.60"
+    },
+    "Properties": {
+      "PhysicsAssetModifiers": [
+        {
+          "ActorName": "Fenny",
+          "BodyModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/girl008c_02/Physics/SC01_C/PA_Girl008c_02_SC01_C.PA_Girl008c_02_SC01_C",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/girl008c_02/Physics/SC01_C/PCA_Girl008c_02_SC01_C.PCA_Girl008c_02_SC01_C",
+              "SubPathString": ""
+            }
+          },
+          "BodyAnimNodeModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          "FaceModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "ActorName": "Champagne",
+          "BodyModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/prop04/Physics/SC01_C/PA_Prop04_SC01_C.PA_Prop04_SC01_C",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/prop04/Physics/SC01_C/PCA_Prop04_SC01_C.PCA_Prop04_SC01_C",
+              "SubPathString": ""
+            }
+          },
+          "BodyAnimNodeModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          "FaceModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PhysicsControlProfileEvent",
+    "Name": "PhysicsControlProfileEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicsControlProfileEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.59"
+    },
+    "Properties": {
+      "ActorNames": [
+        {
+          "Key": "Fenny",
+          "Value": {
+            "BodyProfile": {
+              "StartPhysicsControlProfile": "Kinematic",
+              "EndPhysicsControlProfile": "None",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            },
+            "BodyAnimNodeProfile": {
+              "StartPhysicsControlProfile": "None",
+              "EndPhysicsControlProfile": "None",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            },
+            "FaceProfile": {
+              "StartPhysicsControlProfile": "Kinematic",
+              "EndPhysicsControlProfile": "None",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_0.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.10"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3DragControl'Sc01:ScenarioStateNode_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.InteractionV3DragControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.21"
+      },
+      "OperateCameraID": "FennySwim_SC01_D_Operate",
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Fenny",
+          "ActorOperateAct": {
+            "ObjectName": "PhysicalOffsetOperateAct'Sc01:ScenarioStateNode_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.PhysicalOffsetOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.39"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "InteractionV3DragTrigger'Sc01:ScenarioStateNode_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.InteractionV3DragTrigger_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.23"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.31"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.11"
+    },
+    "Properties": {
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.32"
+        },
+        {
+          "ObjectName": "InteractionV3Event_ConditionCompleted'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.InteractionV3Event_ConditionCompleted_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.24"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.12"
+    },
+    "Properties": {
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.33"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.13"
+    },
+    "Properties": {
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.34"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.14"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3EyesFollowControl'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0.InteractionV3EyesFollowControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.25"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Fenny",
+          "ActorOperateAct": {
+            "ObjectName": "EyesFollowOperateAct'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0.EyesFollowOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.8"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "ScenarioOperateForbidTrigger'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0.ScenarioOperateForbidTrigger_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.54"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.35"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.15"
+    },
+    "Properties": {
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.36"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.16"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3DragControl'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0.InteractionV3DragControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.22"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Fenny",
+          "ActorOperateAct": {
+            "ObjectName": "PhysicalOffsetOperateAct'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0.PhysicalOffsetOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.40"
+          }
+        },
+        {
+          "CharacterName": "Champagne",
+          "ActorOperateAct": {
+            "ObjectName": "ActorOperateAct'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0.ActorOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.0"
+          }
+        }
+      ],
+      "EndEvents": [
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0.CallActorFunctionEvent_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.3"
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "Trigger_FennySwim_SC01_D_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0.Trigger_FennySwim_SC01_D_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.61"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.37"
+        },
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0.CallActorFunctionEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.17"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3EyesFollowControl'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0.InteractionV3EyesFollowControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.26"
+      },
+      "OperatingHeadRotScale": {
+        "X": 6.12,
+        "Y": 2.2
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Fenny",
+          "ActorOperateAct": {
+            "ObjectName": "EyesFollowOperateAct'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0.EyesFollowOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.9"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "ScenarioOperateForbidTrigger'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0.ScenarioOperateForbidTrigger_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.55"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.38"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateForbidTrigger",
+    "Name": "ScenarioOperateForbidTrigger_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioOperateForbidTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.50"
+    }
+  },
+  {
+    "Type": "ScenarioOperateForbidTrigger",
+    "Name": "ScenarioOperateForbidTrigger_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioOperateForbidTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.53"
+    }
+  },
+  {
+    "Type": "ScenarioStateMachine",
+    "Name": "Sc01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateMachine'",
+    "Properties": {
+      "States": [
+        {
+          "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.58"
+        },
+        {
+          "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.59"
+        },
+        {
+          "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.60"
+        },
+        {
+          "ObjectName": "ScenarioStateNode'Sc01:ScenarioStateNode_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.57"
+        }
+      ],
+      "ScenarioName": "Sc01",
+      "ActorInfos": [
+        {
+          "ActorName": "Fenny",
+          "PositionActorName": "ActorPos_Sc01_girl008c_02"
+        },
+        {
+          "ActorName": "player012",
+          "PositionActorName": "ActorPos_Sc01_prop15"
+        },
+        {
+          "ActorName": "Ballon",
+          "PositionActorName": "ActorPos_Sc01_prop14"
+        },
+        {
+          "ActorName": "Strawberry",
+          "PositionActorName": "ActorPos_Sc01_prop03"
+        },
+        {
+          "ActorName": "Champagne",
+          "PositionActorName": "ActorPos_Sc01_prop04"
+        },
+        {
+          "ActorName": "Gun",
+          "PositionActorName": "ActorPos_Sc01_prop02"
+        },
+        {
+          "ActorName": "Glass",
+          "PositionActorName": "ActorPos_Sc01_prop13"
+        }
+      ],
+      "StartEvents": [
+        {
+          "ObjectName": "Event_FennySwim_Sc01_BodyWet_Event_C'Sc01:Event_FennySwim_Sc01_BodyWet_Event_C_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.6"
+        }
+      ],
+      "EndEvents": [
+        {
+          "ObjectName": "Event_FennySwim_Sc01_BodyDry_Event_C'Sc01:Event_FennySwim_Sc01_BodyDry_Event_C_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.5"
+        },
+        {
+          "ObjectName": "Event_FennySwim_Sc01_Champagne_VAT_Hide_Event_C'Sc01:Event_FennySwim_Sc01_Champagne_VAT_Hide_Event_C_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.7"
+        }
+      ],
+      "Processor": {
+        "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/SBP_FennySwim_Sc01.SBP_FennySwim_Sc01_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "ScenarioStateNode",
+    "Name": "ScenarioStateNode_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateNode'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.56"
+    },
+    "Properties": {
+      "StandbyActorInfos": [
+        {
+          "ActorName": "Fenny",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Characters/Girl/girl008c_02/Anim/manifestation/FennySwim/girl008c_02_ma_Sc01_D_Standby_01.girl008c_02_ma_Sc01_D_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "/Game/Characters/CommonFace/girl008_com01/AnimPart00/manifestation/FennySwim/girl008c_02_com01_face_ma_Sc01_D_Standby_01.girl008c_02_com01_face_ma_Sc01_D_Standby_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "player012",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "Glass",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/FennySwim_prop13/Anim/FennySwim_prop13_ma_Sc01_D_Standby_01.FennySwim_prop13_ma_Sc01_D_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "Ballon",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "StandbyCameraID": "5",
+      "Operates": [
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_0.InteractionOperateV3_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.10"
+        }
+      ],
+      "StateName": "D",
+      "InitializeEvents": [
+        {
+          "ObjectName": "PhysicsAssetModifierEvent'Sc01:ScenarioStateNode_0.PhysicsAssetModifierEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.41"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioStateNode_Entry",
+    "Name": "ScenarioStateNode_Entry_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateNode_Entry'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.56"
+    },
+    "Properties": {
+      "CycleActorInfos": [
+        {
+          "ActorName": "Fenny",
+          "ShowElementName": "Sc01_A_Cycle"
+        },
+        {
+          "ActorName": "Strawberry",
+          "ShowElementName": "Sc01_A_Cycle"
+        }
+      ],
+      "StandbyActorInfos": [
+        {
+          "ActorName": "Fenny",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Characters/Girl/girl008c_02/Anim/manifestation/FennySwim/girl008c_02_ma_Sc01_A_Standby_01.girl008c_02_ma_Sc01_A_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "/Game/Characters/CommonFace/girl008_com01/AnimPart00/manifestation/FennySwim/girl008c_02_com01_face_ma_Sc01_A_Standby_01.girl008c_02_com01_face_ma_Sc01_A_Standby_01",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "CameraSequenceAsset": {
+        "AssetPathName": "/Game/Cinematics/Manifestation/FennySwim/FennySwim_ma_Sc01_A_Standby_Master.FennySwim_ma_Sc01_A_Standby_Master",
+        "SubPathString": ""
+      },
+      "Operates": [
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.11"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.12"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.13"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.14"
+        }
+      ],
+      "StateHolyLight": [
+        {
+          "CharacterName": "Fenny",
+          "HolyLightData": [
+            {
+              "SocketName": "Bip001-Spine1",
+              "Intensity": 5,
+              "UIName": "uw_girlroom_peace_light",
+              "SizeRatio": {
+                "ObjectName": "CurveFloat'DBCurve_girl008c_02_Ma_Standby_Stand01'",
+                "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Curve/DBCurve_girl008c_02_Ma_Standby_Stand01"
+              }
+            },
+            {
+              "SocketName": "shake_L_Thigh",
+              "Intensity": 5,
+              "UIName": "uw_girlroom_peace_light",
+              "SizeRatio": {
+                "ObjectName": "CurveFloat'DBCurve_girl008c_02_Ma_Standby_Bigsize'",
+                "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Curve/DBCurve_girl008c_02_Ma_Standby_Bigsize"
+              }
+            }
+          ]
+        }
+      ],
+      "StateName": "A",
+      "InitializeEvents": [
+        {
+          "ObjectName": "PhysicsAssetModifierEvent'Sc01:ScenarioStateNode_Entry_0.PhysicsAssetModifierEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.42"
+        }
+      ],
+      "ExitEvents": [
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:ScenarioStateNode_Entry_0.CallActorFunctionEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioStateNode_LittleGame",
+    "Name": "ScenarioStateNode_LittleGame_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateNode_LittleGame'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.56"
+    },
+    "Properties": {
+      "LittleGameTemplate": {
+        "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/GBP_FennySwim_Sc01_B.GBP_FennySwim_Sc01_B_C",
+        "SubPathString": ""
+      },
+      "StandbyActorInfos": [
+        {
+          "ActorName": "Fenny",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Characters/Girl/girl008c_02/Anim/manifestation/FennySwim/girl008c_02_ma_Sc01_B_Standby_01.girl008c_02_ma_Sc01_B_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "/Game/Characters/CommonFace/girl008_com01/AnimPart00/manifestation/FennySwim/girl008c_02_com01_face_ma_Sc01_B_Standby_01.girl008c_02_com01_face_ma_Sc01_B_Standby_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "Player012",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/FennySwim_prop15/Anim/FennySwim_prop15_ma_Sc01_B_Standby_01.FennySwim_prop15_ma_Sc01_B_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "Gun",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/FennySwim_prop02/Anim/FennySwim_prop02_ma_Sc01_B_Standby_01.FennySwim_prop02_ma_Sc01_B_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Operates": [
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.15"
+        }
+      ],
+      "StateName": "B",
+      "InitializeEvents": [
+        {
+          "ObjectName": "PhysicsAssetModifierEvent'Sc01:ScenarioStateNode_LittleGame_0.PhysicsAssetModifierEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.43"
+        }
+      ],
+      "ExitEvents": [
+        {
+          "ObjectName": "PhysicsControlProfileEvent'Sc01:ScenarioStateNode_LittleGame_0.PhysicsControlProfileEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.45"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioStateNode_LittleGame",
+    "Name": "ScenarioStateNode_LittleGame_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateNode_LittleGame'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.56"
+    },
+    "Properties": {
+      "LittleGameTemplate": {
+        "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/GBP_FennySwim_Sc01_C.GBP_FennySwim_Sc01_C_C",
+        "SubPathString": ""
+      },
+      "StandbyActorInfos": [
+        {
+          "ActorName": "Fenny",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Characters/Girl/girl008c_02/Anim/manifestation/FennySwim/girl008c_02_ma_Sc01_C_Standby_01.girl008c_02_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "/Game/Characters/CommonFace/girl008_com01/AnimPart00/manifestation/FennySwim/girl008c_02_com01_face_ma_Sc01_C_Standby_01.girl008c_02_com01_face_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "player012",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/FennySwim_prop15/Anim/FennySwim_prop15_ma_Sc01_C_Standby_01.FennySwim_prop15_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "Champagne",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/FennySwim_prop04/Anim/FennySwim_prop04_ma_Sc01_C_Standby_01.FennySwim_prop04_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Operates": [
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.16"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.17"
+        }
+      ],
+      "StateName": "C",
+      "InitializeEvents": [
+        {
+          "ObjectName": "PhysicsAssetModifierEvent'Sc01:ScenarioStateNode_LittleGame_1.PhysicsAssetModifierEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.44"
+        },
+        {
+          "ObjectName": "CreatePhysicsControlEvent'Sc01:ScenarioStateNode_LittleGame_1.CreatePhysicsControlEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Trigger_FennySwim_SC01_D_C",
+    "Name": "Trigger_FennySwim_SC01_D_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Scenario/Sc01.52"
+    },
+    "Properties": {
+      "SpeedThresholdValue": 120.0,
+      "MaxNum": 10
+    }
+  }
+]

@@ -1,0 +1,2232 @@
+[
+  {
+    "Type": "ActorOperateAct",
+    "Name": "ActorOperateAct_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ActorOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.66"
+    },
+    "Properties": {
+      "VoiceConfig": {
+        "Name": "girl005c_02_Sc01_Clean_B_A",
+        "WeightedVoice": [
+          {
+            "Weight": 1.0,
+            "VoiceID": "main733",
+            "SpeakingContent": ""
+          }
+        ],
+        "CharacterID": "130502"
+      },
+      "FacialAnim": {
+        "AssetPathName": "/Game/Characters/CommonFace/girl005_com01/AnimPart00/manifestation/MarianMarry/girl005c_02_com01_face_ma_OperateAnim_01.girl005c_02_com01_face_ma_OperateAnim_01",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "AdditiveSequenceEvaluatorOperateAct",
+    "Name": "AdditiveSequenceEvaluatorOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AdditiveSequenceEvaluatorOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.70"
+    },
+    "Properties": {
+      "BreathAdditiveAnim": {
+        "AssetPathName": "/Game/Props/Manifestation/MarianMarry_Prop24/Anim/MarianMarry_Prop24_ma_Sc01_C_Standby_01.MarianMarry_Prop24_ma_Sc01_C_Standby_01",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "ScenarioStateNode_0.ScenarioStateNode_LittleGame_2.CallActorFunctionEvent_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.79"
+    },
+    "Properties": {
+      "ActorName": "Marian",
+      "FunctionName": "Kawaii Open"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.63"
+    },
+    "Properties": {
+      "ActorName": "Leg",
+      "FunctionName": "Prop 24 Hide Sock"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "ScenarioStateNode_Entry_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0.CallActorFunctionEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.80"
+    },
+    "Properties": {
+      "ActorName": "Marian",
+      "FunctionName": "Marian Reset Leg L SC01"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.83"
+    },
+    "Properties": {
+      "ActorName": "Marian",
+      "FunctionName": "Kawaii Close"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "ScenarioStateNode_0.ScenarioStateNode_LittleGame_2.CallActorFunctionEvent_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.83"
+    },
+    "Properties": {
+      "ActorName": "Marian",
+      "FunctionName": "Kawaii Open"
+    }
+  },
+  {
+    "Type": "Event_Marian_SC01_End_C",
+    "Name": "Event_Marian_SC01_End_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.79"
+    }
+  },
+  {
+    "Type": "Event_Marian_SC01A_End_C",
+    "Name": "Event_Marian_SC01A_End_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.80"
+    }
+  },
+  {
+    "Type": "Event_Marian_SC01D_Begin_C",
+    "Name": "Event_Marian_SC01D_Begin_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.83"
+    }
+  },
+  {
+    "Type": "Event_Marian_SC01D_End_C",
+    "Name": "Event_Marian_SC01D_End_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.83"
+    }
+  },
+  {
+    "Type": "Event_Marian_SC01D_Init_C",
+    "Name": "Event_Marian_SC01D_Init_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.64"
+    }
+  },
+  {
+    "Type": "EyesFollowOperateAct",
+    "Name": "EyesFollowOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EyesFollowOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.65"
+    },
+    "Properties": {
+      "ActorOperateActName": "Sc01_Eyes_A_girl005c_02_EyesFollow01"
+    }
+  },
+  {
+    "Type": "EyesFollowOperateAct",
+    "Name": "EyesFollowOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EyesFollowOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.67"
+    },
+    "Properties": {
+      "ActorOperateActName": "Sc01_Eyes_B_girl005c_02_EyesFollow01"
+    }
+  },
+  {
+    "Type": "EyesFollowOperateAct",
+    "Name": "EyesFollowOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EyesFollowOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.69"
+    },
+    "Properties": {
+      "ActorOperateActName": "Sc01_Eyes_C_girl005c_02_EyesFollow01"
+    }
+  },
+  {
+    "Type": "EyesFollowOperateAct",
+    "Name": "EyesFollowOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EyesFollowOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.72"
+    },
+    "Properties": {
+      "HeadRotationScale": {
+        "X": 0.05,
+        "Y": 0.05
+      },
+      "ActorOperateActName": "Sc01_Eyes_D_girl005c_02_EyesFollow01"
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.80"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0.InteractionV3SphereCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.40"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.62"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.80"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1.InteractionV3SphereCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.41"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.63"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_2",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.80"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2.InteractionV3SphereCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.42"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.64"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_3",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.80"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3AutoTriggerInput'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.InteractionV3AutoTriggerInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.27"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.65"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.81"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.InteractionV3SphereCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.43"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.66"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.81"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3AutoTriggerInput'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.InteractionV3AutoTriggerInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.28"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.67"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.82"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.InteractionV3SphereCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.44"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.68"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.82"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3AutoTriggerInput'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.InteractionV3AutoTriggerInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.29"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.69"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_2",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.82"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3AutoTriggerInput'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_2.InteractionV3AutoTriggerInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.30"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.70"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.83"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0.InteractionV3SphereCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.45"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.71"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.83"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3AutoTriggerInput'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.InteractionV3AutoTriggerInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.31"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.72"
+      }
+    }
+  },
+  {
+    "Type": "InteractionV3AutoTriggerInput",
+    "Name": "InteractionV3AutoTriggerInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3AutoTriggerInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.19"
+    }
+  },
+  {
+    "Type": "InteractionV3AutoTriggerInput",
+    "Name": "InteractionV3AutoTriggerInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3AutoTriggerInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.21"
+    }
+  },
+  {
+    "Type": "InteractionV3AutoTriggerInput",
+    "Name": "InteractionV3AutoTriggerInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3AutoTriggerInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.23"
+    }
+  },
+  {
+    "Type": "InteractionV3AutoTriggerInput",
+    "Name": "InteractionV3AutoTriggerInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3AutoTriggerInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.24"
+    }
+  },
+  {
+    "Type": "InteractionV3AutoTriggerInput",
+    "Name": "InteractionV3AutoTriggerInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3AutoTriggerInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.26"
+    }
+  },
+  {
+    "Type": "InteractionV3DragControl",
+    "Name": "InteractionV3DragControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3DragControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.66"
+    },
+    "Properties": {
+      "DragControl": {
+        "DragRecoverTime": 0.1
+      },
+      "Velocity": 2.0
+    }
+  },
+  {
+    "Type": "InteractionV3DragControl",
+    "Name": "InteractionV3DragControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3DragControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.71"
+    }
+  },
+  {
+    "Type": "InteractionV3Event_Achievement",
+    "Name": "InteractionV3Event_Achievement_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3Event_Achievement'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.80"
+    },
+    "Properties": {
+      "AchievementId": 0
+    }
+  },
+  {
+    "Type": "InteractionV3EyesFollowControl",
+    "Name": "InteractionV3EyesFollowControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3EyesFollowControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.65"
+    },
+    "Properties": {
+      "DragControl": {
+        "ScreenPercentToWorld": {
+          "X": 200.0,
+          "Y": 200.0
+        }
+      },
+      "CharacterNames": [
+        "Marian"
+      ]
+    }
+  },
+  {
+    "Type": "InteractionV3EyesFollowControl",
+    "Name": "InteractionV3EyesFollowControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3EyesFollowControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.67"
+    },
+    "Properties": {
+      "DragControl": {
+        "ScreenPercentToWorld": {
+          "X": 200.0,
+          "Y": 200.0
+        }
+      },
+      "CharacterNames": [
+        "Marian"
+      ]
+    }
+  },
+  {
+    "Type": "InteractionV3EyesFollowControl",
+    "Name": "InteractionV3EyesFollowControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3EyesFollowControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.69"
+    },
+    "Properties": {
+      "DragControl": {
+        "ScreenPercentToWorld": {
+          "X": 200.0,
+          "Y": 200.0
+        }
+      },
+      "CharacterNames": [
+        "Marian"
+      ]
+    }
+  },
+  {
+    "Type": "InteractionV3EyesFollowControl",
+    "Name": "InteractionV3EyesFollowControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3EyesFollowControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.72"
+    },
+    "Properties": {
+      "DragControl": {
+        "ScreenPercentToWorld": {
+          "X": 200.0,
+          "Y": 200.0
+        }
+      },
+      "CharacterNames": [
+        "Marian"
+      ]
+    }
+  },
+  {
+    "Type": "InteractionV3SequenceControl",
+    "Name": "InteractionV3SequenceControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SequenceControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.68"
+    },
+    "Properties": {
+      "ProjectDirection": {
+        "X": -1.0,
+        "Y": 0.0
+      },
+      "bUseMultiProjectDirection": true,
+      "SegmentedDirections": [
+        {
+          "StartPercent": 0.0,
+          "EndPercent": 0.38,
+          "Direction": {
+            "X": -0.5,
+            "Y": -1.0
+          },
+          "DegreeLimit": 30.0
+        },
+        {
+          "StartPercent": 0.38,
+          "EndPercent": 0.45,
+          "Direction": {
+            "X": -1.0,
+            "Y": 0.0
+          },
+          "DegreeLimit": 90.0
+        },
+        {
+          "StartPercent": 0.45,
+          "EndPercent": 1.0,
+          "Direction": {
+            "X": -1.0,
+            "Y": 0.7
+          },
+          "DegreeLimit": 30.0
+        }
+      ],
+      "RecoverPlaySpeed": 0.0,
+      "bOpenAutoPlay": false,
+      "AutoPlayPercent": 0.0,
+      "InitPercentage": 0.4571,
+      "DragControl": {
+        "ScreenPercentToWorld": {
+          "X": 20.0,
+          "Y": 20.0
+        },
+        "DragRecoverTime": 1.0
+      },
+      "bEnableDragInterpolation": true,
+      "Velocity": 7.0
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.16"
+    },
+    "Properties": {
+      "CharacterName": "Marian",
+      "BoneName": "Bone_hair",
+      "OperateName": "Head"
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.17"
+    },
+    "Properties": {
+      "CharacterName": "Marian",
+      "BoneName": "Bip001-L-Calf",
+      "OperateName": "Feet"
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.18"
+    },
+    "Properties": {
+      "CharacterName": "Marian",
+      "BoneName": "Bip001-L-Finger11",
+      "OperateName": "Hand"
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.20"
+    },
+    "Properties": {
+      "CharacterName": "Marian",
+      "BoneName": "Bip001-Spine2",
+      "OperateName": "Clean"
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.22"
+    },
+    "Properties": {
+      "CharacterName": "Marian",
+      "BoneName": "Bip001-L-Calf",
+      "OperateName": "Sock"
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.25"
+    },
+    "Properties": {
+      "Radius": 10.0,
+      "CharacterName": "Marian",
+      "BoneName": "Bip001-R-Thigh",
+      "SpatialOffset": {
+        "X": 4.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "TipWidget": "None"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.62"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Head_A_B",
+      "EndState": "B"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.63"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Feet_A_C",
+      "EndState": "C"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.64"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Hand_A_D",
+      "EndState": "D"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.65"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Eyes_A"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.66"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Clean_B_A",
+      "EndState": "A"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.67"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Eyes_B"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.68"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Sock_C_A",
+      "EndState": "A"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.69"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Eyes_C"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.70"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.71"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.72"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Eyes_D"
+    }
+  },
+  {
+    "Type": "Opreate_MarianSc01B_01Begin_C",
+    "Name": "Opreate_MarianSc01B_01Begin_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.66"
+    }
+  },
+  {
+    "Type": "Opreate_MarianSc01B_01End_C",
+    "Name": "Opreate_MarianSc01B_01End_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.66"
+    }
+  },
+  {
+    "Type": "Opreate_MarianSc01D_02Begin_C",
+    "Name": "Opreate_MarianSc01D_02Begin_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.71"
+    }
+  },
+  {
+    "Type": "Opreate_MarianSc01D_02End_C",
+    "Name": "Opreate_MarianSc01D_02End_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.71"
+    }
+  },
+  {
+    "Type": "PhysicsAssetModifierEvent",
+    "Name": "PhysicsAssetModifierEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicsAssetModifierEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.80"
+    },
+    "Properties": {
+      "PhysicsAssetModifiers": [
+        {
+          "ActorName": "Marian",
+          "BodyModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/girl005c_02/Physics/SC01_A/PA_Girl005c_02_SC01_A.PA_Girl005c_02_SC01_A",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/girl005c_02/Physics/SC01_A/PAC_Girl005c_02_SC01_A.PAC_Girl005c_02_SC01_A",
+              "SubPathString": ""
+            }
+          },
+          "BodyAnimNodeModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          "FaceModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.16"
+    },
+    "Properties": {
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.46"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.17"
+    },
+    "Properties": {
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.47"
+        },
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0.CallActorFunctionEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.18"
+    },
+    "Properties": {
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.48"
+        },
+        {
+          "ObjectName": "Event_Marian_SC01D_Init_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2.ScenarioOperateCommon_C_0.Event_Marian_SC01D_Init_C_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.11"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.19"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3EyesFollowControl'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0.InteractionV3EyesFollowControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.35"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Marian",
+          "ActorOperateAct": {
+            "ObjectName": "EyesFollowOperateAct'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0.EyesFollowOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.12"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "ScenarioOperateForbidTrigger'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0.ScenarioOperateForbidTrigger_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.73"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.49"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.20"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3DragControl'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.InteractionV3DragControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.32"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Marian",
+          "ActorOperateAct": {
+            "ObjectName": "ActorOperateAct'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.ActorOperateAct_1'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.0"
+          }
+        }
+      ],
+      "StartEvents": [
+        {
+          "ObjectName": "Opreate_MarianSc01B_01Begin_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.Opreate_MarianSc01B_01Begin_C_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.57"
+        }
+      ],
+      "EndEvents": [
+        {
+          "ObjectName": "Opreate_MarianSc01B_01End_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.Opreate_MarianSc01B_01End_C_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.58"
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "Trigger_MarrianMarry_SC01_B_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.Trigger_MarrianMarry_SC01_B_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.90"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.50"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.21"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3EyesFollowControl'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0.InteractionV3EyesFollowControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.36"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Marian",
+          "ActorOperateAct": {
+            "ObjectName": "EyesFollowOperateAct'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0.EyesFollowOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.13"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "ScenarioOperateForbidTrigger'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0.ScenarioOperateForbidTrigger_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.74"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.51"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.22"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3SequenceControl'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0.InteractionV3SequenceControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.39"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "leg",
+          "ActorOperateAct": {
+            "ObjectName": "SequenceEvaluatorOperateAct'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0.SequenceEvaluatorOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.84"
+          }
+        },
+        {
+          "CharacterName": "Marian",
+          "ActorOperateAct": {
+            "ObjectName": "SequenceEvaluatorOperateAct'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0.SequenceEvaluatorOperateAct_1'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.85"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "SequenceTriggerWithSfx_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0.SequenceTriggerWithSfx_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.87"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.52"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.23"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3EyesFollowControl'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0.InteractionV3EyesFollowControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.37"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Marian",
+          "ActorOperateAct": {
+            "ObjectName": "EyesFollowOperateAct'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0.EyesFollowOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.14"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "ScenarioOperateForbidTrigger'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0.ScenarioOperateForbidTrigger_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.75"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.53"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.24"
+    },
+    "Properties": {
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Leg",
+          "ActorOperateAct": {
+            "ObjectName": "AdditiveSequenceEvaluatorOperateAct'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0.AdditiveSequenceEvaluatorOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.1"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "ScenarioOperateForbidTrigger'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0.ScenarioOperateForbidTrigger_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.76"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.54"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.25"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3DragControl'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0.ScenarioOperateCommon_C_0.InteractionV3DragControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.33"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Marian",
+          "ActorOperateAct": {
+            "ObjectName": "SequenceEvaluatorOperateAct'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0.ScenarioOperateCommon_C_0.SequenceEvaluatorOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.86"
+          }
+        }
+      ],
+      "StartEvents": [
+        {
+          "ObjectName": "Opreate_MarianSc01D_02Begin_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0.ScenarioOperateCommon_C_0.Opreate_MarianSc01D_02Begin_C_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.59"
+        }
+      ],
+      "EndEvents": [
+        {
+          "ObjectName": "Opreate_MarianSc01D_02End_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0.ScenarioOperateCommon_C_0.Opreate_MarianSc01D_02End_C_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.60"
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "ScenarioOperateForbidTrigger'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0.ScenarioOperateCommon_C_0.ScenarioOperateForbidTrigger_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.77"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.55"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.26"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3EyesFollowControl'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0.InteractionV3EyesFollowControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.38"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Marian",
+          "ActorOperateAct": {
+            "ObjectName": "EyesFollowOperateAct'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0.EyesFollowOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.15"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "ScenarioOperateForbidTrigger'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0.ScenarioOperateForbidTrigger_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.78"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.56"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateForbidTrigger",
+    "Name": "ScenarioOperateForbidTrigger_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioOperateForbidTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.65"
+    }
+  },
+  {
+    "Type": "ScenarioOperateForbidTrigger",
+    "Name": "ScenarioOperateForbidTrigger_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioOperateForbidTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.67"
+    }
+  },
+  {
+    "Type": "ScenarioOperateForbidTrigger",
+    "Name": "ScenarioOperateForbidTrigger_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioOperateForbidTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.69"
+    }
+  },
+  {
+    "Type": "ScenarioOperateForbidTrigger",
+    "Name": "ScenarioOperateForbidTrigger_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioOperateForbidTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.70"
+    }
+  },
+  {
+    "Type": "ScenarioOperateForbidTrigger",
+    "Name": "ScenarioOperateForbidTrigger_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioOperateForbidTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.71"
+    }
+  },
+  {
+    "Type": "ScenarioOperateForbidTrigger",
+    "Name": "ScenarioOperateForbidTrigger_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioOperateForbidTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.72"
+    }
+  },
+  {
+    "Type": "ScenarioStateMachine",
+    "Name": "Sc01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateMachine'",
+    "Properties": {
+      "States": [
+        {
+          "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.80"
+        },
+        {
+          "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.81"
+        },
+        {
+          "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.82"
+        },
+        {
+          "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_2'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.83"
+        }
+      ],
+      "ScenarioName": "Sc01",
+      "ActorInfos": [
+        {
+          "ActorName": "Marian",
+          "PositionActorName": "ActorPos_Sc01_girl005c_02"
+        },
+        {
+          "ActorName": "player010",
+          "PositionActorName": "ActorPos_Sc01_prop15"
+        },
+        {
+          "ActorName": "bottle",
+          "PositionActorName": "ActorPos_Sc01_prop01"
+        },
+        {
+          "ActorName": "cup1",
+          "PositionActorName": "ActorPos_Sc01_prop02"
+        },
+        {
+          "ActorName": "cup2",
+          "PositionActorName": "ActorPos_Sc01_prop03"
+        },
+        {
+          "ActorName": "sock1",
+          "PositionActorName": "ActorPos_Sc01_prop05"
+        },
+        {
+          "ActorName": "sock2",
+          "PositionActorName": "ActorPos_Sc01_prop06"
+        },
+        {
+          "ActorName": "lipstick",
+          "PositionActorName": "ActorPos_Sc01_prop07"
+        },
+        {
+          "ActorName": "things",
+          "PositionActorName": "ActorPos_Sc01_prop08"
+        },
+        {
+          "ActorName": "shoe1",
+          "PositionActorName": "ActorPos_Sc01_prop16"
+        },
+        {
+          "ActorName": "shoe2",
+          "PositionActorName": "ActorPos_Sc01_prop17"
+        },
+        {
+          "ActorName": "leg",
+          "PositionActorName": "ActorPos_Sc01_prop24"
+        }
+      ],
+      "EndEvents": [
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:ScenarioStateNode_Entry_0.ScenarioStateNode_Entry_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0.CallActorFunctionEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.4"
+        },
+        {
+          "ObjectName": "Event_Marian_SC01_End_C'Sc01:Event_Marian_SC01_End_C_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.7"
+        },
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:ScenarioStateNode_0.ScenarioStateNode_LittleGame_2.CallActorFunctionEvent_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.2"
+        }
+      ],
+      "Processor": {
+        "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/SBP_MarianMarry_Sc01.SBP_MarianMarry_Sc01_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "ScenarioStateNode_Entry",
+    "Name": "ScenarioStateNode_Entry_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateNode_Entry'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.79"
+    },
+    "Properties": {
+      "CycleActorInfos": [
+        {
+          "ActorName": "Marian",
+          "ShowElementName": "Sc01_A_Cycle"
+        },
+        {
+          "ActorName": "player010",
+          "ShowElementName": "Sc01_A_Cycle"
+        },
+        {
+          "ActorName": "bottle",
+          "ShowElementName": "Sc01_A_Cycle"
+        },
+        {
+          "ActorName": "cup1",
+          "ShowElementName": "Sc01_A_Cycle"
+        },
+        {
+          "ActorName": "cup2",
+          "ShowElementName": "Sc01_A_Cycle"
+        },
+        {
+          "ActorName": "sock1",
+          "ShowElementName": "Sc01_A_Cycle"
+        },
+        {
+          "ActorName": "sock2",
+          "ShowElementName": "Sc01_A_Cycle"
+        },
+        {
+          "ActorName": "lipstick",
+          "ShowElementName": "Sc01_A_Cycle"
+        },
+        {
+          "ActorName": "things",
+          "ShowElementName": "Sc01_A_Cycle"
+        },
+        {
+          "ActorName": "shoe1",
+          "ShowElementName": "Sc01_A_Cycle"
+        },
+        {
+          "ActorName": "shoe2",
+          "ShowElementName": "Sc01_A_Cycle"
+        }
+      ],
+      "StandbyActorInfos": [
+        {
+          "ActorName": "Marian",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Characters/Girl/girl005c_02/Anim/manifestation/MarianMarry/girl005c_02_ma_Sc01_A_Standby_01.girl005c_02_ma_Sc01_A_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "/Game/Characters/CommonFace/girl005_com01/AnimPart00/manifestation/MarianMarry/girl005c_02_com01_face_ma_Sc01_A_Standby_01.girl005c_02_com01_face_ma_Sc01_A_Standby_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "sock1",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "sock2",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "things",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "shoe1",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "shoe2",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "CameraSequenceAsset": {
+        "AssetPathName": "/Game/Cinematics/Manifestation/MarianMarry/MarianMarry_ma_Sc01_A_Standby_Master.MarianMarry_ma_Sc01_A_Standby_Master",
+        "SubPathString": ""
+      },
+      "Operates": [
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.16"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.17"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.18"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.19"
+        }
+      ],
+      "StateHolyLight": [
+        {
+          "CharacterName": "Marian",
+          "HolyLightData": [
+            {
+              "SocketName": "Bip001-Spine1",
+              "Intensity": 5,
+              "UIName": "uw_girlroom_peace_light",
+              "SizeRatio": {
+                "ObjectName": "CurveFloat'DBCurve_girl008c_02_Ma_Standby_Stand01'",
+                "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Curve/DBCurve_girl008c_02_Ma_Standby_Stand01"
+              }
+            },
+            {
+              "SocketName": "shake_L_Thigh",
+              "Intensity": 5,
+              "UIName": "uw_girlroom_peace_light",
+              "SizeRatio": {
+                "ObjectName": "CurveFloat'DBCurve_girl008c_02_Ma_Standby_Bigsize'",
+                "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC32/FennySwim/Curve/DBCurve_girl008c_02_Ma_Standby_Bigsize"
+              }
+            }
+          ]
+        }
+      ],
+      "StateName": "A",
+      "InitializeEvents": [
+        {
+          "ObjectName": "PhysicsAssetModifierEvent'Sc01:ScenarioStateNode_Entry_0.PhysicsAssetModifierEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.61"
+        }
+      ],
+      "EnterEvents": [
+        {
+          "ObjectName": "InteractionV3Event_Achievement'Sc01:ScenarioStateNode_Entry_0.InteractionV3Event_Achievement_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.34"
+        }
+      ],
+      "ExitEvents": [
+        {
+          "ObjectName": "Event_Marian_SC01A_End_C'Sc01:ScenarioStateNode_Entry_0.Event_Marian_SC01A_End_C_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.8"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioStateNode_LittleGame",
+    "Name": "ScenarioStateNode_LittleGame_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateNode_LittleGame'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.79"
+    },
+    "Properties": {
+      "LittleGameTemplate": {
+        "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/GBP_MarianMarry_Sc01_B.GBP_MarianMarry_Sc01_B_C",
+        "SubPathString": ""
+      },
+      "StandbyActorInfos": [
+        {
+          "ActorName": "Marian",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Characters/Girl/girl005c_02/Anim/manifestation/MarianMarry/girl005c_02_ma_Sc01_B_Standby_01.girl005c_02_ma_Sc01_B_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "/Game/Characters/CommonFace/girl005_com01/AnimPart00/manifestation/MarianMarry/girl005c_02_com01_face_ma_Sc01_B_Standby_01.girl005c_02_com01_face_ma_Sc01_B_Standby_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "player010",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/MarianMarry_Prop15/Anim/MarianMarry_Prop15_ma_Sc01_B_Standby_01.MarianMarry_Prop15_ma_Sc01_B_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "bottle",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "cup1",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/MarianMarry_Prop02/Anim/MarianMarry_Prop02_ma_Sc01_B_Standby_01.MarianMarry_Prop02_ma_Sc01_B_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "sock1",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "sock2",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "lipstick",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "things",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "shoe1",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "shoe2",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Operates": [
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.20"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.21"
+        }
+      ],
+      "StateName": "B",
+      "EnterEvents": [
+        {
+          "ObjectName": "State_MarianMarrySc01_B_Begin_C'Sc01:ScenarioStateNode_LittleGame_0.State_MarianMarrySc01_B_Begin_C_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.88"
+        }
+      ],
+      "ExitEvents": [
+        {
+          "ObjectName": "State_MarianMarrySc01_B_End_C'Sc01:ScenarioStateNode_LittleGame_0.State_MarianMarrySc01_B_End_C_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.89"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioStateNode_LittleGame",
+    "Name": "ScenarioStateNode_LittleGame_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateNode_LittleGame'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.79"
+    },
+    "Properties": {
+      "LittleGameTemplate": {
+        "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/GBP_MarianMarry_Sc01_C.GBP_MarianMarry_Sc01_C_C",
+        "SubPathString": ""
+      },
+      "StandbyActorInfos": [
+        {
+          "ActorName": "Marian",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Characters/Girl/girl005c_02/Anim/manifestation/MarianMarry/girl005c_02_ma_Sc01_C_Standby_01.girl005c_02_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "/Game/Characters/CommonFace/girl005_com01/AnimPart00/manifestation/MarianMarry/girl005c_02_com01_face_ma_Sc01_C_Standby_01.girl005c_02_com01_face_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "player010",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/MarianMarry_Prop15/Anim/MarianMarry_Prop15_ma_Sc01_C_Standby_01.MarianMarry_Prop15_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "sock1",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "sock2",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "things",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "shoe1",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "shoe2",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "leg",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/MarianMarry_Prop24/Anim/MarianMarry_Prop24_ma_Sc01_C_Pause_01.MarianMarry_Prop24_ma_Sc01_C_Pause_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Operates": [
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.22"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_2'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.24"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.23"
+        }
+      ],
+      "StateName": "C"
+    }
+  },
+  {
+    "Type": "ScenarioStateNode_LittleGame",
+    "Name": "ScenarioStateNode_LittleGame_2",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateNode_LittleGame'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.79"
+    },
+    "Properties": {
+      "LittleGameTemplate": {
+        "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/GBP_MarianMarry_Sc01_D.GBP_MarianMarry_Sc01_D_C",
+        "SubPathString": ""
+      },
+      "StandbyActorInfos": [
+        {
+          "ActorName": "Marian",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Characters/Girl/girl005c_02/Anim/manifestation/MarianMarry/girl005c_02_ma_Sc01_D_Standby_01.girl005c_02_ma_Sc01_D_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "/Game/Characters/CommonFace/girl005_com01/AnimPart00/manifestation/MarianMarry/girl005c_02_com01_face_ma_Sc01_D_Standby_01.girl005c_02_com01_face_ma_Sc01_D_Standby_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "player010",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/MarianMarry_Prop15/Anim/MarianMarry_Prop15_ma_Sc01_D_Standby_01.MarianMarry_Prop15_ma_Sc01_D_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "bottle",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "sock1",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "sock2",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "things",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/MarianMarry_Prop08/Anim/MarianMarry_Prop08_ma_Sc01_D_Standby_01.MarianMarry_Prop08_ma_Sc01_D_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "shoe1",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "shoe2",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Operates": [
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.26"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.25"
+        }
+      ],
+      "StateName": "D",
+      "InitializeEvents": [
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:ScenarioStateNode_LittleGame_2.CallActorFunctionEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.5"
+        }
+      ],
+      "EnterEvents": [
+        {
+          "ObjectName": "Event_Marian_SC01D_Begin_C'Sc01:ScenarioStateNode_LittleGame_2.Event_Marian_SC01D_Begin_C_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.9"
+        }
+      ],
+      "ExitEvents": [
+        {
+          "ObjectName": "Event_Marian_SC01D_End_C'Sc01:ScenarioStateNode_LittleGame_2.Event_Marian_SC01D_End_C_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.10"
+        }
+      ],
+      "StartStandbyEvents": [
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:ScenarioStateNode_LittleGame_2.ScenarioStateNode_0.ScenarioStateNode_LittleGame_2.CallActorFunctionEvent_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SequenceEvaluatorOperateAct",
+    "Name": "SequenceEvaluatorOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SequenceEvaluatorOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.68"
+    },
+    "Properties": {
+      "InteractionAnim": {
+        "AssetPathName": "/Game/Props/Manifestation/MarianMarry_Prop24/Anim/MarianMarry_Prop24_ma_Sc01_C_Complete_01.MarianMarry_Prop24_ma_Sc01_C_Complete_01",
+        "SubPathString": ""
+      },
+      "VoiceConfig": {
+        "Name": "girl005c_02_Sc01_Sock_C_A",
+        "WeightedVoice": [
+          {
+            "Weight": 1.0,
+            "VoiceID": "main738",
+            "SpeakingContent": ""
+          }
+        ],
+        "CharacterID": "130502"
+      },
+      "ActorOperateActName": "Drag_Leg_SC01",
+      "FacialAnim": {
+        "AssetPathName": "/Game/Characters/CommonFace/girl005_com01/AnimPart00/manifestation/MarianMarry/girl005c_02_com01_face_ma_OperateAnim_02.girl005c_02_com01_face_ma_OperateAnim_02",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SequenceEvaluatorOperateAct",
+    "Name": "SequenceEvaluatorOperateAct_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SequenceEvaluatorOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.68"
+    },
+    "Properties": {
+      "VoiceConfig": {
+        "Name": "girl005c_02_Sc01_Sock_C_A",
+        "WeightedVoice": [
+          {
+            "Weight": 1.0,
+            "VoiceID": "main738",
+            "SpeakingContent": ""
+          }
+        ],
+        "CharacterID": "130502"
+      },
+      "FacialAnim": {
+        "AssetPathName": "/Game/Characters/CommonFace/girl005_com01/AnimPart00/manifestation/MarianMarry/girl005c_02_com01_face_ma_OperateAnim_02.girl005c_02_com01_face_ma_OperateAnim_02",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SequenceEvaluatorOperateAct",
+    "Name": "SequenceEvaluatorOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SequenceEvaluatorOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.71"
+    },
+    "Properties": {
+      "VoiceConfig": {
+        "Name": "girl005c_02_Sc01_Lip_D_A",
+        "WeightedVoice": [
+          {
+            "Weight": 1.0,
+            "VoiceID": "main732",
+            "SpeakingContent": ""
+          }
+        ],
+        "CharacterID": "130502"
+      },
+      "FacialAnim": {
+        "AssetPathName": "/Game/Characters/CommonFace/girl005_com01/AnimPart00/manifestation/MarianMarry/girl005c_02_com01_face_ma_OperateAnim_03.girl005c_02_com01_face_ma_OperateAnim_03",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SequenceTriggerWithSfx_C",
+    "Name": "SequenceTriggerWithSfx_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.68"
+    },
+    "Properties": {
+      "SoundEventName": "Play_DLC35_Girl005c_02_HD37"
+    }
+  },
+  {
+    "Type": "State_MarianMarrySc01_B_Begin_C",
+    "Name": "State_MarianMarrySc01_B_Begin_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.81"
+    }
+  },
+  {
+    "Type": "State_MarianMarrySc01_B_End_C",
+    "Name": "State_MarianMarrySc01_B_End_C_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.81"
+    }
+  },
+  {
+    "Type": "Trigger_MarrianMarry_SC01_B_C",
+    "Name": "Trigger_MarrianMarry_SC01_B_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/MarianMarry/Scenario/Sc01.66"
+    }
+  }
+]

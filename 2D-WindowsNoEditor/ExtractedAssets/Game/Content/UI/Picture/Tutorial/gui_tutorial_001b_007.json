@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "Texture2D",
+    "Name": "gui_tutorial_001b_007",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Texture2D'",
+    "Properties": {
+      "ImportedSize": {
+        "X": 700,
+        "Y": 556
+      },
+      "LightingGuid": "816DB7E5-4722EFD4-45C05A90-B30F63EF",
+      "LODGroup": "TEXTUREGROUP_UI",
+      "NeverStream": true
+    },
+    "SizeX": 700,
+    "SizeY": 556,
+    "PackedData": 1,
+    "PixelFormat": "PF_DXT1",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 194600,
+          "SizeOnDisk": 194600,
+          "OffsetInFile": "0x30124"
+        },
+        "SizeX": 700,
+        "SizeY": 556,
+        "SizeZ": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "Texture2D",
+    "Name": "PiecesGirl006b",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Texture2D'",
+    "Properties": {
+      "ImportedSize": {
+        "X": 512,
+        "Y": 1024
+      },
+      "LightingGuid": "1935219B-4800A70F-0535598B-3485D003",
+      "LODGroup": "TEXTUREGROUP_UI",
+      "NeverStream": true
+    },
+    "SizeX": 512,
+    "SizeY": 1024,
+    "PackedData": 1,
+    "PixelFormat": "PF_DXT5",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 524288,
+          "SizeOnDisk": 524288,
+          "OffsetInFile": "0x8091A"
+        },
+        "SizeX": 512,
+        "SizeY": 1024,
+        "SizeZ": 1
+      }
+    ]
+  }
+]

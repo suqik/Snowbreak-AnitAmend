@@ -1,0 +1,665 @@
+[
+  {
+    "Type": "SkeletalMesh",
+    "Name": "girl011a_body01_skm",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMesh'",
+    "Properties": {
+      "Skeleton": {
+        "ObjectName": "Skeleton'girl011a_body01_skm_Skeleton'",
+        "ObjectPath": "/Game/Characters/Girl/girl011a/girl011a_body01_skm_Skeleton"
+      },
+      "LODInfo": [
+        {
+          "ScreenSize": {
+            "bCooked": true,
+            "Default": 1.0,
+            "PerPlatform": null,
+            "Value": 1.0
+          },
+          "LODHysteresis": 0.02,
+          "LODMaterialMap": [
+            65535,
+            65535,
+            65535,
+            3,
+            4,
+            5,
+            6
+          ],
+          "BuildSettings": {
+            "bRecomputeNormals": false,
+            "bRecomputeTangents": true,
+            "bUseMikkTSpace": true,
+            "bComputeWeightedNormals": true,
+            "bRemoveDegenerates": true,
+            "bUseHighPrecisionTangentBasis": false,
+            "bUseFullPrecisionUVs": false,
+            "bBuildAdjacencyBuffer": true,
+            "ThresholdPosition": 2E-05,
+            "ThresholdTangentNormal": 2E-05,
+            "ThresholdUV": 0.000977,
+            "MorphThresholdPosition": 0.015
+          },
+          "ReductionSettings": {
+            "TerminationCriterion": "SMTC_NumOfTriangles",
+            "NumOfTrianglesPercentage": 1.0,
+            "NumOfVertPercentage": 1.0,
+            "MaxNumOfTriangles": 4,
+            "MaxNumOfVerts": 6,
+            "MaxDeviationPercentage": 0.0,
+            "ReductionMethod": "SMOT_NumOfTriangles",
+            "SilhouetteImportance": "SMOI_Normal",
+            "TextureImportance": "SMOI_Normal",
+            "ShadingImportance": "SMOI_Normal",
+            "SkinningImportance": "SMOI_Normal",
+            "bRemapMorphTargets": false,
+            "bRecalcNormals": true,
+            "WeldingThreshold": 0.1,
+            "NormalsThreshold": 60.0,
+            "MaxBonesPerVertex": 4,
+            "bEnforceBoneBoundaries": false,
+            "VolumeImportance": 1.0,
+            "bLockEdges": false,
+            "bLockColorBounaries": false,
+            "BaseLOD": 0
+          },
+          "BonesToRemove": [],
+          "BonesToPrioritize": [],
+          "WeightOfPrioritization": 1.0,
+          "BakePose": null,
+          "BakePoseOverride": null,
+          "SourceImportFilename": "",
+          "SkinCacheUsage": "ESkinCacheUsage::Auto",
+          "bHasBeenSimplified": false,
+          "bHasPerLODVertexColors": false,
+          "bAllowCPUAccess": false,
+          "bSupportUniformlyDistributedSampling": false
+        },
+        {
+          "ScreenSize": {
+            "bCooked": true,
+            "Default": 0.4,
+            "PerPlatform": null,
+            "Value": 0.4
+          },
+          "LODHysteresis": 0.0,
+          "LODMaterialMap": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "BuildSettings": {
+            "bRecomputeNormals": true,
+            "bRecomputeTangents": true,
+            "bUseMikkTSpace": true,
+            "bComputeWeightedNormals": true,
+            "bRemoveDegenerates": true,
+            "bUseHighPrecisionTangentBasis": false,
+            "bUseFullPrecisionUVs": false,
+            "bBuildAdjacencyBuffer": true,
+            "ThresholdPosition": 2E-05,
+            "ThresholdTangentNormal": 2E-05,
+            "ThresholdUV": 0.000977,
+            "MorphThresholdPosition": 0.015
+          },
+          "ReductionSettings": {
+            "TerminationCriterion": "SMTC_NumOfTriangles",
+            "NumOfTrianglesPercentage": 1.0,
+            "NumOfVertPercentage": 0.5,
+            "MaxNumOfTriangles": 4,
+            "MaxNumOfVerts": 6,
+            "MaxDeviationPercentage": 0.5,
+            "ReductionMethod": "SMOT_NumOfTriangles",
+            "SilhouetteImportance": "SMOI_Normal",
+            "TextureImportance": "SMOI_Normal",
+            "ShadingImportance": "SMOI_Normal",
+            "SkinningImportance": "SMOI_Normal",
+            "bRemapMorphTargets": false,
+            "bRecalcNormals": true,
+            "WeldingThreshold": 0.1,
+            "NormalsThreshold": 60.0,
+            "MaxBonesPerVertex": 4,
+            "bEnforceBoneBoundaries": false,
+            "VolumeImportance": 1.0,
+            "bLockEdges": false,
+            "bLockColorBounaries": true,
+            "BaseLOD": 0
+          },
+          "BonesToRemove": [],
+          "BonesToPrioritize": [],
+          "WeightOfPrioritization": 1.0,
+          "BakePose": null,
+          "BakePoseOverride": null,
+          "SourceImportFilename": "C:/Users/chenzhuzhi/Desktop/000/girl011a_L1.fbx",
+          "SkinCacheUsage": "ESkinCacheUsage::Auto",
+          "bHasBeenSimplified": false,
+          "bHasPerLODVertexColors": false,
+          "bAllowCPUAccess": false,
+          "bSupportUniformlyDistributedSampling": false
+        },
+        {
+          "ScreenSize": {
+            "bCooked": true,
+            "Default": 0.2,
+            "PerPlatform": null,
+            "Value": 0.2
+          },
+          "LODHysteresis": 0.0,
+          "LODMaterialMap": [],
+          "BuildSettings": {
+            "bRecomputeNormals": true,
+            "bRecomputeTangents": true,
+            "bUseMikkTSpace": true,
+            "bComputeWeightedNormals": false,
+            "bRemoveDegenerates": true,
+            "bUseHighPrecisionTangentBasis": false,
+            "bUseFullPrecisionUVs": false,
+            "bBuildAdjacencyBuffer": true,
+            "ThresholdPosition": 2E-05,
+            "ThresholdTangentNormal": 2E-05,
+            "ThresholdUV": 0.0009765625,
+            "MorphThresholdPosition": 0.015
+          },
+          "ReductionSettings": {
+            "TerminationCriterion": "SMTC_NumOfTriangles",
+            "NumOfTrianglesPercentage": 0.53,
+            "NumOfVertPercentage": 0.5,
+            "MaxNumOfTriangles": 4,
+            "MaxNumOfVerts": 6,
+            "MaxDeviationPercentage": 0.5,
+            "ReductionMethod": "SMOT_NumOfTriangles",
+            "SilhouetteImportance": "SMOI_Normal",
+            "TextureImportance": "SMOI_Normal",
+            "ShadingImportance": "SMOI_Normal",
+            "SkinningImportance": "SMOI_Normal",
+            "bRemapMorphTargets": false,
+            "bRecalcNormals": true,
+            "WeldingThreshold": 0.1,
+            "NormalsThreshold": 60.0,
+            "MaxBonesPerVertex": 3,
+            "bEnforceBoneBoundaries": false,
+            "VolumeImportance": 1.0,
+            "bLockEdges": false,
+            "bLockColorBounaries": false,
+            "BaseLOD": 1
+          },
+          "BonesToRemove": [
+            {
+              "BoneName": "BONE_hari_LOD1_05_004"
+            },
+            {
+              "BoneName": "BONE_hari_LOD1_08_004"
+            },
+            {
+              "BoneName": "BONE_hari_LOD1_02_004"
+            },
+            {
+              "BoneName": "BONE_PD_LOD1_01_006"
+            },
+            {
+              "BoneName": "BONE_PD_LOD1_01_011"
+            },
+            {
+              "BoneName": "BONE_PD_LOD1_02_006"
+            },
+            {
+              "BoneName": "BONE_PD_LOD1_02_011"
+            },
+            {
+              "BoneName": "Bip001-R-Finger02"
+            },
+            {
+              "BoneName": "Bip001-R-Finger12"
+            },
+            {
+              "BoneName": "Bip001-R-Finger22"
+            },
+            {
+              "BoneName": "Bip001-R-Finger32"
+            },
+            {
+              "BoneName": "Bip001-R-Finger42"
+            },
+            {
+              "BoneName": "Bip001-L-Finger02"
+            },
+            {
+              "BoneName": "BONE_hari_LOD1_04_001"
+            },
+            {
+              "BoneName": "BONE_hari_LOD1_07_001"
+            },
+            {
+              "BoneName": "BONE_skill_004"
+            },
+            {
+              "BoneName": "BONE_skill_006"
+            },
+            {
+              "BoneName": "BONE_PD_LOD1_06_002"
+            },
+            {
+              "BoneName": "BONE_PD_LOD1_05_002"
+            },
+            {
+              "BoneName": "BONE_hari_LOD1_01_001"
+            },
+            {
+              "BoneName": "BONE_hari_LOD1_03_001"
+            },
+            {
+              "BoneName": "BONE_hari_LOD1_06_001"
+            },
+            {
+              "BoneName": "BONE_YF_R_004"
+            },
+            {
+              "BoneName": "BONE_YF_L_004"
+            },
+            {
+              "BoneName": "BONE_YF_R_003"
+            },
+            {
+              "BoneName": "BONE_YF_L_003"
+            }
+          ],
+          "BonesToPrioritize": [],
+          "WeightOfPrioritization": 1.0,
+          "BakePose": null,
+          "BakePoseOverride": null,
+          "SourceImportFilename": "",
+          "SkinCacheUsage": "ESkinCacheUsage::Auto",
+          "bHasBeenSimplified": true,
+          "bHasPerLODVertexColors": false,
+          "bAllowCPUAccess": false,
+          "bSupportUniformlyDistributedSampling": false
+        },
+        {
+          "ScreenSize": {
+            "bCooked": true,
+            "Default": 0.1,
+            "PerPlatform": null,
+            "Value": 0.1
+          },
+          "LODHysteresis": 0.0,
+          "LODMaterialMap": [],
+          "BuildSettings": {
+            "bRecomputeNormals": true,
+            "bRecomputeTangents": true,
+            "bUseMikkTSpace": true,
+            "bComputeWeightedNormals": false,
+            "bRemoveDegenerates": true,
+            "bUseHighPrecisionTangentBasis": false,
+            "bUseFullPrecisionUVs": false,
+            "bBuildAdjacencyBuffer": true,
+            "ThresholdPosition": 2E-05,
+            "ThresholdTangentNormal": 2E-05,
+            "ThresholdUV": 0.0009765625,
+            "MorphThresholdPosition": 0.015
+          },
+          "ReductionSettings": {
+            "TerminationCriterion": "SMTC_NumOfTriangles",
+            "NumOfTrianglesPercentage": 0.215,
+            "NumOfVertPercentage": 0.5,
+            "MaxNumOfTriangles": 4,
+            "MaxNumOfVerts": 6,
+            "MaxDeviationPercentage": 0.5,
+            "ReductionMethod": "SMOT_NumOfTriangles",
+            "SilhouetteImportance": "SMOI_Normal",
+            "TextureImportance": "SMOI_Normal",
+            "ShadingImportance": "SMOI_Normal",
+            "SkinningImportance": "SMOI_Normal",
+            "bRemapMorphTargets": false,
+            "bRecalcNormals": true,
+            "WeldingThreshold": 0.1,
+            "NormalsThreshold": 60.0,
+            "MaxBonesPerVertex": 2,
+            "bEnforceBoneBoundaries": false,
+            "VolumeImportance": 1.0,
+            "bLockEdges": false,
+            "bLockColorBounaries": false,
+            "BaseLOD": 1
+          },
+          "BonesToRemove": [
+            {
+              "BoneName": "BONE_hari_LOD1_05_003"
+            },
+            {
+              "BoneName": "BONE_hari_LOD1_08_003"
+            },
+            {
+              "BoneName": "BONE_hari_LOD1_02_003"
+            },
+            {
+              "BoneName": "BONE_PD_LOD1_01_005"
+            },
+            {
+              "BoneName": "BONE_PD_LOD1_01_010"
+            },
+            {
+              "BoneName": "BONE_PD_LOD1_02_005"
+            },
+            {
+              "BoneName": "BONE_PD_LOD1_02_010"
+            },
+            {
+              "BoneName": "Bip001-R-Finger01"
+            },
+            {
+              "BoneName": "Bip001-R-Finger11"
+            },
+            {
+              "BoneName": "Bip001-R-Finger21"
+            },
+            {
+              "BoneName": "Bip001-R-Finger31"
+            },
+            {
+              "BoneName": "Bip001-R-Finger41"
+            },
+            {
+              "BoneName": "Bip001-L-Finger01"
+            },
+            {
+              "BoneName": "BONE_hari_LOD1_04_001"
+            },
+            {
+              "BoneName": "BONE_hari_LOD1_07_001"
+            },
+            {
+              "BoneName": "BONE_skill_004"
+            },
+            {
+              "BoneName": "BONE_skill_006"
+            },
+            {
+              "BoneName": "BONE_PD_LOD1_06_001"
+            },
+            {
+              "BoneName": "BONE_PD_LOD1_05_001"
+            },
+            {
+              "BoneName": "BONE_hari_LOD1_01_001"
+            },
+            {
+              "BoneName": "BONE_hari_LOD1_03_001"
+            },
+            {
+              "BoneName": "BONE_hari_LOD1_06_001"
+            },
+            {
+              "BoneName": "BONE_YF_R_004"
+            },
+            {
+              "BoneName": "BONE_YF_L_004"
+            },
+            {
+              "BoneName": "BONE_YF_R_003"
+            },
+            {
+              "BoneName": "BONE_YF_L_003"
+            },
+            {
+              "BoneName": "BONE_YF_R_001"
+            },
+            {
+              "BoneName": "BONE_YF_R_002"
+            },
+            {
+              "BoneName": "BONE_YF_L_002"
+            },
+            {
+              "BoneName": "BONE_YF_L_001"
+            },
+            {
+              "BoneName": "Bip001-R-Toe0"
+            },
+            {
+              "BoneName": "Bip001-L-Toe0"
+            }
+          ],
+          "BonesToPrioritize": [],
+          "WeightOfPrioritization": 1.0,
+          "BakePose": null,
+          "BakePoseOverride": null,
+          "SourceImportFilename": "",
+          "SkinCacheUsage": "ESkinCacheUsage::Auto",
+          "bHasBeenSimplified": true,
+          "bHasPerLODVertexColors": false,
+          "bAllowCPUAccess": false,
+          "bSupportUniformlyDistributedSampling": false
+        }
+      ],
+      "MinLod": {
+        "bCooked": true,
+        "Default": 0,
+        "PerPlatform": null,
+        "Value": 0
+      },
+      "bHasVertexColors": true,
+      "PhysicsAsset": {
+        "ObjectName": "PhysicsAsset'girl011a_body01_skm_PhysicsAsset'",
+        "ObjectPath": "/Game/Characters/Girl/girl011a/girl011a_body01_skm_PhysicsAsset"
+      },
+      "SamplingInfo": {
+        "BuiltData": {
+          "WholeMeshBuiltData": [
+            {
+              "AreaWeightedTriangleSampler": {
+                "Prob": [],
+                "Alias": [],
+                "TotalWeight": 0.0
+              }
+            },
+            {
+              "AreaWeightedTriangleSampler": {
+                "Prob": [],
+                "Alias": [],
+                "TotalWeight": 0.0
+              }
+            },
+            {
+              "AreaWeightedTriangleSampler": {
+                "Prob": [],
+                "Alias": [],
+                "TotalWeight": 0.0
+              }
+            },
+            {
+              "AreaWeightedTriangleSampler": {
+                "Prob": [],
+                "Alias": [],
+                "TotalWeight": 0.0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "ImportedBounds": {
+      "Origin": {
+        "X": 2.4961023,
+        "Y": 0.0,
+        "Z": 86.31635
+      },
+      "BoxExtent": {
+        "X": 17.670397,
+        "Y": 53.3869,
+        "Z": 85.92115
+      },
+      "SphereRadius": 102.68811
+    },
+    "SkeletalMaterials": [
+      {
+        "MaterialSlotName": "girl011a_hair01_inst",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'girl011a_hair01_inst'",
+          "ObjectPath": "/Game/Characters/Girl/girl011a/girl011a_hair01_inst"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            64.92331,
+            128.97008,
+            89.70028,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "girl011a_body01_inst",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'girl011a_body01_inst'",
+          "ObjectPath": "/Game/Characters/Girl/girl011a/girl011a_body01_inst"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            148.22726,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "girl011a_hair01_shadow_inst",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'girl011a_hair01_shadow_inst'",
+          "ObjectPath": "/Game/Characters/Girl/girl011a/girl011a_hair01_shadow_inst"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            117.97122,
+            117.97122,
+            61.494484,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "girl011a_body00_inst",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'girl011a_body00_inst'",
+          "ObjectPath": "/Game/Characters/Girl/girl011a/girl011a_body00_inst"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            33.76626,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "girl011a_body02_inst",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'girl011a_body02_inst'",
+          "ObjectPath": "/Game/Characters/Girl/girl011a/girl011a_body02_inst"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            102.367256,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "girl011a_body03_inst",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'girl011a_body03_inst'",
+          "ObjectPath": "/Game/Characters/Girl/girl011a/girl011a_body03_inst"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            24.5336,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "girl011a_hair01_inst_2",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'girl011a_hair01_inst_2'",
+          "ObjectPath": "/Game/Characters/Girl/girl011a/girl011a_hair01_inst_2"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            42.31189,
+            33.370434,
+            17.663462,
+            0.0
+          ]
+        }
+      }
+    ],
+    "LODModels": [
+      {
+        "Sections": [
+          {
+            "MaterialIndex": 0,
+            "BaseIndex": 0,
+            "NumTriangles": 9872,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Green",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 0,
+            "NumVertices": 18,
+            "MaxBoneInfluences": 1703947,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": 16,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "NumVertices": 0,
+        "NumTexCoords": 0,
+        "VertexBufferGPUSkin": null
+      },
+      null,
+      null,
+      null
+    ],
+    "NaniteResources": null
+  }
+]

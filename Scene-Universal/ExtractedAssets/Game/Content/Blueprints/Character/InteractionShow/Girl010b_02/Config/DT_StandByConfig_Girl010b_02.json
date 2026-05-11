@@ -1,0 +1,1874 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_StandByConfig_Girl010b_02",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'InteractionStandByConfig'",
+        "ObjectPath": "/Script/CharacterInteraction"
+      },
+      "bIgnoreExtraFields": true,
+      "bIgnoreMissingFields": true
+    },
+    "Rows": {
+      "肴恒约Ma_Standby_Stand01": {
+        "ID": 1,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/Anim/manifestation/girl010b_02_ma_standby_stand01.girl010b_02_ma_standby_stand01",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/AnimPart00/manifestation/girl010b_02_ma_standby_stand01.girl010b_02_ma_standby_stand01",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": 30.0,
+        "ShowSequences": [
+          {
+            "Weight": 1.0,
+            "ShowSequenceID": 38,
+            "CustomAction": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "StandByEvents": [
+          {
+            "AssetPathName": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Standby/DA_Girl010b_02_EasterEggComplete.DA_Girl010b_02_EasterEggComplete",
+            "SubPathString": ""
+          }
+        ],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Ma_Standby_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Ma_Standby_Stand01"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Ma_Standby_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Ma_Standby_Stand01"
+            }
+          }
+        ],
+        "OperateCollisions": [
+          {
+            "CollisionID": 7030000,
+            "ClickOperateID": 7030000,
+            "DragOperateID": -1,
+            "SocketName": "Bip001-R-Hand",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          },
+          {
+            "CollisionID": 7100000,
+            "ClickOperateID": 7100000,
+            "DragOperateID": -1,
+            "SocketName": "Hair_Bone_01",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          },
+          {
+            "CollisionID": 7020000,
+            "ClickOperateID": 7020000,
+            "DragOperateID": -1,
+            "SocketName": "Bip001-L-Hand",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          }
+        ],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约Ma_Interact01_Stand01": {
+        "ID": 2,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/Anim/manifestation/girl010b_02_ma_interact01_stand01.girl010b_02_ma_interact01_stand01",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/AnimPart00/manifestation/girl010b_02_ma_interact01_stand01.girl010b_02_ma_interact01_stand01",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": 10.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Ma_Interact01_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Ma_Interact01_Stand01"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Ma_Interact01_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Ma_Interact01_Stand01"
+            }
+          }
+        ],
+        "OperateCollisions": [
+          {
+            "CollisionID": 7030001,
+            "ClickOperateID": -1,
+            "DragOperateID": 7030001,
+            "SocketName": "Socket_Grabbook",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 7.0,
+              "Y": 10.0,
+              "Z": 1.5
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          }
+        ],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约Ma_Interact02_Stand01": {
+        "ID": 3,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/Anim/manifestation/girl010b_02_ma_interact02_stand01.girl010b_02_ma_interact02_stand01",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/AnimPart00/manifestation/girl010b_02_ma_interact02_stand01.girl010b_02_ma_interact02_stand01",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": 10.0,
+        "ShowSequences": [],
+        "StandByEvents": [
+          {
+            "AssetPathName": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Standby/DA_Girl010b_02_QuiiDrag.DA_Girl010b_02_QuiiDrag",
+            "SubPathString": ""
+          }
+        ],
+        "bIsEyeFollow": false,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Ma_Interact02_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Ma_Interact02_Stand01"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Ma_Interact02_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Ma_Interact02_Stand01"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约Ma_Interact03_Stand01": {
+        "ID": 4,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/Anim/manifestation/girl010b_02_ma_interact03_stand01_Tpose01.girl010b_02_ma_interact03_stand01_Tpose01",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/AnimPart00/manifestation/girl010b_02_ma_interact03_stand01.girl010b_02_ma_interact03_stand01",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": 10.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Ma_Interact03_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Ma_Interact03_Stand01"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Ma_Interact03_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Ma_Interact03_Stand01"
+            }
+          }
+        ],
+        "OperateCollisions": [
+          {
+            "CollisionID": 7020001,
+            "ClickOperateID": 7020001,
+            "DragOperateID": 7020001,
+            "SocketName": "Bip001-R-Hand",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          }
+        ],
+        "KawaiBlendSpeedScale": 10.0
+      },
+      "肴恒约Show_Stand01": {
+        "ID": 5,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/Anim/manifestation/girl010b_02_ma_show_stand01.girl010b_02_ma_show_stand01",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/AnimPart00/manifestation/girl010b_02_ma_show_stand01.girl010b_02_ma_show_stand01",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": 10.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bone_pd_39",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Show_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Show_Stand01"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Show_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Show_Stand01"
+            }
+          }
+        ],
+        "OperateCollisions": [
+          {
+            "CollisionID": 7080100,
+            "ClickOperateID": 7080100,
+            "DragOperateID": 7080100,
+            "SocketName": "Bip001-Pelvis",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          },
+          {
+            "CollisionID": 7010100,
+            "ClickOperateID": -1,
+            "DragOperateID": 7010100,
+            "SocketName": "Bip001-Head",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          },
+          {
+            "CollisionID": 7020500,
+            "ClickOperateID": -1,
+            "DragOperateID": 7020500,
+            "SocketName": "Socket_Dessert",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 20.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          }
+        ],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约Show_Stand02": {
+        "ID": 6,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/Anim/manifestation/girl010b_02_ma_show_stand02.girl010b_02_ma_show_stand02",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/AnimPart00/manifestation/girl010b_02_ma_show_stand02.girl010b_02_ma_show_stand02",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": 10.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Show_Stand02'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Show_Stand02"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Show_Stand02'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Show_Stand02"
+            }
+          }
+        ],
+        "OperateCollisions": [
+          {
+            "CollisionID": 7040200,
+            "ClickOperateID": -1,
+            "DragOperateID": 7040200,
+            "SocketName": "Bip001-L-Foot",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          },
+          {
+            "CollisionID": 7050200,
+            "ClickOperateID": -1,
+            "DragOperateID": 7050200,
+            "SocketName": "Bip001-R-Foot",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          },
+          {
+            "CollisionID": 7010200,
+            "ClickOperateID": -1,
+            "DragOperateID": 7010200,
+            "SocketName": "Bip001-Head",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          }
+        ],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约Show_Stand03": {
+        "ID": 7,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/Anim/manifestation/girl010b_02_ma_show_stand03.girl010b_02_ma_show_stand03",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/AnimPart00/manifestation/girl010b_02_ma_show_stand03.girl010b_02_ma_show_stand03",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": 10.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": false,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Show_Stand03'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Show_Stand03"
+            }
+          },
+          {
+            "SocketName": "Bone_Thigh_R",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Show_Stand03'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Show_Stand03"
+            }
+          }
+        ],
+        "OperateCollisions": [
+          {
+            "CollisionID": 7040300,
+            "ClickOperateID": 7040300,
+            "DragOperateID": 7040300,
+            "SocketName": "Bip001-L-UpperArm",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          },
+          {
+            "CollisionID": 7020300,
+            "ClickOperateID": 7020300,
+            "DragOperateID": 7020300,
+            "SocketName": "Bip001-L-Hand",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 5.0,
+              "Y": 5.0,
+              "Z": 5.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          }
+        ],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约戴戒指初始Stand": {
+        "ID": 8,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/Anim/manifestation/girl010b_02_PropStartStandby.girl010b_02_PropStartStandby",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/AnimPart00/manifestation/girl010b_02_PropStartStandby.girl010b_02_PropStartStandby",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [
+          {
+            "AssetPathName": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Standby/DA_Girl010b_02_WeddingRingStartStandby_LeftHand.DA_Girl010b_02_WeddingRingStartStandby_LeftHand",
+            "SubPathString": ""
+          }
+        ],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 28,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl002b_02_Prop_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl002b_02/Curve/DBCurve_girl002b_02_Prop_Stand01"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 28,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl002b_02_Prop_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl002b_02/Curve/DBCurve_girl002b_02_Prop_Stand01"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约戴戒指Ma_Prop_Stand01": {
+        "ID": 9,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/Anim/manifestation/girl010b_02_ma_prop_stand01_Tpose01.girl010b_02_ma_prop_stand01_Tpose01",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/AnimPart00/manifestation/girl010b_02_ma_prop_stand01.girl010b_02_ma_prop_stand01",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": false,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Prop_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Prop_Stand01"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Prop_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Prop_Stand01"
+            }
+          }
+        ],
+        "OperateCollisions": [
+          {
+            "CollisionID": 70301,
+            "ClickOperateID": -1,
+            "DragOperateID": 70301,
+            "SocketName": "Bip001-R-Hand",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 3.0,
+              "Y": 3.0,
+              "Z": 3.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          }
+        ],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约戴戒指Ma_Prop_Stand02": {
+        "ID": 10,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/Anim/manifestation/girl010b_02_ma_prop_stand02_Tpose01.girl010b_02_ma_prop_stand02_Tpose01",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/AnimPart00/manifestation/girl010b_02_ma_prop_stand02.girl010b_02_ma_prop_stand02",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Prop_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Prop_Stand01"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Prop_Stand01'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Prop_Stand01"
+            }
+          }
+        ],
+        "OperateCollisions": [
+          {
+            "CollisionID": 70302,
+            "ClickOperateID": -1,
+            "DragOperateID": 70302,
+            "SocketName": "Bip001-R-Hand_Fans",
+            "AllAgeLevel": 15,
+            "BoxSize": {
+              "X": 3.0,
+              "Y": 3.0,
+              "Z": 3.0
+            },
+            "BoxOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Range": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HideUIName": "",
+            "BoxRotator": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          }
+        ],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约告白初始Standby": {
+        "ID": 11,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/Anim/manifestation/girl010b_02_LoveStartStandby.girl010b_02_LoveStartStandby",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/AnimPart00/manifestation/girl010b_02_LoveStartStandby.girl010b_02_LoveStartStandby",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约告白Ma_Love_Idle01_Standby": {
+        "ID": 12,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约告白Ma_Love_Chose01_Stand01": {
+        "ID": 13,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/Anim/manifestation/girl010b_02_ma_love_chose01_stand01.girl010b_02_ma_love_chose01_stand01",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/AnimPart00/manifestation/girl010b_02_ma_love_chose01_stand01.girl010b_02_ma_love_chose01_stand01",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约告白Ma_Love_Chose01_Idle01_Standby1": {
+        "ID": 14,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/Anim/manifestation/girl010b_02_ma_love_chose01_idle01.girl010b_02_ma_love_chose01_idle01",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/AnimPart00/manifestation/girl010b_02_ma_love_chose01_idle01.girl010b_02_ma_love_chose01_idle01",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约告白Ma_Love_Chose01_Idle01_Standby2": {
+        "ID": 15,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/Anim/manifestation/girl010b_02_ma_love_chose01_idle01.girl010b_02_ma_love_chose01_idle01",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/AnimPart00/manifestation/girl010b_02_ma_love_chose01_idle01.girl010b_02_ma_love_chose01_idle01",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约告白Ma_Love_Idle02_Standby": {
+        "ID": 16,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010a_03/Anim/manifestation/girl010b_02_ma_love_idle01-04.girl010b_02_ma_love_idle01-04",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约告白Ma_Love_Idle03_Standby": {
+        "ID": 17,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约告白Ma_Love_Idle04_Standby": {
+        "ID": 18,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约告白Ma_Love_Idle05_Standby": {
+        "ID": 19,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约告白Ma_Love_Chose02_Stand01": {
+        "ID": 20,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/Anim/manifestation/girl010b_02_ma_love_chose02_stand01.girl010b_02_ma_love_chose02_stand01",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/AnimPart00/manifestation/girl010b_02_ma_love_chose02_stand01.girl010b_02_ma_love_chose02_stand01",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约告白Ma_Love_Chose02_Idle01_Standby": {
+        "ID": 21,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/Anim/manifestation/girl010b_02_ma_love_chose02_idle01.girl010b_02_ma_love_chose02_idle01",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/AnimPart00/manifestation/girl010b_02_ma_love_chose02_idle01.girl010b_02_ma_love_chose02_idle01",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约告白Ma_Love_Chose02_Idle02_Standby": {
+        "ID": 22,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/Anim/manifestation/girl010b_02_ma_love_chose02_idle02.girl010b_02_ma_love_chose02_idle02",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/AnimPart00/manifestation/girl010b_02_ma_love_chose02_idle02.girl010b_02_ma_love_chose02_idle02",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约告白Ma_Love_Idle06_Standby": {
+        "ID": 23,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约告白Ma_Love_Idle07_Standby": {
+        "ID": 24,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约告白Ma_Love_Idle08_Standby": {
+        "ID": 25,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约告白Ma_Love_Idle09_Standby": {
+        "ID": 26,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约告白Ma_Love_Idle10_Standby": {
+        "ID": 27,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约告白Ma_Love_Idle11_Standby": {
+        "ID": 28,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约告白Ma_Love_Idle12_Standby": {
+        "ID": 29,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约告白Ma_Love_Idle13_Standby": {
+        "ID": 30,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约告白Ma_Love_Idle14_Standby": {
+        "ID": 31,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约告白LastPose": {
+        "ID": 32,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl002b_02/Anim/manifestation/girl002b_02_ma_love_idle09_LastPose.girl002b_02_ma_love_idle09_LastPose",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/AnimPart00/manifestation/girl010b_02_ma_love_Lastpose.girl010b_02_ma_love_Lastpose",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      },
+      "肴恒约戴戒指LastPose": {
+        "ID": 33,
+        "SkinID": 121002,
+        "StandByAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl002b_02/Anim/manifestation/girl002b_02_ma_prop_idle04_LastPose.girl002b_02_ma_prop_idle04_LastPose",
+          "SubPathString": ""
+        },
+        "StandByFacialAnim": {
+          "AssetPathName": "/Game/Characters/Girl/girl010b_02/AnimPart00/manifestation/girl010b_02_ma_prop_Lastpose.girl010b_02_ma_prop_Lastpose",
+          "SubPathString": ""
+        },
+        "ShowSequenceTriggerTime": -1.0,
+        "ShowSequences": [],
+        "StandByEvents": [],
+        "bIsEyeFollow": true,
+        "bOverridePhysicsControl": false,
+        "OverridePhysicsControl": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "HolyLights": [
+          {
+            "SocketName": "Bip001-Spine2",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          },
+          {
+            "SocketName": "Bip001-Pelvis",
+            "Intensity": 5,
+            "UIName": "uw_girlroom_peace_light",
+            "SizeRatio": {
+              "ObjectName": "CurveFloat'DBCurve_girl010b_02_Love_Standby'",
+              "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl010b_02/Curve/DBCurve_girl010b_02_Love_Standby"
+            }
+          }
+        ],
+        "OperateCollisions": [],
+        "KawaiBlendSpeedScale": 1.0
+      }
+    }
+  }
+]

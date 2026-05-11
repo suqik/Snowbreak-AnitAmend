@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "Texture2D",
+    "Name": "pic_dorm20_04",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Texture2D'",
+    "Properties": {
+      "ImportedSize": {
+        "X": 2400,
+        "Y": 1080
+      },
+      "LightingGuid": "02EA6828-4362F224-EA2CDCB2-C3D92FDB",
+      "LODGroup": "TEXTUREGROUP_UI",
+      "NeverStream": true
+    },
+    "SizeX": 2400,
+    "SizeY": 1080,
+    "PackedData": 1,
+    "PixelFormat": "PF_DXT1",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 1296000,
+          "SizeOnDisk": 1296000,
+          "OffsetInFile": "0x13CF54"
+        },
+        "SizeX": 2400,
+        "SizeY": 1080,
+        "SizeZ": 1
+      }
+    ]
+  }
+]

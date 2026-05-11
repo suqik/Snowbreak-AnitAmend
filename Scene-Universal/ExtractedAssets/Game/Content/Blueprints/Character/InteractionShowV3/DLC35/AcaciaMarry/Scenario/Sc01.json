@@ -1,0 +1,2874 @@
+[
+  {
+    "Type": "ActorOperateAct",
+    "Name": "ActorOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ActorOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.89"
+    },
+    "Properties": {
+      "ActorOperateActName": "Sc01_Poke",
+      "FacialAnim": {
+        "AssetPathName": "/Game/Characters/CommonFace/girl001b_02_lv2_com01/AnimPart00/manifestation/AcaciaMarry/girl001b_02_lv2_ma_OperateAnim_02.girl001b_02_lv2_ma_OperateAnim_02",
+        "SubPathString": ""
+      },
+      "ProfileModifier": {
+        "BodyAnimNodeProfile": {
+          "StartPhysicsControlProfile": "DollCtrl"
+        }
+      },
+      "bPhysicsBlendOut": true
+    }
+  },
+  {
+    "Type": "AdditiveSequenceEvaluatorOperateAct",
+    "Name": "AdditiveSequenceEvaluatorOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AdditiveSequenceEvaluatorOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.86"
+    },
+    "Properties": {
+      "BreathAdditiveAnim": {
+        "AssetPathName": "/Game/Props/Manifestation/AcaciaMarry_Prop23/Anim/AcaciaMarry_prop23_ma_Sc01_B_Standby_01.AcaciaMarry_prop23_ma_Sc01_B_Standby_01",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.101"
+    },
+    "Properties": {
+      "ActorName": "Acacia",
+      "FunctionName": "ShowPushShadow"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.101"
+    },
+    "Properties": {
+      "ActorName": "Acacia",
+      "FunctionName": "HidePushShadow"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_2",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.101"
+    },
+    "Properties": {
+      "ActorName": "Acacia",
+      "FunctionName": "Reset_Leg_L"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_3",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.101"
+    },
+    "Properties": {
+      "ActorName": "Acacialv2",
+      "FunctionName": "HidePushShadow"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.81"
+    },
+    "Properties": {
+      "ActorName": "Acacialv2",
+      "FunctionName": "ShowPushShadow"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.103"
+    },
+    "Properties": {
+      "ActorName": "Acacia",
+      "FunctionName": "Reset_Leg_L"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.84"
+    },
+    "Properties": {
+      "ActorName": "Acacia1",
+      "FunctionName": "Reset_Leg_L1"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.84"
+    },
+    "Properties": {
+      "ActorName": "socks",
+      "FunctionName": "EndLegDrag"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.104"
+    },
+    "Properties": {
+      "ActorName": "Acacialv2",
+      "FunctionName": "HidePushShadow"
+    }
+  },
+  {
+    "Type": "CallActorFunctionEvent",
+    "Name": "CallActorFunctionEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CallActorFunctionEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.105"
+    },
+    "Properties": {
+      "ActorName": "Acacialv2",
+      "FunctionName": "HidePushShadow"
+    }
+  },
+  {
+    "Type": "CreateMaintainWorldSpaceRelativeControlEvent",
+    "Name": "CreateMaintainWorldSpaceRelativeControlEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CreateMaintainWorldSpaceRelativeControlEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.105"
+    },
+    "Properties": {
+      "ControlName": "doll_PelvisCtrl",
+      "SetName": "doll_PelvisSet",
+      "ParentActorName": "doll",
+      "ParentBoneName": "Bone_AcaciaMarry_Prop03_03",
+      "ChildActorName": "Acacialv2",
+      "ChildBoneName": "Bip001-Pelvis",
+      "bIsChildAnimNode": true
+    }
+  },
+  {
+    "Type": "Event_TessMarry_SetKawaiiBlendScale_C",
+    "Name": "Event_TessMarry_SetKawaiiBlendScale_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.104"
+    },
+    "Properties": {
+      "GirlName": "Acacialv2",
+      "KawaiiBlendScale": -1.0
+    }
+  },
+  {
+    "Type": "Event_TessMarry_SetKawaiiBlendScale_C",
+    "Name": "Event_TessMarry_SetKawaiiBlendScale_C_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.104"
+    },
+    "Properties": {
+      "GirlName": "Acacialv2",
+      "KawaiiBlendScale": 1.0
+    }
+  },
+  {
+    "Type": "EyesFollowOperateAct",
+    "Name": "EyesFollowOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EyesFollowOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.83"
+    },
+    "Properties": {
+      "HeadRotationScale": {
+        "X": 0.22,
+        "Y": 0.22
+      },
+      "bInterpHead": true,
+      "HeadInterpSpeed": 3.0,
+      "ActorOperateActName": "Sc01_Eyes_A_girl001b_02_EyesFollow01"
+    }
+  },
+  {
+    "Type": "EyesFollowOperateAct",
+    "Name": "EyesFollowOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EyesFollowOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.85"
+    },
+    "Properties": {
+      "HeadRotationScale": {
+        "X": 0.15,
+        "Y": 0.15
+      },
+      "ActorOperateActName": "Sc01_Eyes_B_girl001b_02_EyesFollow01"
+    }
+  },
+  {
+    "Type": "EyesFollowOperateAct",
+    "Name": "EyesFollowOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EyesFollowOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.87"
+    },
+    "Properties": {
+      "HeadRotationScale": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "ActorOperateActName": "Sc01_Eyes_C_girl001b_02_EyesFollow01"
+    }
+  },
+  {
+    "Type": "EyesFollowOperateAct",
+    "Name": "EyesFollowOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EyesFollowOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.88"
+    },
+    "Properties": {
+      "HeadRotationScale": {
+        "X": 0.2,
+        "Y": 0.2
+      },
+      "ActorOperateActName": "Sc01_Eyes_D_girl001b_02_lv2_EyesFollow01"
+    }
+  },
+  {
+    "Type": "IKWorldSpaceOffsetOperateAct",
+    "Name": "IKWorldSpaceOffsetOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IKWorldSpaceOffsetOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.84"
+    },
+    "Properties": {
+      "ActorOperateActName": "Sc01_Socks_B_A_girl001b_02_IKOffset01",
+      "FacialAnim": {
+        "AssetPathName": "/Game/Characters/CommonFace/girl001_com01/AnimPart00/manifestation/AcaciaMarry/girl001b_02_ma_OperateAnim_01.girl001b_02_ma_OperateAnim_01",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.102"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0.InteractionV3SphereCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.53"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.80"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.102"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1.InteractionV3SphereCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.54"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.81"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_2",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.102"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2.InteractionV3SphereCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.55"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.82"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_3",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.102"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3AutoTriggerInput'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.InteractionV3AutoTriggerInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.33"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.83"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.103"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.InteractionV3SphereCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.56"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.84"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.103"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3AutoTriggerInput'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.InteractionV3AutoTriggerInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.34"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.85"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_3",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.103"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3AutoTriggerInput'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_3.InteractionV3AutoTriggerInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.35"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.86"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.104"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3AutoTriggerInput'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.InteractionV3AutoTriggerInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.36"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.87"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.105"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3AutoTriggerInput'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.InteractionV3AutoTriggerInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.37"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.88"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_2",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.105"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_2.InteractionV3SphereCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.57"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.89"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_3",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.105"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_3.InteractionV3SphereCollisionInput_1'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.58"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.90"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_4",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.105"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3SphereCollisionInput'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_4.InteractionV3SphereCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.59"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_4.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.91"
+      }
+    }
+  },
+  {
+    "Type": "InteractionOperateV3",
+    "Name": "InteractionOperateV3_5",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionOperateV3'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.105"
+    },
+    "Properties": {
+      "InputCollision": {
+        "ObjectName": "InteractionV3CapsuleCollisionInput'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_5.InteractionV3CapsuleCollisionInput_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.38"
+      },
+      "ScenarioOperate": {
+        "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_5.ScenarioOperateCommon_C_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.92"
+      }
+    }
+  },
+  {
+    "Type": "InteractionV3AutoTriggerInput",
+    "Name": "InteractionV3AutoTriggerInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3AutoTriggerInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.23"
+    },
+    "Properties": {
+      "OperateName": "Eyes"
+    }
+  },
+  {
+    "Type": "InteractionV3AutoTriggerInput",
+    "Name": "InteractionV3AutoTriggerInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3AutoTriggerInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.25"
+    },
+    "Properties": {
+      "OperateName": "Eyes"
+    }
+  },
+  {
+    "Type": "InteractionV3AutoTriggerInput",
+    "Name": "InteractionV3AutoTriggerInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3AutoTriggerInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_3'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.26"
+    }
+  },
+  {
+    "Type": "InteractionV3AutoTriggerInput",
+    "Name": "InteractionV3AutoTriggerInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3AutoTriggerInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.27"
+    },
+    "Properties": {
+      "OperateName": "Eyes"
+    }
+  },
+  {
+    "Type": "InteractionV3AutoTriggerInput",
+    "Name": "InteractionV3AutoTriggerInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3AutoTriggerInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.28"
+    },
+    "Properties": {
+      "OperateName": "Eyes"
+    }
+  },
+  {
+    "Type": "InteractionV3CapsuleCollisionInput",
+    "Name": "InteractionV3CapsuleCollisionInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3CapsuleCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_5'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.32"
+    },
+    "Properties": {
+      "bAlignToPhysicsBody": true,
+      "CharacterName": "Acacialv20",
+      "BoneName": "Bip001-R-Hand"
+    }
+  },
+  {
+    "Type": "InteractionV3DragControl",
+    "Name": "InteractionV3DragControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3DragControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.86"
+    }
+  },
+  {
+    "Type": "InteractionV3DragControl",
+    "Name": "InteractionV3DragControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3DragControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.89"
+    },
+    "Properties": {
+      "DragControl": {
+        "ScreenPercentToWorld": {
+          "X": 30.0,
+          "Y": 30.0
+        },
+        "WorldSpaceLimit": {
+          "X": 0.0,
+          "Y": 20.0,
+          "Z": -6.0,
+          "W": 6.0
+        },
+        "DragDampingCurve": {
+          "ObjectName": "CurveFloat'CV_IKDamp'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl011a/Operate/Curve/CV_IKDamp"
+        },
+        "DragRecoverCurve": {
+          "ObjectName": "CurveFloat'CV_IKRecover'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl008b/Operate/Curve/CV_IKRecover"
+        }
+      },
+      "OffsetAdditiveRot_Yaw": -30.0,
+      "bEnableDragInterpolation": true,
+      "DragInterpolationType": "EInteractionV3DragInterpolationType::SpringInterpolation",
+      "SpringInterpolation": {
+        "Damping": 1.0,
+        "Stiffness": 8.0
+      }
+    }
+  },
+  {
+    "Type": "InteractionV3DragControl",
+    "Name": "InteractionV3DragControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3DragControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.90"
+    },
+    "Properties": {
+      "DragControl": {
+        "ScreenPercentToWorld": {
+          "X": 50.0,
+          "Y": 50.0
+        },
+        "DragDampingCurve": {
+          "ObjectName": "CurveFloat'CV_IKDamp'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/ScenarioOperate/Curve/CV_IKDamp"
+        },
+        "DragRecoverCurve": {
+          "ObjectName": "CurveFloat'CV_IKRecover'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl011a/Operate/Curve/CV_IKRecover"
+        }
+      }
+    }
+  },
+  {
+    "Type": "InteractionV3DragControl",
+    "Name": "InteractionV3DragControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3DragControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_4.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.91"
+    },
+    "Properties": {
+      "DragControl": {
+        "ScreenPercentToWorld": {
+          "X": 30.0,
+          "Y": 30.0
+        },
+        "DragDampingCurve": {
+          "ObjectName": "CurveFloat'CV_IKDamp'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl008b/Operate/Curve/CV_IKDamp"
+        },
+        "DragRecoverCurve": {
+          "ObjectName": "CurveFloat'CV_IKRecover'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/ScenarioOperate/Curve/CV_IKRecover"
+        }
+      }
+    }
+  },
+  {
+    "Type": "InteractionV3DragControl",
+    "Name": "InteractionV3DragControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3DragControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_5.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.92"
+    },
+    "Properties": {
+      "DragControl": {
+        "ScreenPercentToWorld": {
+          "X": 50.0,
+          "Y": 50.0
+        },
+        "DragDampingCurve": {
+          "ObjectName": "CurveFloat'CV_IKDamp'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl008b/Operate/Curve/CV_IKDamp"
+        },
+        "DragRecoverCurve": {
+          "ObjectName": "CurveFloat'CV_IKRecover'",
+          "ObjectPath": "/Game/Blueprints/Character/InteractionShow/Girl011a/Operate/Curve/CV_IKRecover"
+        }
+      }
+    }
+  },
+  {
+    "Type": "InteractionV3DragTrigger",
+    "Name": "InteractionV3DragTrigger_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3DragTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.89"
+    },
+    "Properties": {
+      "DragLimit": {
+        "X": 10.0,
+        "Y": 15.0
+      },
+      "XCompareType": "EInteractionDragValueCompareType::NotCompare"
+    }
+  },
+  {
+    "Type": "InteractionV3Event_Achievement",
+    "Name": "InteractionV3Event_Achievement_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3Event_Achievement'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.102"
+    },
+    "Properties": {
+      "AchievementId": 0
+    }
+  },
+  {
+    "Type": "InteractionV3Event_ConditionCompleted",
+    "Name": "InteractionV3Event_ConditionCompleted_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3Event_ConditionCompleted'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.104"
+    },
+    "Properties": {
+      "ConditionId": 3
+    }
+  },
+  {
+    "Type": "InteractionV3EyesFollowControl",
+    "Name": "InteractionV3EyesFollowControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3EyesFollowControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.83"
+    },
+    "Properties": {
+      "DragControl": {
+        "ScreenPercentToWorld": {
+          "X": 300.0,
+          "Y": 250.0
+        },
+        "WorldSpaceLimit": {
+          "X": -100.0,
+          "Y": 40.0,
+          "Z": -60.0,
+          "W": 100.0
+        }
+      },
+      "CharacterNames": [
+        "Acacia"
+      ]
+    }
+  },
+  {
+    "Type": "InteractionV3EyesFollowControl",
+    "Name": "InteractionV3EyesFollowControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3EyesFollowControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.85"
+    },
+    "Properties": {
+      "DragControl": {
+        "ScreenPercentToWorld": {
+          "X": 550.0,
+          "Y": 400.0
+        },
+        "WorldSpaceLimit": {
+          "X": -100.0,
+          "Y": 50.0,
+          "Z": -100.0,
+          "W": 100.0
+        }
+      },
+      "CharacterNames": [
+        "Acacia"
+      ]
+    }
+  },
+  {
+    "Type": "InteractionV3EyesFollowControl",
+    "Name": "InteractionV3EyesFollowControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3EyesFollowControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.87"
+    },
+    "Properties": {
+      "DragControl": {
+        "ScreenPercentToWorld": {
+          "X": 300.0,
+          "Y": 300.0
+        },
+        "WorldSpaceLimit": {
+          "X": -100.0,
+          "Y": 50.0,
+          "Z": -100.0,
+          "W": 100.0
+        }
+      },
+      "CharacterNames": [
+        "Acacialv2"
+      ]
+    }
+  },
+  {
+    "Type": "InteractionV3EyesFollowControl",
+    "Name": "InteractionV3EyesFollowControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3EyesFollowControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.88"
+    },
+    "Properties": {
+      "DragControl": {
+        "ScreenPercentToWorld": {
+          "X": -250.0,
+          "Y": -250.0
+        },
+        "WorldSpaceLimit": {
+          "X": -50.0,
+          "Y": 60.0,
+          "Z": -12.0,
+          "W": 60.0
+        }
+      },
+      "CharacterNames": [
+        "Acacialv2"
+      ]
+    }
+  },
+  {
+    "Type": "InteractionV3SequenceControl",
+    "Name": "InteractionV3SequenceControl_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SequenceControl'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.84"
+    },
+    "Properties": {
+      "ProjectDirection": {
+        "X": 1.0,
+        "Y": 0.0
+      },
+      "bUseMultiProjectDirection": true,
+      "SegmentedDirections": [
+        {
+          "StartPercent": 0.0,
+          "EndPercent": 0.51,
+          "Direction": {
+            "X": 1.0,
+            "Y": -1.0
+          },
+          "DegreeLimit": 30.0
+        },
+        {
+          "StartPercent": 0.51,
+          "EndPercent": 1.0,
+          "Direction": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "DegreeLimit": 30.0
+        }
+      ],
+      "bOpenAutoPlay": false,
+      "DragControl": {
+        "ScreenPercentToWorld": {
+          "X": 50.0,
+          "Y": 30.0
+        },
+        "SpdLimit": 100.0
+      },
+      "bEnableDragInterpolation": true,
+      "Velocity": 9.0
+    }
+  },
+  {
+    "Type": "InteractionV3SequenceTrigger",
+    "Name": "InteractionV3SequenceTrigger_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SequenceTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.84"
+    },
+    "Properties": {
+      "Threshold": 0.96
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.20"
+    },
+    "Properties": {
+      "Radius": 12.0,
+      "CharacterName": "Acacia",
+      "BoneName": "Bip001-L-Foot",
+      "OperateName": "Leg"
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.21"
+    },
+    "Properties": {
+      "Radius": 12.0,
+      "CharacterName": "Acacia",
+      "BoneName": "Bip001-R-Hand",
+      "OperateName": "Hand"
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.22"
+    },
+    "Properties": {
+      "Radius": 12.0,
+      "CharacterName": "Acacia",
+      "BoneName": "Bip001-Pelvis",
+      "OperateName": "Waist"
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.24"
+    },
+    "Properties": {
+      "CharacterName": "socks",
+      "BoneName": "Bone_sw000",
+      "OperateName": "Socks"
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.29"
+    },
+    "Properties": {
+      "Radius": 10.0,
+      "CharacterName": "doll",
+      "BoneName": "Bone_AcaciaMarry_Prop03_03"
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_3'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.30"
+    },
+    "Properties": {
+      "Radius": 5.0,
+      "CharacterName": "Acacialv20",
+      "BoneName": "Bip001-R-Foot"
+    }
+  },
+  {
+    "Type": "InteractionV3SphereCollisionInput",
+    "Name": "InteractionV3SphereCollisionInput_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractionV3SphereCollisionInput'",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_4'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.31"
+    },
+    "Properties": {
+      "Radius": 5.0,
+      "CharacterName": "Acacialv20",
+      "BoneName": "Bip001-L-Foot"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.80"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Leg_A_B",
+      "EndState": "B"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.81"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Hand_A_C",
+      "EndState": "C"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.82"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Waist_A_D",
+      "EndState": "D"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.83"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Eyes_A"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.84"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Socks_B_A",
+      "EndState": "A"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.85"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Eyes_B"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.86"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.87"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Eyes_C"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.88"
+    },
+    "Properties": {
+      "ShowElementName": "Sc01_Eyes_D"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.89"
+    },
+    "Properties": {
+      "bForceCameraBlend": true,
+      "ShowElementName": "Sc01_Poke_D_A",
+      "EndState": "A"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.90"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_4.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.91"
+    }
+  },
+  {
+    "Type": "OperateStandardCompelteEvent",
+    "Name": "OperateStandardCompelteEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OperateStandardCompelteEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_5.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.92"
+    }
+  },
+  {
+    "Type": "PhysicalOffsetOperateAct",
+    "Name": "PhysicalOffsetOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicalOffsetOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_2.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.89"
+    },
+    "Properties": {
+      "bDragFixedBone": true,
+      "DefaultDragBoneName": "Bone_AcaciaMarry_Prop03_03",
+      "DefaultDragLocationBoneName": "Bone_AcaciaMarry_Prop03_03",
+      "bUseAnimNodePhysicsControl": true,
+      "ProfileModifier": {
+        "BodyAnimNodeProfile": {
+          "StartPhysicsControlProfile": "Drag",
+          "EndPhysicsControlProfile": "Drag"
+        }
+      },
+      "bPhysicsBlendOut": true
+    }
+  },
+  {
+    "Type": "PhysicalOffsetOperateAct",
+    "Name": "PhysicalOffsetOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicalOffsetOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.90"
+    },
+    "Properties": {
+      "bDragFixedBone": true,
+      "DefaultDragBoneName": "Bip001-R-Foot",
+      "DefaultDragLocationBoneName": "Bip001-R-Foot",
+      "bUseAnimNodePhysicsControl": true,
+      "ProfileModifier": {
+        "BodyAnimNodeProfile": {
+          "StartPhysicsControlProfile": "DragLegRight",
+          "EndPhysicsControlProfile": "DragLegRight"
+        }
+      },
+      "bPhysicsBlendOut": true
+    }
+  },
+  {
+    "Type": "PhysicalOffsetOperateAct",
+    "Name": "PhysicalOffsetOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicalOffsetOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_4.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.91"
+    },
+    "Properties": {
+      "bDragFixedBone": true,
+      "DefaultDragBoneName": "Bip001-L-Foot",
+      "DefaultDragLocationBoneName": "Bip001-L-Foot",
+      "bUseAnimNodePhysicsControl": true,
+      "ProfileModifier": {
+        "BodyAnimNodeProfile": {
+          "StartPhysicsControlProfile": "DragLegRight",
+          "EndPhysicsControlProfile": "DragLegRight"
+        }
+      },
+      "bPhysicsBlendOut": true
+    }
+  },
+  {
+    "Type": "PhysicalOffsetOperateAct",
+    "Name": "PhysicalOffsetOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicalOffsetOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_5.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.92"
+    },
+    "Properties": {
+      "bDragFixedBone": true,
+      "DefaultDragBoneName": "Bip001-R-Hand",
+      "DefaultDragLocationBoneName": "Bip001-R-Hand",
+      "bUseAnimNodePhysicsControl": true,
+      "ProfileModifier": {
+        "BodyAnimNodeProfile": {
+          "StartPhysicsControlProfile": "DragLegRight",
+          "EndPhysicsControlProfile": "DragLegRight"
+        }
+      }
+    }
+  },
+  {
+    "Type": "PhysicsAssetModifierEvent",
+    "Name": "ScenarioStateNode_LittleGame_1.PhysicsAssetModifierEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicsAssetModifierEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.104"
+    },
+    "Properties": {
+      "PhysicsAssetModifiers": [
+        {
+          "ActorName": "hook",
+          "BodyModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/prop02/Physics/SC01_C/PA_AcaciaMarry_Prop02.PA_AcaciaMarry_Prop02",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/prop02/Physics/SC01_C/PCA_AcaciaMarry_Prop02.PCA_AcaciaMarry_Prop02",
+              "SubPathString": ""
+            }
+          },
+          "BodyAnimNodeModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          "FaceModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "ActorName": "Acacialv2",
+          "BodyModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/girl001b_02_lv2/Physics/SC01_C/PA_girl001b_02_lv2_ma_SC01_C.PA_girl001b_02_lv2_ma_SC01_C",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/girl001b_02_lv2/Physics/SC01_C/PCA_girl001b_02_lv2_ma_SC01_C.PCA_girl001b_02_lv2_ma_SC01_C",
+              "SubPathString": ""
+            }
+          },
+          "BodyAnimNodeModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          "FaceModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "ActorName": "gachapon01",
+          "BodyModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Prop07/Physics/PA_AcaciaMarry_Prop07.PA_AcaciaMarry_Prop07",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Prop07/Physics/PCA_AcaciaMarry_Prop07.PCA_AcaciaMarry_Prop07",
+              "SubPathString": ""
+            }
+          },
+          "BodyAnimNodeModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          "FaceModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "ActorName": "gachapon02",
+          "BodyModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Prop08/Physics/SC01_C/PA_AcaciaMarry_Prop08.PA_AcaciaMarry_Prop08",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Prop08/Physics/SC01_C/PCA_AcaciaMarry_Prop08.PCA_AcaciaMarry_Prop08",
+              "SubPathString": ""
+            }
+          },
+          "BodyAnimNodeModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          "FaceModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "ActorName": "gachapon03",
+          "BodyModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Prop09/Physics/SC01_C/PA_AcaciaMarry_Prop09.PA_AcaciaMarry_Prop09",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Prop09/Physics/SC01_C/PCA_AcaciaMarry_Prop07.PCA_AcaciaMarry_Prop07",
+              "SubPathString": ""
+            }
+          },
+          "BodyAnimNodeModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          "FaceModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "ActorName": "machine",
+          "BodyModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/prop01/Physics/SC01_C/PA_AcaciaMarry_Prop01.PA_AcaciaMarry_Prop01",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/prop01/Physics/SC01_C/PCA_AcaciaMarry_Prop01.PCA_AcaciaMarry_Prop01",
+              "SubPathString": ""
+            }
+          },
+          "BodyAnimNodeModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          "FaceModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PhysicsAssetModifierEvent",
+    "Name": "PhysicsAssetModifierEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicsAssetModifierEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.105"
+    },
+    "Properties": {
+      "PhysicsAssetModifiers": [
+        {
+          "ActorName": "Acacialv2",
+          "BodyModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          "BodyAnimNodeModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/girl001b_02_lv2/Physics/SC01_D/PA_girl001b_02_lv2_ma_SC01_D.PA_girl001b_02_lv2_ma_SC01_D",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/girl001b_02_lv2/Physics/SC01_D/PCA_girl001b_02_lv2_ma_SC01_D.PCA_girl001b_02_lv2_ma_SC01_D",
+              "SubPathString": ""
+            }
+          },
+          "FaceModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "ActorName": "doll",
+          "BodyModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          "BodyAnimNodeModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/prop03/Physsics/SC01_D/PA_AcaciaMarry_Prop03_SC01_D.PA_AcaciaMarry_Prop03_SC01_D",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/prop03/Physsics/SC01_D/PCA_AcaciaMarry_Prop03_SC01_D.PCA_AcaciaMarry_Prop03_SC01_D",
+              "SubPathString": ""
+            }
+          },
+          "FaceModifier": {
+            "OverridePhysicsAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "OverridePhysicsControlAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PhysicsControlProfileEvent",
+    "Name": "ScenarioStateNode_LittleGame_1.PhysicsControlProfileEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PhysicsControlProfileEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.104"
+    },
+    "Properties": {
+      "ActorNames": [
+        {
+          "Key": "hook",
+          "Value": {
+            "BodyProfile": {
+              "StartPhysicsControlProfile": "Sim",
+              "EndPhysicsControlProfile": "Sim",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            },
+            "BodyAnimNodeProfile": {
+              "StartPhysicsControlProfile": "None",
+              "EndPhysicsControlProfile": "None",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            },
+            "FaceProfile": {
+              "StartPhysicsControlProfile": "None",
+              "EndPhysicsControlProfile": "None",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            }
+          }
+        },
+        {
+          "Key": "Acacialv2",
+          "Value": {
+            "BodyProfile": {
+              "StartPhysicsControlProfile": "DragLegRight",
+              "EndPhysicsControlProfile": "DragLegRight",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            },
+            "BodyAnimNodeProfile": {
+              "StartPhysicsControlProfile": "None",
+              "EndPhysicsControlProfile": "None",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            },
+            "FaceProfile": {
+              "StartPhysicsControlProfile": "None",
+              "EndPhysicsControlProfile": "None",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            }
+          }
+        },
+        {
+          "Key": "gachapon01",
+          "Value": {
+            "BodyProfile": {
+              "StartPhysicsControlProfile": "Sim",
+              "EndPhysicsControlProfile": "Sim",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            },
+            "BodyAnimNodeProfile": {
+              "StartPhysicsControlProfile": "None",
+              "EndPhysicsControlProfile": "None",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            },
+            "FaceProfile": {
+              "StartPhysicsControlProfile": "None",
+              "EndPhysicsControlProfile": "None",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            }
+          }
+        },
+        {
+          "Key": "gachapon02",
+          "Value": {
+            "BodyProfile": {
+              "StartPhysicsControlProfile": "Sim",
+              "EndPhysicsControlProfile": "Sim",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            },
+            "BodyAnimNodeProfile": {
+              "StartPhysicsControlProfile": "None",
+              "EndPhysicsControlProfile": "None",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            },
+            "FaceProfile": {
+              "StartPhysicsControlProfile": "None",
+              "EndPhysicsControlProfile": "None",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            }
+          }
+        },
+        {
+          "Key": "gachapon03",
+          "Value": {
+            "BodyProfile": {
+              "StartPhysicsControlProfile": "Sim",
+              "EndPhysicsControlProfile": "Sim",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            },
+            "BodyAnimNodeProfile": {
+              "StartPhysicsControlProfile": "None",
+              "EndPhysicsControlProfile": "None",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            },
+            "FaceProfile": {
+              "StartPhysicsControlProfile": "None",
+              "EndPhysicsControlProfile": "None",
+              "StartConstraintProfile": "None",
+              "EndConstraintProfile": "None"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.20"
+    },
+    "Properties": {
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.60"
+        },
+        {
+          "ObjectName": "SetCharacterVisibilityEvent'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.SetCharacterVisibilityEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.107"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.21"
+    },
+    "Properties": {
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.61"
+        },
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0.CallActorFunctionEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.22"
+    },
+    "Properties": {
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.62"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.23"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3EyesFollowControl'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0.InteractionV3EyesFollowControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.47"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Acacia",
+          "ActorOperateAct": {
+            "ObjectName": "EyesFollowOperateAct'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0.EyesFollowOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.15"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "ScenarioOperateForbidTrigger'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0.ScenarioOperateForbidTrigger_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.93"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.63"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.24"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3SequenceControl'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.InteractionV3SequenceControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.51"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Acacia",
+          "ActorOperateAct": {
+            "ObjectName": "IKWorldSpaceOffsetOperateAct'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.IKWorldSpaceOffsetOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.19"
+          }
+        },
+        {
+          "CharacterName": "socks",
+          "ActorOperateAct": {
+            "ObjectName": "SequenceEvaluatorOperateAct'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.SequenceEvaluatorOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.106"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "InteractionV3SequenceTrigger'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.InteractionV3SequenceTrigger_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.52"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.64"
+        },
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.CallActorFunctionEvent_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.9"
+        },
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0.CallActorFunctionEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.8"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.25"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3EyesFollowControl'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0.InteractionV3EyesFollowControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.48"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Acacia",
+          "ActorOperateAct": {
+            "ObjectName": "EyesFollowOperateAct'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0.EyesFollowOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.16"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "ScenarioOperateForbidTrigger'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0.ScenarioOperateForbidTrigger_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.94"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.65"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_3'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.26"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3DragControl'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0.InteractionV3DragControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.39"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "socks",
+          "ActorOperateAct": {
+            "ObjectName": "AdditiveSequenceEvaluatorOperateAct'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0.AdditiveSequenceEvaluatorOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.1"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "ScenarioOperateForbidTrigger'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0.ScenarioOperateForbidTrigger_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.95"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.66"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.27"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3EyesFollowControl'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0.InteractionV3EyesFollowControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.49"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Acacialv2",
+          "ActorOperateAct": {
+            "ObjectName": "EyesFollowOperateAct'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0.EyesFollowOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.17"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "ScenarioOperateForbidTrigger'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0.ScenarioOperateForbidTrigger_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.96"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.67"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.28"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3EyesFollowControl'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0.InteractionV3EyesFollowControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.50"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Acacialv2",
+          "ActorOperateAct": {
+            "ObjectName": "EyesFollowOperateAct'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0.EyesFollowOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.18"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "ScenarioOperateForbidTrigger'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0.ScenarioOperateForbidTrigger_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.97"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.68"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_2'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.29"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3DragControl'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_2.ScenarioOperateCommon_C_0.InteractionV3DragControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.40"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Acacialv2",
+          "ActorOperateAct": {
+            "ObjectName": "ActorOperateAct'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_2.ScenarioOperateCommon_C_0.ActorOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.0"
+          }
+        },
+        {
+          "CharacterName": "doll",
+          "ActorOperateAct": {
+            "ObjectName": "PhysicalOffsetOperateAct'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_2.ScenarioOperateCommon_C_0.PhysicalOffsetOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.73"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "InteractionV3DragTrigger'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_2.ScenarioOperateCommon_C_0.InteractionV3DragTrigger_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.44"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_2.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.69"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_3'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.30"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3DragControl'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_3.ScenarioOperateCommon_C_0.InteractionV3DragControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.41"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Acacialv2",
+          "ActorOperateAct": {
+            "ObjectName": "PhysicalOffsetOperateAct'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_3.ScenarioOperateCommon_C_0.PhysicalOffsetOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.74"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "ScenarioOperateForbidTrigger'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_3.ScenarioOperateCommon_C_0.ScenarioOperateForbidTrigger_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.98"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_3.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.70"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_4'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.31"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3DragControl'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_4.ScenarioOperateCommon_C_0.InteractionV3DragControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.42"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Acacialv2",
+          "ActorOperateAct": {
+            "ObjectName": "PhysicalOffsetOperateAct'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_4.ScenarioOperateCommon_C_0.PhysicalOffsetOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.75"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "ScenarioOperateForbidTrigger'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_4.ScenarioOperateCommon_C_0.ScenarioOperateForbidTrigger_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.99"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_4.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.71"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateCommon_C",
+    "Name": "ScenarioOperateCommon_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Outer": {
+      "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_5'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.32"
+    },
+    "Properties": {
+      "InputControl": {
+        "ObjectName": "InteractionV3DragControl'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_5.ScenarioOperateCommon_C_0.InteractionV3DragControl_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.43"
+      },
+      "ActorOperateActs": [
+        {
+          "CharacterName": "Acacialv2",
+          "ActorOperateAct": {
+            "ObjectName": "PhysicalOffsetOperateAct'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_5.ScenarioOperateCommon_C_0.PhysicalOffsetOperateAct_0'",
+            "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.76"
+          }
+        }
+      ],
+      "CompleteTrigger": {
+        "ObjectName": "ScenarioOperateForbidTrigger'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_5.ScenarioOperateCommon_C_0.ScenarioOperateForbidTrigger_0'",
+        "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.100"
+      },
+      "CompleteEvents": [
+        {
+          "ObjectName": "OperateStandardCompelteEvent'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_5.ScenarioOperateCommon_C_0.OperateStandardCompelteEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.72"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioOperateForbidTrigger",
+    "Name": "ScenarioOperateForbidTrigger_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioOperateForbidTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.83"
+    }
+  },
+  {
+    "Type": "ScenarioOperateForbidTrigger",
+    "Name": "ScenarioOperateForbidTrigger_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioOperateForbidTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.85"
+    }
+  },
+  {
+    "Type": "ScenarioOperateForbidTrigger",
+    "Name": "ScenarioOperateForbidTrigger_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioOperateForbidTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.86"
+    }
+  },
+  {
+    "Type": "ScenarioOperateForbidTrigger",
+    "Name": "ScenarioOperateForbidTrigger_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioOperateForbidTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.87"
+    }
+  },
+  {
+    "Type": "ScenarioOperateForbidTrigger",
+    "Name": "ScenarioOperateForbidTrigger_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioOperateForbidTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.88"
+    }
+  },
+  {
+    "Type": "ScenarioOperateForbidTrigger",
+    "Name": "ScenarioOperateForbidTrigger_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioOperateForbidTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_3.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.90"
+    }
+  },
+  {
+    "Type": "ScenarioOperateForbidTrigger",
+    "Name": "ScenarioOperateForbidTrigger_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioOperateForbidTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_4.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.91"
+    }
+  },
+  {
+    "Type": "ScenarioOperateForbidTrigger",
+    "Name": "ScenarioOperateForbidTrigger_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioOperateForbidTrigger'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_5.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.92"
+    }
+  },
+  {
+    "Type": "ScenarioStateMachine",
+    "Name": "Sc01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateMachine'",
+    "Properties": {
+      "States": [
+        {
+          "ObjectName": "ScenarioStateNode_Entry'Sc01:ScenarioStateNode_Entry_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.102"
+        },
+        {
+          "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.103"
+        },
+        {
+          "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.104"
+        },
+        {
+          "ObjectName": "ScenarioStateNode_LittleGame'Sc01:ScenarioStateNode_LittleGame_2'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.105"
+        }
+      ],
+      "ScenarioName": "Sc01",
+      "ActorInfos": [
+        {
+          "ActorName": "Acacia",
+          "PositionActorName": "ActorPos_Sc01_girl001b_02"
+        },
+        {
+          "ActorName": "machine",
+          "PositionActorName": "ActorPos_Sc01_prop01"
+        },
+        {
+          "ActorName": "hook",
+          "PositionActorName": "ActorPos_Sc01_prop02"
+        },
+        {
+          "ActorName": "doll",
+          "PositionActorName": "ActorPos_Sc01_prop03"
+        },
+        {
+          "ActorName": "gachapon01",
+          "PositionActorName": "ActorPos_Sc01_Prop07"
+        },
+        {
+          "ActorName": "gachapon02",
+          "PositionActorName": "ActorPos_Sc01_Prop08"
+        },
+        {
+          "ActorName": "gachapon03",
+          "PositionActorName": "ActorPos_Sc01_Prop09"
+        },
+        {
+          "ActorName": "goods",
+          "PositionActorName": "ActorPos_Sc01_Prop10"
+        },
+        {
+          "ActorName": "socks",
+          "PositionActorName": "ActorPos_Sc01_prop23"
+        },
+        {
+          "ActorName": "player010",
+          "PositionActorName": "ActorPos_Sc01_prop16"
+        },
+        {
+          "ActorName": "Acacialv2",
+          "PositionActorName": "ActorPos_Sc01_girl001b_02_lv2"
+        },
+        {
+          "ActorName": "toe",
+          "PositionActorName": "ActorPos_Sc01_prop26"
+        },
+        {
+          "ActorName": "soccer",
+          "PositionActorName": "ActorPos_Sc01_girl001b_02"
+        }
+      ],
+      "StartEvents": [
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:CallActorFunctionEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.2"
+        }
+      ],
+      "EndEvents": [
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:CallActorFunctionEvent_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.3"
+        },
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:CallActorFunctionEvent_2'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.4"
+        },
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:CallActorFunctionEvent_3'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.5"
+        }
+      ],
+      "Processor": {
+        "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/SBP_AcaciaMarry_Sc01.SBP_AcaciaMarry_Sc01_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "ScenarioStateNode_Entry",
+    "Name": "ScenarioStateNode_Entry_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateNode_Entry'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.101"
+    },
+    "Properties": {
+      "CycleActorInfos": [
+        {
+          "ActorName": "Acacia",
+          "ShowElementName": "Sc01_A_Cycle"
+        },
+        {
+          "ActorName": "machine",
+          "ShowElementName": "Sc01_A_Cycle"
+        },
+        {
+          "ActorName": "goods",
+          "ShowElementName": "Sc01_A_Cycle"
+        },
+        {
+          "ActorName": "hook",
+          "ShowElementName": "Sc01_A_Cycle"
+        }
+      ],
+      "StandbyActorInfos": [
+        {
+          "ActorName": "Acacia",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Characters/Girl/girl001b_02/Anim/manifestation/AcaciaMarry/girl001b_02_ma_Sc01_A_Standby_01.girl001b_02_ma_Sc01_A_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "/Game/Characters/CommonFace/girl001_com01/AnimPart00/manifestation/AcaciaMarry/girl001b_02_com01_face_ma_Sc01_A_Standby_01.girl001b_02_com01_face_ma_Sc01_A_Standby_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "machine",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/AcaciaMarry_Prop01/Anim/AcaciaMarry_prop01_ma_Sc01_A_Standby_01.AcaciaMarry_prop01_ma_Sc01_A_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "goods",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "CameraSequenceAsset": {
+        "AssetPathName": "/Game/Cinematics/Manifestation/AcaciaMarry/AcaciaMarry_ma_Sc01_A_Standby_Master.AcaciaMarry_ma_Sc01_A_Standby_Master",
+        "SubPathString": ""
+      },
+      "StandbyCameraID": "14",
+      "Operates": [
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.20"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.21"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_2'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.22"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_3'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.23"
+        }
+      ],
+      "StateHolyLight": [
+        {
+          "CharacterName": "Acacia",
+          "HolyLightData": [
+            {
+              "SocketName": "Bip001-Spine2",
+              "Intensity": 5,
+              "UIName": "uw_girlroom_peace_light",
+              "SizeRatio": {
+                "ObjectName": "CurveFloat'DBCurve_girl001b_02_Ma_Standby_Stand01'",
+                "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/girl001b_02/Curve/Standby/DBCurve_girl001b_02_Ma_Standby_Stand01"
+              }
+            },
+            {
+              "SocketName": "Bip001-Pelvis",
+              "Intensity": 5,
+              "UIName": "uw_girlroom_peace_light",
+              "SizeRatio": {
+                "ObjectName": "CurveFloat'DBCurve_girl001b_02_Ma_Standby_Bigsize'",
+                "ObjectPath": "/Game/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/girl001b_02/Curve/Standby/DBCurve_girl001b_02_Ma_Standby_Bigsize"
+              }
+            }
+          ]
+        }
+      ],
+      "StateName": "A",
+      "EnterEvents": [
+        {
+          "ObjectName": "InteractionV3Event_Achievement'Sc01:ScenarioStateNode_Entry_0.InteractionV3Event_Achievement_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.45"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioStateNode_LittleGame",
+    "Name": "ScenarioStateNode_LittleGame_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateNode_LittleGame'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.101"
+    },
+    "Properties": {
+      "LittleGameTemplate": {
+        "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/GBP_AcaciaMarry_Sc01_B.GBP_AcaciaMarry_Sc01_B_C",
+        "SubPathString": ""
+      },
+      "StandbyActorInfos": [
+        {
+          "ActorName": "Acacia",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Characters/Girl/girl001b_02/Anim/manifestation/AcaciaMarry/girl001b_02_ma_Sc01_B_Standby_01.girl001b_02_ma_Sc01_B_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "/Game/Characters/CommonFace/girl001_com01/AnimPart00/manifestation/AcaciaMarry/girl001b_02_com01_face_ma_Sc01_B_Standby_01.girl001b_02_com01_face_ma_Sc01_B_Standby_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "player010",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/AcaciaMarry_Prop16/Anim/AcaciaMarry_prop16_ma_Sc01_B_Standby_01.AcaciaMarry_prop16_ma_Sc01_B_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "machine",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/AcaciaMarry_Prop01/Anim/AcaciaMarry_prop01_ma_Sc01_B_Standby_01.AcaciaMarry_prop01_ma_Sc01_B_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "socks",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/AcaciaMarry_Prop23/Anim/AcaciaMarry_prop23_ma_Sc01_B_Pose_01.AcaciaMarry_prop23_ma_Sc01_B_Pose_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "toe",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/AcaciaMarry_Prop26/Anim/AcaciaMarry_prop26_ma_Sc01_B_Standby_01.AcaciaMarry_prop26_ma_Sc01_B_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Operates": [
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.24"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.25"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_3'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.26"
+        }
+      ],
+      "StateName": "B",
+      "ExitEvents": [
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:ScenarioStateNode_LittleGame_0.CallActorFunctionEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioStateNode_LittleGame",
+    "Name": "ScenarioStateNode_LittleGame_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateNode_LittleGame'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.101"
+    },
+    "Properties": {
+      "LittleGameTemplate": {
+        "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/GBP_AcaciaMarry_Sc01_C.GBP_AcaciaMarry_Sc01_C_C",
+        "SubPathString": ""
+      },
+      "StandbyActorInfos": [
+        {
+          "ActorName": "Acacialv2",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Characters/Girl/girl001b_02_lv2/Anim/manifestation/AcaciaMarry/girl001b_02_lv2_ma_Sc01_C_Standby_01.girl001b_02_lv2_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "/Game/Characters/CommonFace/girl001b_02_lv2_com01/AnimPart00/manifestation/AcaciaMarry/girl001b_02_lv2_com01_face_ma_Sc01_C_Standby_01.girl001b_02_lv2_com01_face_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "player010",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/AcaciaMarry_Prop16/Anim/AcaciaMarry_prop16_ma_Sc01_C_Standby_01.AcaciaMarry_prop16_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "hook",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/AcaciaMarry_Prop02/Anim/AcaciaMarry_prop02_ma_Sc01_C_Standby_01.AcaciaMarry_prop02_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "gachapon01",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/AcaciaMarry_Prop07/Anim/AcaciaMarry_prop07_ma_Sc01_C_Standby_01.AcaciaMarry_prop07_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "gachapon02",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/AcaciaMarry_Prop08/Anim/AcaciaMarry_prop08_ma_Sc01_C_Standby_01.AcaciaMarry_prop08_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "gachapon03",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/AcaciaMarry_Prop09/Anim/AcaciaMarry_prop09_ma_Sc01_C_Standby_01.AcaciaMarry_prop09_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "goods",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "machine",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/AcaciaMarry_Prop01/Anim/AcaciaMarry_prop01_ma_Sc01_C_Standby_01.AcaciaMarry_prop01_ma_Sc01_C_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "soccer",
+          "StandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Operates": [
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_1.InteractionOperateV3_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.27"
+        }
+      ],
+      "StateName": "C",
+      "EnterEvents": [
+        {
+          "ObjectName": "PhysicsAssetModifierEvent'Sc01:ScenarioStateNode_LittleGame_1.ScenarioStateNode_LittleGame_1.PhysicsAssetModifierEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.77"
+        },
+        {
+          "ObjectName": "PhysicsControlProfileEvent'Sc01:ScenarioStateNode_LittleGame_1.ScenarioStateNode_LittleGame_1.PhysicsControlProfileEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.79"
+        },
+        {
+          "ObjectName": "Event_TessMarry_SetKawaiiBlendScale_C'Sc01:ScenarioStateNode_LittleGame_1.Event_TessMarry_SetKawaiiBlendScale_C_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.13"
+        }
+      ],
+      "ExitEvents": [
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:ScenarioStateNode_LittleGame_1.CallActorFunctionEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.10"
+        },
+        {
+          "ObjectName": "InteractionV3Event_ConditionCompleted'Sc01:ScenarioStateNode_LittleGame_1.InteractionV3Event_ConditionCompleted_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.46"
+        },
+        {
+          "ObjectName": "Event_TessMarry_SetKawaiiBlendScale_C'Sc01:ScenarioStateNode_LittleGame_1.Event_TessMarry_SetKawaiiBlendScale_C_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.14"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScenarioStateNode_LittleGame",
+    "Name": "ScenarioStateNode_LittleGame_2",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScenarioStateNode_LittleGame'",
+    "Outer": {
+      "ObjectName": "ScenarioStateMachine'Sc01'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.101"
+    },
+    "Properties": {
+      "LittleGameTemplate": {
+        "AssetPathName": "/Game/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/GBP_AcaciaMarry_Sc01_D.GBP_AcaciaMarry_Sc01_D_C",
+        "SubPathString": ""
+      },
+      "StandbyActorInfos": [
+        {
+          "ActorName": "player010",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/AcaciaMarry_Prop16/Anim/AcaciaMarry_prop16_ma_Sc01_D_Standby_01.AcaciaMarry_prop16_ma_Sc01_D_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "machine",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/AcaciaMarry_Prop01/Anim/AcaciaMarry_prop01_ma_Sc01_D_Standby_01.AcaciaMarry_prop01_ma_Sc01_D_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "doll",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Props/Manifestation/AcaciaMarry_Prop03/Anim/AcaciaMarry_prop03_ma_Sc01_D_Standby_01.AcaciaMarry_prop03_ma_Sc01_D_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "ActorName": "Acacialv2",
+          "StandbyAnim": {
+            "AssetPathName": "/Game/Characters/Girl/girl001b_02_lv2/Anim/manifestation/AcaciaMarry/girl001b_02_lv2_ma_Sc01_D_Standby_01.girl001b_02_lv2_ma_Sc01_D_Standby_01",
+            "SubPathString": ""
+          },
+          "FaceStandbyAnim": {
+            "AssetPathName": "/Game/Characters/CommonFace/girl001b_02_lv2_com01/AnimPart00/manifestation/AcaciaMarry/girl001b_02_lv2_com01_face_ma_Sc01_D_Standby_01.girl001b_02_lv2_com01_face_ma_Sc01_D_Standby_01",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Operates": [
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_1'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.28"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_2'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.29"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_3'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.30"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_4'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.31"
+        },
+        {
+          "ObjectName": "InteractionOperateV3'Sc01:ScenarioStateNode_LittleGame_2.InteractionOperateV3_5'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.32"
+        }
+      ],
+      "StateName": "D",
+      "InitializeEvents": [
+        {
+          "ObjectName": "PhysicsAssetModifierEvent'Sc01:ScenarioStateNode_LittleGame_2.PhysicsAssetModifierEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.78"
+        },
+        {
+          "ObjectName": "CreateMaintainWorldSpaceRelativeControlEvent'Sc01:ScenarioStateNode_LittleGame_2.CreateMaintainWorldSpaceRelativeControlEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.12"
+        }
+      ],
+      "ExitEvents": [
+        {
+          "ObjectName": "CallActorFunctionEvent'Sc01:ScenarioStateNode_LittleGame_2.CallActorFunctionEvent_0'",
+          "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.11"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SequenceEvaluatorOperateAct",
+    "Name": "SequenceEvaluatorOperateAct_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SequenceEvaluatorOperateAct'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_LittleGame_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.84"
+    },
+    "Properties": {
+      "InteractionAnim": {
+        "AssetPathName": "/Game/Props/Manifestation/AcaciaMarry_Prop23/Anim/AcaciaMarry_prop23_ma_Sc01_B_OperateAnim_01.AcaciaMarry_prop23_ma_Sc01_B_OperateAnim_01",
+        "SubPathString": ""
+      },
+      "ActorOperateActName": "sock_drag"
+    }
+  },
+  {
+    "Type": "SetCharacterVisibilityEvent",
+    "Name": "SetCharacterVisibilityEvent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SetCharacterVisibilityEvent'",
+    "Outer": {
+      "ObjectName": "ScenarioOperateCommon_C'Sc01:ScenarioStateNode_Entry_0.InteractionOperateV3_0.ScenarioOperateCommon_C_0'",
+      "ObjectPath": "Game/Content/Blueprints/Character/InteractionShowV3/DLC35/AcaciaMarry/Scenario/Sc01.80"
+    },
+    "Properties": {
+      "ActorName": "socks"
+    }
+  }
+]
