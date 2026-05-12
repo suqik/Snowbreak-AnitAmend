@@ -1,0 +1,4758 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_house_girl018_interact003_bp",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_PlayerController_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'HouseAIController'",
+          "ObjectPath": "/Script/Game"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_NpcController",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'HouseAIController'",
+          "ObjectPath": "/Script/Game"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_K2_GetPawn_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Pawn'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_K2_GetPawn_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Pawn'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_House_Npc_18",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_HouseNpc18_C'",
+          "ObjectPath": "Game/Content/Blueprints/House/Character/npc018/BP_HouseNpc18.2"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_House_Npc_18_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_HouseNpc18_C'",
+          "ObjectPath": "Game/Content/Blueprints/House/Character/npc018/BP_HouseNpc18.2"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_PlayerController",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'HouseAIController'",
+          "ObjectPath": "/Script/Game"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "InteractedBy_InBp",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'HouseFurnitureBase:InteractedBy_InBp'",
+      "ObjectPath": "/Script/Game"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PlayerController",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'HouseAIController'",
+          "ObjectPath": "/Script/Game"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnEndInteractByNpc_Bp",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'HouseFurnitureBase:OnEndInteractByNpc_Bp'",
+      "ObjectPath": "/Script/Game"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "NpcController",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'HouseAIController'",
+          "ObjectPath": "/Script/Game"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BeforeInteractedBy_InBp",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'HouseFurnitureBase:BeforeInteractedBy_InBp'",
+      "ObjectPath": "/Script/Game"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PlayerController",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'HouseAIController'",
+          "ObjectPath": "/Script/Game"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_HouseFurnitureBase_C:ReceiveBeginPlay'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/BP_HouseFurnitureBase.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_HouseFurnitureBase_C:ReceiveBeginPlay'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/BP_HouseFurnitureBase.1"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ShowInteractState",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsShow",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Trigger",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "TriggerActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Active",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "NewLocalVar_0",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_As_____actor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshActor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_House_Npc_18",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_HouseNpc18_C'",
+          "ObjectPath": "Game/Content/Blueprints/House/Character/npc018/BP_HouseNpc18.2"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_As__",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Character'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "house_girl018_interact003_bp_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_HouseFurnitureBase_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/BP_HouseFurnitureBase.17"
+    },
+    "Properties": {
+      "bHasCookedComponentInstancingData": true,
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'house_girl018_interact003_bp_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.43"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'house_girl018_interact003_bp_C:InheritableComponentHandler'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.10"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'house_girl018_interact003_bp_C:ExecuteUbergraph_house_girl018_interact003_bp'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_HouseFurnitureBase_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/BP_HouseFurnitureBase.17"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'house_girl018_interact003_bp_C:Trigger'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.6"
+      },
+      {
+        "ObjectName": "Function'house_girl018_interact003_bp_C:ShowInteractState'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.5"
+      },
+      {
+        "ObjectName": "Function'house_girl018_interact003_bp_C:ReceiveBeginPlay'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.4"
+      },
+      {
+        "ObjectName": "Function'house_girl018_interact003_bp_C:BeforeInteractedBy_InBp'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.3"
+      },
+      {
+        "ObjectName": "Function'house_girl018_interact003_bp_C:OnEndInteractByNpc_Bp'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.2"
+      },
+      {
+        "ObjectName": "Function'house_girl018_interact003_bp_C:InteractedBy_InBp'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.1"
+      },
+      {
+        "ObjectName": "Function'house_girl018_interact003_bp_C:ExecuteUbergraph_house_girl018_interact003_bp'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "e_gril018_body_bubble",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BodyForEff",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "e_house_girl005_interact007_b_07_p",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "house_girl018_wj005_01_sm",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "house_girl018_interact003_03_sm",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMeshComponent9",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMeshComponent8",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMeshComponent7",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMeshComponent6",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMeshComponent5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMeshComponent4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMeshComponent3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMeshComponent2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMeshComponent1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMeshComponent0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Trigger Actor",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_house_girl018_interact003_bp": {
+        "ObjectName": "Function'house_girl018_interact003_bp_C:ExecuteUbergraph_house_girl018_interact003_bp'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.0"
+      },
+      "InteractedBy_InBp": {
+        "ObjectName": "Function'house_girl018_interact003_bp_C:InteractedBy_InBp'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.1"
+      },
+      "OnEndInteractByNpc_Bp": {
+        "ObjectName": "Function'house_girl018_interact003_bp_C:OnEndInteractByNpc_Bp'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.2"
+      },
+      "BeforeInteractedBy_InBp": {
+        "ObjectName": "Function'house_girl018_interact003_bp_C:BeforeInteractedBy_InBp'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.3"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'house_girl018_interact003_bp_C:ReceiveBeginPlay'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.4"
+      },
+      "ShowInteractState": {
+        "ObjectName": "Function'house_girl018_interact003_bp_C:ShowInteractState'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.5"
+      },
+      "Trigger": {
+        "ObjectName": "Function'house_girl018_interact003_bp_C:Trigger'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.6"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "house_girl018_interact003_bp_C'Default__house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.8"
+    }
+  },
+  {
+    "Type": "house_girl018_interact003_bp_C",
+    "Name": "Default__house_girl018_interact003_bp_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.house_girl018_interact003_bp_C'",
+    "Package": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp",
+    "Template": {
+      "ObjectName": "BP_HouseFurnitureBase_C'Default__BP_HouseFurnitureBase_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/BP_HouseFurnitureBase.18"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "PlayerPosAfterAnim": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:PlayerPosAfterAnim'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.24"
+      },
+      "CameraRailTargetCenter": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:CameraRailViewCenter'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.16"
+      },
+      "RailRadianAngle": 20,
+      "RailRelativeRate": 0.0,
+      "CameraRailTrans": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:CameraRailPos'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.15"
+      },
+      "FurStaticMesh": {
+        "ObjectName": "StaticMeshComponent'Default__house_girl018_interact003_bp_C:StaticFurnitureMesh'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.46"
+      },
+      "DropEffect": {
+        "ObjectName": "NiagaraComponent'Default__house_girl018_interact003_bp_C:DropEffect'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.11"
+      },
+      "FurSkeletalMesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__house_girl018_interact003_bp_C:SkeletalFurnitureMesh'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.44"
+      },
+      "NpcMultiInteractPos2": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:NpcMultiInteractPos2'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.21"
+      },
+      "NpcMultiInteractPos3": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:NpcMultiInteractPos3'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.22"
+      },
+      "NpcMultiInteractPos4": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:NpcMultiInteractPos4'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.23"
+      },
+      "InteractPos": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:InteractPos'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.20"
+      },
+      "InteractBox": {
+        "ObjectName": "BoxComponent'Default__house_girl018_interact003_bp_C:InteractBox'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.9"
+      },
+      "CPInteractCameraViewCenter": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:CPInteractViewCenter'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.17"
+      },
+      "CPInteractCameraViewCenter2": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:CPInteractViewCenter2'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.18"
+      },
+      "CPInteractCameraViewCenter3": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:CPInteractViewCenter3'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.19"
+      },
+      "bNpcCanInteract": true,
+      "FurInteractEffect": {
+        "AssetPathName": "/Game/Effects/Environments/house/e_girl018/e_house_girl018_interact003_p.e_house_girl018_interact003_p",
+        "SubPathString": ""
+      },
+      "PlayerInteractEffDisappearInstantly": true,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:Root'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.25"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "InteractBox",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "house_girl018_interact003_bp_C'Default__house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.8"
+    },
+    "Template": {
+      "ObjectName": "BoxComponent'Default__BP_HouseFurnitureBase_C:InteractBox'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/BP_HouseFurnitureBase.19"
+    },
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "house_girl018_interact003_bp_C'Default__house_girl018_interact003_bp_C'",
+              "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.8"
+            },
+            "FunctionName": "OnInteractBoxBeginOverlap"
+          }
+        ]
+      },
+      "OnComponentEndOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "house_girl018_interact003_bp_C'Default__house_girl018_interact003_bp_C'",
+              "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.8"
+            },
+            "FunctionName": "OnInteractBoxEndOverlap"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:Root'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.25"
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "DropEffect",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "house_girl018_interact003_bp_C'Default__house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.8"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'Default__BP_HouseFurnitureBase_C:DropEffect'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/BP_HouseFurnitureBase.22"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:Root'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.25"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "e_gril018_body_bubble_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    },
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'e_gril018_body_bubble'",
+        "ObjectPath": "Game/Content/Effects/Girl/girl018/e_gril018_body_bubble.15"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "SkelCom",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "Class'Object'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 1
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.SkelCom",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "Class'Object'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 1
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.SkelCom",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "Class'Object'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 1
+            }
+          }
+        ],
+        "UObjects": [
+          null
+        ]
+      },
+      "IndirectLightingCacheQuality": "ILCQ_Off",
+      "RelativeLocation": {
+        "X": 2.861023E-06,
+        "Y": -17.099989,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.99998,
+        "Roll": 0.0
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "e_house_girl005_interact007_b_07_p_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    },
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'e_house_girl005_interact007_b_07_p'",
+        "ObjectPath": "Game/Content/Effects/Environments/house/e_girl005/e_house_girl005_interact007_b_07_p.34"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "house_transfrom",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "Class'NiagaraDataInterfaceArrayFloat3'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 1
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.house_transfrom",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "Class'NiagaraDataInterfaceArrayFloat3'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 1
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.house_transfrom",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "Class'NiagaraDataInterfaceArrayFloat3'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 1
+            }
+          }
+        ],
+        "DataInterfaces": [
+          {
+            "ObjectName": "NiagaraDataInterfaceArrayFloat3'house_girl018_interact003_bp_C:e_house_girl005_interact007_b_07_p_GEN_VARIABLE.NiagaraDataInterfaceArrayFloat3_0'",
+            "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.14"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": -108.6886,
+        "Y": 6.71801,
+        "Z": 173.38988
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -1.02452805E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceArrayFloat3",
+    "Name": "NiagaraDataInterfaceArrayFloat3_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceArrayFloat3'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'house_girl018_interact003_bp_C:e_house_girl005_interact007_b_07_p_GEN_VARIABLE'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.13"
+    },
+    "Properties": {
+      "FloatData": [
+        {
+          "X": 3.000015,
+          "Y": 18.999996,
+          "Z": 30.999985
+        },
+        {
+          "X": 0.0,
+          "Y": -60.00002,
+          "Z": 89.99995
+        },
+        {
+          "X": 0.4,
+          "Y": 0.4,
+          "Z": 0.4
+        }
+      ],
+      "MaxElements": 3
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraRailPos",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "house_girl018_interact003_bp_C'Default__house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.8"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_HouseFurnitureBase_C:CameraRailPos'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/BP_HouseFurnitureBase.24"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:Root'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.25"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraRailViewCenter",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "house_girl018_interact003_bp_C'Default__house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.8"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_HouseFurnitureBase_C:CameraRailViewCenter'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/BP_HouseFurnitureBase.25"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:Root'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.25"
+      },
+      "RelativeLocation": {
+        "X": 2.0,
+        "Y": 95.0,
+        "Z": 90.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CPInteractViewCenter",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "house_girl018_interact003_bp_C'Default__house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.8"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_HouseFurnitureBase_C:CPInteractViewCenter'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/BP_HouseFurnitureBase.26"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:Root'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.25"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CPInteractViewCenter2",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "house_girl018_interact003_bp_C'Default__house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.8"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_HouseFurnitureBase_C:CPInteractViewCenter2'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/BP_HouseFurnitureBase.27"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:Root'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.25"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CPInteractViewCenter3",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "house_girl018_interact003_bp_C'Default__house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.8"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_HouseFurnitureBase_C:CPInteractViewCenter3'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/BP_HouseFurnitureBase.28"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:Root'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.25"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "InteractPos",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "house_girl018_interact003_bp_C'Default__house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.8"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_HouseFurnitureBase_C:InteractPos'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/BP_HouseFurnitureBase.29"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:Root'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.25"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "NpcMultiInteractPos2",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "house_girl018_interact003_bp_C'Default__house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.8"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_HouseFurnitureBase_C:NpcMultiInteractPos2'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/BP_HouseFurnitureBase.30"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:Root'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.25"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "NpcMultiInteractPos3",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "house_girl018_interact003_bp_C'Default__house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.8"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_HouseFurnitureBase_C:NpcMultiInteractPos3'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/BP_HouseFurnitureBase.31"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:Root'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.25"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "NpcMultiInteractPos4",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "house_girl018_interact003_bp_C'Default__house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.8"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_HouseFurnitureBase_C:NpcMultiInteractPos4'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/BP_HouseFurnitureBase.32"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:Root'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.25"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerPosAfterAnim",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "house_girl018_interact003_bp_C'Default__house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.8"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_HouseFurnitureBase_C:PlayerPosAfterAnim'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/BP_HouseFurnitureBase.33"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:Root'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.25"
+      },
+      "RelativeLocation": {
+        "X": 210.0,
+        "Y": 120.0,
+        "Z": 10.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "house_girl018_interact003_bp_C'Default__house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.8"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_HouseFurnitureBase_C:Root'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/BP_HouseFurnitureBase.34"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'house_girl018_interact003_bp_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'house_girl018_interact003_bp_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.26"
+      },
+      "VariableGuid": "11A02DEC-45699DF3-C4B4D7BF-CC670EF3",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'house_girl018_interact003_bp_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'house_girl018_interact003_bp_C:StaticMeshComponent0_GEN_VARIABLE'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.49"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "StaticMesh",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "bGenerateOverlapEvents",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "TranslucencySortPriority",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "BodyInstance",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "MaxDepenetrationVelocity",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "RelativeLocation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Z",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "RelativeRotation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Yaw",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Rotator'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "ParentComponentOrVariableName": "Root",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "207214E0-45752445-FF3D2AB3-F2F13710",
+      "InternalVariableName": "StaticMeshComponent0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'house_girl018_interact003_bp_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'house_girl018_interact003_bp_C:StaticMeshComponent9_GEN_VARIABLE'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.58"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "StaticMesh",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "bUseDefaultCollision",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "bGenerateOverlapEvents",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "VisibilityId",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "BodyInstance",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ObjectType",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "CollisionProfileName",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "CollisionResponses",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 4,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 5,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 6,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Response",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 7,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "None",
+            "ArrayIndex": 8,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "RelativeLocation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "X",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Y",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Z",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "RelativeRotation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Yaw",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Rotator'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "ParentComponentOrVariableName": "Root",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "7A9450DC-48AF09EE-84440B83-45952BF8",
+      "InternalVariableName": "StaticMeshComponent9"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'house_girl018_interact003_bp_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'house_girl018_interact003_bp_C:house_girl018_interact003_03_sm_GEN_VARIABLE'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.47"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "StaticMesh",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "CastShadow",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "RelativeLocation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "X",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Y",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "RelativeRotation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Yaw",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Rotator'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "bHiddenInGame",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "ParentComponentOrVariableName": "Root",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "38C92F4E-431EF31C-ED363F99-420FC9CC",
+      "InternalVariableName": "house_girl018_interact003_03_sm"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'house_girl018_interact003_bp_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'NiagaraComponent'",
+        "ObjectPath": "/Script/Niagara"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "NiagaraComponent'house_girl018_interact003_bp_C:e_gril018_body_bubble_GEN_VARIABLE'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.12"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "Asset",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'NiagaraComponent'",
+              "ObjectPath": "/Script/Niagara"
+            }
+          },
+          {
+            "PropertyName": "OverrideParameters",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'NiagaraComponent'",
+              "ObjectPath": "/Script/Niagara"
+            }
+          },
+          {
+            "PropertyName": "UserParameterRedirects",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'NiagaraUserRedirectionParameterStore'",
+              "ObjectPath": "/Script/Niagara"
+            }
+          },
+          {
+            "PropertyName": "SortedParameterOffsets",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'NiagaraUserRedirectionParameterStore'",
+              "ObjectPath": "/Script/Niagara"
+            }
+          },
+          {
+            "PropertyName": "None",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'NiagaraUserRedirectionParameterStore'",
+              "ObjectPath": "/Script/Niagara"
+            }
+          },
+          {
+            "PropertyName": "UObjects",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'NiagaraUserRedirectionParameterStore'",
+              "ObjectPath": "/Script/Niagara"
+            }
+          },
+          {
+            "PropertyName": "None",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'NiagaraUserRedirectionParameterStore'",
+              "ObjectPath": "/Script/Niagara"
+            }
+          },
+          {
+            "PropertyName": "IndirectLightingCacheQuality",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'NiagaraComponent'",
+              "ObjectPath": "/Script/Niagara"
+            }
+          },
+          {
+            "PropertyName": "RelativeLocation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'NiagaraComponent'",
+              "ObjectPath": "/Script/Niagara"
+            }
+          },
+          {
+            "PropertyName": "X",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Y",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "RelativeRotation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'NiagaraComponent'",
+              "ObjectPath": "/Script/Niagara"
+            }
+          },
+          {
+            "PropertyName": "Yaw",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Rotator'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "bAutoActivate",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'NiagaraComponent'",
+              "ObjectPath": "/Script/Niagara"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "VariableGuid": "5DCA010B-45AE227D-1E2C14BA-29FCBC9D",
+      "InternalVariableName": "e_gril018_body_bubble"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'house_girl018_interact003_bp_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'house_girl018_interact003_bp_C:house_girl018_wj005_01_sm_GEN_VARIABLE'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.48"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "StaticMesh",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "CastShadow",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "RelativeLocation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "X",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Y",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Z",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "ParentComponentOrVariableName": "Root",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "3FD04170-430B4D5D-507854B8-1BB5C7C6",
+      "InternalVariableName": "house_girl018_wj005_01_sm"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'house_girl018_interact003_bp_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'NiagaraComponent'",
+        "ObjectPath": "/Script/Niagara"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "NiagaraComponent'house_girl018_interact003_bp_C:e_house_girl005_interact007_b_07_p_GEN_VARIABLE'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.13"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "Asset",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'NiagaraComponent'",
+              "ObjectPath": "/Script/Niagara"
+            }
+          },
+          {
+            "PropertyName": "OverrideParameters",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'NiagaraComponent'",
+              "ObjectPath": "/Script/Niagara"
+            }
+          },
+          {
+            "PropertyName": "UserParameterRedirects",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'NiagaraUserRedirectionParameterStore'",
+              "ObjectPath": "/Script/Niagara"
+            }
+          },
+          {
+            "PropertyName": "SortedParameterOffsets",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'NiagaraUserRedirectionParameterStore'",
+              "ObjectPath": "/Script/Niagara"
+            }
+          },
+          {
+            "PropertyName": "None",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'NiagaraUserRedirectionParameterStore'",
+              "ObjectPath": "/Script/Niagara"
+            }
+          },
+          {
+            "PropertyName": "DataInterfaces",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'NiagaraUserRedirectionParameterStore'",
+              "ObjectPath": "/Script/Niagara"
+            }
+          },
+          {
+            "PropertyName": "None",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'NiagaraUserRedirectionParameterStore'",
+              "ObjectPath": "/Script/Niagara"
+            }
+          },
+          {
+            "PropertyName": "RelativeLocation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'NiagaraComponent'",
+              "ObjectPath": "/Script/Niagara"
+            }
+          },
+          {
+            "PropertyName": "X",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Y",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Z",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "RelativeRotation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'NiagaraComponent'",
+              "ObjectPath": "/Script/Niagara"
+            }
+          },
+          {
+            "PropertyName": "Yaw",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Rotator'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "ParentComponentOrVariableName": "Root",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "65C16438-494DB2F9-75B0AAAD-85E309D4",
+      "InternalVariableName": "e_house_girl005_interact007_b_07_p"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'house_girl018_interact003_bp_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshComponent'house_girl018_interact003_bp_C:BodyForEff_GEN_VARIABLE'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.45"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "AnimClass",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'SkeletalMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ClothingSimulationFactory",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'SkeletalMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "SkeletalMesh",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'SkeletalMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "RelativeLocation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'SkeletalMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Z",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "AttachToName": "houseroot_01",
+      "ParentComponentOrVariableName": "StaticFurnitureMesh",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.31"
+        }
+      ],
+      "VariableGuid": "66CAB7FB-4B39D33F-2E9BC2A1-967B3A48",
+      "InternalVariableName": "BodyForEff"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'house_girl018_interact003_bp_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'house_girl018_interact003_bp_C:StaticMeshComponent1_GEN_VARIABLE'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.50"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "StaticMesh",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "bUseDefaultCollision",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "bGenerateOverlapEvents",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "BodyInstance",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ObjectType",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "CollisionProfileName",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "CollisionResponses",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 4,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 5,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 6,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Response",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 7,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "None",
+            "ArrayIndex": 8,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "RelativeLocation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Z",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "RelativeRotation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Yaw",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Rotator'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "ParentComponentOrVariableName": "Root",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "C83A2AED-4A17B601-375A22AE-13D0DD78",
+      "InternalVariableName": "StaticMeshComponent1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'house_girl018_interact003_bp_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'house_girl018_interact003_bp_C:StaticMeshComponent2_GEN_VARIABLE'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.51"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "StaticMesh",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "bUseDefaultCollision",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "bGenerateOverlapEvents",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "TranslucencySortPriority",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "BodyInstance",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ObjectType",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "CollisionProfileName",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "CollisionResponses",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 4,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 5,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 6,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Response",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 7,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "None",
+            "ArrayIndex": 8,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "RelativeLocation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "X",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Y",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Z",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "RelativeRotation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Yaw",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Rotator'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "ParentComponentOrVariableName": "Root",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "123245E0-4ED0262F-F4D594AB-BD70A257",
+      "InternalVariableName": "StaticMeshComponent2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'house_girl018_interact003_bp_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'house_girl018_interact003_bp_C:StaticMeshComponent3_GEN_VARIABLE'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.52"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "StaticMesh",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "bUseDefaultCollision",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "bGenerateOverlapEvents",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "BodyInstance",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ObjectType",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "CollisionProfileName",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "CollisionResponses",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 4,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 5,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 6,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Response",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "RelativeLocation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "X",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Y",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Z",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "ParentComponentOrVariableName": "Root",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "3E74DF18-48967D70-844C9180-E5ED259C",
+      "InternalVariableName": "StaticMeshComponent3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'house_girl018_interact003_bp_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'house_girl018_interact003_bp_C:StaticMeshComponent4_GEN_VARIABLE'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.53"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "StaticMesh",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "bUseDefaultCollision",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "bGenerateOverlapEvents",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "BodyInstance",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ObjectType",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "CollisionProfileName",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "CollisionResponses",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 4,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 5,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 6,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Response",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 7,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "None",
+            "ArrayIndex": 8,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "RelativeLocation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "X",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Y",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Z",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "ParentComponentOrVariableName": "Root",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "4CDFD183-4B5CD80B-8C52ED92-CC6A0A2E",
+      "InternalVariableName": "StaticMeshComponent4"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'house_girl018_interact003_bp_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'house_girl018_interact003_bp_C:StaticMeshComponent5_GEN_VARIABLE'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.54"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "StaticMesh",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "bUseDefaultCollision",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "bGenerateOverlapEvents",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "BodyInstance",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ObjectType",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "CollisionProfileName",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "CollisionResponses",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 4,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 5,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 6,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Response",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 7,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "None",
+            "ArrayIndex": 8,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "RelativeLocation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "X",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Y",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Z",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "ParentComponentOrVariableName": "Root",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "D41A3564-41FB438A-D4939A84-C060BA21",
+      "InternalVariableName": "StaticMeshComponent5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'house_girl018_interact003_bp_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'house_girl018_interact003_bp_C:StaticMeshComponent6_GEN_VARIABLE'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.55"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "StaticMesh",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "bUseDefaultCollision",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "bGenerateOverlapEvents",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "BodyInstance",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ObjectType",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "CollisionProfileName",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "CollisionResponses",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 4,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 5,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 6,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Response",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 7,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "None",
+            "ArrayIndex": 8,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "RelativeLocation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "X",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Y",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Z",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "ParentComponentOrVariableName": "Root",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "83411182-4D91ADBA-141F0782-093BEBE2",
+      "InternalVariableName": "StaticMeshComponent6"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'house_girl018_interact003_bp_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'house_girl018_interact003_bp_C:StaticMeshComponent7_GEN_VARIABLE'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.56"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "StaticMesh",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "bUseDefaultCollision",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "bGenerateOverlapEvents",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "CastShadow",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "BodyInstance",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ObjectType",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "CollisionProfileName",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "CollisionResponses",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 4,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 5,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 6,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Response",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 7,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "None",
+            "ArrayIndex": 8,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "RelativeLocation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "X",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Y",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Z",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "RelativeRotation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Yaw",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Rotator'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "ParentComponentOrVariableName": "Root",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E2865E9A-4E9BF229-3DF0C9BE-923B6188",
+      "InternalVariableName": "StaticMeshComponent7"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'house_girl018_interact003_bp_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'house_girl018_interact003_bp_C:StaticMeshComponent8_GEN_VARIABLE'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.57"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "StaticMesh",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "bUseDefaultCollision",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "bGenerateOverlapEvents",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "VisibilityId",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "BodyInstance",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ObjectType",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "CollisionProfileName",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "CollisionResponses",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 4,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 5,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 6,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Channel",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Response",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "RelativeLocation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "X",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Y",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Z",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "RelativeRotation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Yaw",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Rotator'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "ParentComponentOrVariableName": "Root",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "582522B8-47BF49DB-2871409E-7C352843",
+      "InternalVariableName": "StaticMeshComponent8"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.28"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.35"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.36"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.37"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.38"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.39"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.40"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.41"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.42"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.29"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.30"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.32"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.33"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.34"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.28"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.35"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.36"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.37"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.38"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.39"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.40"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.41"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.42"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.29"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.30"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.32"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.33"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.34"
+        },
+        {
+          "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.31"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'house_girl018_interact003_bp_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.27"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "SkeletalFurnitureMesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "house_girl018_interact003_bp_C'Default__house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.8"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponent'Default__BP_HouseFurnitureBase_C:SkeletalFurnitureMesh'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/BP_HouseFurnitureBase.38"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:Root'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.25"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "BodyForEff_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'AnimBp_house_girl018_01_prop01_C'",
+        "ObjectPath": "Game/Content/Blueprints/House/Anim/FurAnimBp/girl018/AnimBp_house_girl018_01_prop01.0"
+      },
+      "ClothingSimulationFactory": {
+        "ObjectName": "Class'ClothingSimulationFactoryNv'",
+        "ObjectPath": "/Script/ClothingSystemRuntimeNv"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'girl018_01_prop01_skm'",
+        "ObjectPath": "Game/Content/Characters/Girl/girl018_01/girl018_01_prop01_skm.0"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.2
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticFurnitureMesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "house_girl018_interact003_bp_C'Default__house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.8"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__BP_HouseFurnitureBase_C:StaticFurnitureMesh'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/BP_HouseFurnitureBase.39"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'house_girl018_interact003_01_sm'",
+        "ObjectPath": "Game/Content/Environment/09House/house_girl018_interact003/house_girl018_interact003_01_sm.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'house_girl018_interact003_t01_Inst'",
+          "ObjectPath": "Game/Content/Environment/09House/house_girl018_interact003/house_girl018_interact003_t01_Inst.0"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__house_girl018_interact003_bp_C:Root'",
+        "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.25"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -108.72449,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "house_girl018_interact003_03_sm_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'house_girl018_interact003_03_sm'",
+        "ObjectPath": "Game/Content/Environment/09House/house_girl018_interact003/house_girl018_interact003_03_sm.2"
+      },
+      "CastShadow": false,
+      "RelativeLocation": {
+        "X": 113.45787,
+        "Y": -102.41208,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      },
+      "bHiddenInGame": true
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "house_girl018_wj005_01_sm_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'house_girl018_wj005_01_sm'",
+        "ObjectPath": "Game/Content/Environment/09House/house_girl018_wj005/house_girl018_wj005_01_sm.2"
+      },
+      "CastShadow": false,
+      "RelativeLocation": {
+        "X": 19.152578,
+        "Y": -35.896492,
+        "Z": 364.7317
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'house_girl018_interact003_01c_sm'",
+        "ObjectPath": "Game/Content/Environment/09House/house_girl018_interact003/house_girl018_interact003_01c_sm.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "TranslucencySortPriority": -1,
+      "BodyInstance": {
+        "MaxDepenetrationVelocity": 2000.0
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.1920929E-07
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -108.72449,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'house_girl018_interact003_01b_sm'",
+        "ObjectPath": "Game/Content/Environment/09House/house_girl018_interact003/house_girl018_interact003_01b_sm.2"
+      },
+      "bUseDefaultCollision": true,
+      "bGenerateOverlapEvents": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "EngineTraceChannel1",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "BombDamage",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "LandScape",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "AssistShoot",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "CloseCombat",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "BunkerPoint",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "AssistFriction",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "SkillQueryCollision",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "DesturtibleAccessory",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.1920929E-07
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -108.72449,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'house_girl008_interact002_06_sm'",
+        "ObjectPath": "Game/Content/Environment/09House/house_girl008_interact002/house_girl008_interact002_06_sm.2"
+      },
+      "bUseDefaultCollision": true,
+      "bGenerateOverlapEvents": false,
+      "TranslucencySortPriority": 1,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "EngineTraceChannel1",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "BombDamage",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "LandScape",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "AssistShoot",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "CloseCombat",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "BunkerPoint",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "AssistFriction",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "SkillQueryCollision",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "DesturtibleAccessory",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -9.625732,
+        "Y": 31.50206,
+        "Z": 60.05701
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 112.30818,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent3_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'house_girl008_interact007_04_sm'",
+        "ObjectPath": "Game/Content/Environment/09House/house_girl008_interact007/house_girl008_interact007_04_sm.2"
+      },
+      "bUseDefaultCollision": true,
+      "bGenerateOverlapEvents": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "EngineTraceChannel1",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "BombDamage",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "LandScape",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "AssistShoot",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "CloseCombat",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "BunkerPoint",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "AssistFriction",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "DesturtibleAccessory",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -24.535004,
+        "Y": 36.262177,
+        "Z": 60.550476
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent4_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'house_girl012_wj004_02_sm'",
+        "ObjectPath": "Game/Content/Environment/09House/house_girl012_wj004/house_girl012_wj004_02_sm.2"
+      },
+      "bUseDefaultCollision": true,
+      "bGenerateOverlapEvents": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "EngineTraceChannel1",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "BombDamage",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "LandScape",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "AssistShoot",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "CloseCombat",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "BunkerPoint",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "AssistFriction",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "SkillQueryCollision",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "DesturtibleAccessory",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 65.87642,
+        "Y": 72.99315,
+        "Z": 3.0517578E-05
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent5_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'house_girl012_wj004_02_sm'",
+        "ObjectPath": "Game/Content/Environment/09House/house_girl012_wj004/house_girl012_wj004_02_sm.2"
+      },
+      "bUseDefaultCollision": true,
+      "bGenerateOverlapEvents": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "EngineTraceChannel1",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "BombDamage",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "LandScape",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "AssistShoot",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "CloseCombat",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "BunkerPoint",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "AssistFriction",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "SkillQueryCollision",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "DesturtibleAccessory",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 51.48146,
+        "Y": 86.957886,
+        "Z": 3.0517578E-05
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent6_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'house_girl012_wj004_03_sm'",
+        "ObjectPath": "Game/Content/Environment/09House/house_girl012_wj004/house_girl012_wj004_03_sm.2"
+      },
+      "bUseDefaultCollision": true,
+      "bGenerateOverlapEvents": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "EngineTraceChannel1",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "BombDamage",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "LandScape",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "AssistShoot",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "CloseCombat",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "BunkerPoint",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "AssistFriction",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "SkillQueryCollision",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "DesturtibleAccessory",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 67.09041,
+        "Y": 88.524536,
+        "Z": 3.8146973E-05
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent7_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'house_girl018_interact003_02_sm'",
+        "ObjectPath": "Game/Content/Environment/09House/house_girl018_interact003/house_girl018_interact003_02_sm.2"
+      },
+      "bUseDefaultCollision": true,
+      "bGenerateOverlapEvents": false,
+      "CastShadow": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "EngineTraceChannel1",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "BombDamage",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "LandScape",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "AssistShoot",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "CloseCombat",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "BunkerPoint",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "AssistFriction",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "SkillQueryCollision",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "DesturtibleAccessory",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 82.37645,
+        "Y": -238.00679,
+        "Z": -1.373749
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00005,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent8_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'house_girl008_solo007_01_sm'",
+        "ObjectPath": "Game/Content/Environment/09House/house_girl008_solo007/house_girl008_solo007_01_sm.2"
+      },
+      "bUseDefaultCollision": true,
+      "bGenerateOverlapEvents": false,
+      "VisibilityId": 79,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "EngineTraceChannel1",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "BombDamage",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "LandScape",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "AssistShoot",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "CloseCombat",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "BunkerPoint",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "AssistFriction",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "DesturtibleAccessory",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -123.083496,
+        "Y": 6.7178955,
+        "Z": 173.38988
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99999,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "93132B1C4D3A7BEA0DBE1790E174D782"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent9_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'house_girl018_interact003_bp_C'",
+      "ObjectPath": "Game/Content/Blueprints/House/Furniture/girl018/house_girl018_interact003_bp.7"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'house_girl008_solo007_02_sm'",
+        "ObjectPath": "Game/Content/Environment/09House/house_girl008_solo007/house_girl008_solo007_02_sm.2"
+      },
+      "bUseDefaultCollision": true,
+      "bGenerateOverlapEvents": false,
+      "VisibilityId": 80,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "EngineTraceChannel1",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "BombDamage",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "LandScape",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "AssistShoot",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "CloseCombat",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "BunkerPoint",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "AssistFriction",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "SkillQueryCollision",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "DesturtibleAccessory",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -123.083496,
+        "Y": 6.7178955,
+        "Z": 173.38988
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99999,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "F32458384A6FCC87787FE6813B3A05F4"
+      }
+    ]
+  }
+]
