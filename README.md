@@ -83,8 +83,8 @@ Used to patch dormitory-related content.
 ## Build
 
 1. Install [Unreal Engine](https://www.unrealengine.com/download).  
-   You can choose the same **4.26** version as the game, or a newer **5.5** version.  
-   This project only requires `UnrealPak.exe` during the build process.
+   *You can choose the same **4.26** version as the game, or a newer **5.5** version.*  
+   *This project only requires `UnrealPak.exe` during the build process.*
 
 2. Clone this repository.
 
