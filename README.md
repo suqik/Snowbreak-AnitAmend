@@ -21,6 +21,8 @@ Snowbreak: Containment Zone Anti Amend / Censorship Mod
 
 **English** | [简体中文](/.docs/README.zh-CN.md)
 
+## Info
+
 ### Platform
 Please refer to the mod file name:
 
